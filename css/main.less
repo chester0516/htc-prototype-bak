@@ -1,0 +1,129 @@
+html,
+button,
+input,
+select,
+textarea{
+    margin: 0;
+    padding: 0;
+
+    color: #222;
+}
+html{
+    font-size: 1em;
+    line-height: 1.4;
+}
+.clearfix{
+    *zoom: 1;
+    &:before,
+    &:after{
+        display: table;
+
+        content: '';
+    }
+    &:after{
+        clear: both;
+    }
+}
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+html{
+    min-height: 100%;
+}
+body{
+    font-family: 'Noto Sans', Arial;
+    font-weight: 400;
+
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+
+    cursor: default;
+
+    color: #fff;
+    outline: none;
+    background: #444;
+}
+body.disable-transitions *{
+    -webkit-transition: none !important;
+       -moz-transition: none !important;
+        -ms-transition: none !important;
+         -o-transition: none !important;
+}
+
+
+.main{
+    display: block;
+
+    width: auto;
+    padding-bottom: 5%;
+
+    list-style: none;
+
+    border-top: 0 solid #666;
+    @media only screen and (max-width: 720px){
+        padding: 10px 20px 20px 20px;
+
+        border: none;
+    }
+    .content{
+        .clearfix;
+
+        position: relative;
+
+        width: auto;
+        margin: 2.5% 5%;
+        @media only screen and (max-width: 720px){
+            margin: 0;
+        }
+        .year-block{
+            font-size: 26px;
+
+            display: block;
+
+            color: #f66;
+        }
+        a{
+            font-size: 20px;
+            font-weight: 700;
+
+            float: left;
+            clear: both;
+
+            cursor: pointer;
+            transition: .1s;
+            text-decoration: none;
+
+            color: #d7d7d7;
+            outline: none;
+            &:hover{
+                transition: .1s;
+
+                color: #fff;
+                outline: none;
+            }
+            &.none-float{
+                float: none;
+                margin-right: 2%;
+            }
+            @media only screen and (max-width: 720px){
+                font-size: 22px;
+                line-height: 26px;
+
+                padding: 6px 0 6px 0;
+
+                transition: 0s;
+            }
+            span{
+                font-size: 16px;
+                @media only screen and (max-width: 720px){
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

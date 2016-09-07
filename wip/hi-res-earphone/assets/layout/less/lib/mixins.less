@@ -1,0 +1,120 @@
+.clearfix() {
+    *zoom:1;
+    &:before, &:after {
+        content:"";
+        display:table;
+    }
+    &:after {
+        clear:both;
+    }
+}
+.content() {
+    .clearfix;
+    width: 978px;
+    margin: 0 auto;
+    padding: 0 15px;
+    @media only screen and (max-width : @mobile-max-width) {
+        width: 320px;
+        min-height: 1px;
+        padding: 0;
+    }
+}
+.container(@width) {
+    display: inline;
+    float: left;
+    width: @width;
+    @media only screen and (max-width : @mobile-max-width) {
+        width: 320px;
+        min-height: 1px;
+        float: none;
+    }
+}
+.inline-block() {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.font-size(@font-size) {
+    font-size : @font-size * 1px;
+    font-size : @font-size * 1rem;
+}
+/*
+ * Reset folder dor mea-sa site
+ */
+ .reset-image-folder(@image-path) when (@direction=ltr) {
+    background-image: url("@{default-image-path}@{image-path}");
+}
+.reset-image-folder(@image-path) when (@direction=rtl) {
+    background-image: url("@{default-mea-image-path}@{image-path}");
+}
+/*
+ * COPY FROM in support.main.top.less
+ */
+ .reset-content() {
+    margin: 0 auto;
+    width: @total-width;
+    @media only screen and (max-width : @mobile-max-width) {
+        width:96%;
+    }
+}
+.setup-min-width(@default: @total-width) {
+    min-width: (@default + 30) * 1px;
+    @media only screen and (max-width : @mobile-max-width) {
+        width:100%;
+        min-width: 320px;
+    }
+}
+.htc-page-default-setting() {
+    background-color: @col-support-bg-color;
+    padding-top: 48px;
+    .setup-min-width;
+    .clearfix;
+    @media only screen and (max-width : @mobile-max-width) {
+        padding-top: 15px;
+        /*can't less than 148px due to a blue bar*/
+    }
+}
+.htc-page-title() {
+    .column(12);
+    .float(left);
+    .clearfix;
+    text-transform:uppercase;
+    font-size: 30px;
+    color: @col-text-title;
+    padding-bottom: 30px;
+    border-bottom: solid 1px @col-grey-line;
+    @media only screen and (max-width : @mobile-max-width) {
+        width: 100%;
+        display: inline-block;
+        padding-bottom: 15px;
+        text-align: center;
+        font-size: 22px;
+        .float(none);
+    }
+    @media only screen and (max-width : @mobile-480-width) {
+        font-size: 18px;
+    }
+    @media only screen and (max-width : @mobile-360-width) {
+        font-size: 14px;
+    }
+}
+.setup-footer-tansparent(){
+    footer{
+        //background-color: rgba(255,255,255,0.8);
+        @media only screen and (max-width: @mobile-max-width) {
+            //background-color: #fff;
+        }
+        .main-desk-modern{
+            //background: none;
+            @media only screen and (max-width: @mobile-max-width) {
+                //background-color: #fff;
+            }
+            .arrow-back{
+                &:after{
+                    //border-top-color: rgba(255,255,255,0.8);
+                }
+            }
+        }
+    }
+}
