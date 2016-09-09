@@ -1,0 +1,199 @@
+@import 'lib/variables.less';
+@import 'lib/mixins.less';
+@import (less) 'lib/normalize.css';
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic:latin|Noto+Sans:400,700,400italic,700italic|Noto+Serif:400,700,400italic,700italic&.css';
+body{
+    .reset-font-family; font-size: unit(19px)*1px; background-color: rgba(0, 0, 0, .7) !important;
+    .desktop-hide{
+        display: none;
+        @media (max-width: @mobile-max){
+            display: block;
+        }
+    }
+    .mobile-hide{
+        @media (max-width: @mobile-max){
+            display: none;
+        }
+    }
+    /*------------------------CUSTOMIZED-------------------------*/
+    &.week29-2 section.holder .caption-block{
+        bottom: 17%; left: 63%;
+    }
+}
+
+.main{
+    overflow-x: auto; min-width: @desktop-small; max-width: @desktop-content-max; margin: 0 auto;
+    @media (max-width: @mobile-max){
+        min-width: auto; max-width: auto;
+    }
+    .section-wrapper{
+        section{
+            position: relative; overflow: hidden;
+            img{
+                max-width: 100%;
+            }
+            .bg-block{
+                @section-min-height: 500px; min-height: @section-min-height;
+                @media (max-width: @mobile-max){
+                    min-height: auto;
+                }
+                picture{
+                    line-height: 1px; display: block;
+                    @media (max-width: @mobile-max){
+                        display: block;
+                    }
+                    img{
+                        min-height: @section-min-height; object-fit: cover; object-position: 50% 50%;
+                        @media (max-width: @mobile-max){
+                            display: block; min-height: auto;
+                        }
+                    }
+                }
+            }
+            &.hold-hands{
+                .htc-logo{
+                    position: absolute; top: 5%; left: 4.5%; width: 22%;
+                    @media (max-width: @mobile-max){
+                        top: 2%; left: 5%; width: 43%;
+                    }
+                    img{
+                        width: 100%;
+                    }
+                }
+                .caption-block{
+                    text-align: center;
+                    @media (max-width: @mobile-max){
+                        background-color: #413117;
+                    }
+                    .tiny-wording{
+                        .setup-desktop-font-size(26,30); font-weight: 900; display: inline; padding-right: 1%;
+                        @media (max-width: @mobile-max){
+                            display: block; margin-top: 6%; margin-bottom: 6%;
+                        }
+                    }
+                    .large-wording{
+                        .setup-desktop-font-size(40,44); font-weight: 900; display: inline; padding-right: 1%;
+                        @media (max-width: @mobile-max){
+                            display: block; margin-bottom: 8%; padding: 0; letter-spacing: 2px;
+                        }
+                    }
+                    .cta-button{
+                        margin-top: 0; vertical-align: text-bottom;
+                        @media (max-width: @mobile-max){
+                            margin-bottom: 10%;
+                        }
+                    }
+                }
+            }
+            &.m10{
+                .caption-block{
+                    @media (max-width: @mobile-max){
+                        background-color: #1a2811;
+                    }
+                    &.first-caption-block{
+                        bottom: 3%;
+                        h4{
+                            font-weight: 900; margin-bottom: 4%; margin-left: 5%;
+                            @media (max-width: @mobile-max){
+                                margin-left: 0;
+                            }
+                        }
+                        ul{
+                            list-style-type: disc;
+                        }
+                    }
+                    &.second-caption-block{
+                        text-align: center;
+                        @media (max-width: @mobile-max){
+                            padding-top: 0;
+                        }
+                        .cta-button{
+                            margin: 0 .5%;
+                            @media (max-width: @mobile-max){
+                                margin: 0 auto 12%;
+                            }
+                        }
+                    }
+                }
+            }
+            &.re{
+                .caption-block{
+                    width: 38%;
+                    @media (max-width: @mobile-max){padding-bottom: 0;
+
+                        background-color: #2f2f2f;
+                    }
+                    .disclaimer-area{
+                        margin-top: 4%;
+                    }
+                    .accessory-block{
+                        @media (max-width: @mobile-max){
+                            position: relative; z-index: 2; margin-top: 13%; padding: 6% 0; background-color: #fff;
+                            &:after{
+                                position: absolute; z-index: 1; top: 0; left: 50%; width: 200%; height: 100%; content: ''; transform: translate(-50% , 0); background-color: #fff;
+                            };
+                        }
+                        .flexbox-block{
+                            display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;
+                            @media (max-width: @mobile-max){
+                                position: relative; z-index: 2;
+                            }
+                            .accessory-item{
+                                width: 48%; text-align: center;
+                                @media (max-width: @mobile-max){
+                                    margin-bottom: 6%;
+                                }
+                                img{
+                                    width: 71%; height: auto;
+                                    @media (max-width: @mobile-max){
+                                        width: 100%;
+                                    }
+                                }
+                                .desc{
+                                    .setup-desktop-font-size(14, 19); font-weight: 900; padding: 0 5%;
+                                    @media (max-width: @mobile-max){
+                                        line-height: 1.6; padding: 0 9%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .m-full-white-bg{
+                        @media (max-width: @mobile-max){
+                            position: relative; display: inline-block; width: 100%;
+                        }
+                        .cta-button{
+                            display: table; margin-top: 7%; margin-right: auto; margin-left: auto;
+                            @media (max-width: @mobile-max){
+                                position: relative; z-index: 2; margin-bottom: 12%;
+                            }
+                        }
+                        @media (max-width: @mobile-max){
+                            &:before{
+                                position: absolute; z-index: 1; top: 0; left: 50%; width: 200%; height: 110%; content: ''; transform: translate(-50% , 0); background-color: #fff;
+                            };
+                        }
+                    }
+                }
+            }
+            &.back-to-estore{
+                height: 125px; background: #000;
+                @media (max-width: @mobile-max){
+                    height: auto;
+                }
+                .caption-block{
+                    width: auto;
+                    @media (max-width: @mobile-max){
+                        background-color: #000;
+                    }
+                    .cta-button{
+                        letter-spacing: 5px;
+                        @media (max-width: @mobile-max){
+                            font-size: 24px; margin: 5% auto;padding: 3% 6%; letter-spacing: 1px; color: #000 !important; border-color: #fff !important; background-color: #fff !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,186 @@
+@direction: ltr;
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic:latin|Noto+Sans:400,700,400italic,700italic|Noto+Serif:400,700,400italic,700italic&.css";
+@import "lib/direction.less";
+@import "lib/elements.less";
+@import "lib/support.mixins.less";
+@import "lib/support.variables.less";
+.ua-health-landing-container {
+    .banner-block {
+        @d-banner-height: 170px;
+        @m-banner-height: 165px;
+        height: @d-banner-height;
+        .reset-icon-folder("sr2-banner-bg.png");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        text-align: center;
+        @media only screen and (max-width: @mobile-max-width) {
+            .text-align(left);
+            height: @m-banner-height;
+            position: relative;
+            background-position: @right top;
+        }
+        .content {
+            .reset-1280px-content(@content-bigger-padding-on-each-side);
+            .m-htc-support {
+                display: none;
+                @media only screen and (max-width: @mobile-max-width) {
+                    display: block;
+                    width: 100%;
+                    font-size: 15px;
+                    line-height: 19px;
+                    font-weight: 700;
+                    color: @col-text-default-dark;
+                    padding-top: 20px;
+                }
+            }
+            .title-area {
+                line-height: @d-banner-height;
+                font-size: 30px;
+                font-weight: 700;
+                color: @col-text-default-dark;
+                @media only screen and (max-width: @mobile-max-width) {
+                    line-height: inherit;
+                    font-size: 23px;
+                }
+            }
+            .m-product-image {
+                display: none;
+                @media only screen and (max-width: @mobile-max-width) {
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    .left(0);
+                    width: 100%;
+                }
+                .product-image-block {
+                    height: 80px;
+                    width: 190px;
+                    margin: 0 auto;
+                    .reset-icon-folder("ua-banner-bg-m.png");
+                    background-size: cover;
+                }
+            }
+        }
+    }
+    .breadcrumb-block {
+        .content {
+            .reset-1280px-content(@content-bigger-padding-on-each-side);
+            .breadcrumb-area {
+                padding-top: 21px;
+                @media only screen and (max-width: @mobile-max-width) {
+                    padding-top: 5px;
+                    padding-bottom: 13px;
+                }
+                a,
+                span {
+                    text-decoration: none;
+                    color: @col-hover-green;
+                    font-size: 12px;
+                    font-weight: bold;
+                    font-family: 'Noto Serif';
+                    font-style: italic;
+                }
+                a {
+                    color: @col-hover-green;
+                    &:hover {
+                        color: @col-hover-green-dark;
+                    }
+                }
+                span {
+                    color: @col-text-default-dark;
+                }
+            }
+        }
+    }
+    .product-list-block {
+        margin-top: 15px;
+        @media only screen and (max-width: @mobile-max-width) {
+        	margin-top: 8px;
+        }
+        .content {
+            .reset-1280px-content(@content-bigger-padding-on-each-side);
+            text-align: center;
+            @media only screen and (max-width: @mobile-max-width) {
+                .text-align(left);
+            }
+            .main-title-block {
+                color: @col-hover-green;
+                font-size: 30px;
+                font-style: italic;
+                @media only screen and (max-width: @mobile-max-width) {
+                    font-size: 22px;
+                    line-height: 22px;
+                    font-weight: 700;
+                }
+            }
+            .sub-title-block {
+                font-size: 18px;
+                @media only screen and (max-width: @mobile-max-width) {
+                    font-size: 13px;
+                    line-height: 15px;
+                    margin-top: 10px;
+                }
+            }
+            .product-list {
+                margin-top: 20px;
+                @media only screen and (max-width: @mobile-max-width) {
+                    text-align: center;
+                    margin-top: 40px;
+                }
+                .product-item {
+                    @d-item-width: 240px;
+                    width: @d-item-width;
+                    display: inline-block;
+                    text-decoration: none;
+                    @media only screen and (max-width: @mobile-max-width) {
+                        margin-bottom: 40px;
+                        width: 100%;
+                    }
+                    .product-image-block {
+                        width: @d-item-width;
+                        height: 200px;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            margin: 0 auto;
+                        }
+                    }
+                    .product-name-block {
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: @col-text-default-dark;
+                    }
+                    &.band {
+                        margin: 0 60px;
+                        @media only screen and (max-width: @mobile-max-width) {
+                        	margin: 0;
+                        }
+                        .product-image-block {
+                            .reset-icon-folder("ua-band.png");
+                        }
+                    }
+                    &.scale {
+                        .product-image-block {
+                            .reset-icon-folder("ua-scale.png");
+                        }
+                    }
+                    &.heartrate {
+                        .product-image-block {
+                            .reset-icon-folder("ua-heartrate.png");
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .product-bundle-block {
+        margin-top: 15px;
+        @media only screen and (max-width: @mobile-max-width) {
+            display: none;
+        }
+        .bundle-image-block {
+            height: 640px;
+            background-position: center;
+            .reset-icon-folder("ua-bundle.png");
+        }
+    }
+}

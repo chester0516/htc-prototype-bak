@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTC Global Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="js/plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="js/plugins/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="js/plugins/slick/slick.css">
+    <link rel="stylesheet/less" href="css/globalsearch.less">
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/vendor/jquery.validate.min.js"></script>
+    <script src="js/plugins/js-url-1.8.6/url.min.js"></script>
+    <script src="js/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/plugins/slick/slick.min.js"></script>
+    <script src="js/plugins/sticky-kit/jquery.sticky-kit.min.js"></script>
+    <script src="js/plugins/typeahead/typeahead.min.js"></script>
+    <script src="js/vendor/underscore-1.4.4.min.js"></script>
+    <script src="js/vendor/less.js"></script>
+    <script src="js/globalsearch.js"></script>
+</head>
+
+<body data-site="us" class="search">
+    <div class='htc-chrome'>
+        <div class="htc-main">
+            <div class="global-search">
+                <section class="banner-container">
+                    <div class="content">
+                        <div class="title-wording">
+                            <div class="results-for">Results for: </div>
+                            <div class="search-query">Camera</div>
+                        </div>
+                        <form class="htc-search-form" method="get" name="search" action="index.htm" id="HtcSearchForm">
+                            <div class="search-textbox-container">
+                                <input placeholder="SEARCH AGAIN" type="text" class="query" maxlength="100" value="" autocomplete="off" name="q" data-rule-required="true" data-msg-required=" ">
+                                <input class="submit" type="submit" name="submit" value="" />
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <section class="product-container">
+                    <div class="content">
+                        <div class="title-wording">
+                            PRODUCTS
+                        </div>
+                        <div class="no-product-result-found-wording">
+                            No Results Found. Are you looking for one of these?
+                        </div>
+                        <div class="product-carousel">
+                            <div id="owl-example" class="owl-carousel">
+                                <!-- <div>
+                                    <a href="//www.htc.com/us/smartphones/htc-one-m8/">
+                                        <div class="image-container"><img src="//www.htc.com/managed-assets/shared/desktop/smartphones/htc-one-m9/explorer/htc-one-m9-global-phone-listing.jpg"></div>
+                                        <h4>HTC One (M9)</h4></a>
+                                </div>
+                                <div>
+                                    <a href="//www.htc.com/us/smartphones/htc-one-m8/">
+                                        <div class="image-container"><img class="no-product-image" src="img/ltr/gs-no-image.png"></div>
+                                        <h4>DROID INCREDIBLE 4G LTE BY HTC (VERIZON WIRELESS)‎</h4></a>
+                                </div>
+                                <div>
+                                    <a href="//www.htc.com/us/smartphones/htc-one-m8/">
+                                        <div class="image-container"><img src="//www.htc.com/managed-assets/shared/desktop/smartphones/htc-one-m9/explorer/htc-one-m9-global-phone-listing.jpg"></div>
+                                        <h4>HTC One (M7)</h4></a>
+                                </div>
+                                <div>
+                                    <a href="//www.htc.com/us/smartphones/htc-one-m8/">
+                                        <div class="image-container"><img src="//www.htc.com/managed-assets/shared/desktop/smartphones/htc-one-m9/explorer/htc-one-m9-global-phone-listing.jpg"></div>
+                                        <h4>HTC One (M8) For Windows</h4></a>
+                                </div>
+                                <div>
+                                    <a href="//www.htc.com/us/smartphones/htc-one-m8/">
+                                        <div class="image-container"><img src="//www.htc.com/managed-assets/shared/desktop/smartphones/htc-one-m9/explorer/htc-one-m9-global-phone-listing.jpg"></div>
+                                        <h4>HTC Desire 510</h4></a>
+                                </div>
+                                <div>
+                                    <a href="//www.htc.com/us/smartphones/htc-one-m8/">
+                                        <div class="image-container"><img src="//www.htc.com/managed-assets/shared/desktop/smartphones/htc-one-m9/explorer/htc-one-m9-global-phone-listing.jpg"></div>
+                                        <h4>HTC 8XT</h4></a>
+                                </div>
+                                <div>
+                                    <a href="//www.htc.com/us/smartphones/htc-one-m8/">
+                                        <div class="image-container"><img src="//www.htc.com/managed-assets/shared/desktop/smartphones/htc-one-m9/explorer/htc-one-m9-global-phone-listing.jpg"></div>
+                                        <h4>HTC Desire 610</h4></a>
+                                </div>
+                                <div>
+                                    <a href="//www.htc.com/us/smartphones/htc-one-m8/">
+                                        <div class="image-container"><img src="//www.htc.com/managed-assets/shared/desktop/smartphones/htc-one-m9/explorer/htc-one-m9-global-phone-listing.jpg"></div>
+                                        <h4>HTC Desire 826</h4></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="result-container desktop">
+                    <div class="tabs-block">
+                        <div class="content">
+                            <div class="slicker">
+                                <div class="tab-item support-tab">
+                                    <div class="icon-block support-icon"></div>
+                                    <div class="wording">SUPPORT</div>
+                                </div>
+                                <div class="tab-item video-tab">
+                                    <div class="icon-block video-icon"></div>
+                                    <div class="wording">VIDEO</div>
+                                </div>
+                                <div class="tab-item blog-tab">
+                                    <div class="icon-block blog-icon"></div>
+                                    <div class="wording">BLOG ARTICLES</div>
+                                </div>
+                                <div class="tab-item more-tab">
+                                    <div class="icon-block more-icon"></div>
+                                    <div class="wording">MORE</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-results-block">
+                        <div class="result-section support-result-section">
+                            <div class="content">
+                                <div class="result-items">
+                                    <!-- <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC One (M8) - Support | User Manual | HTC United States</h3>
+                                            <h4>HTC One M9. Let Them Stare. HTC Desire EYE. Reimagine Your View. RE Camera. ... GETTING STARTED. HTC Desire EYE. ...</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-eye-att/howto/566413.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - Features on HTC Desire EYE </h3>
+                                            <h4>HTC Desire EYE gives you options for quick and easy setup. Transferring your old phone's content such as your contacts, messages, and media can be done right from HTC Desire EYE. Also, enjoy taking shots with the camera, checking personalized content with HTC BlinkFeed®, and more.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire 601 (Cincinnati Bell) - Searching HTC Desire 601</h3>
+                                            <h4>You can search for information on HTC Desire 601 and on the Web. Start your search by entering a keyword or by using Google Voice Search™.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - HTC Desire EYE</h3>
+                                            <h4>HTC One M9. Let Them Stare. HTC Desire EYE. Reimagine Your View. RE Camera. ... GETTING STARTED. HTC Desire EYE. ...</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-eye-att/howto/566413.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - Features on HTC Desire EYE </h3>
+                                            <h4>HTC Desire EYE gives you options for quick and easy setup. Transferring your old phone's content such as your contacts, messages, and media can be done right from HTC Desire EYE. Also, enjoy taking shots with the camera, checking personalized content with HTC BlinkFeed®, and more.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire 601 (Cincinnati Bell) - Searching HTC Desire 601</h3>
+                                            <h4>You can search for information on HTC Desire 601 and on the Web. Start your search by entering a keyword or by using Google Voice Search™.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - HTC Desire EYE</h3>
+                                            <h4>HTC One M9. Let Them Stare. HTC Desire EYE. Reimagine Your View. RE Camera. ... GETTING STARTED. HTC Desire EYE. ...</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-eye-att/howto/566413.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - Features on HTC Desire EYE </h3>
+                                            <h4>HTC Desire EYE gives you options for quick and easy setup. Transferring your old phone's content such as your contacts, messages, and media can be done right from HTC Desire EYE. Also, enjoy taking shots with the camera, checking personalized content with HTC BlinkFeed®, and more.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire 601 (Cincinnati Bell) - Searching HTC Desire 601</h3>
+                                            <h4>You can search for information on HTC Desire 601 and on the Web. Start your search by entering a keyword or by using Google Voice Search™.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - HTC Desire EYE</h3>
+                                            <h4>HTC One M9. Let Them Stare. HTC Desire EYE. Reimagine Your View. RE Camera. ... GETTING STARTED. HTC Desire EYE. ...</h4></div>
+                                    </a> -->
+                                </div>
+                                <div class="show-more-button">
+                                    <div style="display: none;" class="loader">
+                                        <div id="bowlG">
+                                            <div id="bowl_ringG">
+                                                <div class="ball_holderG">
+                                                    <div class="ballG"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="show-label" style="display: block;">SHOW MORE</div>
+                                </div>
+                                <div class="zero-results-found">
+                                    0 Results Found
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result-section video-result-section">
+                            <div class="content">
+                                <div class="result-items">
+                                    <!-- <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="video-thumbnail">
+                                            <img src="http://www.htc.com/uploadedImages/Common/HowTo/HTC_ONE/split_capture.png">
+                                        </div>
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - HTC Desire EYE</h3>
+                                            <h4>HTC One M9. Let Them Stare. HTC Desire EYE. Reimagine Your View. RE Camera. ... GETTING STARTED. HTC Desire EYE. ...</h4>
+                                        </div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="video-thumbnail">
+                                            <img src="http://www.htc.com/uploadedImages/Common/HowTo/HTC_ONE/makeup.png">
+                                        </div>
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - Features on HTC Desire EYE </h3>
+                                            <h4>HTC Desire EYE gives you options for quick and easy setup. Transferring your old phone's content such as your contacts, messages, and media can be done right from HTC Desire EYE. Also, enjoy taking shots with the camera, checking personalized content with HTC BlinkFeed®, and more.</h4>
+                                        </div>
+                                    </a> -->
+                                </div>
+                                <div class="show-more-button">
+                                    <div style="display: none;" class="loader">
+                                        <div id="bowlG">
+                                            <div id="bowl_ringG">
+                                                <div class="ball_holderG">
+                                                    <div class="ballG"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="show-label" style="display: block;">SHOW MORE</div>
+                                </div>
+                                <div class="zero-results-found">
+                                    0 Results Found
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result-section blog-result-section">
+                            <div class="content">
+                                <div class="result-items">
+                                </div>
+                                <div class="show-more-button">
+                                    <div style="display: none;" class="loader">
+                                        <div id="bowlG">
+                                            <div id="bowl_ringG">
+                                                <div class="ball_holderG">
+                                                    <div class="ballG"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="show-label" style="display: block;">SHOW MORE</div>
+                                </div>
+                                <div class="zero-results-found">
+                                    0 Results Found
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result-section more-result-section">
+                            <div class="content">
+                                <div class="result-items">
+                                </div>
+                                <div class="show-more-button">
+                                    <div style="display: none;" class="loader">
+                                        <div id="bowlG">
+                                            <div id="bowl_ringG">
+                                                <div class="ball_holderG">
+                                                    <div class="ballG"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="show-label" style="display: block;">SHOW MORE</div>
+                                </div>
+                                <div class="zero-results-found">
+                                    0 Results Found
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="result-container mobile">
+                    <div class="tabs-block">
+                        <div class="content">
+                            <div class="slicker">
+                                <div class="tab-item support-tab">
+                                    <div class="icon-block support-icon"></div>
+                                    <div class="wording">SUPPORT</div>
+                                </div>
+                                <div class="tab-item video-tab">
+                                    <div class="icon-block video-icon"></div>
+                                    <div class="wording">VIDEO</div>
+                                </div>
+                                <div class="tab-item blog-tab">
+                                    <div class="icon-block blog-icon"></div>
+                                    <div class="wording">BLOG ARTICLES</div>
+                                </div>
+                                <div class="tab-item more-tab">
+                                    <div class="icon-block more-icon"></div>
+                                    <div class="wording">MORE</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-results-block">
+                        <div class="result-section support-result-section">
+                            <div class="content">
+                                <div class="result-items">
+                                    <!-- <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC One (M8) - Support | User Manual | HTC United States</h3>
+                                            <h4>HTC One M9. Let Them Stare. HTC Desire EYE. Reimagine Your View. RE Camera. ... GETTING STARTED. HTC Desire EYE. ...</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-eye-att/howto/566413.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - Features on HTC Desire EYE </h3>
+                                            <h4>HTC Desire EYE gives you options for quick and easy setup. Transferring your old phone's content such as your contacts, messages, and media can be done right from HTC Desire EYE. Also, enjoy taking shots with the camera, checking personalized content with HTC BlinkFeed®, and more.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire 601 (Cincinnati Bell) - Searching HTC Desire 601</h3>
+                                            <h4>You can search for information on HTC Desire 601 and on the Web. Start your search by entering a keyword or by using Google Voice Search™.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - HTC Desire EYE</h3>
+                                            <h4>HTC One M9. Let Them Stare. HTC Desire EYE. Reimagine Your View. RE Camera. ... GETTING STARTED. HTC Desire EYE. ...</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-eye-att/howto/566413.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - Features on HTC Desire EYE </h3>
+                                            <h4>HTC Desire EYE gives you options for quick and easy setup. Transferring your old phone's content such as your contacts, messages, and media can be done right from HTC Desire EYE. Also, enjoy taking shots with the camera, checking personalized content with HTC BlinkFeed®, and more.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire 601 (Cincinnati Bell) - Searching HTC Desire 601</h3>
+                                            <h4>You can search for information on HTC Desire 601 and on the Web. Start your search by entering a keyword or by using Google Voice Search™.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - HTC Desire EYE</h3>
+                                            <h4>HTC One M9. Let Them Stare. HTC Desire EYE. Reimagine Your View. RE Camera. ... GETTING STARTED. HTC Desire EYE. ...</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-eye-att/howto/566413.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - Features on HTC Desire EYE </h3>
+                                            <h4>HTC Desire EYE gives you options for quick and easy setup. Transferring your old phone's content such as your contacts, messages, and media can be done right from HTC Desire EYE. Also, enjoy taking shots with the camera, checking personalized content with HTC BlinkFeed®, and more.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire 601 (Cincinnati Bell) - Searching HTC Desire 601</h3>
+                                            <h4>You can search for information on HTC Desire 601 and on the Web. Start your search by entering a keyword or by using Google Voice Search™.</h4></div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - HTC Desire EYE</h3>
+                                            <h4>HTC One M9. Let Them Stare. HTC Desire EYE. Reimagine Your View. RE Camera. ... GETTING STARTED. HTC Desire EYE. ...</h4></div>
+                                    </a> -->
+                                </div>
+                                <div class="show-more-button">
+                                    <div style="display: none;" class="loader">
+                                        <div id="bowlG">
+                                            <div id="bowl_ringG">
+                                                <div class="ball_holderG">
+                                                    <div class="ballG"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="show-label" style="display: block;">SHOW MORE</div>
+                                </div>
+                                <div class="zero-results-found">
+                                    0 Results Found
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result-section video-result-section">
+                            <div class="content">
+                                <div class="result-items">
+                                    <!-- <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="video-thumbnail">
+                                            <img src="http://www.htc.com/uploadedImages/Common/HowTo/HTC_ONE/split_capture.png">
+                                        </div>
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - HTC Desire EYE</h3>
+                                            <h4>HTC One M9. Let Them Stare. HTC Desire EYE. Reimagine Your View. RE Camera. ... GETTING STARTED. HTC Desire EYE. ...</h4>
+                                        </div>
+                                    </a>
+                                    <a class="single-result" href="http://www.htc.com/us/support/htc-desire-601-cincinnati-bell/howto/437430.html">
+                                        <div class="video-thumbnail">
+                                            <img src="http://www.htc.com/uploadedImages/Common/HowTo/HTC_ONE/makeup.png">
+                                        </div>
+                                        <div class="text-desc">
+                                            <h3>HTC Desire EYE (AT&T) - Features on HTC Desire EYE </h3>
+                                            <h4>HTC Desire EYE gives you options for quick and easy setup. Transferring your old phone's content such as your contacts, messages, and media can be done right from HTC Desire EYE. Also, enjoy taking shots with the camera, checking personalized content with HTC BlinkFeed®, and more.</h4>
+                                        </div>
+                                    </a> -->
+                                </div>
+                                <div class="show-more-button">
+                                    <div style="display: none;" class="loader">
+                                        <div id="bowlG">
+                                            <div id="bowl_ringG">
+                                                <div class="ball_holderG">
+                                                    <div class="ballG"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="show-label" style="display: block;">SHOW MORE</div>
+                                </div>
+                                <div class="zero-results-found">
+                                    0 Results Found
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result-section blog-result-section">
+                            <div class="content">
+                                <div class="result-items">
+                                </div>
+                                <div class="show-more-button">
+                                    <div style="display: none;" class="loader">
+                                        <div id="bowlG">
+                                            <div id="bowl_ringG">
+                                                <div class="ball_holderG">
+                                                    <div class="ballG"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="show-label" style="display: block;">SHOW MORE</div>
+                                </div>
+                                <div class="zero-results-found">
+                                    0 Results Found
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result-section more-result-section">
+                            <div class="content">
+                                <div class="result-items">
+                                </div>
+                                <div class="show-more-button">
+                                    <div style="display: none;" class="loader">
+                                        <div id="bowlG">
+                                            <div id="bowl_ringG">
+                                                <div class="ball_holderG">
+                                                    <div class="ballG"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="show-label" style="display: block;">SHOW MORE</div>
+                                </div>
+                                <div class="zero-results-found">
+                                    0 Results Found
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

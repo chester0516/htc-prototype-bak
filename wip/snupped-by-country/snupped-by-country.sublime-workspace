@@ -1,0 +1,2907 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"tran",
+				"transform	CSS - transform: ;"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"ea",
+				"each	.each()"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"produc",
+				"productList"
+			],
+			[
+				"it",
+				"itemsInRow"
+			],
+			[
+				"remove",
+				"remove	.remove()"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"htc",
+				"htcChrome"
+			],
+			[
+				"hid",
+				"hideModal"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"price",
+				"priceBlock"
+			],
+			[
+				"ac",
+				"accessory"
+			],
+			[
+				"load",
+				"loadList"
+			],
+			[
+				"acce",
+				"accessoryDetail"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"ma-",
+				"margin-bottom"
+			],
+			[
+				"first",
+				"first-section"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"ovr",
+				"overflow-y"
+			],
+			[
+				"reset",
+				"resetHeight"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"vive",
+				"vive-button"
+			],
+			[
+				"cart",
+				"cartObj"
+			],
+			[
+				"un",
+				"unbindCartClick"
+			],
+			[
+				"call",
+				"callUrl"
+			],
+			[
+				"parent",
+				"parents	.parents()"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"gun",
+				"grunt"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"ajax",
+				"ajax	Google AJAX Libraries: Scriptaculous"
+			],
+			[
+				"read",
+				"ready	jQuery(document).ready"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"MA",
+				"margin-right"
+			],
+			[
+				"MARGIN",
+				"margin-left"
+			],
+			[
+				"maw",
+				"max-width"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"clo",
+				"clone	.clone()"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"cn",
+				"cn-launch"
+			],
+			[
+				"r",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"e",
+				"echo	echo \"…\""
+			],
+			[
+				"sso",
+				"SsoObject"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"app",
+				"append	.append()"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"cli",
+				"click	.click()"
+			],
+			[
+				"mouse",
+				"mouseleave	.mouseleave()"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"repla",
+				"replaceValue"
+			],
+			[
+				"mou",
+				"mouseleave	.mouseleave()"
+			],
+			[
+				"trunc",
+				"truncated"
+			],
+			[
+				"mo",
+				"module	JS module pattern"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"pare",
+				"parents	.parents()"
+			],
+			[
+				"caet",
+				"categoryListing"
+			],
+			[
+				"each",
+				"each	$.each()"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"item",
+				"item-outer"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"fot",
+				"font-style"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"col-d",
+				"col-default-text"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"table",
+				"table"
+			],
+			[
+				"ini",
+				"init"
+			],
+			[
+				"ch",
+				"children	.children()"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"dea",
+				"defaultProductListWSBaseURL"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"temp",
+				"templateVideo"
+			],
+			[
+				"com",
+				"comm-todo	Comment - To-do list"
+			],
+			[
+				"noIm",
+				"noImageClass"
+			],
+			[
+				"noi",
+				"noImagePath"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"comm",
+				"comm	Comment - Single-line block comment"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"tbl",
+				"table-cell"
+			],
+			[
+				"type",
+				"typeof"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1241,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 4152,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/layout/less/lib/mixins.less",
+			"settings":
+			{
+				"buffer_size": 10219,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/layout/less/lib/variables.less",
+			"settings":
+			{
+				"buffer_size": 1313,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/layout/less/main.less",
+			"settings":
+			{
+				"buffer_size": 17862,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<section class=\"carousel-colors customize-id-carousel-colors\">\n    <div class=\"carousel-container\">\n        <div class=\"carousel-block\">\n            <div class=\"carousel-item-block\">\n                <div class=\"bg-block\">\n                    <picture>\n                        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\n                        <source srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-1.jpg\" media=\"(min-width: 720px)\" />\n                        <!--[if IE 9]></video><![endif]-->\n                        <img srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-1-mobile.jpg\" alt=\"\" />\n                    </picture>\n                </div>\n                <div class=\"caption-block align-right width-30 m-content-align-center content-align-center\">\n                    <h4 class=\"d-text-dark has-bottom-line\">in living color</h4>\n                    <p class=\"d-text-dark\">Applying HTC’s iconic chamfered edge to the matte finish body and wrapping it with a precise metallic outline, this distinctive phone is designed to stand out from the crowd. The sharp contrast of polished and matte surfaces emphasizes the phone’s simple elegance as well as provides a good grip in hand. Available in four distinct color themes with eye-catching accents: Stone Black, Polar White, Royal Blue and Valentine Blue*.</p>\n                    <p class=\"disclaimer-block d-text-dark\">* Available colors vary by market.</p>\n                </div>\n            </div>\n            <div class=\"carousel-item-block\">\n                <div class=\"bg-block\">\n                    <picture>\n                        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\n                        <source srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-2.jpg\" media=\"(min-width: 720px)\" />\n                        <!--[if IE 9]></video><![endif]-->\n                        <img srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-2-mobile.jpg\" alt=\"\" />\n                    </picture>\n                </div>\n            </div>\n            <div class=\"carousel-item-block\">\n                <div class=\"bg-block\">\n                    <picture>\n                        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\n                        <source srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-3.jpg\" media=\"(min-width: 720px)\" />\n                        <!--[if IE 9]></video><![endif]-->\n                        <img srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-3-mobile.jpg\" alt=\"\" />\n                    </picture>\n                </div>\n            </div>\n            <div class=\"carousel-item-block\">\n                <div class=\"bg-block\">\n                    <picture>\n                        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\n                        <source srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-4.jpg\" media=\"(min-width: 720px)\" />\n                        <!--[if IE 9]></video><![endif]-->\n                        <img srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-4-mobile.jpg\" alt=\"\" />\n                    </picture>\n                </div>\n            </div>\n            <div class=\"carousel-item-block\">\n                <div class=\"bg-block\">\n                    <picture>\n                        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\n                        <source srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-5.jpg\" media=\"(min-width: 720px)\" />\n                        <!--[if IE 9]></video><![endif]-->\n                        <img srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-5-mobile.jpg\" alt=\"\" />\n                    </picture>\n                </div>\n            </div>\n        </div>\n        <div class=\"navigation-container\">\n            <div class=\"dots-flex-box\">\n                <div class=\"flex-item\">\n                    <span class=\"m-dots\"></span>\n                    <span class=\"d-text\">\n                                            <b>COLOR</b> STORY\n                                        </span>\n                </div>\n                <div class=\"flex-item\">\n                    <span class=\"m-dots\"></span>\n                    <span class=\"d-text\">\n                                            <b>STONE</b> BLACK\n                                        </span>\n                </div>\n                <div class=\"flex-item\">\n                    <span class=\"m-dots\"></span>\n                    <span class=\"d-text\">\n                                            <b>POLAR</b> WHITE\n                                        </span>\n                </div>\n                <div class=\"flex-item\">\n                    <span class=\"m-dots\"></span>\n                    <span class=\"d-text\">\n                                            <b>ROYAL</b> BLUE\n                                        </span>\n                </div>\n                <div class=\"flex-item\">\n                    <span class=\"m-dots\"></span>\n                    <span class=\"d-text\">\n                                            <b>VALENTINE</b> BLUE\n                                        </span>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"customize-id-first-caption caption-block align-right width-30 m-content-align-center\">\n        <h4 class=\"d-text-dark has-bottom-line\">in living color</h4>\n        <p class=\"d-text-dark\">Applying HTC’s iconic chamfered edge to the matte finish body and wrapping it with a precise metallic outline, this distinctive phone is designed to stand out from the crowd. The sharp contrast of polished and matte surfaces emphasizes the phone’s simple elegance as well as provides a good grip in hand. Available in four distinct color themes with eye-catching accents: Stone Black, Polar White, Royal Blue and Valentine Blue*.\n        </p>\n        <p class=\"disclaimer-block d-text-dark\">\n            * Available colors vary by market.\n        </p>\n    </div>\n</section>\n",
+			"settings":
+			{
+				"buffer_size": 6453,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<section class=\"carousel-colors customize-id-carousel-colors\">\n                        <div class=\"carousel-container\">\n                            <div class=\"carousel-block\">\n                                <div class=\"carousel-item-block\">\n                                    <div class=\"bg-block\">\n                                        <picture>\n                        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\n                        <source srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-1.jpg\" media=\"(min-width: 720px)\" />\n                        <!--[if IE 9]></video><![endif]-->\n                        <img srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-1-mobile.jpg\" alt=\"\" />\n                    </picture>\n                                    </div>\n                                    <div class=\"caption-block align-right width-30 m-content-align-center content-align-center\">\n                                        <h4 class=\"d-text-dark has-bottom-line\">in living color</h4>\n                    <p class=\"d-text-dark\">Applying HTC’s iconic chamfered edge to the matte finish body and wrapping it with a precise metallic outline, this distinctive phone is designed to stand out from the crowd. The sharp contrast of polished and matte surfaces emphasizes the phone’s simple elegance as well as provides a good grip in hand. Available in four distinct color themes with eye-catching accents: Stone Black, Polar White, Royal Blue and Valentine Blue*.</p>\n                    <p class=\"disclaimer-block d-text-dark\">* Available colors vary by market.</p>\n                                    </div>\n                                </div>\n                                <div class=\"carousel-item-block\">\n                                    <div class=\"bg-block\">\n                                        <picture>\n                        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\n                        <source srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-2.jpg\" media=\"(min-width: 720px)\" />\n                        <!--[if IE 9]></video><![endif]-->\n                        <img srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-2-mobile.jpg\" alt=\"\" />\n                    </picture>\n                                    </div>\n                                </div>\n                                <div class=\"carousel-item-block\">\n                                    <div class=\"bg-block\">\n                                        <picture>\n                        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\n                        <source srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-3.jpg\" media=\"(min-width: 720px)\" />\n                        <!--[if IE 9]></video><![endif]-->\n                        <img srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-3-mobile.jpg\" alt=\"\" />\n                    </picture>\n                                    </div>\n                                </div>\n                                <div class=\"carousel-item-block\">\n                                    <div class=\"bg-block\">\n                                        <picture>\n                        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\n                        <source srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-4.jpg\" media=\"(min-width: 720px)\" />\n                        <!--[if IE 9]></video><![endif]-->\n                        <img srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-4-mobile.jpg\" alt=\"\" />\n                    </picture>\n                                    </div>\n                                </div>\n                                <div class=\"carousel-item-block\">\n                                    <div class=\"bg-block\">\n                                        <picture>\n                        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\n                        <source srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-5.jpg\" media=\"(min-width: 720px)\" />\n                        <!--[if IE 9]></video><![endif]-->\n                        <img srcset=\"/managed-assets/shared/desktop/smartphones/htc-desire-10/pdp/htc-desire-10-PDP-03-colour-story-5-mobile.jpg\" alt=\"\" />\n                    </picture>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"navigation-container\">\n                                <div class=\"dots-flex-box\">\n                                    <div class=\"flex-item\">\n                                        <span class=\"m-dots\"></span>\n                                        <span class=\"d-text\">\n                                            <b>COLOR</b> STORY\n                                        </span>\n                                    </div>\n                                    <div class=\"flex-item\">\n                                        <span class=\"m-dots\"></span>\n                                        <span class=\"d-text\">\n                                            <b>STONE</b> BLACK\n                                        </span>\n                                    </div>\n                                    <div class=\"flex-item\">\n                                        <span class=\"m-dots\"></span>\n                                        <span class=\"d-text\">\n                                            <b>POLAR</b> WHITE\n                                        </span>\n                                    </div>\n                                    <div class=\"flex-item\">\n                                        <span class=\"m-dots\"></span>\n                                        <span class=\"d-text\">\n                                            <b>ROYAL</b> BLUE\n                                        </span>\n                                    </div>\n                                    <div class=\"flex-item\">\n                                        <span class=\"m-dots\"></span>\n                                        <span class=\"d-text\">\n                                            <b>VALENTINE</b> BLUE\n                                        </span>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"customize-id-first-caption caption-block align-right width-30 m-content-align-center\">\n                            <h4 class=\"d-text-dark has-bottom-line\">in living color</h4>\n                    <p class=\"d-text-dark\">Applying HTC’s iconic chamfered edge to the matte finish body and wrapping it with a precise metallic outline, this distinctive phone is designed to stand out from the crowd. The sharp contrast of polished and matte surfaces emphasizes the phone’s simple elegance as well as provides a good grip in hand. Available in four distinct color themes with eye-catching accents: Stone Black, Polar White, Royal Blue and Valentine Blue*.</p>\n                    <p class=\"disclaimer-block d-text-dark\">* Available colors vary by market.</p>\n                        </div>\n                    </section>",
+			"settings":
+			{
+				"buffer_size": 7645,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/layout/js/main.js",
+			"settings":
+			{
+				"buffer_size": 1935,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packageresourceviewer",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"package li",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"for",
+				"Format CSS: Expanded"
+			],
+			[
+				"forma",
+				"Format CSS: Expanded"
+			],
+			[
+				"css",
+				"Format CSS: Compact"
+			],
+			[
+				"html",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"pretiffy",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"copy",
+				"Copy File Path"
+			],
+			[
+				"ti",
+				"Tidy PHP"
+			],
+			[
+				"php",
+				"phpfmt: format now"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"package ",
+				"Package Syncing: Enable Syncing"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package sync",
+				"Package Syncing: Disable Syncing"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"package sy",
+				"Package Syncing: Enable Syncing"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"sublimeli",
+				"SublimeLinter: Lint Current File"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pack",
+				"Package Syncing: Pull Settings"
+			],
+			[
+				"su",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"sub",
+				"SublimeLinter: Show Error List"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 209.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/htc-prototype/wip/snupped-by-country/edm-staff-only-oulook.htm",
+		"/D/htc-prototype/wip/snupped-by-country/edm-public.htm",
+		"/D/htc-prototype/wip/EDM/sample/edm_exacttarget_couponcode.html",
+		"/D/htc-prototype/wip/EDM/sample/edm_ms_css.html",
+		"/C/Users/chester_huang/Desktop/NecroBot/NecroBot.GUI-htc/htc.gpx",
+		"/C/Users/chester_huang/Desktop/NecroBot/NecroBot.GUI-htc/Config/config.json",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/less/search-result.less",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/less/default.less",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/less/contact-support.less",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/less/product-content.less",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/less/product-landing.less",
+		"/D/htc-prototype/wip/EDM/edm-SNUPPED-test.htm",
+		"/D/htc-prototype/wip/snupped-by-country/edm-staff-only.htm",
+		"/D/htc-prototype/wip/snupped-by-country/edm-test.htm",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/htc-prototype/index.html",
+		"/D/htc-prototype/wip/snupped-by-country/default.htm",
+		"/C/Users/chester_huang/Desktop/test.htm",
+		"/D/htc-prototype/wip/snupped-by-country/assets/layout/less/main.less",
+		"/D/htc-prototype/wip/snupped-by-country/assets/layout/js/main.js",
+		"/D/htc-prototype/wip/estore-event/dest/assets/layout/js/main.min.js",
+		"/C/Users/chester_huang/Desktop/fb.html",
+		"/C/Users/chester_huang/AppData/Roaming/Sublime Text 2/Packages/CSScomb/CSScomb.sublime-settings",
+		"/D/htc-prototype/wip/estore-event/package.json",
+		"/D/htc-prototype/wip/estore-event/Gruntfile.js",
+		"/D/htc-prototype/wip/snupped-by-country/watch-prod.bat",
+		"/D/htc-prototype/wip/snupped/index.htm",
+		"/D/htc-prototype/wip/estore-event/week29-1.htm",
+		"/D/htc-prototype/wip/snupped/assets/layout/less/index.less",
+		"/D/htc-prototype/wip/snupped-by-country/watch.bat",
+		"/D/htc-prototype/wip/empty-project/default.htm",
+		"/D/htc-prototype/wip/estore-event/week27.htm",
+		"/D/htc-prototype/wip/snupped-by-country/assets/layout/less/default.less",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/less/lib/fonts.less",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/js/default.js",
+		"/C/Users/chester_huang/Downloads/ef_conv_zip_6AgTfvaMZhaYffon8WXBaweF.zip",
+		"/C/Users/chester_huang/Downloads/parallax_css/parallax/index.html",
+		"/C/Users/chester_huang/Downloads/parallax_css/parallax/css/main.css",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/js/product2016.js",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/less/lib/variables.less",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/less/lib/mixins.less",
+		"/D/htc-prototype/wip/support-revamp/default.htm",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/resources/com/htc/sparrow/components/RootURMTemplate.tml",
+		"/D/htc-prototype/wip/support-revamp/package.json",
+		"/D/htc-prototype/wip/support-revamp/Gruntfile.js",
+		"/D/htc-prototype/wip/downtime-page/watch.bat",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/css/default.css",
+		"/D/htc-prototype/wip/support-revamp/node_modules/normalize.less/normalize.less",
+		"/D/htc-prototype/wip/support-revamp/node_modules/normalize.css/normalize.css",
+		"/D/htc-prototype/wip/support-revamp/assets/layout/less/lib/elements.less",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/resources/com/htc/sparrow/components/RootURMSIGNUPTemplate.tml",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/less/urm.less",
+		"/D/htc-prototype/wip/support-revamp/watch.bat",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/WEB-INF/views/fragments/header.html",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/js/accessory-list.json",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/js/accessory.json",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/js/cart-providers/digitalriver.js",
+		"/D/htc-prototype/wip/hi-res-earphone/Gruntfile.js",
+		"/C/JavaCoding/workspace/htcvr-springmvc/Gruntfile.js",
+		"/C/JavaCoding/workspace/htcvr-springmvc/watch.bat",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/js/accessory.js",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/js/productdetail.js",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/js/main.js",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/WEB-INF/views/temp/accessory.html",
+		"/D/htc-prototype/wip/hi-res-earphone/watch.bat",
+		"/D/htc-prototype/wip/hi-res-earphone/package.json",
+		"/C/JavaCoding/workspace/htcvr-springmvc/package.json",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/resources/com/htc/sparrow/components/ProductDetailTemplate2016.tml",
+		"/C/JavaCoding/workspace/htc-chrome/Gruntfile.js",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/js/product2016.js",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/css/product2016.css",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/less/product2016.less",
+		"/C/JavaCoding/workspace/htc-chrome/package.json",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/resources/com/htc/sparrow/components/ChromeLayout2015.tml",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/js/productperfume.js",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/js/productperfume.min.js",
+		"/C/JavaCoding/workspace/htc-chrome/watch.bat",
+		"/C/JavaCoding/workspace/htc-chrome/debug.bat",
+		"/C/Users/chester_huang/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/chester_huang/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/chester_huang/AppData/Roaming/Sublime Text 2/Packages/Theme - Flatland/Flatland Dark.sublime-theme",
+		"/C/Users/chester_huang/AppData/Roaming/Sublime Text 2/Packages/Theme - Flatland/Flatland Dark/Widget - Flatland Dark.stTheme",
+		"/C/Users/chester_huang/AppData/Roaming/Sublime Text 2/Packages/Theme - Flatland/Flatland Dark/Widget - Flatland Dark.sublime-settings",
+		"/C/Users/chester_huang/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Default.sublime-theme",
+		"/C/Users/chester_huang/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/chester_huang/AppData/Roaming/Sublime Text 2/Packages/Theme - Flatland/Flatland Monokai.tmTheme",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/resources/com/htc/sparrow/components/ProductDetailPerfumeTemplate.tml",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/less/productperfume.less",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/js/vendor/modernizr-2.8.3.min.js",
+		"/C/Users/chester_huang/Downloads/modernizr-custom.js",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/resources/com/htc/sparrow/pages/Chrome.tml",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/variables.less",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/WEB-INF/urlrewrite.xml",
+		"/C/Users/chester_huang/Downloads/fences_160129/fences_57027/Fences v2.01破解版/安装日志.txt",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/mixins.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/accessory.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/main.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/js/cart-provider/digitalriver.js",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/WEB-INF/views/temp/accessory-detail.html",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/WEB-INF/views/indexv4.html",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/WEB-INF/views/fragments/cssjs.html",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/lib/font.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/js/product.js",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/accessory.json",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/white-glove.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/WEB-INF/views/modules/collage.html",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/index.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/developers.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/product.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/base.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/stayupdate.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/glamour.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/built-accessory.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/node_modules/grunt-contrib-less/package.json",
+		"/C/JavaCoding/workspace/htcvr-springmvc/node_modules/grunt-contrib-less/CHANGELOG",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/less/lib/chrome.mixins.less",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/WEB-INF/views/product-optimized.html",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/less/lib/chrome.reset.less",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/less/lib/chrome.variables.less",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/less/lib/variables.less",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/less/lib/mixins.less",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/js/cart-providers/expansys.js",
+		"/C/Users/chester_huang/Desktop/mailus/mailus.aspx",
+		"/C/Users/chester_huang/Desktop/mailus/mailus.aspx.cs",
+		"/C/Users/chester_huang/Desktop/mailus/support.page.mailus.js",
+		"/C/Users/chester_huang/Desktop/mailus/jquery.customInput.js",
+		"/C/JavaCoding/workspace/htcvr-springmvc/src/main/webapp/resources/css/built-index.less",
+		"/C/JavaCoding/workspace/htc-chrome/src/main/webapp/layout/js/htc.chrome.init.js"
+	],
+	"find":
+	{
+		"height": 118.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\JavaCoding\\workspace\\htc-chrome",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\resources\\css",
+			"C:\\JavaCoding\\workspace\\htc-chrome",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\WEB-INF\\views",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\resources\\css",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\resources\\js",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\WEB-INF\\views",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\resources\\css",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\resources\\js",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\resources\\css",
+			"C:\\JavaCoding\\workspace\\htc-chrome",
+			"D:\\htcvr-blog\\wp-content\\themes\\htc_robocar\\assets\\less",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\resources\\css",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\resources\\js",
+			"D:\\htcvr-blog\\wp-content\\themes\\htc_robocar\\assets\\less",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\resources\\css",
+			"D:\\htcvr-blog\\wp-content\\themes\\htc_robocar\\assets\\less",
+			"D:\\htcvr-blog\\wp-content\\themes\\htc_robocar",
+			"D:\\htcvr-blog\\wp-content\\themes\\htc_robocar\\assets\\less",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\resources",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\java",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\resources",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src",
+			"C:\\JavaCoding\\workspace\\htc-chrome",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\WEB-INF\\views",
+			"D:\\htcvr-blog\\wp-content\\themes\\htc_robocar",
+			"D:\\htc-blog\\wp-content\\plugins",
+			"D:\\htc-blog\\wp-content\\themes\\htc_robocar",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\resources",
+			"D:\\htcvr-blog",
+			"D:\\htc-blog",
+			"D:\\htcvr-blog",
+			"D:\\htcvr-blog\\wp-content",
+			"D:\\htcvr-blog\\wp-content\\themes\\htc_robocar",
+			"D:\\htcvr-blog\\wp-content",
+			"D:\\htcvr-blog\\wp-content\\plugins",
+			"D:\\htcvr-blog\\wp-content\\themes\\htc_robocar",
+			"D:\\htcvr-blog\\wp-content\\plugins",
+			"D:\\htcvr-blog\\wp-content\\themes\\htc_robocar",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc",
+			"D:\\htc-prototype\\wip\\vive\\css",
+			"C:\\JavaCoding\\workspace\\htcvr-springmvc\\src\\main\\webapp\\WEB-INF\\views",
+			"D:\\htc-prototype\\wip\\vive",
+			"D:\\htc-prototype\\wip\\vive\\css",
+			"D:\\htcvr-blog\\wp-content\\themes\\htc_robocar\\assets\\less",
+			"D:\\htcvr-blog",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"D:\\htc-blog",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"D:\\htc-prototype\\wip\\vive\\css",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"D:\\htc-blog",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"D:\\htc-blog\\wp-content",
+			"D:\\htc-blog\\wp-content\\themes\\htc_robocar\\assets\\less",
+			"D:\\htc-blog\\wp-content",
+			"D:\\htc-blog\\wp-content\\plugins",
+			"D:\\htc-blog",
+			"D:\\htc-blog\\wp-content\\plugins",
+			"D:\\htc-blog\\wp-content\\themes\\htc_robocar",
+			"D:\\htc-blog\\wp-content\\plugins",
+			"D:\\htc-blog\\wp-content\\themes\\htc_robocar\\assets\\less",
+			"D:\\htc-blog\\wp-content\\plugins\\twitter-section-wiget",
+			"D:\\htc-blog\\wp-content\\themes\\htc_robocar",
+			"D:\\htc-blog\\wp-content\\plugins",
+			"D:\\htc-blog\\wp-content\\themes\\htc_robocar",
+			"D:\\htc-blog\\wp-content\\plugins",
+			"D:\\htc-blog\\wp-content\\themes\\htc_robocar",
+			"D:\\htc-blog\\wp-content\\plugins",
+			"D:\\htc-blog\\wp-content\\themes\\htc_robocar",
+			"D:\\htc-blog\\wp-content\\themes\\htc_twentyfifteen",
+			"D:\\htc-blog",
+			"D:\\htc-blog\\wp-content\\themes\\htc_robocar",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"D:\\htc-blog\\wp-content\\themes\\htc_robocar\\assets\\less",
+			"D:\\htc-blog\\wp-content\\themes\\htc_robocar",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\resources\\com\\htc\\sparrow\\pages",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\resources\\com",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\resources",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\Users\\chester_huang\\Desktop\\chrome",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\resources",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\resources\\com\\htc\\sparrow\\pages",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less\\lib",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\resources",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\java\\com\\htc\\sparrow\\components",
+			"C:\\JavaCoding\\workspace\\htc-chrome\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\htc-tapestry\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\htc-tapestry\\src\\main\\webapp\\layout\\less",
+			"C:\\JavaCoding\\workspace\\recamera-tapestry",
+			"C:\\JavaCoding\\workspace\\recamera-tapestry\\src\\main\\webapp\\layout\\js",
+			"C:\\JavaCoding\\workspace\\recamera-tapestry",
+			"C:\\JavaCoding\\workspace\\htc-tapestry",
+			"C:\\JavaCoding\\workspace\\htc-tapestry\\target",
+			"C:\\JavaCoding\\workspace\\htc-tapestry\\src\\main\\webapp",
+			"C:\\JavaCoding\\workspace\\htc-tapestry\\src\\main\\webapp\\layout\\less"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"https://dl.dropboxusercontent.com/u/8449460/edm/snupped-by-country/",
+			"wrapper",
+			"half-padding",
+			"f7f7f7",
+			"disclaimer-block",
+			"estore.htc.com",
+			"fbAsyncInit",
+			"sub-desc",
+			"hero-phone",
+			".setup-not-banner-section;",
+			"m-half",
+			"button-group",
+			"hero-phone",
+			"product-list",
+			"m-text-dark",
+			".hero-phone",
+			".product-item{",
+			"45px",
+			"768px",
+			".setup-content",
+			"bg-green",
+			"top-title",
+			"hero-phone",
+			"hero-phon",
+			"65",
+			"setup-button-style",
+			"generate-prefix-width",
+			"set-font",
+			"promo-item",
+			"search-box",
+			"product-group",
+			"expandList",
+			"detectAlignStart",
+			"10-Silver.jpg",
+			"product-name",
+			"detail-item",
+			".content",
+			"@max_font",
+			"@{max_font}",
+			"@{min_font}",
+			"@min_font",
+			"@{min_width}",
+			"@{max_width}",
+			"@max_width",
+			"@min_width",
+			"#{$max_width}px",
+			"#{$min_width}px",
+			"#{$min_font}px",
+			"console",
+			"setupCarousel",
+			"produts",
+			"saveCookies",
+			"addViveToCart",
+			"setupCountryClick",
+			"console",
+			"preventDefault",
+			"tw",
+			"web",
+			"checkSiteAndRedirect",
+			"hotspot-caption",
+			"hotspot",
+			"produts",
+			"showModalWithClose",
+			"less-plugin-autoprefix",
+			"spawn",
+			"postcss",
+			".js",
+			".less",
+			"product_perfume",
+			"htc-10",
+			"10",
+			"modernizr",
+			".png",
+			"font",
+			"sideba",
+			"sidebar entry",
+			"side",
+			"sidebar_tree",
+			"2.8.3",
+			"product",
+			"perfume",
+			"checkSiteAndRedirect",
+			"addViveToCart",
+			"setupCountryClick",
+			"checkSiteAndRedirect",
+			"data('site')",
+			"vive-modal",
+			"cart-item-list-block",
+			"bindCartClick",
+			"cartObj",
+			"produts",
+			"discliamer",
+			"showCountrySelection",
+			"showModalWithClose",
+			"accessory",
+			"setupCountryClick",
+			"ecCountrySelectionModal",
+			"jqmShow",
+			"product-name",
+			"addViveToCart",
+			"dark-grey-color",
+			"vive-button",
+			"price-block",
+			"checkSiteAndRedirect",
+			"saveCookies",
+			"callback",
+			"showCountrySelection",
+			"addViveToCart",
+			"saveCookies",
+			"showCountrySelection",
+			"addToCart",
+			"createAnonToken",
+			"COMMON",
+			"setupCountryClick",
+			"showCountrySelection",
+			"setupCountryClick",
+			"colla",
+			"set-font",
+			"440PX",
+			"result",
+			"cartApi",
+			"cookie",
+			"showCountrySelection",
+			"apiText",
+			"family",
+			"less",
+			"font-family",
+			" @title-font-Light"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"http://image.email-htc.com/lib/fe8d1570736c017470/m/3/",
+			"ffffff",
+			"720px",
+			"m10.png",
+			"@max-font-size",
+			"@{max-font-size}",
+			"@{min-font-size}",
+			"@min-font-size",
+			"@{font-adjust-min-width}",
+			"@{font-adjust-max-width}",
+			"@font-adjust-max-width",
+			"@font-adjust-min-width",
+			"@max_width",
+			"@min_width",
+			"@min_font",
+			"products",
+			"@2x.png",
+			"products",
+			".set-font('blond');",
+			".set-font;",
+			"accessHtcToken",
+			"'",
+			"/resources/img/product-experiences/experiences_game_a.jpg",
+			"class=\"info-date\"",
+			"class=\"video-title\"",
+			"class=\"video-item\"",
+			"\\",
+			"40%",
+			"@media (max-width: @mobile-max) {",
+			"'",
+			"@mobile-max",
+			"@mobile-max-width",
+			"body.index",
+			"htcChrome.setupMobileDropdownHeight",
+			"",
+			"\\\"",
+			"",
+			"//",
+			"url(http://www.htcvive.com/resources/img/",
+			"img/",
+			".section-count-down",
+			"@col-active-dark-grey",
+			"@col-vive-blue",
+			"/us/",
+			"max-width: @mobile-mid",
+			"max-width: @mobile-max",
+			"headset",
+			"@col-almost-white",
+			"src=\"/resources/img/indexv4/",
+			"src=\"/resources/img/",
+			"@col-default-text",
+			"\"fonts/Oscine/",
+			"\"fonts",
+			"src=\"/resources/img/indexv4/",
+			"src=\"img/indexv4/",
+			"3c3c3c",
+			"day",
+			"body.indexv3",
+			"@d-banner-height",
+			"00b5e2",
+			"htcvr.com",
+			"/tw/",
+			"/cn/",
+			"Noto Sans",
+			"@col-grey-line",
+			"@col-default-text",
+			"src=\"/resources/video/",
+			"\"/resources/img/",
+			"Roboto",
+			"00b5e2",
+			"'",
+			"showLogout",
+			"showLogin",
+			"'",
+			"photo-wall-block",
+			"photo-wall-item",
+			"photo-wall-placeholder",
+			"//www.htc.com/managed-assets/",
+			"",
+			"\"assets/layout/img/ltr/",
+			"(../img/ltr/",
+			"45",
+			"htc-dropdown-navigation",
+			"chromeHeaderSearch",
+			"htc.chrome.",
+			"$('html head').append",
+			"44",
+			"@col-default-text",
+			"&nbsp;&bull;&nbsp;",
+			"&bull;",
+			"@col-default-text",
+			"@col-default-green",
+			"@col-default-text-hover",
+			"@col-grey-line",
+			".single-page-container",
+			"@col-default-text",
+			"mobile-setting",
+			"@col-default-text",
+			".shortenTitleAndDesc()",
+			"href=\"//www.htc.com/",
+			"/assets/layout/",
+			"href=\"//www.htc.com/",
+			"/assets/layout/",
+			"href=\"//www.htc.com/us/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/",
+			"@desktop-gap-width",
+			"1300px",
+			"1230px",
+			"categoryListing",
+			"@mobile-main-navigation-width + 6%;",
+			"@mobile-main-navigation-width + 4%;",
+			"@mobile-main-navigation-width + 3%;",
+			"@desktop-main-navigation-width",
+			"'",
+			"class=\"tag-checkbox-block\"",
+			"href=\"/\"",
+			"\"#\"",
+			"blog-item",
+			"-",
+			"selecedTags",
+			"$blogGrid",
+			"$tags",
+			"$category",
+			"setupFirstVideoThumbnailAndTitle",
+			"setupVideoCarousel",
+			".generate-min-height",
+			"@max-banner-height",
+			"@min-banner-height"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 1241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1112,
+								1112
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 735.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 4152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4100,
+								4078
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 630.0,
+						"translation.y": 2175.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/layout/less/lib/mixins.less",
+					"settings":
+					{
+						"buffer_size": 10219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								162
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 218.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/layout/less/lib/variables.less",
+					"settings":
+					{
+						"buffer_size": 1313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1091,
+								1074
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1595.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/layout/less/main.less",
+					"settings":
+					{
+						"buffer_size": 17862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								410,
+								397
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 6453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1539,
+								903
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 297.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 7645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								7645
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/layout/js/main.js",
+					"settings":
+					{
+						"buffer_size": 1935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 196.0
+	},
+	"replace":
+	{
+		"height": 107.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"chrome.ini",
+				"htc-chrome/src/main/webapp/layout/js/htc.chrome.init.js"
+			],
+			[
+				"chromeini",
+				"htc-chrome/src/main/webapp/layout/js/htc.chrome.init.js"
+			],
+			[
+				"htc.chrome",
+				"htc-chrome/src/main/webapp/layout/js/htc.chrome.init.js"
+			],
+			[
+				"digitalriver",
+				"htc-chrome/src/main/webapp/layout/js/cart-providers/digitalriver.js"
+			],
+			[
+				"subs",
+				"htc-chrome/src/main/webapp/layout/js/subscription.js"
+			],
+			[
+				"chrome.js",
+				"htc-chrome/src/main/webapp/layout/js/htc.chrome.init.js"
+			],
+			[
+				"htc.ch",
+				"chrome-redesign/assets/layout/js/htc.chrome.integration.js"
+			],
+			[
+				"htc.c",
+				"htc-chrome/target/ROOT/layout/js/htc.chrome.init.js"
+			],
+			[
+				"index.le",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.index.less"
+			],
+			[
+				"single.le",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.single.less"
+			],
+			[
+				"video.i",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/plugins/blog.plugin.video.img.js"
+			],
+			[
+				"single.less",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.single.less"
+			],
+			[
+				"author.php",
+				"htc-blog/wp-content/themes/htc_robocar/author.php"
+			],
+			[
+				"poller",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/plugin.poller.less"
+			],
+			[
+				"index.less",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.index.less"
+			],
+			[
+				"index.php",
+				"htc-blog/wp-content/themes/htc_robocar/index.php"
+			],
+			[
+				"htc.chrome.ini",
+				"htc-chrome/src/main/webapp/layout/js/htc.chrome.init.js"
+			],
+			[
+				"htc.cho",
+				"htc-chrome/target/ROOT/layout/js/htc.chrome.init.js"
+			],
+			[
+				"poll.le",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/plugin.poller.less"
+			],
+			[
+				"digitalr",
+				"htc-chrome/target/ROOT/layout/js/cart-providers/digitalriver.js"
+			],
+			[
+				"accesso",
+				"htc-chrome/target/ROOT/layout/js/accessorylisting.js"
+			],
+			[
+				"chromejs",
+				"htc-chrome/target/ROOT/layout/js/htc.chrome.init.js"
+			],
+			[
+				"404.less",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.404.less"
+			],
+			[
+				"blog.404.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.404.js"
+			],
+			[
+				"404.php",
+				"htc-blog/wp-content/themes/htc_robocar/404.php"
+			],
+			[
+				"grayscale.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/plugins/cross-browser-grayscale-ie11/grayscale.js"
+			],
+			[
+				"author.less",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.author.less"
+			],
+			[
+				"author.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.author.js"
+			],
+			[
+				"blog.singler.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.singler.js"
+			],
+			[
+				"single.php",
+				"htc-blog/wp-content/themes/htc_robocar/single.php"
+			],
+			[
+				"plugin.shorten.blog.content.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/plugin.shorten.blog.content.js"
+			],
+			[
+				"category.le",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.category.less"
+			],
+			[
+				"blog.category.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.category.js"
+			],
+			[
+				"category.php",
+				"htc-blog/wp-content/themes/htc_robocar/category.php"
+			],
+			[
+				"slick.min.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/plugins/slick-1.5.0/slick.min.js"
+			],
+			[
+				"blog.plugin.video.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/plugins/blog.plugin.video.js"
+			],
+			[
+				"blog.plugin.video.img.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/plugins/blog.plugin.video.img.js"
+			],
+			[
+				"video.js",
+				"htc-chrome/src/main/webapp/layout/js/support.video.js"
+			],
+			[
+				"poller.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/plugin.poller.js"
+			],
+			[
+				"blog.in",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.index.js"
+			],
+			[
+				"digit",
+				"htc-chrome/target/ROOT/layout/js/cart-providers/digitalriver.js"
+			],
+			[
+				"0-main.",
+				"htc-chrome/src/main/webapp/layout/js/0-main.js"
+			],
+			[
+				"navbar.",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.navbar.js"
+			],
+			[
+				"404.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.404.js"
+			],
+			[
+				"navbar.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.navbar.js"
+			],
+			[
+				"category.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.category.js"
+			],
+			[
+				"navbar",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.navbar.less"
+			],
+			[
+				"category.j",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.category.js"
+			],
+			[
+				"404.l",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.404.less"
+			],
+			[
+				"category.l",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.category.less"
+			],
+			[
+				"plugin.s",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/plugin.shorten.blog.content.js"
+			],
+			[
+				"single.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.singler.js"
+			],
+			[
+				"single.l",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.single.less"
+			],
+			[
+				"sing",
+				"htc-blog/wp-content/themes/htc_robocar/single.php"
+			],
+			[
+				"single",
+				"htc-blog/wp-content/themes/htc_robocar/single.php"
+			],
+			[
+				"single.",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.single.less"
+			],
+			[
+				"category",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.category.less"
+			],
+			[
+				"jsonca",
+				"htc-blog/wp-content/themes/htc_robocar/JsonCategory.php"
+			],
+			[
+				"navba",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.navbar.less"
+			],
+			[
+				"header.php",
+				"htc-blog/wp-content/themes/htc_robocar/header.php"
+			],
+			[
+				"author.le",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.author.less"
+			],
+			[
+				"author.l",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.author.less"
+			],
+			[
+				"main.le",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/main.less"
+			],
+			[
+				"author.p",
+				"htc-blog/wp-content/themes/htc_robocar/author.php"
+			],
+			[
+				"nav",
+				"htc-blog/wp-content/themes/htc_robocar/navbar.php"
+			],
+			[
+				"blog.index",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.index.less"
+			],
+			[
+				"globa",
+				"htc-chrome/src/main/webapp/layout/js/globalsearch.js"
+			],
+			[
+				"plugin.poller.js",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/plugin.poller.js"
+			],
+			[
+				"eleme",
+				"htc-chrome/target/ROOT/layout/less/lib/elements.less"
+			],
+			[
+				"wp-con",
+				"htc-blog/wp-config.php"
+			],
+			[
+				"ele",
+				"htc-chrome/target/ROOT/layout/less/lib/elements.less"
+			],
+			[
+				"blog",
+				"htc-blog/wp-content/themes/htc_robocar/assets/js/blog.index.js"
+			],
+			[
+				"blog.",
+				"htc-blog/wp-content/themes/htc_robocar/assets/less/blog.index.less"
+			],
+			[
+				"index",
+				"htc-blog/index.php"
+			],
+			[
+				"",
+				"htc-blog/wp-content/themes/htc_robocar/author.php"
+			],
+			[
+				"m8productdetail.js",
+				"htc-chrome/src/main/webapp/layout/js/m8productdetail.js"
+			],
+			[
+				"chrome.main",
+				"Chrome/src/less/lib/chrome.main.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/htc-prototype/wip/pdp-temps/pdp-temps.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true
+}

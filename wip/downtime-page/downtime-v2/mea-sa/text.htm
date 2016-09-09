@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="mea-sa">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>HTC</title>
+	<link rel="stylesheet" href="../assets/layout/css/downtime.rtl.css">
+	<script src="../assets/layout/js/vendor/jquery-2.2.2.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$.ajax({
+				url: 'wording.json',
+				type: 'GET',
+				dataType: 'json'
+			}).done(function(data) {
+				$('.translation-title').text(data.title);
+				$('.translation-schedule').text(data.schedule);
+				$('.translation-wording').text(data.wording);
+			}).fail(function() {
+			}).always(function() {
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+    <!-- http://localhost:8090/wip/downtime-page/text.htm -->
+    <div class="wrapper">
+        <div class="logo">
+            <img src="../assets/layout/img/htc-logo.png" alt="">
+        </div>
+        <h2 class="translation-title">
+        	<!-- Scheduled Downtime -->
+        </h2>
+        <div class="wording">
+            <span class="translation-schedule">
+			<!-- Sunday, June 26th 12:00 AM - 6:00 AM PDT -->
+        	</span>
+            <br/>
+            <span class="translation-wording">
+        		<!-- We’re currently working on the site, but it’ll be right back. -->
+        	</span>
+        </div>
+    </div>
+</body>
+
+</html>

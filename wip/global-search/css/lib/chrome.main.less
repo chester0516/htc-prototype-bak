@@ -1,0 +1,2741 @@
+@import "chrome.variables.less";
+@import "chrome.mixins.less";
+/*
+ * CSS START
+ */
+
+html {
+    /*min-height: 100%;
+    height: 100%;*/
+    body {
+        padding: 0;
+        margin: 0;
+        /*min-height: 100%;
+        height: 100%;*/
+
+        &.tw {
+            img[src^="//www.googleadservices.com/"] {
+                display: none;
+            }
+        }
+    }
+}
+.htc-chrome {
+    position: relative;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: (@desktop-min-width + 1)*1px;
+    //overflow:hidden;
+
+    .reset-font-family;
+    input {
+        letter-spacing: 0.025em;
+        .reset-font-family;
+    }
+
+    @media only screen and (max-width: (@mobile-max-width*1px)) {
+        //display: block;
+        overflow: hidden;
+        min-width: 100%;
+    }
+    .htc-header {
+        @import "chrome.reset.less";
+        @logo-width: @desktop-header-height*1.2*1px;
+        .header-footer-style();
+        .reset-chrome-tags;
+        height: @desktop-header-height*1px;
+        background-color: #fff;
+        position: relative;
+        z-index: 99910199;
+        width: 100%;
+        direction: @direction;
+        @media only screen and (max-width: (@mobile-max-width*1px)) {
+            position: initial;
+            height: auto;
+        }
+        &:before {
+            content: '';
+            width: 100%;
+            position: absolute;
+            height: @desktop-header-height*1px;
+            background-color: #fff;
+            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                height: @mobile-header-height*1px;
+            }
+        }
+        header {
+            height: @desktop-header-height*1px;
+            min-width: @desktop-min-width*1px;
+            width: 100%;
+            margin: 0 auto;
+            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                min-width: @mobile-min-width*1px;
+                max-width: @mobile-max-width*1px;
+                height: @mobile-header-height*1px;
+            }
+            &.sticky{
+                height: @sticky-header-height*1px;
+                position: fixed;
+                .transition(all, 0.3s, ease-in-out);
+                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                    height: @mobile-header-height*1px;
+                    position: initial;
+                }
+                .header-wrapper {
+                    background-color: #fff;
+                    .d-header {
+                        .logo-block {
+                            width: @logo-width;
+                            height: @sticky-header-height*1px;
+                            background-size: 61%;
+                            background-position: center 15px;
+                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                height: @mobile-header-height*1px;
+                            }
+                            a {
+                                width: @logo-width;
+                                height: @sticky-header-height*1px;
+                                display: block;
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    height: @mobile-header-height*1px;
+                                }
+                            }
+                        }
+                        .top-navi-block {
+                            margin-top: 7px;
+                        }
+                        .main-navi-block {
+                            .menu-list {
+                                margin: 0;
+                                height: @sticky-header-height*1px;
+                                .margin-left(@logo-width);
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    height: @mobile-header-height*1px;
+                                }
+                                li {
+                                    .title {
+                                        height: @sticky-header-height*1px;
+                                        padding-top: 23px;
+                                        @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                            height: @mobile-header-height*1px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .search-block {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .header-wrapper {
+                position: relative;
+                .d-header {
+                    max-width: @desktop-max-width*1px;
+                    margin: 0 auto;
+                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                        display: none;
+                    }
+                    .store-cart & {
+                        position: relative;
+                        height: @sticky-header-height*1px;
+                        background-color: @col-default-green;
+                        @media only screen and (max-width: (@mobile-max-width*1px)) {
+                            display: block;
+                            min-width: 320px;
+                            height: @mobile-header-height*1px;
+                        }
+                    }
+                    .logo-block {
+                        width: @logo-width;
+                        height: @desktop-header-height*1px;
+                        background-position: center 46px;
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        .no-svg & {
+                            .reset-image-folder('htc-logo.png');
+                        }
+                        .svg & {
+                            //.reset-image-folder('htc-logo.svg');
+                            .reset-image-folder('htc-logo.png');
+                        }
+                        .store-cart & {
+                            position: relative;
+                            margin: 0 auto;
+                            height: auto;
+                            top: 22%;
+                            background: none;
+                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                top: 17%;
+                            }
+                            a {
+                                .reset-image-folder('htc-footer-logo.png');
+                                height: 28px;
+                                display: block;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: 65%;
+                            }
+                        }
+                        a {
+                            width: @logo-width;
+                            height: @desktop-header-height*1px;
+                            display: block;
+                        }
+                    }
+                    .top-navi-block {
+                        .float(right);
+                        .margin-right(20px);
+                        margin-top: 5px;
+                        height: 50px;
+                        display: table;
+                        position: relative;
+                        .store-cart & {
+                            display: none;
+                        }
+                        ul.top-navi-wrapper {
+                            list-style: none;
+                            display: table-cell;
+                            vertical-align: middle;
+
+                            li.top-item {
+                                display: table-cell;
+                                vertical-align: middle;
+                                //border: solid 1px blue;
+                                a.top-title, div.top-title {
+                                    .reset-link;
+                                    white-space: nowrap;
+                                    .float(left);
+                                    padding: 8px 0;
+                                    font-weight: bold;
+
+                                    &:hover{
+                                        color: @col-default-green-hover;
+                                    }
+                                }
+                                .dot-green {
+                                    width: 30px;
+                                    .circle {
+                                        background: @col-default-green;
+                                        width: 4px;
+                                        height: 4px;
+                                        border-radius: 50%;
+                                        margin: 0 auto;
+                                    }
+                                }
+                                &.signup {
+                                    position: relative;
+                                    width: initial;
+                                    height: initial;
+                                    float: none;
+                                    clear: both;
+                                    margin: 0px;
+                                    padding: 8px 0 8px 0;
+                                    a.top-title {
+                                        &:after {
+                                            content: '';
+                                            position: absolute;
+                                            height: 25px;
+                                            .right(0);
+                                            width: 125%;
+                                        }
+                                    }
+                                    .signup-popover {
+                                        position: absolute;
+                                        padding-top: 11px;
+                                        top: 38px;
+                                        .right(0);
+                                        z-index: 99910200;
+                                        display: none;
+                                        .mea-sa & {
+                                            top: 29px;
+                                        }
+                                        &.active {
+                                            display: inline-block;
+                                        }
+                                        &:after {
+                                            content: '';
+                                            width: 110%;
+                                            height: 106%;
+                                            position: absolute;
+                                            top: 2px;
+                                            .left(50%);
+                                            .transform(translate(-50%, 0));
+                                            z-index: -1;
+                                        }
+                                        .signup-wrapper {
+                                            //color: @col-default-text;
+                                            border: solid 1px @col-popover-border;
+                                            background-color: @col-popover-bg;
+                                            padding: 35px;
+                                            width: 360px;
+                                            &:before {
+                                                content: '';
+                                                width: 0;
+                                                height: 0;
+                                                border-style: solid;
+                                                border-width: 0 10px 12px 10px;
+                                                border-color: transparent transparent @col-popover-bg transparent;
+                                                position: absolute;
+                                                z-index: 99910212;
+                                                top: 0;
+                                                .right(23px);
+                                            }
+                                            &:after {
+                                                content: '';
+                                                width: 0;
+                                                height: 0;
+                                                border-style: solid;
+                                                border-width: 0 11px 14px 11px;
+                                                border-color: transparent transparent @col-popover-border transparent;
+                                                position: absolute;
+                                                z-index: 99910211;
+                                                top: -2px;
+                                                .right(22px);
+                                            }
+                                            .form-block {
+                                                //display: none;
+                                                .input-text() {
+                                                    color: @col-default-text;
+                                                    .reset-font-family('Noto Sans');
+                                                    font-size: 16px;
+                                                }
+                                                .input-size() {
+                                                    height: 35px;
+                                                    padding: 8px 18px;
+                                                }
+                                                .input-wrapper() {
+                                                    border: 1px solid @col-popover-border;
+                                                }
+                                                .title {
+                                                    font-size: 18px;
+                                                    margin-bottom: 12px;
+                                                    font-weight: bold;
+                                                }
+                                                .context {
+                                                    font-size: 12px;
+                                                    font-weight: 500;
+                                                }
+                                                form {
+                                                    padding-top: 20px;
+                                                    .box-sizing();
+                                                    div.error {
+                                                        color: red;
+                                                        margin: 2px;
+                                                    }
+                                                    input.input-text {
+                                                        .box-sizing();
+                                                        .input-text();
+                                                        .input-size();
+                                                        .input-wrapper();
+                                                        .reset-placeholder(#cccccc, 16px);
+                                                        width: 100%;
+                                                        outline: 0;
+                                                    }
+                                                    select.selector {
+                                                        //display: none;
+                                                        option {
+                                                            .input-size();
+                                                            width: 100%;
+                                                            .box-sizing();
+                                                            cursor: pointer;
+                                                        }
+                                                    }
+                                                    .custom-selector {
+                                                        background-color: #FFFFFF;
+                                                        margin-top: 25px;
+                                                        display: inline-block;
+                                                        width: 100%;
+                                                        position: relative;
+                                                        //mixin
+                                                        .box-sizing();
+                                                        .select-item() {
+                                                            display: table;
+                                                            width: 100%;
+                                                            .box-sizing();
+                                                            cursor: pointer;
+                                                            //height: 35px;
+                                                            .select-item-text {
+                                                                .input-text();
+                                                                vertical-align: middle;
+                                                                display: table-cell;
+                                                                width: 96%;
+                                                                position: relative;
+                                                                padding: 0 10px;
+                                                                .reset-font-family('Noto Sans');
+                                                                font-size: 16px;
+                                                                .setup-english-capital-title;
+                                                                &.default {
+                                                                    color: #cccccc;
+                                                                    &:after {
+                                                                        content: '';
+                                                                        width: 0;
+                                                                        height: 0;
+                                                                        border-style: solid;
+                                                                        border-width: 8px 6px 0 6px;
+                                                                        border-color: #cccccc transparent transparent transparent;
+                                                                        .right(0);
+                                                                        top: 14px;
+                                                                        position: absolute;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        .dropper {
+                                                            display: table;
+                                                            vertical-align: middle;
+                                                            width: 100%;
+                                                            .input-wrapper();
+                                                            .box-sizing();
+                                                            .input-size();
+                                                            padding: 0px 8px;
+                                                            &.selected {
+                                                                //.opacity(1);
+                                                                .select-item {
+                                                                    .select-item-text {
+                                                                        &.default {
+                                                                            color: #666666;
+                                                                            &:after {
+                                                                                border-color: #666666 transparent transparent transparent;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            .select-item {
+                                                                .select-item();
+                                                                height: 35px;
+                                                                vertical-align: middle;
+                                                            }
+                                                        }
+                                                        .downer {
+                                                            width: 100%;
+                                                            .input-wrapper();
+                                                            display: none;
+                                                            position: absolute;
+                                                            background-color: #FFFFFF;
+                                                            z-index: 99910100;
+                                                            .box-sizing();
+                                                            .transition(.2s);
+                                                            border-top: none;
+                                                            ul li {
+                                                                .select-item();
+                                                                .box-sizing();
+                                                                padding: 3px 18px;
+                                                                &:hover {
+                                                                    .select-item-text {
+                                                                        color: #FFFFFF;
+                                                                    }
+                                                                    background-color: @col-default-text;
+                                                                }
+                                                            }
+                                                            &.show {
+                                                                display: block;
+                                                            }
+                                                        }
+                                                    }
+                                                    .question-wrapper {
+                                                        width: 100%;
+                                                        display: table;
+                                                        margin-top: 30px;
+                                                        .context {
+                                                            display: table-cell;
+                                                            vertical-align: middle;
+                                                        }
+                                                        .YN-wrapper {
+                                                            display: table-cell;
+                                                            vertical-align: middle;
+                                                            text-align: @right;
+                                                            position: relative;
+                                                            .hidden-area {
+                                                                position: absolute;
+                                                                z-index: -10;
+                                                            }
+                                                            input.btnYN {
+                                                                color: #FFFFFF;
+                                                                border-width: 0px;
+                                                                width: 44px;
+                                                                height: 20px;
+                                                                font-size: 12px;
+                                                                .rounded-corners(3px);
+                                                                background-color: @col-default-text;
+                                                                outline: 0;
+                                                                &:hover {
+                                                                    .opacity(.9);
+                                                                }
+                                                                &.N {
+                                                                    .margin-left(11px);
+                                                                }
+                                                                &.active {
+                                                                    background-color: @col-default-green;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .checker-wrapper {
+                                                        width: 100%;
+                                                        display: table;
+                                                        margin-top: 30px;
+                                                        .checker {
+                                                            @cb-size: 16px;
+                                                            @cb-border: 2px;
+                                                            width: @cb-size;
+                                                            height: @cb-size;
+                                                            position: relative;
+                                                            background: #666666;
+                                                            .box-sizing();
+                                                            .float(left);
+                                                            label {
+                                                                width: @cb-size - @cb-border * 2;
+                                                                height: @cb-size - @cb-border * 2;
+                                                                .box-sizing();
+                                                                cursor: pointer;
+                                                                position: absolute;
+                                                                background-color: @col-popover-bg;
+                                                                .reset-transform-always-center();
+                                                                &:after {
+                                                                    content: '';
+                                                                    width: 6px;
+                                                                    height: 4px;
+                                                                    position: absolute;
+                                                                    border: 3px solid #666666;
+                                                                    border-top: none;
+                                                                    .border-right(none);
+                                                                    background: transparent;
+                                                                    opacity: 0;
+                                                                    .reset-transform-always-center(translate(-50%, -50%) rotate(-50deg));
+                                                                    .transform-origin(35% 40%);
+                                                                    .mea-sa & {
+                                                                        height: 6px;
+                                                                        width: 4px;
+                                                                        .reset-transform-always-center(translate(-50%, -50%) rotate(45deg));
+                                                                        .transform-origin(60% 45%);
+                                                                    }
+                                                                }
+                                                                &:hover::after {
+                                                                    opacity: 0.3;
+                                                                }
+                                                            }
+                                                            input[type=checkbox] {
+                                                                visibility: hidden;
+                                                                &:checked + label:after {
+                                                                    opacity: 1;
+                                                                }
+                                                            }
+                                                            .no-borderradius & { /* IE 8 */
+                                                                background: none;
+                                                                label {
+                                                                    display: none;
+                                                                }
+                                                                input[type=checkbox] {
+                                                                    visibility: visible;
+                                                                }
+                                                            }
+                                                        }
+                                                        
+                                                        .context {
+                                                            .margin-left(28px);
+                                                            margin-top: -3px;
+                                                        }
+                                                    }
+                                                    .privacy-wrapper {
+                                                        margin-top: 30px;
+                                                        .context {
+                                                            display: inline;
+                                                            a {
+                                                                text-decoration: none;
+                                                                font-weight: bold;
+                                                                color: @col-default-green;
+                                                            }
+                                                        }
+                                                    }
+                                                    .submit-wrapper {
+                                                        width: 100%;
+                                                        text-align: center;
+                                                        vertical-align: middle;
+                                                        margin-top: 30px;
+                                                        input.poper-submit {
+                                                            width: 140px;
+                                                            height: 40px;
+                                                            background-color: @col-button-blue;
+                                                            color: white;
+                                                            font-size: 12px;
+                                                            border: 0px;
+                                                            font-weight: bold;
+                                                            .setup-english-capital-title();
+                                                            &:hover {
+                                                                background-color: @col-button-blue-hover;
+                                                                cursor: pointer;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .thank-you-wrapper {
+                                                display: none;
+                                                .signup-closer {
+                                                    position: absolute;
+                                                    .right(5px);
+                                                    top: 16px;
+                                                    width: 20px;
+                                                    height: 20px;
+                                                    border: solid 1px transparent;
+                                                    &:hover {
+                                                        cursor: pointer;
+                                                    }
+                                                    &::before, &::after {
+                                                        content: '';
+                                                        display: block;
+                                                        width: 1px;
+                                                        height: 19px;
+                                                        position: absolute;
+                                                        .right(50%);
+                                                        top: 0;
+                                                        background-color: @col-default-text;
+                                                        .transform(rotate(45deg));
+                                                    }
+                                                    &::after {
+                                                        .transform(rotate(-45deg));
+                                                    }
+                                                }
+                                                .envolope-wrapper {
+                                                    margin-top: 30px;
+                                                    .image-holder-email {
+                                                        height: 150px;
+                                                        width: 150px;
+                                                        .reset-image-folder('envolope-circle.png');
+                                                        background-repeat: no-repeat;
+                                                        margin: 0 auto;
+                                                        background-size: 100%;
+                                                    }
+                                                    .title {
+                                                        color: @col-default-green;
+                                                        font-size: 35px;
+                                                        font-weight: bold;
+                                                        margin-top: 25px;
+                                                        text-align: center;
+                                                    }
+                                                }
+                                                .context {
+                                                    margin-top: 30px;
+                                                    font-style: italic;
+                                                    font-size: 14px;
+                                                    font-weight: bold;
+                                                    color: @col-default-text;
+                                                    text-align: center;
+                                                    margin-bottom: 30px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &.store-cart {
+                                    position: relative;
+                                    .cart-popover {
+                                        position: absolute;
+                                        padding-top: 11px;
+                                        top: 38px;
+                                        .right(0);
+                                        z-index: 99910200;
+                                        display: none;
+                                        .mea-sa & {
+                                            top: 29px;
+                                        }
+                                        &.active {
+                                            display: inline-block;
+                                        }
+                                        .cart-wrapper {
+                                            border: solid 1px @col-popover-border;
+                                            background-color: @col-popover-bg;
+                                            padding: 30px;
+                                            &:before {
+                                                content: '';
+                                                width: 0;
+                                                height: 0;
+                                                border-style: solid;
+                                                border-width: 0 10px 12px 10px;
+                                                border-color: transparent transparent @col-popover-bg transparent;
+                                                position: absolute;
+                                                z-index: 99910212;
+                                                top: 0;
+                                                .right(23px);
+                                            }
+                                            &:after {
+                                                content: '';
+                                                width: 0;
+                                                height: 0;
+                                                border-style: solid;
+                                                border-width: 0 11px 14px 11px;
+                                                border-color: transparent transparent @col-popover-border transparent;
+                                                position: absolute;
+                                                z-index: 99910211;
+                                                top: -2px;
+                                                .right(22px);
+                                            }
+                                            .incart-viewer {
+                                                max-height: 300px;
+                                                overflow-y:auto; 
+                                                overflow-x:hidden;
+                                                .padding-right(17px); 
+                                                ul.prod-list {
+                                                    li.prod-item {
+                                                        list-style: none;
+                                                        .prod-item-wrapper {
+                                                            min-height: 120px;
+                                                            width: 95%;
+                                                            border-bottom: 1px solid #dfdfdf;
+                                                            display: table;
+                                                            position: relative;
+                                                            margin-bottom: 15px;
+                                                            .prod-delete {
+                                                                position: absolute;
+                                                                top: -3px;
+                                                                .right(0);
+                                                                width: 19px;
+                                                                height: 19px;
+                                                                &:hover {
+                                                                    cursor: pointer;
+                                                                }
+                                                                &::before, &::after {
+                                                                    content: '';
+                                                                    display: block;
+                                                                    width: 1px;
+                                                                    height: 20px;
+                                                                    position: absolute;
+                                                                    .right(50%);
+                                                                    top: 1px;
+                                                                    background-color: @col-default-text;
+                                                                    .transform(rotate(45deg));
+                                                                }
+                                                                &::after {
+                                                                    .transform(rotate(-45deg));
+                                                                }
+                                                            }
+                                                            .prod-img {
+                                                                width: 100px;
+                                                                text-align: center;
+                                                                display: table;
+                                                                .margin-right(10px);
+                                                                img {
+                                                                    width: 100px;
+                                                                }
+                                                            }
+                                                            .prod-detail-block {
+                                                                display: table-cell;
+                                                                width: 177px;
+                                                                vertical-align: bottom;
+                                                                padding-top: 10px;
+                                                                .prod-quantity {
+                                                                    font-size: 8px;
+                                                                    margin-bottom: 3px;
+                                                                }
+                                                                .prod-name {
+                                                                    font-size: 15px;
+                                                                    margin-bottom: 13px;
+                                                                    width: 160px;
+                                                                    line-height: 1.1em;
+                                                                }
+                                                                .prod-price {
+                                                                    margin-bottom: 16px;
+                                                                    font-size: 24px;
+                                                                    width: 180px;
+                                                                    text-align: @right;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+
+                                                &::-webkit-scrollbar {
+                                                    width: 4px;
+                                                }
+                                                 
+                                                &::-webkit-scrollbar-track {
+                                                    -webkit-box-shadow: inset 0 0 11px rgba(227,227,227,1);
+                                                }
+                                                 
+                                                &::-webkit-scrollbar-thumb {
+                                                  background-color: #999;
+                                                  outline: 0;
+                                                }
+                                            }
+                                            .subtotal-wrapper {
+                                                display: table;
+                                                width: 290px;
+                                                margin-top: 5px;
+                                                margin-bottom: 20px;
+                                                .total-text {
+                                                    display: table-cell;
+                                                    font-weight: 700;
+                                                }
+                                                .subtotal-amt {
+                                                    display: table-cell;
+                                                    text-align: @right;
+                                                    font-size: 24px;
+                                                }
+                                            }
+                                            .submit-wrapper {
+                                                width: 100%;
+                                                text-align: center;
+                                                input.poper-submit {
+                                                    width: 140px;
+                                                    height: 40px;
+                                                    background-color: @col-button-blue;
+                                                    color: white;
+                                                    font-size: 12px;
+                                                    border: 0px;
+                                                    font-weight: bold;
+                                                    .setup-english-capital-title();
+                                                    &:hover {
+                                                        background-color: @col-button-blue-hover;
+                                                        cursor: pointer;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &.nl-only {
+                                    a {
+                                        height: 28px;
+                                        width: 110px;
+                                        .reset-image-folder('nl-only-logo.png');
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        .margin-left(15px);
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .main-navi-block {
+                        background-color: #fff;
+                        .store-cart & {
+                            display: none;
+                        }
+                        body.with6 & {
+                            overflow: hidden;
+                        }
+                        ul.menu-list {
+                            margin: 0;
+                            display: table;
+                            height: @desktop-header-height*1px;
+                            .margin-left(@logo-width);
+                            background-color: #fff;
+                            &.animated {
+                                .sub-menu {
+                                    .transition(all, 0.3s, ease-in-out);
+                                }
+                            }
+                            li {
+                                display: table-cell;
+                                list-style: none;
+                                .title {
+                                    @min-padding-on-each: 25px;
+                                    @max-padding-on-each: 55px;
+                                    @min-padding-on-each-6-items: 20px;
+                                    @max-padding-on-each-6-items: 45px;
+                                    @min-padding-with6-items: 10px;
+                                    @max-padding-with6-items: 46px;
+                                    //color: @col-default-text;
+                                    display: table;
+                                    height: @desktop-header-height*1px;
+                                    padding-top: 55px;
+                                    white-space: nowrap;
+                                    text-align: center;
+                                    position: relative;
+                                    width: 100%;
+                                    font-weight: bold;
+                                    .padding-left(@min-padding-on-each);
+                                    .padding-right(@min-padding-on-each);
+
+                                    .cn & , .tw & {
+                                        .padding-left(@min-padding-on-each-6-items);
+                                        .padding-right(@min-padding-on-each-6-items);
+                                    }
+                                    .with6 & {
+                                        .padding-left(@min-padding-with6-items);
+                                        .padding-right(@min-padding-with6-items);
+                                    }
+                                    a{
+                                        .reset-link(@desktop-size-default, @col-default-text);
+                                        font-weight: bold;
+                                        &:hover{
+                                            cursor: pointer;
+                                            color: @col-default-green;
+                                        }
+                                        .cn & , .tw & {
+                                            font-size: 14px;
+                                            font-weight: normal;
+                                        } 
+                                    }
+
+                                    .generate-paddings(10);
+
+                                    .generate-paddings(@n, @i: 1) when (@i =< @n) {
+                                        @screen-size: @desktop-min-width*1px + (@desktop-max-width*1px - @desktop-min-width*1px) / @n * @i;
+                                        @media only screen and (min-width: (@screen-size) ) {
+                                            @padding: @min-padding-on-each + (@max-padding-on-each - @min-padding-on-each) / @n * @i;
+                                            .padding-left(@padding);
+                                            .padding-right(@padding);
+                                            .cn & , .tw & {
+                                                @padding-6-items: @min-padding-on-each-6-items + (@max-padding-on-each-6-items - @min-padding-on-each-6-items) / @n * @i;
+                                                .padding-left(@padding-6-items);
+                                                .padding-right(@padding-6-items);
+                                            }
+                                            .with6 & {
+                                                @padding-6-items: @min-padding-with6-items + (@max-padding-with6-items - @min-padding-with6-items) / @n * @i;
+                                                .padding-left(@padding-6-items);
+                                                .padding-right(@padding-6-items);
+                                            }
+                                        }
+                                        .generate-paddings(@n, (@i + 1));
+                                    }
+                                }
+                                &.no-sub-menu {
+                                }
+                                &.has-sub-menu {
+                                    .title {
+                                        &:after {
+                                            content: '';
+                                            width: 0;
+                                            height: 0;
+                                            border-style: solid;
+                                            border-width: 4px 4px 0 4px;
+                                            border-color: #666666 transparent transparent transparent;
+                                            position: relative;
+                                            display: inline;
+                                            top: 11px;
+                                            .margin-left(5px);
+                                        }
+                                    }
+                                    .sub-menu {
+                                        @col-min-height: 315;
+                                        @col-width: 197;
+                                        @padding-top-bottom: 30;
+                                        z-index: -10;
+                                        background-color: @col-popover-bg;
+                                        .transform(translate3d(0, -500px, 0));
+                                        width: 100%;
+                                        position: absolute;
+                                        .left(0);
+                                        min-height: @col-min-height*1px;
+                                        text-align: center;
+                                        /*IE9*/
+                                        html.no-csstransforms3d & {
+                                            display: none;
+                                        }
+                                        .column {
+                                            display: inline-block;
+                                            vertical-align: top;
+                                            padding: @padding-top-bottom*1px 5px;
+                                        }
+                                        .col-1 {
+                                            width: @col-width*1px;
+                                        }
+                                        .col-2 {
+                                            width: (@col-width*2)*1px;
+                                        }
+                                        .col-3 {
+                                            width: (@col-width*3)*1px;
+                                        }
+                                        .col-4 {
+                                            width: (@col-width*4)*1px;
+                                        }
+                                        .permanent-link {
+                                            .reset-image-folder('permanent-link-bg.png');
+                                            .align-center {
+                                                height: (@col-min-height - @padding-top-bottom*2)*1px;
+                                                display: table-cell;
+                                                vertical-align: middle;
+                                                text-align: @right;
+                                                width: (@col-width - 15)*1px;
+                                                a {
+                                                    .reset-link(16px);
+                                                    .no-borderradius & { /* IE 8 */
+                                                        .reset-link(14px);
+                                                    }
+                                                    display: block;
+                                                    padding: 10px 15px;
+                                                    font-weight: bold;
+                                                    &:hover{
+                                                        color: @col-default-green-hover;
+                                                    }
+                                                }
+                                            }
+                                            &:before {
+                                                /*content: '';
+                                                position: absolute;*/
+                                            }
+                                        }
+                                        .standard-product, .product-story {
+                                            a {
+                                                .reset-link(12px, @col-default-text);
+                                                &:hover{
+                                                    color: @col-default-text-hover;
+                                                }
+                                            }
+                                            .product-name {
+                                                display: block;
+                                                width: 80%;
+                                                margin: 12px auto 0;
+                                                font-size: 12px;
+                                                font-weight: 700;
+                                                line-height: 15px;
+                                            }
+                                            .product-desc {
+                                                .reset-font-family('Noto Serif');
+                                                display: block;
+                                                width: 80%;
+                                                margin: 8px auto 0;
+                                                font-size: 12px;
+                                                font-weight: 400;
+                                                font-style: italic;
+                                                line-height: 1.4em;
+                                            }
+                                        }
+                                        .app-story {
+                                            a {
+                                                .reset-link(12px, @col-default-text);
+                                            }
+                                            .image-area {
+                                                display: table-cell;
+                                            }
+                                            .desc-area {
+                                                .padding-left(50px);
+                                                display: table-cell;
+                                                vertical-align: top;
+                                                text-align: @left;
+                                                hr {
+                                                    width: 55%;
+                                                    margin: 20px 0;
+                                                    display: block;
+                                                }
+                                                .story-title {
+                                                    font-size: 18px;
+                                                    font-weight: 700;
+                                                    line-height: 30px;
+                                                }
+                                                .story-content {
+                                                    .reset-font-family('Noto Serif');
+                                                    font-style: italic;
+                                                    font-size: 18px;
+                                                    font-weight: 400;
+                                                    line-height: 25px;
+                                                }
+                                            }
+                                        }
+                                        .support-title-desc {
+                                            color: @col-default-text;
+                                            position: absolute;
+                                            margin: 38px auto 0;
+                                            width: 100%;
+                                            font-size: 18px;
+                                            font-weight: 700;
+                                        }
+                                        .support-icon {
+                                            a {
+                                                .reset-link(12px, @col-default-text);
+                                            }
+                                            img {
+                                                margin-top: 60px;
+                                            }
+                                            .desc-content {
+                                                .reset-font-family('Noto Serif');
+                                                font-style: italic;
+                                                font-size: 18px;
+                                                width: 70%;
+                                                display: block;
+                                                margin: 18px auto;
+                                                line-height: 22px;
+                                                font-style: italic;
+                                            }
+                                        }
+                                        .text-module, .text-module-with-button {
+                                            ul {
+                                                list-style: none;
+                                                margin: 0;
+                                                padding: 0;
+                                                li {
+                                                    display: table;
+                                                    width: 80%;
+                                                    margin: 15px auto 0;
+                                                    &:first-child {
+                                                        margin-top: 0;
+                                                    }
+                                                    a {
+                                                        &.text-link {
+                                                            .reset-link(12px, @col-default-text);
+                                                            span {
+                                                                font-size: 12px;
+                                                                line-height: 13px;
+                                                                font-style: italic;
+                                                                text-decoration: none;
+                                                            }
+                                                            .txt-title {
+                                                                font-weight: 700;
+                                                                margin-bottom: 0;
+                                                                display: inline-block;
+                                                                width: 100%;
+                                                                font-style: normal;
+                                                            }
+                                                        }
+                                                        &.call-to-action {
+                                                            display: block;
+                                                            zoom: 1;
+                                                            color: #fff;
+                                                            font-size: 14px;
+                                                            font-weight: 700;
+                                                            white-space: nowrap;
+                                                            text-decoration: none;
+                                                            background: @col-button-blue;
+                                                            padding: 13px 20px 13px 20px;
+                                                            font-weight: 400;
+                                                            .transition(background, .2s);
+                                                            &:hover {
+                                                                background: @col-button-blue-hover;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    
+                                    &.expanded {
+                                        .title {
+                                            background-color: @col-popover-bg;
+                                            a {
+                                                color: @col-default-green;
+                                            }
+                                            
+                                            &:after {
+                                                content: '';
+                                                width: 0;
+                                                height: 0;
+                                                border-style: solid;
+                                                border-width: 0 4px 4px 4px;
+                                                border-color: transparent transparent @col-default-green transparent;
+                                                position: relative;
+                                                display: inline;
+                                                top: -10px;
+                                                .margin-left(5px);
+                                            }
+                                        }
+                                        .sub-menu {
+                                            .transform(translate3d(0, 0, 0));
+
+                                            /*IE9*/
+                                            html.no-csstransforms3d & {
+                                                display: block;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .search-block {
+                        @col-search-default: #cbcbcb;
+                        width: 240px;
+                        .float(right);
+                        margin-top: -55px;
+                        .margin-right(20px);
+                        border-bottom: solid 2px @col-search-default;
+                        position: relative;
+                        .store-cart & {
+                            display: none;
+                        }
+                        .align-center {
+                            height: 35px;
+                            display: table-cell;
+                            vertical-align: middle;
+                            input.query {
+                                .reset-placeholder(#999, 13px, 700);
+                                outline: 0;
+                                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                                font-size: @desktop-size-default*1px;
+                                height: 25px;
+                                width: 200px;
+                                padding: 5px;
+                                border: 0;
+                                font-weight: bold;
+                                .no-borderradius & { /* IE 8 */
+                                    height: 15px;
+                                }
+                            }
+                            input.submit {
+                                width: 25px;
+                                height: 35px;
+                                .reset-image-folder('magnify.png');
+                                background-repeat: no-repeat;
+                                background-position: @left center;
+                                border: none;
+                                background-color: transparent;
+                                outline: 0;
+                                .cn & {
+                                    .float(right);
+                                }
+                            }
+                        }
+                    }
+                }
+                .m-header {
+                    display: none;
+                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                        min-width: @mobile-min-width*1px;
+                        max-width: @mobile-max-width*1px;
+                        height: @mobile-header-height*1px;
+                        width: 100%;
+                        display: block;
+                        .store-cart & {
+                            display: none;
+                        }
+                    }
+                    .logo-block {
+                        width: (@mobile-header-height / 3 * 4)*1px;
+                        height: @mobile-header-height*1px;
+                        position: absolute;
+                        top: 0;
+                        .left(0);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 70%;
+                        background-color: #fff;
+                        border-bottom: solid 1px #bfbfbf;
+                        .border-right(solid 1px #bfbfbf);
+                        z-index: 1;
+                        .no-svg & {
+                            .reset-image-folder('htc-logo.png');
+                        }
+                        .svg & {
+                            //.reset-image-folder('htc-logo.svg');
+                            .reset-image-folder('htc-logo.png');
+                        }
+                        a {
+                            width: (@mobile-header-height / 3 * 4)*1px;
+                            height: @mobile-header-height*1px;
+                            display: block;
+                        }
+                    }
+                    .main-navi-block {
+                        background-color: #fff;
+                        .margin-left((@mobile-header-height / 3 * 4)*1px);
+                        ul.menu-list {
+                            display: table;
+                            border-collapse: collapse;
+                            background-color: #fff;
+                            width: 100%;
+                            .float(right);
+                            li {
+                                display: table-cell;
+                                list-style: none;
+                                .border-left(solid 1px #bfbfbf);
+                                vertical-align: middle;
+                                &:first-child {
+                                    .border-left(none);
+                                }
+                                @icon-width: (@mobile-header-height / 3 * 3)*1px;
+                                &.has-icon {
+                                    width: @icon-width;
+                                    height: @mobile-header-height*1px;
+                                    .title {
+                                        display: block;
+                                        width: @icon-width;
+                                        height: @mobile-header-height*1px;
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-size: 34%;
+                                    }
+                                }
+                                .title {
+                                    .box-sizing;
+                                    border-bottom: solid 1px #bfbfbf;
+                                }
+                                &.has-sub-menu {
+                                    &.product-tab {
+                                        .title {
+                                            &:after {
+                                                content: '';
+                                                width: 0;
+                                                height: 0;
+                                                border-style: solid;
+                                                border-width: 4px 4px 0 4px;
+                                                border-color: #666666 transparent transparent transparent;
+                                                position: relative;
+                                                display: inline;
+                                                top: 11px;
+                                                .margin-left(4px);
+                                            }
+                                        }
+                                    }
+                                    &.expanded {
+                                        .title {
+                                            border-bottom: none;
+                                            background-color: @col-popover-bg;
+                                        }
+                                        &.product-tab {
+                                            .title {
+                                                color: @col-default-green;
+                                                &:after {
+                                                    content: '';
+                                                    width: 0;
+                                                    height: 0;
+                                                    border-style: solid;
+                                                    border-width: 0 4px 4px 4px;
+                                                    border-color: transparent transparent @col-default-green transparent;
+                                                    position: relative;
+                                                    display: inline;
+                                                    top: -10px;
+                                                    .margin-left(5px);
+                                                }    
+                                                
+                                            }
+                                        }
+                                        &.search-tab {
+                                            .title {
+                                                .reset-image-folder('m-magnify-selected.png');
+                                            }
+                                        }
+                                        &.menu-tab {
+                                            .title {
+                                                .reset-image-folder('m-menu-selected.png');
+                                            }
+                                        }
+                                        .sub-menu {
+                                            z-index: 99910100;
+                                            .transform(translate3d(0, 0, 0));
+                                            /*IE9*/
+                                            html.no-csstransforms3d & {
+                                                display: block;
+                                            }
+                                        }
+                                    }
+                                    .sub-menu {
+                                        background-color: @col-popover-bg;
+                                        .transform(translate3d(0, -500px, 0));
+                                        width: 100%;
+                                        position: absolute;
+                                        .left(0);
+                                        z-index: -10;
+                                        /*IE9*/
+                                        html.no-csstransforms3d & {
+                                            display: none;
+                                        }
+                                        .setup-menu-item() {
+                                            padding: 17px;
+                                            display: inline-block;
+                                            width: 100%;
+                                            .reset-link(@mobile-size-default, @col-default-text);
+                                            font-weight: bold;
+                                            .box-sizing;
+                                        }
+                                        .sub-item {
+                                            border-bottom: solid 1px @col-popover-border;
+                                            .setup-menu-item;
+                                            a{
+                                                .setup-menu-item;
+                                                padding: 0;
+                                            }
+                                            &.has-third-menu {
+                                                &:after {
+                                                    content: '';
+                                                    width: 0;
+                                                    height: 0;
+                                                    border-style: solid;
+                                                    border-width: 4px 4px 0 4px;
+                                                    border-color: #666666 transparent transparent transparent;
+                                                    position: relative;
+                                                    display: inline;
+                                                    top: 11px;
+                                                    .margin-left(4px);
+                                                }
+                                                &.expanded {
+                                                    color: @col-default-green;
+                                                    &:after {
+                                                        border-width: 0 4px 4px 4px;
+                                                        border-color: transparent transparent @col-default-green transparent;
+                                                        top: -10px;
+                                                        .margin-left(5px);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .third-menu {
+                                            background-color: #dadada;
+                                            display: none;
+                                            .third-item {
+                                                .setup-menu-item;
+                                            }
+                                            &.expanded {
+                                                display: block;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.product-tab {
+                                    .title {
+                                        height: @mobile-header-height*1px;
+                                        display: block;
+                                        .padding-left(1%);
+                                        .padding-right(1%);
+                                        padding-top: 15px;
+                                        white-space: nowrap;
+                                        text-align: center;
+                                        font-weight: bold;
+                                    }
+                                }
+                                &.link-tab {
+                                    .title{
+                                        height: @mobile-header-height*1px;
+                                        display: block;
+                                        .padding-left(1%);
+                                        .padding-right(1%);
+                                        padding-top: 15px;
+                                        white-space: nowrap;
+                                        text-align: center;
+                                        font-weight: bold;
+                                        a{
+                                            .reset-link(@mobile-size-default, @col-default-text);
+                                            font-weight: bold;
+                                        }
+                                    }
+                                }
+                                &.search-tab {
+                                    .title {
+                                        .reset-image-folder('m-magnify-grey.png');
+                                    }
+                                    .sub-menu {
+                                        .align-center {
+                                            height: 55px;
+                                            vertical-align: middle;
+                                            width: 100%;
+                                            //display: table-cell;
+                                            padding: 10px;
+                                            input.query {
+                                                outline: 0;
+                                                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                                                font-size: @desktop-size-default*1px;
+                                                font-weight: 500;
+                                                height: 25px;
+                                                width: 87%;
+                                                padding: 5px;
+                                                border: 0;
+                                                background-color: transparent;
+                                                font-weight: bold;
+                                            }
+                                            input.submit {
+                                                width: 20px;
+                                                height: 35px;
+                                                .reset-image-folder('m-magnify-sub.png');
+                                                background-repeat: no-repeat;
+                                                background-position: @left center;
+                                                border: none;
+                                                background-color: transparent;
+                                                background-size: 100%;
+                                                .cn & {
+                                                    position: absolute;
+                                                    right: 2%;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &.menu-tab {
+                                    .title {
+                                        .reset-image-folder('m-menu.png');
+                                    }
+                                    .sub-menu{
+                                        .cn & , .tw & {
+                                            width: 50%;
+                                            .right(0);
+                                            .left(auto);
+                                            .border-left(solid 1px @col-popover-border);
+                                        }
+                                    }
+                                }
+                                &.cart-tab {
+                                    .title {
+                                        .reset-image-folder('m-cart.png');
+                                        position: relative;
+                                        z-index: 99910100;
+                                    }
+                                    .cart-total {
+                                        position: absolute;
+                                        top: 11px;
+                                        width: @icon-width;
+                                        text-align: center;
+                                        font-size: 11px;
+                                        -webkit-transform: scale(0.7);
+                                        -o-transform: scale(1);
+                                        display: inline-block;
+                                        z-index: 99910090;
+                                        .margin-left(1px);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .mobile-cart {
+            display:none;
+        }
+    }
+    .htc-main {
+        flex: 1 0 auto;
+        min-height: 600px;
+        clear: both;
+        position: relative;
+        background-color: @col-main-bg;
+        @media only screen and (max-width: (@mobile-max-width*1px)) {
+            top: 0;
+            min-height: 200px;
+        }
+        .store-cart & {
+            min-height: 400px;
+        }
+    }
+    .footer-space {
+        display: none;
+    }
+    .htc-footer {
+        @import "chrome.reset.less";
+        .reset-chrome-tags;
+        .header-footer-style();
+        direction: @direction;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        z-index: 99910190;
+        @media only screen and (max-width: (@mobile-max-width*1px)) {
+            position: relative;
+        }
+
+        .right-declaration() {
+            ul {
+                li {
+                    //padding: 0px 5px;
+                    .padding-left(5px);
+                    display: inline;
+                    a {
+                        text-decoration: none;
+                        &:hover {
+                            //color: rgb(82,82,82);
+                        }
+                    }
+                    &::after {
+                        content : "|";
+                        .padding-left(5px);
+                    }
+                }
+                li:last-child {
+                    &::after {
+                        content : "";
+                    }
+                }
+            }
+        }
+
+        footer {
+            clear: both;
+            width: 100%;
+            .footer-wrapper {
+                margin: 0 auto;
+                position: relative;
+                //main-desk
+                .main-desk {
+                    display:none;
+                    width: 100%;
+                    position: relative;
+                    height: @desktop-footer-height*1px;
+                    text-align: center;
+                    font-size: 14px;
+                    background-color: #fff;
+                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                        display: inline-table;
+                        height: @mobile-footer-height*1px;
+                        font-size: 12px;
+                        border-top: solid 1px #bfbfbf;
+                    }
+                    .footer-align-center {
+                        max-width: @desktop-max-width*1px;
+                        margin: 0 auto;
+                        width: 100%;
+                        display: table;
+                        position: relative;
+                        height: @desktop-footer-height*1px;
+                        @media only screen and (max-width: (@mobile-max-width*1px)) {
+                            height: @mobile-footer-height*1px;
+                            background-color: #fff;
+                        }
+                        .connect-block {
+                            z-index: 99910190;
+                            position: absolute;
+                            .transform(translate(0, -50%));
+                            top: 50%;
+                            //.left(45px);
+                            &:hover {
+                                cursor: pointer;
+                            }
+                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                .right(3%);
+                            }
+                            .default-area {
+                                display: inline-block;
+                                min-width: 65px;
+                                font-weight: bold;
+
+                                .dot-grey {
+                                    height: 17px;
+                                    .no-borderradius & { /* IE 8 */
+                                        height: 26px;
+                                        .reset-image-folder('connect_dots.png'); 
+                                    }
+                                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                        height: 5px;
+                                    }
+                                    .setup-circle() {
+                                        background: @col-default-text;
+                                        width: 7px;
+                                        height: 7px;
+                                        border-radius: 50%;
+                                        margin: 0 auto;
+                                        .no-borderradius & { /* IE 8 */
+                                            width: 0px;
+                                            height: 0px;
+                                        }
+                                        @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                            height: 3px;
+                                            width: 3px;
+                                        }
+                                    }
+                                    .circle {
+                                        .setup-circle;
+                                        
+                                        position: relative;
+                                        margin-top: 1px;
+                                        &:before {
+                                            content: '';
+                                            position: absolute;
+                                            .left(15px);
+                                            .setup-circle;
+
+                                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                                .left(9px);
+                                            }
+                                        }
+                                        &:after {
+                                            content: '';
+                                            position: absolute;
+                                            .right(15px);
+                                            .setup-circle;
+                                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                                .right(9px);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .no-borderradius & { /* IE 8 */
+                                top: 28%;
+                            }
+                        } // connect-block
+                        .reset-popover(){
+                            /*THIS IS ALSO FOR THIRD PARTY USED*/
+                            top: auto;
+                            padding: 0;
+                            border: 0;
+                            .box-shadow(none);
+                            max-width: inherit;
+                            background-color: transparent;
+                        }
+                        .connect-popover {
+                            .reset-popover();
+                            position: absolute;
+                            display: none;
+                            //display: inline-block;
+                            .box-sizing;
+                            bottom: 25px;
+                            .right(45px);
+                            z-index: 99910185;
+                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                bottom: 33px;
+                                .right(2%);
+                            }
+                            &.active {
+                                display: inline-block;
+                            }
+                            .social-list {
+                                border: solid 1px @col-popover-border;
+                                background-color: @col-popover-bg;
+                                padding: 20px;
+                                position: relative;
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    padding: 10px;
+                                }
+                                .align-center {
+                                    display: flex;
+                                    a {
+                                        display: inline-block;
+                                        img {
+                                            vertical-align: middle;
+                                            padding: 0 10px;
+                                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                                padding: 0 7px;
+                                                height: 17px;
+                                            }
+                                        }
+                                    }
+                                }
+                                &:before {
+                                    content: '';
+                                    width: 0;
+                                    height: 0;
+                                    border-style: solid;
+                                    border-width: 12px 10px 0 10px;
+                                    border-color: @col-popover-bg transparent transparent transparent;
+                                    position: absolute;
+                                    z-index: 99910212;
+                                    bottom: -12px;
+                                    .right(23px);
+                                }
+                                &:after {
+                                    content: '';
+                                    width: 0;
+                                    height: 0;
+                                    border-style: solid;
+                                    border-width: 14px 11px 0 11px;
+                                    border-color: @col-popover-border transparent transparent transparent;
+                                    position: absolute;
+                                    z-index: 99910211;
+                                    bottom: -14px;
+                                    .right(22px);
+                                }
+                            }
+                            .extra-space {
+                                height: 50px;
+                                width: 100%;
+                                display: inline-block;
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    height: 5px;
+                                }
+                            }
+                        }
+                        .arrow-block {
+                            @circle-width: 40;
+                            @triangle-width: 10;
+                            @mobile-circle-width: 24;
+                            @mobile-triangle-width: 7;
+                            position: absolute;
+                            .reset-transform-always-center();
+                            z-index: 99910190;
+
+                            &:hover {
+                                cursor: pointer;
+                            }
+                            .store-cart & {
+                                display: none;
+                            }
+                            width: @circle-width*1px;
+                            height: @circle-width*1px;
+                            border: solid 2px @col-default-text;
+                            display: inline-block;
+                            border-radius: 50%;
+                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                border: solid 1px @col-default-text;
+                                width: @mobile-circle-width*1px;
+                                height: @mobile-circle-width*1px;
+                            }
+                            
+
+                            &::after {
+                                content: '';
+                                width: 0;
+                                height: 0;
+                                border-style: solid;
+                                border-width: @triangle-width*1px @triangle-width*1px 0 @triangle-width*1px;
+                                position: absolute;
+                                border-color: @col-default-text transparent transparent transparent;
+                                z-index: 99910100;
+                                .reset-transform-always-center();
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    border-width: @mobile-triangle-width*1px @mobile-triangle-width*1px 0 @mobile-triangle-width*1px;
+                                    top: 53%;
+                                }
+                            }
+                            
+
+
+                            &.arrow-up {
+                                
+                                &::after {
+                                    content: '';
+                                    width: 0;
+                                    height: 0;
+                                    border-style: solid;
+                                    border-width: 0 @triangle-width*1px @triangle-width*1px @triangle-width*1px;
+                                    position: absolute;
+                                    border-color: transparent transparent @col-default-text transparent;
+                                    .reset-transform-always-center(translate(-50%, -50%), 45%, 50%);
+                                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                        border-width: 0 @mobile-triangle-width*1px @mobile-triangle-width*1px @mobile-triangle-width*1px;
+                                        top: 45%;
+                                    }
+                                }
+                                
+                            }
+
+                            /* IE 8 */
+                            .no-borderradius & { /* IE 8 */
+                                .reset-image-folder('footer_down.png');
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                border: 0px;
+                                top: 30%;
+
+                                &.arrow-up {
+                                    .reset-image-folder('footer_up.png');  
+                                }
+                            }
+                            
+                        }
+                        .region-block {
+                            z-index: 99910190;
+                            @region-height: 18px;
+                            @mobile-region-height: 15px;
+                            position: absolute;
+                            display: table;
+                            .transform(translate(0, -50%));
+                            top: 50%;
+                            .right(45px);
+                            font-weight: bold;
+
+                            &:hover {
+                                cursor: pointer;
+                            }
+                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                .left(3%);
+                            }
+                            .align-center {
+                                .float(left);
+                                line-height: @region-height;
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    line-height: @mobile-region-height;
+                                    .ca & {
+                                        //letter-spacing: -0.05em
+                                    }
+                                }
+                            }
+                            .globe {
+                                .float(right);
+                                height: @region-height;
+                                width: @region-height*2;
+                                .margin-left(10px);
+                                .border-left(solid 1px @col-default-text);
+                                .reset-image-folder('globe_nbg.png');
+                                display: inline-block;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    background-size: 39%;
+                                    height: @mobile-region-height;
+                                    .ca & {
+                                        .margin-left(5px);    
+                                    }
+                                }
+                            }
+                            .no-borderradius & { /* IE 8 */
+                                top: 44%;
+                            }
+                        } // region block
+                        .region-popover {
+                            .reset-popover();
+                            position: absolute;
+                            display: none;
+                            //display: inline-block;
+                            .box-sizing;
+                            bottom: 25px;
+                            .right(45px);
+                            .left(45px);
+                            z-index: 99910185;
+                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                bottom: 45px;
+                                .right(2%);
+                                .left(2%);
+                            }
+                            &.active {
+                                display: inline-block;
+                            }
+                            .region-list {
+                                border: solid 1px @col-popover-border;
+                                background-color: @col-popover-bg;
+                                padding: 3%;
+                                position: relative;
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    padding: 2% 1%;
+                                }
+                                &:before {
+                                    content: '';
+                                    width: 0;
+                                    height: 0;
+                                    border-style: solid;
+                                    border-width: 12px 10px 0 10px;
+                                    border-color: @col-popover-bg transparent transparent transparent;
+                                    position: absolute;
+                                    z-index: 99910212;
+                                    bottom: -12px;
+                                    .left(23px);
+                                }
+                                &:after {
+                                    content: '';
+                                    width: 0;
+                                    height: 0;
+                                    border-style: solid;
+                                    border-width: 14px 11px 0 11px;
+                                    border-color: @col-popover-border transparent transparent transparent;
+                                    position: absolute;
+                                    z-index: 99910211;
+                                    bottom: -14px;
+                                    .left(22px);
+                                }
+                                .popover-wrapper {
+                                    .title-wrapper {
+                                        .title {
+                                            font-size: 30px;
+                                            color: @col-default-green;
+                                            margin-bottom: 1.5%;
+                                            text-align: center;
+                                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                                font-size: 18px;
+                                            }
+                                        }
+                                    }
+                                    .list-wrapper {
+                                        margin: 0 auto;
+                                        &.desktop-wrapper{
+                                            display: block;
+                                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                                display: none;
+                                            }
+                                        }
+                                        &.mobile-wrapper{
+                                            display: none;
+                                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                                display: block;
+                                            }
+                                            ul{
+                                                width: 32%;
+                                                margin: 0;
+                                            }
+                                        }
+                                        ul {
+                                            width: 24%;
+                                            list-style: none;
+                                            display: inline-block;
+                                            vertical-align: top;
+                                            padding: 0px 40px;
+                                            .text-align(left);
+                                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                                padding: 0px 1%;
+                                            }
+                                            li {
+                                                a {
+                                                    .reset-link(14px, @col-default-text);
+                                                    margin: 2px;
+                                                    padding: 5px;
+                                                    display: inline-block;
+                                                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                                        margin: 0;
+                                                        font-size: 12px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .list-closer {
+                                        position: absolute;
+                                        z-index: 99910100;
+                                        width: 20px;
+                                        height: 20px;
+                                        top: 5px;
+                                        .right(5px);
+                                        border: solid 1px transparent;
+                                        &:hover {
+                                            cursor: pointer;
+                                        }
+                                        &::before, &::after {
+                                            content: '';
+                                            display: block;
+                                            width: 1px;
+                                            height: 19px;
+                                            position: absolute;
+                                            .right(50%);
+                                            top: 0;
+                                            background-color: @col-default-text;
+                                            .transform(rotate(45deg));
+                                        }
+                                        &::after {
+                                            .transform(rotate(-45deg));
+                                        }
+                                    }
+                                }
+                            }
+                            .extra-space {
+                                .float(right);
+                                height: 50px;
+                                width: 25%;
+                                display: inline-block;
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    height: 5px;
+                                }
+                            }
+                        }
+                        .level-one {
+                            position: relative;
+                            height: @mobile-footer-firstline-height * 1px;
+                        }
+                        .level-two {
+                            display: inline-table;
+                            height: (@mobile-footer-height - @mobile-footer-firstline-height) * 1px;
+                            padding: 0 5px;
+
+                            .left-col {
+                                display: table-cell;
+                                .copyright {
+                                    display:inline-block;
+                                }
+                                .right-declaration();
+                                ul {
+                                    //display: inline; 
+                                    display: inline-block;
+                                    margin : 0;
+                                    padding: 0;
+                                    .padding-left(3px);
+                                    a {
+                                        color : @col-default-text;
+                                    }  
+                                }
+                            }
+                            .right-col {
+                                //display: table-cell;
+                                display: none;
+                                .right-declaration();
+                                ul {
+                                    margin : 0 5px 0 0;
+                                    padding: 0;
+                                }
+
+                                a {
+                                    color : @col-default-text;
+                                }
+                            }
+                        }
+                    } //footer-align-center
+                }
+                .main-desk-modern {
+                    @margin-on-each-side: 25px;
+                    @bgOpa : 0.8;
+                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                        display:none;
+                    } 
+                    width: 100%;
+                    height: @desktop-footer-height*1px;
+                    text-align: center;
+                    font-size: 14px;
+                    background: rgba(227, 227, 227, @bgOpa);//#e3e3e3
+                    .footer-align-center {
+                        max-width: @desktop-max-width*1px;
+                        margin: 0 auto;
+                        width: 100%;
+                        display: table;
+                        position: relative;
+                        height: @desktop-footer-height*1px;
+                        .connect-block {
+                            .float(right);
+                            z-index: 99910190;
+                            width: 46%;
+                            height: @desktop-footer-height*1px;
+                            position: relative;
+                            display: table;
+                            .click-area{
+                                &:hover {
+                                    cursor: pointer;
+                                }
+                            }
+                            
+                            .default-area {
+                                display: table-cell;
+                                vertical-align: middle;
+                                .padding-right(@margin-on-each-side);
+                                .padding-left(25px);
+                                white-space: nowrap;
+                                .text-align(right);
+                                width:30px;/*required and fixed content width*/
+
+                                .dot-grey {
+                                    display: inline-block;
+                                    .no-borderradius & { /* IE 8 */
+                                        height: 26px;
+                                        .reset-image-folder('connect_dots.png'); 
+                                    }
+                                    .setup-circle() {
+                                        background: @col-default-text;
+                                        width: 7px;
+                                        height: 7px;
+                                        border-radius: 50%;
+                                        margin: 0 auto;
+                                        .no-borderradius & { /* IE 8 */
+                                            width: 0px;
+                                            height: 0px;
+                                        }
+                                    }
+                                    .circle {
+                                        .setup-circle;
+                                        position: relative;
+                                        top: -1px;
+                                        &:before {
+                                            content: '';
+                                            position: absolute;
+                                            .left(15px);
+                                            .setup-circle;
+                                        }
+                                        &:after {
+                                            content: '';
+                                            position: absolute;
+                                            .right(15px);
+                                            .setup-circle;
+                                        }
+                                    }
+                                }
+                                .connect-wording{
+                                    display: inline-block;
+                                    .margin-left(25px);
+                                }
+                            }
+                            .right-declaration-block {
+                                .text-align(right);
+                                padding: 0 3%;
+                                display: table-cell;
+                                vertical-align: middle;
+                                ul {
+                                    margin: 0;
+                                    padding: 0;
+                                    line-height: 15px;
+                                    li {
+                                        display: inline;
+                                        list-style: none;
+                                        .padding-left(5px);
+                                        a {
+                                            display: inline-block;
+                                            text-decoration: none;
+                                            color: #000;
+                                            font-size: 11px;
+                                            line-height: 15px;
+                                            &:hover {
+                                                //color: rgb(82,82,82);
+                                            }
+                                        }
+                                        &::after {
+                                            content : "|";
+                                            .padding-left(5px);
+                                        }
+                                    }
+                                    li:last-child {
+                                        &::after {
+                                            content : "";
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                            .no-borderradius & { /* IE 8 */
+                                top: 28%;
+                            }
+                        } // connect-block
+                        .arrow-block    {
+                            .reset-transform-always-center(translate(-50%, 0), 0, 50%);
+                            position: absolute;
+                            z-index: 99910190;
+                            display: inline-block;
+                            top: auto;
+                            bottom: 10px;
+                            &:hover {
+                                cursor: pointer;
+                            }
+
+                            .store-cart & {
+                                display: none;
+                            }
+
+                            .no-borderradius & { /* IE 8 */
+                                top: -4px;
+                            }
+                            @mobile-arrow-icon-width: 24;
+                            .arrow-back {
+                                @circle-width: 80;
+                                .reset-transform-always-center(translate(-50%, -15px), auto, 50%);
+                                position: absolute;
+                                z-index : -1;
+                                width: (@circle-width + 2) * 1px;
+                                height: 34px;
+                                overflow: hidden;
+                                top: initial;
+
+                                .no-borderradius & { /* IE 8 */
+                                    display: none;
+                                }
+
+                                &::after {
+                                    content: '';
+                                    position: absolute;
+                                    width: @circle-width * 1px;
+                                    height: 0px;
+                                    border-radius: 50% 50% 0 0;
+                                    border-top: solid 80px rgba(227,227,227, @bgOpa);
+                                    bottom: 16px;
+                                    left: 1px;
+                                    top: 0;
+                                }
+                            }
+                            .arrow-icon {
+                                @circle-width: 50;
+                                @triangle-width: 12;
+                                @mobile-circle-width: @mobile-arrow-icon-width;
+                                @mobile-triangle-width: 7;
+                                z-index: 99910189;
+                                width: @circle-width*1px;
+                                height: @circle-width*1px;
+                                border: solid 2px @col-default-text;
+                                border-radius: 50%;
+                                
+                                &:hover {
+                                    cursor: pointer;
+                                }
+
+                                &::after {
+                                    content: '';
+                                    width: 0;
+                                    height: 0;
+                                    border-style: solid;
+                                    border-width: @triangle-width*1px @triangle-width*1px 0 @triangle-width*1px;
+                                    position: absolute;
+                                    border-color: @col-default-text transparent transparent transparent;
+                                    z-index: 99910100;
+                                    .reset-transform-always-center();
+                                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                        border-width: @mobile-triangle-width*1px @mobile-triangle-width*1px 0 @mobile-triangle-width*1px;
+                                        top: 53%;
+                                    }
+                                }
+                                
+                                /* IE 8 */
+                                .no-borderradius & { /* IE 8 */
+                                    .reset-image-folder('footer_down.png');
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    border: 0px;
+                                    top: 30%;
+                                }
+                            }
+                            &.arrow-up {
+                                .arrow-icon {
+                                    @circle-width: 50;
+                                    @triangle-width: 12;
+                                    &::after {
+                                        top: 47%;
+                                        border-width: 0 @triangle-width*1px @triangle-width*1px @triangle-width*1px;
+                                        border-color: transparent transparent @col-default-text transparent;
+                                    }
+                                    /* IE 8 */
+                                    .no-borderradius & { /* IE 8 */
+                                        .reset-image-folder('footer_up.png');
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        border: 0px;
+                                        top: 30%;
+                                    }
+                                }
+                            }
+                        }
+                        .region-block {
+                            .float(left);
+                            z-index: 99910190;
+                            width: 46%;
+                            height: @desktop-footer-height*1px;
+                            position: relative;
+                            display: table;
+                            .click-area{
+                                &:hover {
+                                    cursor: pointer;
+                                }
+                            }
+                            .align-center {
+                                display: table-cell;
+                                vertical-align: middle;
+                                .padding-left(@margin-on-each-side);
+                                white-space: nowrap;
+                            }
+                            .globe {
+                                height: 18px;
+                                width: 50px;
+                                .margin-left(10px);
+                                .reset-image-folder('globe_nbg.png');
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                display: table-cell;
+                                vertical-align: middle;
+                                position: relative;
+
+                                &::before{
+                                    content:'';
+                                    position: absolute;
+                                    //top: 51%;
+                                    .left(7px);
+                                    .transform(translate(0, -45%));
+                                    display: block;
+                                    width: 1px;
+                                    height: 16px;
+                                    background-color: #666;
+                                }
+                            }
+                            .left-declaration-block {
+                                display: table-cell;
+                                vertical-align: middle;
+                                padding: 0 3%;
+                                .text-align(left);
+                                color: #000;
+                                font-size: 11px;
+                                line-height: 15px;
+                            }
+                            
+                            .no-borderradius & { /* IE 8 */
+                                top: 12px;
+                                height: 100%;
+                            }
+                        } // region block
+                    }
+
+                    .reset-popover(){
+                        /*THIS IS ALSO FOR THIRD PARTY USED*/
+                        top: auto;
+                        padding: 0;
+                        border: 0;
+                        .box-shadow(none);
+                        max-width: inherit;
+                        background-color: transparent;
+                    }
+                    .connect-popover {
+                        .reset-popover();
+                        position: absolute;
+                        display: none;
+                        .box-sizing;
+                        bottom: @desktop-footer-height*1px;
+                        .right(@margin-on-each-side);
+                        z-index: 99910185;
+
+                        &.active {
+                            display: inline-block;
+                        }
+                        .social-list {
+                            border: solid 1px @col-popover-border;
+                            background-color: @col-popover-bg;
+                            padding: 20px;
+                            position: relative;
+
+                            .align-center {
+                                display: flex;
+                                a {
+                                    display: inline-block;
+                                    img {
+                                        vertical-align: middle;
+                                        padding: 0 10px;
+                                    }
+                                }
+                            }
+                            &:before {
+                                content: '';
+                                width: 0;
+                                height: 0;
+                                border-style: solid;
+                                border-width: 12px 10px 0 10px;
+                                border-color: @col-popover-bg transparent transparent transparent;
+                                position: absolute;
+                                z-index: 99910212;
+                                bottom: -12px;
+                                .right(23px);
+                            }
+                            &:after {
+                                content: '';
+                                width: 0;
+                                height: 0;
+                                border-style: solid;
+                                border-width: 14px 11px 0 11px;
+                                border-color: @col-popover-border transparent transparent transparent;
+                                position: absolute;
+                                z-index: 99910211;
+                                bottom: -14px;
+                                .right(22px);
+                            }
+                        }
+                        .extra-space {
+                            height: 0px;
+                            width: 100%;
+                            display: block;
+                        }
+                    }
+                    .region-popover {
+                        .reset-popover();
+                        position: absolute;
+                        display: none;
+                        .box-sizing;
+                        bottom: @desktop-footer-height*1px;
+                        .right(@margin-on-each-side);
+                        .left(@margin-on-each-side);
+                        z-index: 99910193;
+                        .opacity(1);
+
+                        &.active {
+                            display: inline-block;
+                        }
+                        .region-list {
+                            border: solid 1px @col-popover-border;
+                            background-color: @col-popover-bg;
+                            padding: 3%;
+                            position: relative;
+                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                padding: 2% 1%;
+                            }
+                            &:before {
+                                content: '';
+                                width: 0;
+                                height: 0;
+                                border-style: solid;
+                                border-width: 12px 10px 0 10px;
+                                border-color: @col-popover-bg transparent transparent transparent;
+                                position: absolute;
+                                z-index: 99910212;
+                                bottom: -12px;
+                                .left(23px);
+                            }
+                            &:after {
+                                content: '';
+                                width: 0;
+                                height: 0;
+                                border-style: solid;
+                                border-width: 14px 11px 0 11px;
+                                border-color: @col-popover-border transparent transparent transparent;
+                                position: absolute;
+                                z-index: 99910211;
+                                bottom: -14px;
+                                .left(22px);
+                            }
+                            .popover-wrapper {
+                                .title-wrapper {
+                                    .title {
+                                        font-size: 30px;
+                                        color: @col-default-green;
+                                        margin-bottom: 1.5%;
+                                        text-align: center;
+                                    }
+                                }
+                                .list-wrapper {
+                                    margin: 0 auto;
+                                    &.desktop-wrapper{
+                                        display: block;
+                                    }
+                                    &.mobile-wrapper{
+                                        display: none;
+                                        ul{
+                                            width: 32%;
+                                            margin: 0;
+                                        }
+                                    }
+                                    ul {
+                                        width: 24%;
+                                        list-style: none;
+                                        display: inline-block;
+                                        vertical-align: top;
+                                        padding: 0px 40px;
+                                        .text-align(left);
+                                        li {
+                                            a {
+                                                .reset-link(14px, @col-default-text);
+                                                margin: 2px;
+                                                padding: 5px;
+                                                display: inline-block;
+                                            }
+                                        }
+                                    }
+                                }
+                                .list-closer {
+                                    position: absolute;
+                                    z-index: 99910100;
+                                    width: 20px;
+                                    height: 20px;
+                                    top: 5px;
+                                    .right(5px);
+                                    border: solid 1px transparent;
+                                    &:hover {
+                                        cursor: pointer;
+                                    }
+                                    &::before, &::after {
+                                        content: '';
+                                        display: block;
+                                        width: 1px;
+                                        height: 19px;
+                                        position: absolute;
+                                        .right(50%);
+                                        top: 0;
+                                        background-color: @col-default-text;
+                                        .transform(rotate(45deg));
+                                    }
+                                    &::after {
+                                        .transform(rotate(-45deg));
+                                    }
+                                }
+                            }
+                        }
+                        .extra-space {
+                            .float(right);
+                            height: 0px;
+                            width: 25%;
+                            display: inline-block;
+                        }
+                    }
+                }
+
+                .footer-list {
+                    background-color: #333;
+                    padding: 15px 45px 30px;
+                    width: 100%;
+                    display: none;
+                    position: relative;
+                    z-index: 99900100;
+                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                        padding: 2%;
+                    }
+                    .footer-align-center {
+                        max-width: @desktop-max-width*1px;
+                        margin: 0 auto;
+                        width: 100%;
+                        display: table;
+                        position: relative;
+                        height: 100px;
+                        .setup-link-item-style(){
+                            color: #595959;
+                            ul {
+                                margin: 0;
+                                padding: 0;
+                                li{
+                                    list-style-type: none;
+                                    padding: 0;
+                                    margin: 0;
+                                    .title, .title > a {
+                                        color: #fff;
+                                        font-size: 12px;
+                                        margin: 20px 0 6px 0;
+                                        text-decoration: none;
+                                        font-weight: 600;
+                                        .setup-english-capital-title;
+                                        @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                            margin-bottom: 10px;
+                                        }
+                                    }
+                                    ul.sublinks {
+                                        li > a {
+                                            color: #fff;
+                                            font-size: 12px;
+                                            text-decoration: none;
+                                            margin-bottom: 6px;
+                                            display: inline-block;
+                                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                                margin-bottom: 10px;
+                                            }
+                                            &:hover {
+                                                text-decoration: underline;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .links {
+                            width: 84%;
+                            margin: 0;
+                            .float(left);
+                            .setup-link-item-style();
+                            .cn & {
+                                width: 69%;
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    width: 100%;
+                                }
+                            }
+                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                display: none;
+                            }
+                            
+                            .links-col1, .links-col2, .links-col3, .links-col4 {
+                                .float(left);
+                                width: 25%;
+                                margin: 0;
+                                .padding-right(15px);
+                            }
+                            .m-group-col-1, .m-group-col-2 {
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    width: 100%;
+                                    .padding-right(2%);
+                                    .padding-left(2%);
+                                    .column-break-inside(avoid);
+                                    overflow: hidden;
+                                }
+                                & > ul{
+                                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+
+                                    }
+                                    & > li{
+                                        @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .m-links{
+                            display: none;
+                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                .setup-link-item-style();
+                                display: block;
+                            }
+                            & > ul{
+                                .column-width(138px);
+                                .column-gap(2px);
+                                .padding-left(3%);
+                                .padding-right(1%); 
+                                & > li{
+                                    .column-break-inside(avoid);
+                                    display: inline-block;
+                                    padding: 0 2%;
+                                    vertical-align: top;
+                                    min-width: 130px;
+                                    /*IE9*/
+                                    html.no-csstransforms3d & {
+                                        width: 50%;
+                                        vertical-align: top;
+                                    }
+                                }
+                            }
+                        }
+                        .legal {
+                            width: 13%;
+                            .float(right);
+                            margin-top: 20px;
+                            .margin-left(10px);
+                            min-width: 125px;
+                            .cn & {
+                                width: 29%;
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    width: 100%;
+                                }
+                            }
+                            @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                display: inline-block;
+                                margin: 0;
+                                padding: 3%;
+                                width: 100%;
+                                text-align: center;
+                                position: relative;
+                            }
+                            .logo {
+                                .reset-image-folder('htc-footer-logo.png');
+                                width: 85px;
+                                height: 28px;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    margin: 0 auto;
+                                }
+                            }
+                            .copyright {
+                                color: #fff;
+                                font-size: 12px;
+                                font-weight: 300;
+                                line-height: 20px;
+                                margin-top: 13px;
+                                p {
+                                    &.bold {
+                                        font-weight: 700;
+                                    }
+                                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                        margin: 0;
+                                        padding: 0;
+                                        display: initial;
+                                    }
+                                }
+                            }
+                            ul {
+                                list-style: none;
+                                margin: 0;
+                                padding: 0;
+                                li {
+                                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                        //width: auto;
+                                        //display: initial;
+                                        width: 100%;
+                                    }
+                                }
+                                li > a {
+                                    color: #fff;
+                                    font-size: 12px;
+                                    text-decoration: none;
+                                    line-height: 20px;
+                                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                        margin: 0 1%;
+                                    }
+                                }
+                            }
+                            .footer-content {
+                                .float(@right);
+                                .cn & {
+                                    .float(@left);
+                                    @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                        .float(none);
+                                    }
+                                }
+                                @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                    .float(none);
+                                }
+                                img{
+                                    .cn & {
+                                        @media only screen and (max-width: (@mobile-max-width*1px)) {
+                                            margin: 0 auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .deep-bottom {
+                    height: 30px;
+                    width: 100%;
+                    display: none;
+                    position: relative;
+                    &.show {
+                        @media only screen and (max-width: (@mobile-max-width*1px))
+                        {
+                            display: block;    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

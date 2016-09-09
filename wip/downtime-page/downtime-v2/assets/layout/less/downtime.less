@@ -1,0 +1,70 @@
+@import 'lib/variables.less';
+@import 'lib/mixins.less';
+@import (less) 'lib/normalize.css';
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic:latin|Noto+Sans:400,700,400italic,700italic|Noto+Serif:400,700,400italic,700italic&.css";
+
+html {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    .reset-image-folder('full-bg.jpg');
+    @media (max-width: @mobile-max) {
+        .reset-image-folder('m-full-bg.jpg');
+    }
+}
+
+body {
+        .reset-font-family;
+        .wrapper {
+            position: absolute;
+            top: 30%;
+            /*Keep left:50%;*/
+            -ltr-left: 50%;
+            -rtl-right: 50%;
+            direction: ~'@{dir}';
+
+            transform: translate(-50%,-50%);
+            text-align: center;
+
+            width: 60%;
+            @media (max-width: @mobile-max) {
+                width: 80%;
+            }
+
+            .logo{
+                img{
+                    width: 12%;
+                    min-width: 75px;
+                }
+            }
+
+            .setup-dynamic-font-size(~'h2', 22, 50);
+            h2{
+                margin-top: 3%;
+                color: #fff;
+                line-height: 1.4;
+            }
+
+            .setup-dynamic-font-size(~'.wording', 14, 30);
+            .wording{
+                margin-top: 3%;
+                color: #fff;
+                line-height: 1.4;
+            }
+
+            .setup-dynamic-font-size(~'.count-down', 50, 135);
+            .count-down{
+                color: #fff;
+                line-height: 1.5;
+                letter-spacing: .04em;
+            }
+
+            .setup-dynamic-font-size(~'.tiny-wording', 18, 30);
+            .tiny-wording{
+                color: #fff;
+                line-height: 1.4;
+            }
+       }
+    }

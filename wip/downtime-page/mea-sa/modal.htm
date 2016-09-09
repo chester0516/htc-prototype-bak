@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTC</title>
+    <link rel="stylesheet" href="../assets/layout/css/modal.rtl.css">
+    <script src="../assets/layout/js/vendor/jquery-2.2.2.min.js"></script>
+    <script src="../assets/layout/js/vendor/moment.min.js"></script>
+    <script src="../assets/layout/js/vendor/moment-timezone-with-data.min.js"></script>
+    <script src="../assets/layout/js/vendor/jquery.cookie.js"></script>
+    <script>
+    $(document).ready(function() {
+        var cookieName = 'htc-downtime',
+            jsonPath = 'wording.json';
+        // startTimeUtcString = '2016-06-26T07:00:00',
+        // finishTimeUtcString = '2016-06-26T13:00:00',
+        /*TESTING*/
+        startTimeUtcString = '2016-06-14T07:00:00',
+            finishTimeUtcString = '2016-06-26T13:00:00',
+
+            now = moment().utc().format('x'),
+            startTime = moment.utc(startTimeUtcString).format('x'),
+            finishTime = moment.utc(finishTimeUtcString).format('x');
+        //console.log('now=' + now + '|startTime=' + startTime + '|finishTime=' + finishTime);
+        if (now >= startTime && now <= finishTime) {
+            $.ajax({
+                url: jsonPath,
+                type: 'GET',
+                dataType: 'json'
+            }).done(function(data) {
+                $('.translation-title').text(data.title);
+                $('.translation-schedule').text(data.schedule);
+                $('.translation-wording').text(data.wording);
+            }).fail(function() {}).always(function() {
+                if (typeof $.cookie(cookieName) === 'undefined') {
+                    $('.htc-flex-modal').addClass('showed');
+                }
+
+                $('.close-btn').click(function(event) {
+                    /* Act on the event */
+                    $('.htc-flex-modal').removeClass('showed');
+                    $.cookie(cookieName, 1, {
+                        expires: 7,
+                        path: '/'
+                    });
+                });
+            });
+        } else {
+            $.removeCookie(cookieName, {
+                path: '/'
+            });
+            $('.htc-flex-modal').removeClass('showed');
+        }
+    });
+    </script>
+</head>
+
+<body>
+    <div class="htc-flex-modal">
+        <div class="content-container">
+            <div class="close-btn"></div>
+            <div class="content-block">
+                <h2 class="translation-title">
+		        	<!-- Scheduled Downtime -->
+		        </h2>
+                <div class="wording">
+                    <span class="translation-schedule">
+			<!-- Sunday, June 26th 12:00 AM - 6:00 AM PDT -->
+        	</span>
+                    <br/>
+                    <span class="translation-wording">
+        		<!-- We’re currently working on the site, but it’ll be right back. -->
+        	</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

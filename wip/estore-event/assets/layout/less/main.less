@@ -1,0 +1,123 @@
+@import 'lib/variables.less';
+@import 'lib/mixins.less';
+@import (less) 'lib/normalize.css';
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic:latin|Noto+Sans:400,700,400italic,700italic|Noto+Serif:400,700,400italic,700italic&.css';
+body{
+    .reset-font-family; font-size: unit(19px)*1px; background-color: rgba(0, 0, 0, .7);
+    .mobile-hide{
+        @media (max-width: @mobile-max){
+            display: none;
+        }
+    }
+    /*------------------------CUSTOMIZED-------------------------*/
+    &.week29-2 section.holder .caption-block,
+    &.week32-2 section.holder .caption-block,
+    &.week34-1 section.holder .caption-block
+    {
+        bottom: 17%; left: 63%;
+    }
+    &.week33-2 section.case h4{
+        margin-bottom: 3%;
+    }
+    &.week34-2 section .caption-block{
+        h3{
+            @media only screen and (max-width: @mobile-max-width){
+                font-size: 5.5vw;
+            }
+        }
+    }
+}
+
+.main{
+    overflow-x: auto; min-width: @desktop-small; max-width: @desktop-content-max; margin: 0 auto;
+    @media (max-width: @mobile-max){
+        min-width: @mobile-min-width; max-width: @mobile-max-width;
+    }
+    .section-wrapper{
+        section{
+            position: relative; overflow: hidden;
+            img{
+                max-width: 100%;
+            }
+            .bg-block{
+                @section-min-height: 500px; min-height: @section-min-height;
+                @media (max-width: @mobile-max){
+                    min-height: auto;
+                }
+                picture{
+                    line-height: 1px; display: block;
+                    @media (max-width: @mobile-max){
+                        display: block;
+                    }
+                    img{
+                        min-height: @section-min-height; object-fit: cover; object-position: 50% 50%;
+                        @media (max-width: @mobile-max){
+                            display: block; min-height: auto;
+                        }
+                    }
+                }
+            }
+            &.hero{
+                .overlay-block{
+                    position: absolute; top: 0; right: 0; box-sizing: border-box; height: 100%; padding: 10% 5%; background-color: rgba(0,0,0,.5);
+                    img{
+                        height: 100%;
+                    }
+                    &.align-left{
+                        right: inherit; left: 0;
+                    }
+                    &.align-right{
+                        right: 0; left: inherit;
+                    }
+                    &.opacity-eighty{
+                        background-color: rgba(0,0,0,.8);
+                    }
+                }
+                .fit-overlay-block{
+                    position: absolute; top: 0;
+                    /*START WEEK29*/
+                    width: 23%;
+                    display: flex; height: 100%; padding: 0 3%; background-color: rgba(0,0,0,.5); align-items: center; justify-content: center;
+                    &.opacity-eighty{
+                        background-color: rgba(0,0,0,.8);
+                    }
+                    .centered{
+                        width: 70%;
+                    }
+                    &.mobile-hide{
+                        @media (max-width: @mobile-max){
+                            display: none;
+                        }
+                    }
+                    &.align-right{
+                        right: 0; left: inherit;
+                    }
+                }
+            }
+            &.back-to-estore{
+                height: 125px; background: #000;
+                @media (max-width: @mobile-max){
+                    height: auto;
+                }
+                .caption-block{
+                    width: auto;
+                    @media (max-width: @mobile-max){
+                        background-color: #000;
+                    }
+                    .cta-button{
+                        letter-spacing: 5px;
+                        @media (max-width: @mobile-max){
+                            font-size: 24px; padding: 3% 6%; letter-spacing: 1px; color: #000 !important; border-color: #fff !important; background-color: #fff !important;
+                        }
+                    }
+                }
+            }
+            .text-add-marginBottom{
+                margin-bottom: 5%;
+                @media (max-width: @mobile-max){
+                    margin-bottom: 15%;
+                }
+            }
+        }
+    }
+}

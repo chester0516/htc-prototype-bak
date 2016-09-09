@@ -1,0 +1,1260 @@
+@import 'lib/variables.less';
+@import 'lib/mixins.less';
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic:latin|Noto+Sans:400,700,400italic,700italic|Noto+Serif:400,700,400italic,700italic&.css';
+
+.htc-chrome{
+        overflow-x: hidden;
+        .htc-header{
+            header{
+                &.sticky{
+                    position: relative;
+
+                    visibility: hidden;
+
+                    pointer-events: none;
+                }
+            }
+        }
+        .htc-main{
+            .main{
+                .setup-typography;
+
+                max-width: @desktop-super-large;
+                padding: 0 10px 10px 10px;
+
+                background-color: #fff;
+                @media (max-width: @mobile-max){
+                    padding: 0 4px 4px 4px;
+                }
+                .info-bar{
+                    position: absolute;
+                    z-index: 11000;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+
+                    clear: both;
+
+                    width: auto;
+                    width: 100%;
+                    height: 50px;
+
+                    -webkit-transform: translateZ(0);
+
+                    background-color: rgba(255, 255, 255, .9);
+                    @media (max-width: @mobile-max){
+                        width: 100%;
+                        height: 40px;
+                    }
+                    &.anchor{
+                        position: fixed;
+                        top: 0;
+                        right: auto;
+                        left: auto;
+
+                        width: 100%;
+                    }
+                    .htc-dots{
+                        display: none;
+                    }
+                    .logo-small{
+                        position: absolute;
+                        top: 50%;
+                        left: 20px;
+
+                        display: block;
+                        float: left;
+
+                        height: 16px;
+
+                        cursor: default;
+                        -webkit-transform: translate(0, -50%);
+                            -ms-transform: translate(0, -50%);
+                                transform: translate(0, -50%);
+                        @media (max-width: @mobile-max){
+                            left: 14px;
+
+                            display: none;
+
+                            height: 14px;
+                        }
+                    }
+                    .logo-small.active{
+                        cursor: pointer;
+                    }
+                    .logo-text{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 50px;
+
+                        position: relative;
+
+                        float: left;
+
+                        height: 50px;
+                        margin: 0 0 0 19px;
+                        padding: 0;
+
+                        color: #333;
+                        @media (max-width: @mobile-max){
+                            height: 40px;
+                            line-height: 40px;
+                            .productpdp & {
+                                display: none;
+                            }
+                        }
+                        span{
+                            font-weight: 700;
+                        }
+                    }
+                    .right-info{
+                        float: right;
+
+                        width: 600px;
+                        margin: 0 20px 0 0;
+                        @media (max-width: @mobile-max){
+                            width: auto;
+                            margin: 0 13px 0 0;
+                        }
+                        .optional-logo{
+                            position: relative;
+
+                            display: block;
+                            float: right;
+
+                            height: 50px;
+                            margin: 0 0 0 20px;
+                            @media (max-width: @mobile-max){
+                                height: 40px;
+                                display: none;
+                            }
+                            img{
+                                display: block;
+
+                                height: 30px;
+                                margin: 10px 0 0 0;
+
+                                outline: none;
+                            }
+                        }
+                        .reviews-shortcut{
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 51px;
+
+                            display: block;
+                            float: right;
+
+                            height: 50px;
+                            margin: 0;
+                            padding: 0 0 0 26px;
+
+                            text-decoration: none;
+
+                            color: #333;
+                            background-image: url(/managed-assets/shared/desktop/smartphones/htc-one-w8/img/reviews-icon.png);
+                            background-repeat: no-repeat;
+                            background-position: left 16px;
+                            @media (max-width: @mobile-max){
+                                font-size: 12px;
+                                line-height: 40px;
+
+                                height: 40px;
+                                margin: 0;
+                                padding: 0 0 0 22px;
+
+                                background-position: left 11px;
+                            }
+                        }
+                        .specs-toggle,
+                        .ksp-toggle{
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 51px;
+
+                            position: relative;
+
+                            float: right;
+
+                            height: 50px;
+                            margin: 0 0 0 15px;
+                            padding: 0 27px 0 38px;
+
+                            cursor: pointer;
+                            transition: .3s;
+
+                            color: #333;
+                            background-image: url(/managed-assets/shared/desktop/smartphones/htc-one-w8/img/specs-icon.png);
+                            background-repeat: no-repeat;
+                            background-position: 10px center;
+                            @media (max-width: @mobile-max){
+                                font-size: 12px;
+                                line-height: 40px;
+
+                                height: 40px;
+                                margin: 0 0 0 10px;
+                                padding: 0 27px 0 36px;
+
+                                transition: 0s;
+
+                                background-position: 12px 13px;
+                            }
+                            &.after{
+                                position: absolute;
+                                top: 24px;
+                                right: 10px;
+
+                                display: block;
+
+                                width: 0;
+                                height: 0;
+
+                                content: '';
+
+                                border-top: 5px solid #333;
+                                border-right: 5px solid transparent;
+                                border-left: 5px solid transparent;
+                                @media (max-width: @mobile-max){
+                                    top: 18px;
+                                }
+                            }
+                            &.active{
+                                transition: .3s;
+
+                                background-color: #ddd;
+                                @media (max-width: @mobile-max){
+                                    transition: 0s;
+                                }
+                                &:after{
+                                    border-top: none;
+                                    border-bottom: 5px solid #333;
+                                }
+                            }
+                        }
+                        .ksp-toggle{
+                            display: none;
+                            &.has-links{
+                                @media (max-width: @mobile-max) {
+                                    .productpdp &{
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                        .get-help{
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 51px;
+
+                            display: block;
+                            float: right;
+
+                            height: 50px;
+                            margin: 0 0 0 24px;
+                            padding: 0 0 0 27px;
+
+                            text-decoration: none;
+
+                            color: #333;
+                            background-image: url(/assets/layout/img/get-help-icon.png);
+                            background-repeat: no-repeat;
+                            background-position: left 16px;
+                            @media (max-width: @mobile-max){
+                                width: 21px;
+                                margin-left: 10px;
+                                padding: 0;
+
+                                background-position: left 10px;
+                            }
+                            span{
+                                @media (max-width: @mobile-max){
+                                    display: none;
+                                }
+                            }
+                        }
+                        .shopping-cart{
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 51px;
+
+                            display: block;
+                            float: right;
+
+                            height: 50px;
+                            margin: 0 0 0 15px;
+                            padding: 0 0 0 32px;
+
+                            text-decoration: none;
+
+                            color: #333;
+                            background-image: url(/managed-assets/shared/desktop/smartphones/htc-one-w8/img/shopping-cart.png);
+                            background-repeat: no-repeat;
+                            background-position: left center;
+                            @media (max-width: @mobile-max){
+                                height: 40px;
+                                margin: 0 0 0 10px;
+                            }
+                            span{
+                                @media (max-width: @mobile-max){
+                                    display: none;
+                                }
+                            }
+                        }
+                        .advantage{
+                            display: none;
+                            float: right;
+
+                            width: 35px;
+                            height: 50px;
+                            margin-left: 25px;
+
+                            background-image: url(/managed-assets/shared/desktop/smartphones/htc-one-w8/img/advantage-logo.png);
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            @media (max-width: @mobile-max){
+                                width: 30px;
+                                height: 40px;
+                                margin-left: 12px;
+
+                                background-position: center 6px;
+                                background-size: auto 30px;
+                            }
+                        }
+                        .ksp-links{
+                            float: right;
+
+                            padding-right: 26px;
+                            &.show{
+                                display: block;
+                            }
+                            @media (max-width: @mobile-max){
+                                position: absolute;
+                                z-index: 400;
+                                top: 40px;
+                                right: 0;
+                                left: 0;
+
+                                display: none;
+                                float: none;
+
+                                padding-right: 0;
+
+                                background-color: #fff;
+                            }
+                            a{
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 51px;
+
+                                display: block;
+                                float: left;
+
+                                height: 50px;
+                                margin: 0;
+                                padding: 0 15px 0 15px;
+
+                                transition: .2s;
+                                text-decoration: none;
+
+                                color: #333;
+                                outline: none;
+                                &:hover{
+                                    transition: .2s;
+
+                                    color: #fff;
+                                    background-color: #a5cf4c;
+                                }
+                                &.active{
+                                    cursor: default;
+
+                                    color: #333;
+                                    background-color: #ccc;
+                                }
+                                @media (max-width: @mobile-max){
+                                    float: left;
+                                    clear: both;
+
+                                    width: 100%;
+                                    padding: 0;
+
+                                    text-align: center;
+
+                                    border-bottom: 1px solid #999;
+                                }
+                            }
+                        }
+                    }
+                }
+                .section-wrapper{
+                    @import (less) 'lib/normalize.css';
+                    @media (max-width: @mobile-max){
+                        padding-top: 40px;
+                    }
+                    section{
+                        .caption-block{
+                            .setup-caption-block;
+                        }
+                        .bg-block,
+                        .image-block{
+                            picture{
+                                line-height: 1px;
+
+                                display: block;
+                                img{
+                                    display: block;
+
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        &.image-and-text{
+                            position: relative;
+                        }
+                        &.video-background{
+                            position: relative;
+                            .bg-block{
+                                picture{
+                                    .video &{
+                                        display: none;
+                                        @media (max-width: @mobile-max){
+                                            display: block;
+                                        }
+                                    }
+                                }
+                                .video-block{
+                                    padding-top: 42%;
+                                    @media (max-width: @mobile-max){
+                                        display: none;
+                                    }
+                                    > div{
+                                        z-index: 1 !important;
+                                    }
+                                }
+                            }
+                            .caption-block{
+                                z-index: 2 !important;
+
+                                transition: all .8s ease;
+                                &.hide-in-initial{
+                                    opacity: 0;
+                                    @media (max-width: @mobile-max){
+                                        opacity: 1 !important;
+                                    }
+                                }
+                                &.fadein-after-video{
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        &.caption-text-only{
+                            .setup-background-color;
+
+                            position: relative;
+
+                            padding: 5% 0;
+                            @media (max-width: @mobile-max){
+                                padding: 0;
+                            }
+                            .caption-block{
+                                position: relative;
+                                top: auto;
+
+                                transform: translate(-50%, 0);
+                                @media (max-width: @mobile-max){
+                                    padding: 11% 8%;
+                                }
+                            }
+                        }
+                        &.split-image-tile{
+                            position: relative;
+
+                            padding: 10px 0;
+                            .bg-block{
+                                display: none;
+                                @media (max-width: @mobile-max){
+                                    display: block;
+                                }
+                            }
+                            .flex-box{
+                                display: flex;
+                                @media (max-width: @mobile-max){
+                                    display: none;
+                                    flex-direction: column-reverse;
+                                }
+                                .image-container{
+                                    position: relative;
+
+                                    width: 50%;
+                                    margin-right: 10px;
+                                    &:last-child{
+                                        margin-right: 0;
+                                    }
+                                    .image-block{
+                                        top: 0;
+                                        left: 0;
+
+                                        width: 100%;
+                                        &:nth-child(1){
+                                            position: relative;
+                                            z-index: 2;
+
+                                            transition: all .5s;
+
+                                            opacity: 1;
+                                            &:hover{
+                                                opacity: 0;
+                                                @media (max-width: @mobile-max){
+                                                    opacity: 1;
+                                                }
+                                            }
+                                            ;
+                                        }
+                                        &:nth-child(2){
+                                            position: absolute;
+                                            z-index: 1;
+                                        }
+                                        .color-block{
+                                            position: absolute;
+                                            bottom: 5%;
+                                            left: 50%;
+
+                                            transform: translate(-50%, 0);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.buy-now-subpromo{
+                            padding: 1% 10% 4%;
+                            .buy-content-container{
+                                width: 100%;
+                                margin: 0 auto 6%;
+
+                                text-align: center;
+                                .wording-block{
+                                    .setup-default-content-font;
+
+                                    width: 85%;
+                                    margin: 0 auto;
+                                }
+                            }
+                            .key-feature-container{
+                                display: flex;
+                                flex-direction: row;
+
+                                width: 100%;
+                                margin: 0 auto 4%;
+
+                                flex-wrap: nowrap;
+                                justify-content: space-between;
+                                @media (max-width: @mobile-max){
+                                    flex-wrap: wrap;
+                                }
+                                .feature-item{
+                                    box-sizing: border-box;
+                                    padding: 0 5%;
+
+                                    text-align: center;
+                                    @media (max-width: @mobile-max){
+                                        margin-top: 8%;
+                                    }
+                                    &.total-4{
+                                        width: 25%;
+                                        @media (max-width: @mobile-max){
+                                            width: 50%;
+                                        }
+                                    }
+                                    &.total-3{
+                                        width: 33.3333%;
+                                        @media (max-width: @mobile-max){
+                                            width: 50%;
+                                        }
+                                    }
+                                    &.total-2{
+                                        width: 50%;
+                                    }
+                                    img{
+                                        max-width: 150px;
+                                        margin-right: auto;
+                                        margin-bottom: 13%;
+                                        margin-left: auto;
+                                        @media (max-width: @mobile-max){
+                                            width: 88%;
+                                        }
+                                        &.svg-image{
+                                            display: none;
+                                            .svg &{
+                                                display: block;
+                                            }
+                                        }
+                                        &.png-image{
+                                            display: none;
+                                            .no-svg &{
+                                                display: block;
+                                            }
+                                        }
+                                    }
+                                    .desc-block{
+                                        .setup-default-content-font;
+                                    }
+                                }
+                            }
+                            .buy-now-button-container{
+                                .setup-cta-button();
+
+                                display: block;
+
+                                width: 50%;
+                                margin: 0 auto;
+
+                                text-align: center;
+                                white-space: nowrap;
+                                @media (max-width: @mobile-max){
+                                    width: auto;
+                                }
+                            }
+                        }
+                        &.video-in-phone{
+                            position: relative;
+                            .video-block{
+                                position: absolute;
+                                z-index: 5;
+                                top: 33%;
+                                left: 65%;
+
+                                width: 32%;
+                                padding-top: 18%;
+
+                                transform: translate(-50%, -50%);
+                            }
+                        }
+                        &.carousel-colors{
+                            position: relative;
+
+                            background-color: #f3f3f3;
+                            .carousel-container{
+                                position: relative;
+                                .caption-block{
+                                    @media (max-width: @mobile-max){
+                                        display: none;
+                                    }
+                                }
+                                .owl-controls{
+                                    display: none;
+                                }
+                                .navigation-container{
+                                    position: absolute;
+                                    z-index: 1;
+                                    bottom: 0;
+
+                                    width: 100%;
+
+                                    background-color: rgba(0, 0, 0, .5);
+                                    @media (max-width: @mobile-max){
+                                        top: 94%;
+                                        left: 50%;
+
+                                        display: table;
+
+                                        width: auto;
+
+                                        transform: translate(-50%, -50%);
+
+                                        background-color: transparent;
+                                    }
+                                    .dots-flex-box{
+                                        display: flex;
+                                        .flex-item{
+                                            display: inline-block;
+
+                                            padding: 1%;
+
+                                            text-align: center;
+
+                                            color: #fff;
+                                            border-left: solid 1px rgba(255, 255, 255, .8);
+
+                                            flex: 1 1 auto;
+                                            @media (max-width: @mobile-max){
+                                                border-left: none;
+                                            }
+                                            &:first-child{
+                                                border-left: none;
+                                            }
+                                            ;
+                                            &:hover{
+                                                cursor: pointer;
+                                            }
+                                            ;
+                                            &.active{
+                                                background-color: @col-button-green;
+                                                @media (max-width: @mobile-max){
+                                                    background-color: transparent;
+                                                }
+                                                .m-dots{
+                                                    @media (max-width: @mobile-max){
+                                                        background-color: @col-button-green;
+                                                    }
+                                                }
+                                            }
+                                            .m-dots{
+                                                display: none;
+                                                @media (max-width: @mobile-max){
+                                                    display: block;
+                                                    display: block;
+
+                                                    width: 10px;
+                                                    height: 10px;
+                                                    margin: 5px 7px;
+
+                                                    transition: opacity 200ms ease;
+
+                                                    border-radius: 30px;
+                                                    background-color: #666;
+
+                                                    -webkit-backface-visibility: visible;
+                                                    &.active{
+                                                        background-color: @col-button-green;
+                                                    }
+                                                }
+                                            }
+                                            .d-text{
+                                                display: block;
+                                                b{
+                                                    pointer-events: none;
+                                                }
+                                                @media (max-width: @mobile-max){
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .caption-block.customize-id-first-caption{
+                                display: none;
+                                @media (max-width: @mobile-max){
+                                    display: block;
+                                }
+                            }
+                        }
+                        &.customized-animation{
+                            position: relative;
+
+                            display: table;
+                            .animation-phone-flying{
+                                position: absolute;
+                                top: 50%;
+                                left: 70%;
+
+                                width: 45%;
+
+                                transform: translate(-50%, -50%);
+                                img{
+                                    max-width: 100%;
+                                }
+                                &.move-down{
+                                    animation-name: movedown;
+                                    animation-duration: 3s;
+
+                                    animation-fill-mode: forwards;
+                                    img{
+                                        animation-name: rotate-phone;
+                                        animation-duration: 3s;
+
+                                        animation-fill-mode: forwards;
+                                    }
+                                }
+                                &.move-up{
+                                    animation-name: moveup;
+                                    animation-duration: 3s;
+
+                                    animation-fill-mode: forwards;
+                                    img{
+                                        animation-name: rotate-phone;
+                                        animation-duration: 3s;
+
+                                        animation-fill-mode: forwards;
+                                    }
+                                }
+                                @keyframes movedown{
+                                    50%{
+                                        top: 55%;
+                                    }
+                                    100%{
+                                        top: 50%;
+                                    }
+                                }
+                                @keyframes moveup{
+                                    50%{
+                                        top: 45%;
+                                    }
+                                    100%{
+                                        top: 50%;
+                                    }
+                                }
+                                @keyframes rotate-phone{
+                                    50%{
+                                        transform: rotate(-3deg);
+                                    }
+                                    100{
+                                        transform: none;
+                                    }
+                                }
+                            }
+                        }
+                        /*CUSTOM*/
+                        &.customize-id-hero{
+                            .caption-block{
+                                @media (max-width: @mobile-max){
+                                    position: absolute;
+                                    top: 0 !important;
+                                    left: 0 !important;
+
+                                    padding: 8% 6%;
+
+                                    text-align: left;
+
+                                    background-color: transparent;
+                                }
+                            }
+                        }
+                        &.customize-id-buy{
+                            @media (max-width: @mobile-max){
+                                padding-top: 8%;
+                            }
+                        }
+                        &.customize-id-carousel-colors{
+                            .carousel-container{
+                                .carousel-block{
+                                    .carousel-item-block{
+                                        &:first-child{
+                                            .caption-block{
+                                                right: 18%;
+                                            }
+                                        };
+                                    }
+                                }
+                            }
+                        }
+                        &.accessories{
+                            .item-list{
+                                display: flex;
+                                flex-wrap: wrap;
+                                flex-direction: row;
+                                background-color: #ececec;
+                                .item{
+                                    width: 25%;
+                                    background-color: #ececec;
+                                    text-align: center;
+                                    padding: 3%;
+                                    box-sizing: border-box;
+                                    text-decoration: none;
+                                    display: flex;
+                                    align-items: center;
+                                    min-height: 150px;
+                                    &:nth-child(2),&:nth-child(4),&:nth-child(5),&:nth-child(7){
+                                        background-color: #dfdfdf;
+                                    };
+                                    &:hover{
+                                        .box{
+                                            .thumb-container{
+                                                img{
+                                                    transform: scale(1);
+                                                    transition: .5s;
+                                                }
+                                            }
+                                        }
+                                    };
+                                    @media (max-width: @mobile-max) {
+                                        width: 50%;
+                                        &:nth-child(4),&:nth-child(5){
+                                            background-color: #ececec;
+                                        };
+                                        &:nth-child(2),&:nth-child(3),&:nth-child(6),&:nth-child(7){
+                                            background-color: #dfdfdf;
+                                        };
+                                    }
+                                    .box{
+                                        width: 100%;
+                                        .text-element{
+                                            h2, h3{
+                                                .setup-desktop-font-size(16,24);
+                                                margin: 5% 0;
+                                                color: @col-default-text;
+                                                @media (max-width: @mobile-max) {
+                                                    .setup-mobile-font-size(14,22);
+                                                }
+                                            }
+                                        }
+                                        .thumb-container{
+                                            width: 80%;
+                                            margin: 0 auto;
+                                            img{
+                                                max-width: 100%;
+                                                transform: scale(.9);
+                                            }
+                                        }
+                                        .caption{
+                                            .name{
+                                                .setup-desktop-font-size(14,18);
+                                                color: @col-default-text;
+                                                text-decoration: none;
+                                                @media (max-width: @mobile-max) {
+                                                    .setup-mobile-font-size(12,16);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .specs-container{
+                    position: relative;
+                    z-index: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+
+                    display: block;
+                    overflow: hidden;
+
+                    padding: 4% 5% 5%;
+
+                    color: #fff;
+                    background-color: #666;
+                    .setup-basic-font-style(){
+                        .setup-desktop-font-size(12px, 18px);
+
+                        color: #fff;
+                        @media (max-width: @mobile-max){
+                            .setup-mobile-font-size(12px, 18px);
+                        }
+                    }
+                    @media (max-width: @mobile-max){
+                        padding-bottom: 4%;
+                    }
+                    .specs-list{
+                        display: flex;
+                        overflow: auto;
+                        flex-direction: row;
+
+                        justify-content: space-between;
+                        @media (max-width: @mobile-max){
+                            flex-direction: column;
+                        }
+                        .column{
+                            .setup-basic-font-style;
+
+                            width: 31%;
+                            @media (max-width: @mobile-max){
+                                width: 100%;
+                            }
+                            > ul{
+                                display: block;
+
+                                margin: 0;
+                                padding: 0;
+
+                                list-style: none;
+                                > li{
+                                    margin-bottom: 4%;
+                                    h4{
+                                        .setup-desktop-font-size(14px, 20px);
+
+                                        font-weight: 900;
+
+                                        margin: 0;
+                                        padding: 0;
+
+                                        color: #fff;
+                                        @media (max-width: @mobile-max){
+                                            .setup-mobile-font-size(14px, 20px);
+                                        }
+                                    }
+                                    span{
+                                        > ul{
+                                            display: block;
+
+                                            margin: 0;
+                                            padding: 0;
+
+                                            list-style: none;
+                                        }
+                                        p{
+                                            .setup-basic-font-style;
+
+                                            font-weight: 400;
+
+                                            display: block;
+
+                                            margin: 8px 0 0 0;
+                                        }
+                                        &.short{
+                                            display: none;
+                                        }
+                                        &.long{
+                                            display: block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .footnote{
+                        margin-top: 4%;
+                        @media (max-width: @mobile-max){
+                            display: none;
+                        }
+                        ol{
+                            margin: 0;
+                            padding: 0 0 0 13px;
+                            li{
+                                .setup-basic-font-style;
+                                p{
+                                    .setup-basic-font-style;
+                                }
+                            }
+                        }
+                    }
+                    .specs-footnote{
+                        .setup-basic-font-style;
+                        @media (max-width: @mobile-max){
+                            display: none;
+                        }
+                    }
+                }
+                .email-signup{
+                    position: relative;
+
+                    display: inline-block;
+
+                    margin-top: 4%;
+                    padding: 30px;
+
+                    border: 2px solid #dcdcdc;
+                    background-color: #fff;
+                    @media only screen and (max-width: 720px){
+                        .clearfix;
+
+                        position: relative;
+                        right: auto;
+                        bottom: auto;
+
+                        clear: both;
+
+                        padding: 15px 15px 20px 15px;
+
+                        border: 0;
+                    }
+                    &.processing{
+                        .email-icon{
+                            opacity: .35;
+                        }
+                        .sign-up{
+                            opacity: .35;
+                        }
+                        .signup-form{
+                            opacity: .35;
+                        }
+                    }
+                    p.sign-up{
+                        font-style: italic;
+
+                        margin: 1px 0 0 10px;
+
+                        text-align: left;
+                        @media only screen and (max-width: 720px){
+                            max-width: 1000px;
+                            margin-top: 10px;
+                        }
+                    }
+                    div.privacy-link{
+                        .setup-desktop-font-size(14px, 18px);
+
+                        display: inline-block;
+
+                        width: 100%;
+                        padding: 2% 0;
+
+                        text-align: left;
+                        @media (max-width: @mobile-max){
+                            .setup-mobile-font-size(12px, 16px);
+                        }
+                        a{
+                            .setup-desktop-font-size(14px, 18px);
+
+                            text-decoration: none;
+
+                            color: @col-button-green;
+                            @media (max-width: @mobile-max){
+                                .setup-mobile-font-size(12px, 16px);
+                            }
+                        }
+                    }
+                    .confirmation-message,
+                    .error-message{
+                        .setup-desktop-font-size(14px, 18px);
+
+                        display: none;
+                        clear: both;
+
+                        padding-top: 2%;
+
+                        text-align: left;
+                        @media (max-width: @mobile-max){
+                            .setup-mobile-font-size(12px, 16px);
+                        }
+                    }
+                    .confirmation-message{
+                        color: @col-button-green;
+                    }
+                    .error-message{
+                        color: red;
+                    }
+                    .signup-form{
+                        margin: 0 0 10px;
+                        padding: 0;
+                        @media only screen and (max-width: 720px){
+                            margin-top: 10px;
+                        }
+                        label{
+                            font-size: 12px;
+                            line-height: 14px;
+
+                            visibility: hidden;
+                            float: left;
+                            clear: both;
+
+                            height: 17px;
+                            margin: 0;
+                            @media only screen and (max-width: 720px){
+                                display: none;
+                            }
+                        }
+                        input.launch-email{
+                            font-size: 14px;
+                            line-height: 16px;
+
+                            float: left;
+                            clear: both;
+
+                            width: ~'calc(100% - 71px)';
+                            height: 34px;
+                            margin: 0;
+                            padding: 0 12px 0 12px;
+
+                            color: @col-text-default;
+                            border: 0;
+                            outline: none;
+                            background-color: #dcdcdc;
+                            @media only screen and (max-width: 720px){
+                                //width: 180px;
+                            }
+                        }
+                        input.submit-button{
+                            float: left;
+
+                            width: 34px;
+                            height: 34px;
+                            margin: 0 0 0 12px;
+
+                            cursor: pointer;
+
+                            border: 0;
+                            outline: none;
+                            background-color: @col-button-green;
+                            background-image: url(../img/email-checkmark.png);
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: 20px auto;
+                        }
+                        input.invalid{
+                            outline: 1px solid red;
+                        }
+                    }
+                }
+            }
+        }
+        .htc-footer{
+            right: 10px;
+            bottom: 10px;
+            left: 10px;
+
+            width: auto;
+            max-width: @desktop-super-large;
+            margin: 0 auto;
+            @media (max-width: @mobile-max){
+                right: auto;
+                bottom: auto;
+                left: auto;
+
+                width: 100%;
+                margin: 0;
+            }
+        }
+}
+
+
+body.template_free_scroll_2016{
+    .htc-chrome{
+        .htc-main{
+            .main{
+                position: relative;
+                section{
+                    &.customize-id-hero{
+                        .caption-block{
+                            .custom-title{
+                                .product-logo{
+                                    width: 50%;
+                                    margin: 0 auto;
+                                    @media (max-width: @mobile-max){
+                                        width: 40%;
+                                        margin-left: 0;
+                                    }
+                                    img{
+                                        max-width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.customize-id-dual-finish{
+                        .caption-block{
+                            @media (max-width: @mobile-max){
+                                background-color: #e6ecee;
+                            }
+                        }
+                    }
+                    &.customize-id-fingerprint,
+                    &.customize-id-boost,
+                    &.customize-id-selfie,
+                    &.customize-id-googlephoto{
+                        .caption-block{
+                            @media (max-width: @mobile-max){
+                                background-color: #fff;
+                            }
+                        }
+                    }
+                    &.customize-id-freestyle{
+                        .caption-block{
+                            @media (max-width: @mobile-max){
+                                background-color: #aed6c9;
+                            }
+                        }
+                    }
+                    &.customize-id-camera{
+                        .caption-block{
+                            @media (max-width: @mobile-max){
+                                background-color: #222;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

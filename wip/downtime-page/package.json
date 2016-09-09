@@ -1,0 +1,43 @@
+{
+  "name": "htc",
+  "project": "Downtime page",
+  "version": "0.0.1",
+  "description": "Grunt for htc.com",
+  "rootThemePath": "",
+  "rootAssetPath": "assets/layout/",
+  "directories": {
+    "jsFolder": "js/",
+    "jsSourceFolder": "js-src/",
+    "lessFolder": "less/",
+    "cssFolder": "css/",
+    "imageFolder": "img/",
+    "temporaryFolder": "temporary/"
+  },
+  "homepage": "http://www.htc.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Chester Huang",
+    "email": "chester_huang@htc.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Chester_Huang/GruntDemo/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-devtools": "^0.2.1",
+    "grunt-postcss": "^0.8.0",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-rtl": "^1.0.0",
+    "livereload": "^0.4.0"
+  },
+  "dependencies": {
+    "normalize.less": "^1.0.0"
+  }
+}

@@ -1,0 +1,2971 @@
+/*
+ * Setting: Font;
+ */
+/*
+ * Setting: Image;
+ */
+/*
+ * Setting: Colors;
+ */
+/*
+ * Setting: Reserlution;
+ */
+/*
+ * Setting: Other;
+ */
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic:latin|Noto+Sans:400,700,400italic,700italic|Noto+Serif:400,700,400italic,700italic&.css';
+@media (max-width: 720px) {
+  .mobile-hide {
+    display: none !important;
+  }
+}
+.d-break-line:before {
+  content: '\A';
+  white-space: pre;
+}
+@media (max-width: 720px) {
+  .d-break-line:before {
+    content: '';
+  }
+}
+.m-break-line:before {
+  content: '';
+}
+@media (max-width: 720px) {
+  .m-break-line:before {
+    content: '\A';
+    white-space: pre;
+  }
+}
+.reset-a-link {
+  text-decoration: none;
+}
+/*
+ * Reset folder dor mea-sa site
+ */
+.htc-chrome {
+  overflow-x: hidden;
+}
+.htc-chrome .htc-header header.sticky {
+  position: relative;
+  visibility: hidden;
+  pointer-events: none;
+}
+.htc-chrome .htc-main .main {
+  max-width: 1920px;
+  padding: 0 10px 10px 10px;
+  background-color: #fff;
+}
+.htc-chrome .htc-main .main h2 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main h2 {
+    font-size: calc(28px + (47.6 - 28) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main h2 {
+    font-size: 47.6px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main h2 {
+    font-size: calc(18px + (27 - 18) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main h2 {
+    font-size: 27px;
+  }
+}
+.htc-chrome .htc-main .main h3 {
+  font-size: 24px;
+  line-height: 1.4;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main h3 {
+    font-size: calc(24px + (40.8 - 24) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main h3 {
+    font-size: 40.8px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main h3 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main h3 {
+    font-size: calc(22px + (33 - 22) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main h3 {
+    font-size: 33px;
+  }
+}
+.htc-chrome .htc-main .main h4 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main h4 {
+    font-size: calc(18px + (30.599999999999998 - 18) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main h4 {
+    font-size: 30.6px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main h4 {
+    font-size: calc(18px + (27 - 18) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main h4 {
+    font-size: 27px;
+  }
+}
+.htc-chrome .htc-main .main p {
+  font-size: 12px;
+  line-height: 1.6;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main p {
+    font-size: calc(12px + (18 - 12) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main p {
+    font-size: calc(12px + (16 - 12) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main p {
+    font-size: 16px;
+  }
+}
+.htc-chrome .htc-main .main p.large-font-size {
+  font-size: 14px;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main p.large-font-size {
+    font-size: calc(14px + (21 - 14) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main p.large-font-size {
+    font-size: 21px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main p.large-font-size {
+    font-size: 14px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main p.large-font-size {
+    font-size: calc(14px + (18 - 14) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main p.large-font-size {
+    font-size: 18px;
+  }
+}
+.htc-chrome .htc-main .main p.disclaimer-block {
+  font-size: 10px;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main p.disclaimer-block {
+    font-size: calc(10px + (14 - 10) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main p.disclaimer-block {
+    font-size: 14px;
+  }
+}
+.htc-chrome .htc-main .main p.disclaimer-block a {
+  color: #666;
+}
+.htc-chrome .htc-main .main h2.d-text-light,
+.htc-chrome .htc-main .main h3.d-text-light,
+.htc-chrome .htc-main .main h4.d-text-light,
+.htc-chrome .htc-main .main p.d-text-light {
+  color: #fff;
+}
+.htc-chrome .htc-main .main h2.d-text-light.has-bottom-line:after,
+.htc-chrome .htc-main .main h3.d-text-light.has-bottom-line:after,
+.htc-chrome .htc-main .main h4.d-text-light.has-bottom-line:after,
+.htc-chrome .htc-main .main p.d-text-light.has-bottom-line:after {
+  background-color: #fff;
+}
+.htc-chrome .htc-main .main h2.d-text-dark,
+.htc-chrome .htc-main .main h3.d-text-dark,
+.htc-chrome .htc-main .main h4.d-text-dark,
+.htc-chrome .htc-main .main p.d-text-dark {
+  color: #333;
+}
+.htc-chrome .htc-main .main h2.d-text-dark.has-bottom-line:after,
+.htc-chrome .htc-main .main h3.d-text-dark.has-bottom-line:after,
+.htc-chrome .htc-main .main h4.d-text-dark.has-bottom-line:after,
+.htc-chrome .htc-main .main p.d-text-dark.has-bottom-line:after {
+  background-color: #333;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main h2.m-text-light,
+  .htc-chrome .htc-main .main h3.m-text-light,
+  .htc-chrome .htc-main .main h4.m-text-light,
+  .htc-chrome .htc-main .main p.m-text-light {
+    color: #fff;
+  }
+  .htc-chrome .htc-main .main h2.m-text-light.has-bottom-line:after,
+  .htc-chrome .htc-main .main h3.m-text-light.has-bottom-line:after,
+  .htc-chrome .htc-main .main h4.m-text-light.has-bottom-line:after,
+  .htc-chrome .htc-main .main p.m-text-light.has-bottom-line:after {
+    background-color: #fff;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main h2.m-text-black,
+  .htc-chrome .htc-main .main h3.m-text-black,
+  .htc-chrome .htc-main .main h4.m-text-black,
+  .htc-chrome .htc-main .main p.m-text-black,
+  .htc-chrome .htc-main .main h2.m-text-dark,
+  .htc-chrome .htc-main .main h3.m-text-dark,
+  .htc-chrome .htc-main .main h4.m-text-dark,
+  .htc-chrome .htc-main .main p.m-text-dark {
+    color: #333;
+  }
+  .htc-chrome .htc-main .main h2.m-text-black.has-bottom-line:after,
+  .htc-chrome .htc-main .main h3.m-text-black.has-bottom-line:after,
+  .htc-chrome .htc-main .main h4.m-text-black.has-bottom-line:after,
+  .htc-chrome .htc-main .main p.m-text-black.has-bottom-line:after,
+  .htc-chrome .htc-main .main h2.m-text-dark.has-bottom-line:after,
+  .htc-chrome .htc-main .main h3.m-text-dark.has-bottom-line:after,
+  .htc-chrome .htc-main .main h4.m-text-dark.has-bottom-line:after,
+  .htc-chrome .htc-main .main p.m-text-dark.has-bottom-line:after {
+    background-color: #333;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main h2.m-text-green,
+  .htc-chrome .htc-main .main h3.m-text-green,
+  .htc-chrome .htc-main .main h4.m-text-green,
+  .htc-chrome .htc-main .main p.m-text-green {
+    color: #a5cf4c;
+  }
+  .htc-chrome .htc-main .main h2.m-text-green.has-bottom-line:after,
+  .htc-chrome .htc-main .main h3.m-text-green.has-bottom-line:after,
+  .htc-chrome .htc-main .main h4.m-text-green.has-bottom-line:after,
+  .htc-chrome .htc-main .main p.m-text-green.has-bottom-line:after {
+    background-color: #a5cf4c;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main {
+    padding: 0 4px 4px 4px;
+  }
+}
+.htc-chrome .htc-main .main .info-bar {
+  position: absolute;
+  z-index: 11000;
+  top: 0;
+  right: 0;
+  left: 0;
+  clear: both;
+  width: auto;
+  width: 100%;
+  height: 50px;
+  -webkit-transform: translateZ(0);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar {
+    width: 100%;
+    height: 40px;
+  }
+}
+.htc-chrome .htc-main .main .info-bar.anchor {
+  position: fixed;
+  top: 0;
+  right: auto;
+  left: auto;
+  width: 100%;
+}
+.htc-chrome .htc-main .main .info-bar .htc-dots {
+  display: none;
+}
+.htc-chrome .htc-main .main .info-bar .logo-small {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  display: block;
+  float: left;
+  height: 16px;
+  cursor: default;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .logo-small {
+    left: 14px;
+    display: none;
+    height: 14px;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .logo-small.active {
+  cursor: pointer;
+}
+.htc-chrome .htc-main .main .info-bar .logo-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 50px;
+  position: relative;
+  float: left;
+  height: 50px;
+  margin: 0 0 0 19px;
+  padding: 0;
+  color: #333;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .logo-text {
+    height: 40px;
+    line-height: 40px;
+  }
+  .productpdp .htc-chrome .htc-main .main .info-bar .logo-text {
+    display: none;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .logo-text span {
+  font-weight: 700;
+}
+.htc-chrome .htc-main .main .info-bar .right-info {
+  float: right;
+  width: 600px;
+  margin: 0 20px 0 0;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info {
+    width: auto;
+    margin: 0 13px 0 0;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .right-info .optional-logo {
+  position: relative;
+  display: block;
+  float: right;
+  height: 50px;
+  margin: 0 0 0 20px;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .optional-logo {
+    height: 40px;
+    display: none;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .right-info .optional-logo img {
+  display: block;
+  height: 30px;
+  margin: 10px 0 0 0;
+  outline: none;
+}
+.htc-chrome .htc-main .main .info-bar .right-info .reviews-shortcut {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 51px;
+  display: block;
+  float: right;
+  height: 50px;
+  margin: 0;
+  padding: 0 0 0 26px;
+  text-decoration: none;
+  color: #333;
+  background-image: url(/managed-assets/shared/desktop/smartphones/htc-one-w8/img/reviews-icon.png);
+  background-repeat: no-repeat;
+  background-position: left 16px;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .reviews-shortcut {
+    font-size: 12px;
+    line-height: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0 0 0 22px;
+    background-position: left 11px;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .right-info .specs-toggle,
+.htc-chrome .htc-main .main .info-bar .right-info .ksp-toggle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 51px;
+  position: relative;
+  float: right;
+  height: 50px;
+  margin: 0 0 0 15px;
+  padding: 0 27px 0 38px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #333;
+  background-image: url(/managed-assets/shared/desktop/smartphones/htc-one-w8/img/specs-icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .specs-toggle,
+  .htc-chrome .htc-main .main .info-bar .right-info .ksp-toggle {
+    font-size: 12px;
+    line-height: 40px;
+    height: 40px;
+    margin: 0 0 0 10px;
+    padding: 0 27px 0 36px;
+    -webkit-transition: 0s;
+    transition: 0s;
+    background-position: 12px 13px;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .right-info .specs-toggle.after,
+.htc-chrome .htc-main .main .info-bar .right-info .ksp-toggle.after {
+  position: absolute;
+  top: 24px;
+  right: 10px;
+  display: block;
+  width: 0;
+  height: 0;
+  content: '';
+  border-top: 5px solid #333;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .specs-toggle.after,
+  .htc-chrome .htc-main .main .info-bar .right-info .ksp-toggle.after {
+    top: 18px;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .right-info .specs-toggle.active,
+.htc-chrome .htc-main .main .info-bar .right-info .ksp-toggle.active {
+  -webkit-transition: .3s;
+  transition: .3s;
+  background-color: #ddd;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .specs-toggle.active,
+  .htc-chrome .htc-main .main .info-bar .right-info .ksp-toggle.active {
+    -webkit-transition: 0s;
+    transition: 0s;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .right-info .specs-toggle.active:after,
+.htc-chrome .htc-main .main .info-bar .right-info .ksp-toggle.active:after {
+  border-top: none;
+  border-bottom: 5px solid #333;
+}
+.htc-chrome .htc-main .main .info-bar .right-info .ksp-toggle {
+  display: none;
+}
+@media (max-width: 720px) {
+  .productpdp .htc-chrome .htc-main .main .info-bar .right-info .ksp-toggle.has-links {
+    display: block;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .right-info .get-help {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 51px;
+  display: block;
+  float: right;
+  height: 50px;
+  margin: 0 0 0 24px;
+  padding: 0 0 0 27px;
+  text-decoration: none;
+  color: #333;
+  background-image: url(/assets/layout/img/get-help-icon.png);
+  background-repeat: no-repeat;
+  background-position: left 16px;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .get-help {
+    width: 21px;
+    margin-left: 10px;
+    padding: 0;
+    background-position: left 10px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .get-help span {
+    display: none;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .right-info .shopping-cart {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 51px;
+  display: block;
+  float: right;
+  height: 50px;
+  margin: 0 0 0 15px;
+  padding: 0 0 0 32px;
+  text-decoration: none;
+  color: #333;
+  background-image: url(/managed-assets/shared/desktop/smartphones/htc-one-w8/img/shopping-cart.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .shopping-cart {
+    height: 40px;
+    margin: 0 0 0 10px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .shopping-cart span {
+    display: none;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .right-info .advantage {
+  display: none;
+  float: right;
+  width: 35px;
+  height: 50px;
+  margin-left: 25px;
+  background-image: url(/managed-assets/shared/desktop/smartphones/htc-one-w8/img/advantage-logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .advantage {
+    width: 30px;
+    height: 40px;
+    margin-left: 12px;
+    background-position: center 6px;
+    background-size: auto 30px;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .right-info .ksp-links {
+  float: right;
+  padding-right: 26px;
+}
+.htc-chrome .htc-main .main .info-bar .right-info .ksp-links.show {
+  display: block;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .ksp-links {
+    position: absolute;
+    z-index: 400;
+    top: 40px;
+    right: 0;
+    left: 0;
+    display: none;
+    float: none;
+    padding-right: 0;
+    background-color: #fff;
+  }
+}
+.htc-chrome .htc-main .main .info-bar .right-info .ksp-links a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 51px;
+  display: block;
+  float: left;
+  height: 50px;
+  margin: 0;
+  padding: 0 15px 0 15px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  text-decoration: none;
+  color: #333;
+  outline: none;
+}
+.htc-chrome .htc-main .main .info-bar .right-info .ksp-links a:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: #fff;
+  background-color: #a5cf4c;
+}
+.htc-chrome .htc-main .main .info-bar .right-info .ksp-links a.active {
+  cursor: default;
+  color: #333;
+  background-color: #ccc;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .info-bar .right-info .ksp-links a {
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    border-bottom: 1px solid #999;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper {
+  /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+  /**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+  /**
+ * Remove the margin in all browsers (opinionated).
+ */
+  /* HTML5 display definitions
+   ========================================================================== */
+  /**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+  /**
+ * Add the correct display in IE 9-.
+ */
+  /**
+ * Add the correct display in iOS 4-7.
+ */
+  /**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+  /**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+  /* Links
+   ========================================================================== */
+  /**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+  /**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+  /* Text-level semantics
+   ========================================================================== */
+  /**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+  /**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+  /**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+  /**
+ * Add the correct font style in Android 4.3-.
+ */
+  /**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+  /**
+ * Add the correct background and color in IE 9-.
+ */
+  /**
+ * Add the correct font size in all browsers.
+ */
+  /**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+  /* Embedded content
+   ========================================================================== */
+  /**
+ * Remove the border on images inside links in IE 10-.
+ */
+  /**
+ * Hide the overflow in IE.
+ */
+  /* Grouping content
+   ========================================================================== */
+  /**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+  /**
+ * Add the correct margin in IE 8.
+ */
+  /**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+  /* Forms
+   ========================================================================== */
+  /**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+  /**
+ * Restore the font weight unset by the previous rule.
+ */
+  /**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+  /**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+  /**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+  /**
+ * Remove the inner border and padding in Firefox.
+ */
+  /**
+ * Restore the focus styles unset by the previous rule.
+ */
+  /**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+  /**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+  /**
+ * Remove the default vertical scrollbar in IE.
+ */
+  /**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+  /**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+  /**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+  /**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+  /**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+  /**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+}
+.htc-chrome .htc-main .main .section-wrapper html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+}
+.htc-chrome .htc-main .main .section-wrapper body {
+  margin: 0;
+}
+.htc-chrome .htc-main .main .section-wrapper article,
+.htc-chrome .htc-main .main .section-wrapper aside,
+.htc-chrome .htc-main .main .section-wrapper details,
+.htc-chrome .htc-main .main .section-wrapper figcaption,
+.htc-chrome .htc-main .main .section-wrapper figure,
+.htc-chrome .htc-main .main .section-wrapper footer,
+.htc-chrome .htc-main .main .section-wrapper header,
+.htc-chrome .htc-main .main .section-wrapper main,
+.htc-chrome .htc-main .main .section-wrapper menu,
+.htc-chrome .htc-main .main .section-wrapper nav,
+.htc-chrome .htc-main .main .section-wrapper section,
+.htc-chrome .htc-main .main .section-wrapper summary {
+  /* 1 */
+  display: block;
+}
+.htc-chrome .htc-main .main .section-wrapper audio,
+.htc-chrome .htc-main .main .section-wrapper canvas,
+.htc-chrome .htc-main .main .section-wrapper progress,
+.htc-chrome .htc-main .main .section-wrapper video {
+  display: inline-block;
+}
+.htc-chrome .htc-main .main .section-wrapper audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+.htc-chrome .htc-main .main .section-wrapper progress {
+  vertical-align: baseline;
+}
+.htc-chrome .htc-main .main .section-wrapper template,
+.htc-chrome .htc-main .main .section-wrapper [hidden] {
+  display: none;
+}
+.htc-chrome .htc-main .main .section-wrapper a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+.htc-chrome .htc-main .main .section-wrapper a:active,
+.htc-chrome .htc-main .main .section-wrapper a:hover {
+  outline-width: 0;
+}
+.htc-chrome .htc-main .main .section-wrapper abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+.htc-chrome .htc-main .main .section-wrapper b,
+.htc-chrome .htc-main .main .section-wrapper strong {
+  font-weight: inherit;
+}
+.htc-chrome .htc-main .main .section-wrapper b,
+.htc-chrome .htc-main .main .section-wrapper strong {
+  font-weight: bolder;
+}
+.htc-chrome .htc-main .main .section-wrapper dfn {
+  font-style: italic;
+}
+.htc-chrome .htc-main .main .section-wrapper h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.htc-chrome .htc-main .main .section-wrapper mark {
+  background-color: #ff0;
+  color: #000;
+}
+.htc-chrome .htc-main .main .section-wrapper small {
+  font-size: 80%;
+}
+.htc-chrome .htc-main .main .section-wrapper sub,
+.htc-chrome .htc-main .main .section-wrapper sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.htc-chrome .htc-main .main .section-wrapper sub {
+  bottom: -0.25em;
+}
+.htc-chrome .htc-main .main .section-wrapper sup {
+  top: -0.5em;
+}
+.htc-chrome .htc-main .main .section-wrapper img {
+  border-style: none;
+}
+.htc-chrome .htc-main .main .section-wrapper svg:not(:root) {
+  overflow: hidden;
+}
+.htc-chrome .htc-main .main .section-wrapper code,
+.htc-chrome .htc-main .main .section-wrapper kbd,
+.htc-chrome .htc-main .main .section-wrapper pre,
+.htc-chrome .htc-main .main .section-wrapper samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+.htc-chrome .htc-main .main .section-wrapper figure {
+  margin: 1em 40px;
+}
+.htc-chrome .htc-main .main .section-wrapper hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+.htc-chrome .htc-main .main .section-wrapper button,
+.htc-chrome .htc-main .main .section-wrapper input,
+.htc-chrome .htc-main .main .section-wrapper optgroup,
+.htc-chrome .htc-main .main .section-wrapper select,
+.htc-chrome .htc-main .main .section-wrapper textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+.htc-chrome .htc-main .main .section-wrapper optgroup {
+  font-weight: bold;
+}
+.htc-chrome .htc-main .main .section-wrapper button,
+.htc-chrome .htc-main .main .section-wrapper input {
+  /* 1 */
+  overflow: visible;
+}
+.htc-chrome .htc-main .main .section-wrapper button,
+.htc-chrome .htc-main .main .section-wrapper select {
+  /* 1 */
+  text-transform: none;
+}
+.htc-chrome .htc-main .main .section-wrapper button,
+.htc-chrome .htc-main .main .section-wrapper html [type="button"],
+.htc-chrome .htc-main .main .section-wrapper [type="reset"],
+.htc-chrome .htc-main .main .section-wrapper [type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+.htc-chrome .htc-main .main .section-wrapper button::-moz-focus-inner,
+.htc-chrome .htc-main .main .section-wrapper [type="button"]::-moz-focus-inner,
+.htc-chrome .htc-main .main .section-wrapper [type="reset"]::-moz-focus-inner,
+.htc-chrome .htc-main .main .section-wrapper [type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+.htc-chrome .htc-main .main .section-wrapper button:-moz-focusring,
+.htc-chrome .htc-main .main .section-wrapper [type="button"]:-moz-focusring,
+.htc-chrome .htc-main .main .section-wrapper [type="reset"]:-moz-focusring,
+.htc-chrome .htc-main .main .section-wrapper [type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+.htc-chrome .htc-main .main .section-wrapper fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+.htc-chrome .htc-main .main .section-wrapper legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+.htc-chrome .htc-main .main .section-wrapper textarea {
+  overflow: auto;
+}
+.htc-chrome .htc-main .main .section-wrapper [type="checkbox"],
+.htc-chrome .htc-main .main .section-wrapper [type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+.htc-chrome .htc-main .main .section-wrapper [type="number"]::-webkit-inner-spin-button,
+.htc-chrome .htc-main .main .section-wrapper [type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+.htc-chrome .htc-main .main .section-wrapper [type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+.htc-chrome .htc-main .main .section-wrapper [type="search"]::-webkit-search-cancel-button,
+.htc-chrome .htc-main .main .section-wrapper [type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.htc-chrome .htc-main .main .section-wrapper ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+.htc-chrome .htc-main .main .section-wrapper ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper {
+    padding-top: 40px;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section {
+  /*CUSTOM*/
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block {
+  position: absolute;
+  display: block;
+  width: 35%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.d-bg-light {
+  background-color: #fff;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.d-bg-dark {
+  background-color: #000;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block.m-bg-light {
+    background-color: #fff;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block.m-bg-dark {
+    background-color: #000;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp {
+  font-weight: 700;
+  line-height: 20px;
+  display: inline-block;
+  margin: 3% 0 0 0;
+  padding: 2% 7%;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid #fff;
+  font-size: 14px;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp {
+    font-size: calc(14px + (18 - 14) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp {
+    font-size: 14px;
+    margin: 5%;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp {
+    font-size: calc(14px + (16 - 14) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp {
+    font-size: 16px;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: #333;
+  background-color: #fff;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.green,
+.htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.d-green {
+  color: #fff;
+  border-color: #a5cf4c;
+  background-color: #a5cf4c;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.green:hover,
+.htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.d-green:hover {
+  border-color: #8cb731;
+  background-color: #8cb731;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.d-dark-grey {
+  color: #333;
+  border-color: #333;
+  background-color: transparent;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.d-dark-grey:hover {
+  color: #fff;
+  background-color: #333;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.m-green {
+    color: #fff;
+    border-color: #a5cf4c;
+    background-color: #a5cf4c;
+  }
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.m-green:hover {
+    border-color: #8cb731;
+    background-color: #8cb731;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.m-dark-grey {
+    color: #333;
+    border-color: #333;
+    background-color: transparent;
+  }
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.m-dark-grey:hover {
+    color: #fff;
+    background-color: #333;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.m-white {
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+  }
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block .cta-pdp.m-white:hover {
+    color: #333;
+    background-color: #fff;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block {
+    position: relative;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    clear: both;
+    width: auto !important;
+    padding: 10% 10%;
+    -webkit-transform: translate(0, 0) !important;
+        -ms-transform: translate(0, 0) !important;
+            transform: translate(0, 0) !important;
+    background-color: #f3f3f3;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block h2 {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 4%;
+  padding: 0;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block h2.has-bottom-line {
+  line-height: 1.5;
+  padding-bottom: 4%;
+  position: relative;
+  display: inline-block;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block h2.has-bottom-line:after {
+  position: absolute;
+  bottom: -2%;
+  left: 50%;
+  display: inline-block;
+  width: 50%;
+  max-width: 100px;
+  height: 2px;
+  content: '';
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block h2.has-bottom-line {
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block h2 {
+    margin-bottom: 2%;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block h3 {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 4%;
+  padding: 0;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block h3.has-bottom-line {
+  line-height: 1.5;
+  padding-bottom: 4%;
+  position: relative;
+  display: inline-block;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block h3.has-bottom-line:after {
+  position: absolute;
+  bottom: -2%;
+  left: 50%;
+  display: inline-block;
+  width: 50%;
+  max-width: 100px;
+  height: 2px;
+  content: '';
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block h3.has-bottom-line {
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block h3 {
+    margin-bottom: 2%;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block h4 {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 4%;
+  padding: 0;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block h4.has-bottom-line {
+  line-height: 1.5;
+  padding-bottom: 4%;
+  position: relative;
+  display: inline-block;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block h4.has-bottom-line:after {
+  position: absolute;
+  bottom: -2%;
+  left: 50%;
+  display: inline-block;
+  width: 50%;
+  max-width: 100px;
+  height: 2px;
+  content: '';
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block h4.has-bottom-line {
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block h4 {
+    margin-bottom: 2%;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block p {
+  display: block;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block p.disclaimer-block {
+  margin-top: 3%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block .custom-title {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 2%;
+  padding: 0;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.align-top-right {
+  top: 7%;
+  right: 9%;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.align-right {
+  top: 50%;
+  right: 9%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.align-bottom-right {
+  right: 9%;
+  bottom: 7%;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.align-top-center {
+  top: 7%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.align-center {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.align-bottom-center {
+  bottom: 7%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.align-top-left {
+  top: 7%;
+  left: 9%;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.align-left {
+  top: 50%;
+  left: 9%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.align-bottom-left {
+  bottom: 7%;
+  left: 9%;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.content-align-center {
+  text-align: center;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.content-align-right {
+  text-align: right;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block.m-content-align-center {
+    text-align: center;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block.m-content-align-right {
+    text-align: right;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.border-left-green {
+  padding-left: 10px;
+  border-left: solid 4px #a5cf4c;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block.border-left-green {
+    padding-left: 10%;
+    border: 0;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.border-left-green .cta-button {
+  position: absolute;
+  margin-top: 18%;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block.border-left-green .cta-button {
+    position: relative;
+    margin-bottom: 18%;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.border-left-green .cta-button.d-half-margin-top {
+  margin-top: 9%;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block.border-left-green .cta-button.d-half-margin-top {
+    margin-top: 18%;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section .caption-block.border-left-green .cta-button.m-half-margin-top {
+    margin-top: 9%;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-20 {
+  width: 20%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-30 {
+  width: 30%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-40 {
+  width: 40%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-50 {
+  width: 50%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-60 {
+  width: 60%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-70 {
+  width: 70%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-80 {
+  width: 80%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-90 {
+  width: 90%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-100 {
+  width: 100%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-110 {
+  width: 110%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-120 {
+  width: 120%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-130 {
+  width: 130%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-140 {
+  width: 140%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-150 {
+  width: 150%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-160 {
+  width: 160%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-170 {
+  width: 170%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-180 {
+  width: 180%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-190 {
+  width: 190%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-200 {
+  width: 200%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-210 {
+  width: 210%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-220 {
+  width: 220%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-230 {
+  width: 230%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-240 {
+  width: 240%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-250 {
+  width: 250%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-260 {
+  width: 260%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-270 {
+  width: 270%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-280 {
+  width: 280%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-290 {
+  width: 290%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-300 {
+  width: 300%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-310 {
+  width: 310%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-320 {
+  width: 320%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-330 {
+  width: 330%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-340 {
+  width: 340%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-350 {
+  width: 350%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-360 {
+  width: 360%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-370 {
+  width: 370%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-380 {
+  width: 380%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-390 {
+  width: 390%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-400 {
+  width: 400%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-410 {
+  width: 410%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-420 {
+  width: 420%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-430 {
+  width: 430%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-440 {
+  width: 440%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-450 {
+  width: 450%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-460 {
+  width: 460%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-470 {
+  width: 470%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-480 {
+  width: 480%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-490 {
+  width: 490%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-500 {
+  width: 500%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-510 {
+  width: 510%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-520 {
+  width: 520%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-530 {
+  width: 530%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-540 {
+  width: 540%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-550 {
+  width: 550%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-560 {
+  width: 560%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-570 {
+  width: 570%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-580 {
+  width: 580%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-590 {
+  width: 590%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-600 {
+  width: 600%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-610 {
+  width: 610%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-620 {
+  width: 620%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-630 {
+  width: 630%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-640 {
+  width: 640%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-650 {
+  width: 650%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-660 {
+  width: 660%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-670 {
+  width: 670%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-680 {
+  width: 680%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-690 {
+  width: 690%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-700 {
+  width: 700%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-710 {
+  width: 710%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-720 {
+  width: 720%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-730 {
+  width: 730%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-740 {
+  width: 740%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-750 {
+  width: 750%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-760 {
+  width: 760%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-770 {
+  width: 770%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-780 {
+  width: 780%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-790 {
+  width: 790%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-800 {
+  width: 800%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-810 {
+  width: 810%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-820 {
+  width: 820%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-830 {
+  width: 830%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-840 {
+  width: 840%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-850 {
+  width: 850%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-860 {
+  width: 860%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-870 {
+  width: 870%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-880 {
+  width: 880%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-890 {
+  width: 890%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-900 {
+  width: 900%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .caption-block.width-910 {
+  width: 910%;
+}
+.htc-chrome .htc-main .main .section-wrapper section .bg-block picture,
+.htc-chrome .htc-main .main .section-wrapper section .image-block picture {
+  line-height: 1px;
+  display: block;
+}
+.htc-chrome .htc-main .main .section-wrapper section .bg-block picture img,
+.htc-chrome .htc-main .main .section-wrapper section .image-block picture img {
+  display: block;
+  width: 100%;
+}
+.htc-chrome .htc-main .main .section-wrapper section.image-and-text {
+  position: relative;
+}
+.htc-chrome .htc-main .main .section-wrapper section.video-background {
+  position: relative;
+}
+.video .htc-chrome .htc-main .main .section-wrapper section.video-background .bg-block picture {
+  display: none;
+}
+@media (max-width: 720px) {
+  .video .htc-chrome .htc-main .main .section-wrapper section.video-background .bg-block picture {
+    display: block;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.video-background .bg-block .video-block {
+  padding-top: 42%;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.video-background .bg-block .video-block {
+    display: none;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.video-background .bg-block .video-block > div {
+  z-index: 1 !important;
+}
+.htc-chrome .htc-main .main .section-wrapper section.video-background .caption-block {
+  z-index: 2 !important;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+.htc-chrome .htc-main .main .section-wrapper section.video-background .caption-block.hide-in-initial {
+  opacity: 0;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.video-background .caption-block.hide-in-initial {
+    opacity: 1 !important;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.video-background .caption-block.fadein-after-video {
+  opacity: 1;
+}
+.htc-chrome .htc-main .main .section-wrapper section.caption-text-only {
+  position: relative;
+  padding: 5% 0;
+}
+.htc-chrome .htc-main .main .section-wrapper section.caption-text-only.d-bg-light {
+  background-color: #fff;
+}
+.htc-chrome .htc-main .main .section-wrapper section.caption-text-only.d-bg-dark {
+  background-color: #000;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.caption-text-only.m-bg-light {
+    background-color: #fff;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.caption-text-only.m-bg-dark {
+    background-color: #000;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.caption-text-only {
+    padding: 0;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.caption-text-only .caption-block {
+  position: relative;
+  top: auto;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.caption-text-only .caption-block {
+    padding: 11% 8%;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.split-image-tile {
+  position: relative;
+  padding: 10px 0;
+}
+.htc-chrome .htc-main .main .section-wrapper section.split-image-tile .bg-block {
+  display: none;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.split-image-tile .bg-block {
+    display: block;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.split-image-tile .flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.split-image-tile .flex-box {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.split-image-tile .flex-box .image-container {
+  position: relative;
+  width: 50%;
+  margin-right: 10px;
+}
+.htc-chrome .htc-main .main .section-wrapper section.split-image-tile .flex-box .image-container:last-child {
+  margin-right: 0;
+}
+.htc-chrome .htc-main .main .section-wrapper section.split-image-tile .flex-box .image-container .image-block {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.htc-chrome .htc-main .main .section-wrapper section.split-image-tile .flex-box .image-container .image-block:nth-child(1) {
+  position: relative;
+  z-index: 2;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  opacity: 1;
+}
+.htc-chrome .htc-main .main .section-wrapper section.split-image-tile .flex-box .image-container .image-block:nth-child(1):hover {
+  opacity: 0;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.split-image-tile .flex-box .image-container .image-block:nth-child(1):hover {
+    opacity: 1;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.split-image-tile .flex-box .image-container .image-block:nth-child(2) {
+  position: absolute;
+  z-index: 1;
+}
+.htc-chrome .htc-main .main .section-wrapper section.split-image-tile .flex-box .image-container .image-block .color-block {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo {
+  padding: 1% 10% 4%;
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-content-container {
+  width: 100%;
+  margin: 0 auto 6%;
+  text-align: center;
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-content-container .wording-block {
+  font-size: 12px;
+  line-height: 1.6;
+  width: 85%;
+  margin: 0 auto;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-content-container .wording-block {
+    font-size: calc(12px + (18 - 12) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-content-container .wording-block {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-content-container .wording-block {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-content-container .wording-block {
+    font-size: calc(12px + (16 - 12) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-content-container .wording-block {
+    font-size: 16px;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  margin: 0 auto 4%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item {
+  box-sizing: border-box;
+  padding: 0 5%;
+  text-align: center;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item {
+    margin-top: 8%;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item.total-4 {
+  width: 25%;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item.total-4 {
+    width: 50%;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item.total-3 {
+  width: 33.3333%;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item.total-3 {
+    width: 50%;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item.total-2 {
+  width: 50%;
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item img {
+  max-width: 150px;
+  margin-right: auto;
+  margin-bottom: 13%;
+  margin-left: auto;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item img {
+    width: 88%;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item img.svg-image {
+  display: none;
+}
+.svg .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item img.svg-image {
+  display: block;
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item img.png-image {
+  display: none;
+}
+.no-svg .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item img.png-image {
+  display: block;
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item .desc-block {
+  font-size: 12px;
+  line-height: 1.6;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item .desc-block {
+    font-size: calc(12px + (18 - 12) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item .desc-block {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item .desc-block {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item .desc-block {
+    font-size: calc(12px + (16 - 12) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .key-feature-container .feature-item .desc-block {
+    font-size: 16px;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp {
+  font-weight: 700;
+  line-height: 20px;
+  display: inline-block;
+  margin: 3% 0 0 0;
+  padding: 2% 7%;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid #fff;
+  font-size: 14px;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp {
+    font-size: calc(14px + (18 - 14) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp {
+    font-size: 14px;
+    margin: 5%;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp {
+    font-size: calc(14px + (16 - 14) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp {
+    font-size: 16px;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: #333;
+  background-color: #fff;
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.green,
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.d-green {
+  color: #fff;
+  border-color: #a5cf4c;
+  background-color: #a5cf4c;
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.green:hover,
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.d-green:hover {
+  border-color: #8cb731;
+  background-color: #8cb731;
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.d-dark-grey {
+  color: #333;
+  border-color: #333;
+  background-color: transparent;
+}
+.htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.d-dark-grey:hover {
+  color: #fff;
+  background-color: #333;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.m-green {
+    color: #fff;
+    border-color: #a5cf4c;
+    background-color: #a5cf4c;
+  }
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.m-green:hover {
+    border-color: #8cb731;
+    background-color: #8cb731;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.m-dark-grey {
+    color: #333;
+    border-color: #333;
+    background-color: transparent;
+  }
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.m-dark-grey:hover {
+    color: #fff;
+    background-color: #333;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.m-white {
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+  }
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container .cta-pdp.m-white:hover {
+    color: #333;
+    background-color: #fff;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.buy-now-subpromo .buy-now-button-container {
+    width: auto;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.video-in-phone {
+  position: relative;
+}
+.htc-chrome .htc-main .main .section-wrapper section.video-in-phone .video-block {
+  position: absolute;
+  z-index: 5;
+  top: 33%;
+  left: 65%;
+  width: 32%;
+  padding-top: 18%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors {
+  position: relative;
+  background-color: #f3f3f3;
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container {
+  position: relative;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .caption-block {
+    display: none;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .owl-controls {
+  display: none;
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container {
+    top: 94%;
+    left: 50%;
+    display: table;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background-color: transparent;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item {
+  display: inline-block;
+  padding: 1%;
+  text-align: center;
+  color: #fff;
+  border-left: solid 1px rgba(255, 255, 255, 0.8);
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item {
+    border-left: none;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item:first-child {
+  border-left: none;
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item:hover {
+  cursor: pointer;
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item.active {
+  background-color: #a5cf4c;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item.active {
+    background-color: transparent;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item.active .m-dots {
+    background-color: #a5cf4c;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item .m-dots {
+  display: none;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item .m-dots {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+    background-color: #666;
+    -webkit-backface-visibility: visible;
+  }
+  .htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item .m-dots.active {
+    background-color: #a5cf4c;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item .d-text {
+  display: block;
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item .d-text b {
+  pointer-events: none;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.carousel-colors .carousel-container .navigation-container .dots-flex-box .flex-item .d-text {
+    display: none;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.carousel-colors .caption-block.customize-id-first-caption {
+  display: none;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.carousel-colors .caption-block.customize-id-first-caption {
+    display: block;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.customized-animation {
+  position: relative;
+  display: table;
+}
+.htc-chrome .htc-main .main .section-wrapper section.customized-animation .animation-phone-flying {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  width: 45%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.htc-chrome .htc-main .main .section-wrapper section.customized-animation .animation-phone-flying img {
+  max-width: 100%;
+}
+.htc-chrome .htc-main .main .section-wrapper section.customized-animation .animation-phone-flying.move-down {
+  -webkit-animation-name: movedown;
+          animation-name: movedown;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.htc-chrome .htc-main .main .section-wrapper section.customized-animation .animation-phone-flying.move-down img {
+  -webkit-animation-name: rotate-phone;
+          animation-name: rotate-phone;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.htc-chrome .htc-main .main .section-wrapper section.customized-animation .animation-phone-flying.move-up {
+  -webkit-animation-name: moveup;
+          animation-name: moveup;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.htc-chrome .htc-main .main .section-wrapper section.customized-animation .animation-phone-flying.move-up img {
+  -webkit-animation-name: rotate-phone;
+          animation-name: rotate-phone;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes movedown {
+  50% {
+    top: 55%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes movedown {
+  50% {
+    top: 55%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-webkit-keyframes moveup {
+  50% {
+    top: 45%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes moveup {
+  50% {
+    top: 45%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-webkit-keyframes rotate-phone {
+  50% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+  }
+  100 {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes rotate-phone {
+  50% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+  }
+  100 {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.customize-id-hero .caption-block {
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    padding: 8% 6%;
+    text-align: left;
+    background-color: transparent;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.customize-id-buy {
+    padding-top: 8%;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.customize-id-carousel-colors .carousel-container .carousel-block .carousel-item-block:first-child .caption-block {
+  right: 18%;
+}
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item {
+  width: 25%;
+  background-color: #ececec;
+  text-align: center;
+  padding: 3%;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item:nth-child(2),
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item:nth-child(4),
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item:nth-child(5),
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item:nth-child(7) {
+  background-color: #dfdfdf;
+}
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item:hover .box .thumb-container img {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item {
+    width: 50%;
+  }
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item:nth-child(4),
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item:nth-child(5) {
+    background-color: #ececec;
+  }
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item:nth-child(2),
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item:nth-child(3),
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item:nth-child(6),
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item:nth-child(7) {
+    background-color: #dfdfdf;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box {
+  width: 100%;
+}
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h2,
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h3 {
+  font-size: 16px;
+  margin: 5% 0;
+  color: #666;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h2,
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h3 {
+    font-size: calc(16px + (24 - 16) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h2,
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h3 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h2,
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h2,
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h3 {
+    font-size: calc(14px + (22 - 14) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h2,
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .text-element h3 {
+    font-size: 22px;
+  }
+}
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .thumb-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .thumb-container img {
+  max-width: 100%;
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .caption .name {
+  font-size: 14px;
+  color: #666;
+  text-decoration: none;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .caption .name {
+    font-size: calc(14px + (18 - 14) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .caption .name {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .caption .name {
+    font-size: 12px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .caption .name {
+    font-size: calc(12px + (16 - 12) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .section-wrapper section.accessories .item-list .item .box .caption .name {
+    font-size: 16px;
+  }
+}
+.htc-chrome .htc-main .main .specs-container {
+  position: relative;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  padding: 4% 5% 5%;
+  color: #fff;
+  background-color: #666;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container {
+    padding-bottom: 4%;
+  }
+}
+.htc-chrome .htc-main .main .specs-container .specs-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.htc-chrome .htc-main .main .specs-container .specs-list .column {
+  font-size: 12px;
+  color: #fff;
+  width: 31%;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column {
+    font-size: calc(12pxpx + (18px - 12px) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column {
+    font-size: 12px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column {
+    font-size: calc(12pxpx + (18px - 12px) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column {
+    width: 100%;
+  }
+}
+.htc-chrome .htc-main .main .specs-container .specs-list .column > ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li {
+  margin-bottom: 4%;
+}
+.htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li h4 {
+  font-size: 14px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li h4 {
+    font-size: calc(14pxpx + (20px - 14px) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li h4 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li h4 {
+    font-size: calc(14pxpx + (20px - 14px) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li h4 {
+    font-size: 20px;
+  }
+}
+.htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li span > ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li span p {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+  display: block;
+  margin: 8px 0 0 0;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li span p {
+    font-size: calc(12pxpx + (18px - 12px) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li span p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li span p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li span p {
+    font-size: calc(12pxpx + (18px - 12px) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li span p {
+    font-size: 18px;
+  }
+}
+.htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li span.short {
+  display: none;
+}
+.htc-chrome .htc-main .main .specs-container .specs-list .column > ul > li span.long {
+  display: block;
+}
+.htc-chrome .htc-main .main .specs-container .footnote {
+  margin-top: 4%;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .footnote {
+    display: none;
+  }
+}
+.htc-chrome .htc-main .main .specs-container .footnote ol {
+  margin: 0;
+  padding: 0 0 0 13px;
+}
+.htc-chrome .htc-main .main .specs-container .footnote ol li {
+  font-size: 12px;
+  color: #fff;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .footnote ol li {
+    font-size: calc(12pxpx + (18px - 12px) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .footnote ol li {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .footnote ol li {
+    font-size: 12px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .footnote ol li {
+    font-size: calc(12pxpx + (18px - 12px) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .footnote ol li {
+    font-size: 18px;
+  }
+}
+.htc-chrome .htc-main .main .specs-container .footnote ol li p {
+  font-size: 12px;
+  color: #fff;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .footnote ol li p {
+    font-size: calc(12pxpx + (18px - 12px) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .footnote ol li p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .footnote ol li p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .footnote ol li p {
+    font-size: calc(12pxpx + (18px - 12px) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .footnote ol li p {
+    font-size: 18px;
+  }
+}
+.htc-chrome .htc-main .main .specs-container .specs-footnote {
+  font-size: 12px;
+  color: #fff;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .specs-footnote {
+    font-size: calc(12pxpx + (18px - 12px) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .specs-container .specs-footnote {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-footnote {
+    font-size: 12px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-footnote {
+    font-size: calc(12pxpx + (18px - 12px) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-footnote {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .specs-container .specs-footnote {
+    display: none;
+  }
+}
+.htc-chrome .htc-main .main .email-signup {
+  position: relative;
+  display: inline-block;
+  margin-top: 4%;
+  padding: 30px;
+  border: 2px solid #dcdcdc;
+  background-color: #fff;
+}
+@media only screen and (max-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup {
+    *zoom: 1;
+    position: relative;
+    right: auto;
+    bottom: auto;
+    clear: both;
+    padding: 15px 15px 20px 15px;
+    border: 0;
+  }
+  .htc-chrome .htc-main .main .email-signup:before,
+  .htc-chrome .htc-main .main .email-signup:after {
+    display: table;
+    content: '';
+  }
+  .htc-chrome .htc-main .main .email-signup:after {
+    clear: both;
+  }
+}
+.htc-chrome .htc-main .main .email-signup.processing .email-icon {
+  opacity: .35;
+}
+.htc-chrome .htc-main .main .email-signup.processing .sign-up {
+  opacity: .35;
+}
+.htc-chrome .htc-main .main .email-signup.processing .signup-form {
+  opacity: .35;
+}
+.htc-chrome .htc-main .main .email-signup p.sign-up {
+  font-style: italic;
+  margin: 1px 0 0 10px;
+  text-align: left;
+}
+@media only screen and (max-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup p.sign-up {
+    max-width: 1000px;
+    margin-top: 10px;
+  }
+}
+.htc-chrome .htc-main .main .email-signup div.privacy-link {
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+  padding: 2% 0;
+  text-align: left;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .email-signup div.privacy-link {
+    font-size: calc(14pxpx + (18px - 14px) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .email-signup div.privacy-link {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup div.privacy-link {
+    font-size: 12px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup div.privacy-link {
+    font-size: calc(12pxpx + (16px - 12px) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup div.privacy-link {
+    font-size: 16px;
+  }
+}
+.htc-chrome .htc-main .main .email-signup div.privacy-link a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #a5cf4c;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .email-signup div.privacy-link a {
+    font-size: calc(14pxpx + (18px - 14px) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .email-signup div.privacy-link a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup div.privacy-link a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup div.privacy-link a {
+    font-size: calc(12pxpx + (16px - 12px) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup div.privacy-link a {
+    font-size: 16px;
+  }
+}
+.htc-chrome .htc-main .main .email-signup .confirmation-message,
+.htc-chrome .htc-main .main .email-signup .error-message {
+  font-size: 14px;
+  display: none;
+  clear: both;
+  padding-top: 2%;
+  text-align: left;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .htc-chrome .htc-main .main .email-signup .confirmation-message,
+  .htc-chrome .htc-main .main .email-signup .error-message {
+    font-size: calc(14pxpx + (18px - 14px) * ( (100vw - 1000px) / ( 1500 -  1000)));
+  }
+}
+@media (min-width: 1500px) {
+  .htc-chrome .htc-main .main .email-signup .confirmation-message,
+  .htc-chrome .htc-main .main .email-signup .error-message {
+    font-size: 18px;
+  }
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup .confirmation-message,
+  .htc-chrome .htc-main .main .email-signup .error-message {
+    font-size: 12px;
+  }
+}
+@media (max-width: 720px) and (min-width: 320px) and (max-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup .confirmation-message,
+  .htc-chrome .htc-main .main .email-signup .error-message {
+    font-size: calc(12pxpx + (16px - 12px) * ( (100vw - 320px) / ( 720 -  320)));
+  }
+}
+@media (max-width: 720px) and (min-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup .confirmation-message,
+  .htc-chrome .htc-main .main .email-signup .error-message {
+    font-size: 16px;
+  }
+}
+.htc-chrome .htc-main .main .email-signup .confirmation-message {
+  color: #a5cf4c;
+}
+.htc-chrome .htc-main .main .email-signup .error-message {
+  color: red;
+}
+.htc-chrome .htc-main .main .email-signup .signup-form {
+  margin: 0 0 10px;
+  padding: 0;
+}
+@media only screen and (max-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup .signup-form {
+    margin-top: 10px;
+  }
+}
+.htc-chrome .htc-main .main .email-signup .signup-form label {
+  font-size: 12px;
+  line-height: 14px;
+  visibility: hidden;
+  float: left;
+  clear: both;
+  height: 17px;
+  margin: 0;
+}
+@media only screen and (max-width: 720px) {
+  .htc-chrome .htc-main .main .email-signup .signup-form label {
+    display: none;
+  }
+}
+.htc-chrome .htc-main .main .email-signup .signup-form input.launch-email {
+  font-size: 14px;
+  line-height: 16px;
+  float: left;
+  clear: both;
+  width: calc(100% - 71px);
+  height: 34px;
+  margin: 0;
+  padding: 0 12px 0 12px;
+  color: #333;
+  border: 0;
+  outline: none;
+  background-color: #dcdcdc;
+}
+@media only screen and (max-width: 720px) {
+}
+.htc-chrome .htc-main .main .email-signup .signup-form input.submit-button {
+  float: left;
+  width: 34px;
+  height: 34px;
+  margin: 0 0 0 12px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background-color: #a5cf4c;
+  background-image: url(../img/email-checkmark.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px auto;
+}
+.htc-chrome .htc-main .main .email-signup .signup-form input.invalid {
+  outline: 1px solid red;
+}
+.htc-chrome .htc-footer {
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  width: auto;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+@media (max-width: 720px) {
+  .htc-chrome .htc-footer {
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    margin: 0;
+  }
+}
+body.template_free_scroll_2016 .htc-chrome .htc-main .main {
+  position: relative;
+}
+body.template_free_scroll_2016 .htc-chrome .htc-main .main section.customize-id-hero .caption-block .custom-title .product-logo {
+  width: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 720px) {
+  body.template_free_scroll_2016 .htc-chrome .htc-main .main section.customize-id-hero .caption-block .custom-title .product-logo {
+    width: 40%;
+    margin-left: 0;
+  }
+}
+body.template_free_scroll_2016 .htc-chrome .htc-main .main section.customize-id-hero .caption-block .custom-title .product-logo img {
+  max-width: 100%;
+}
+@media (max-width: 720px) {
+  body.template_free_scroll_2016 .htc-chrome .htc-main .main section.customize-id-dual-finish .caption-block {
+    background-color: #e6ecee;
+  }
+}
+@media (max-width: 720px) {
+  body.template_free_scroll_2016 .htc-chrome .htc-main .main section.customize-id-fingerprint .caption-block,
+  body.template_free_scroll_2016 .htc-chrome .htc-main .main section.customize-id-boost .caption-block,
+  body.template_free_scroll_2016 .htc-chrome .htc-main .main section.customize-id-selfie .caption-block,
+  body.template_free_scroll_2016 .htc-chrome .htc-main .main section.customize-id-googlephoto .caption-block {
+    background-color: #fff;
+  }
+}
+@media (max-width: 720px) {
+  body.template_free_scroll_2016 .htc-chrome .htc-main .main section.customize-id-freestyle .caption-block {
+    background-color: #aed6c9;
+  }
+}
+@media (max-width: 720px) {
+  body.template_free_scroll_2016 .htc-chrome .htc-main .main section.customize-id-camera .caption-block {
+    background-color: #222;
+  }
+}

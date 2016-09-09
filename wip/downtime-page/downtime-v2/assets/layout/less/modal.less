@@ -1,0 +1,75 @@
+@import 'lib/variables.less';
+@import 'lib/mixins.less';
+@import (less) 'lib/normalize.css';
+html {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    .reset-image-folder('fake-bg.jpg');
+}
+
+/*MODAL*/
+.htc-flex-modal {
+    direction: ~'@{dir}';
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	display: none;
+
+
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.65);
+
+    justify-content: center;
+    align-items: center;
+    &.showed{
+		display: flex;
+    }
+    .content-container {
+        position: relative;
+
+        max-width: 80%;
+        padding: 5%;
+
+        text-align: center;
+
+        background-color: #fff;
+
+        .setup-dynamic-font-size(~'h2', 22, 40);
+        h2 {
+            margin-top: .3em;
+            color: @col-default-green;
+        }
+
+		.setup-dynamic-font-size(~'.wording', 14, 24);
+         .wording{
+                line-height: 1.4;
+            }
+
+        .close-btn {
+            position: absolute;
+            top: 0;
+            right: 5px;
+
+            padding: 0 3px;
+
+            color: #666;
+            &:hover {
+                cursor: pointer;
+                transition: all 0.25s ease;
+
+                color: #000;
+            };
+            &:before {
+                font-size: 23px;
+
+                content: '\2716';
+            }
+        }
+    }
+}
