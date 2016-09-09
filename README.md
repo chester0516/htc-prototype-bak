@@ -6,7 +6,7 @@
 - [Product Detail Page Template](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/pdp-temps/e36.htm)
 - [Under Armour Support Page](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/ua-health/ua-landing.htm)
 - [Global Search](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/global-search/index.htm)
-- [Blog Screen Capture](https://github.com/chester0516/htc-prototype-bak/tree/master/wip/project-screenshot/htc-blog)
+- [Blog (Screen Capture)](https://github.com/chester0516/htc-prototype-bak/tree/master/wip/project-screenshot/htc-blog)
 
 ###VIVE 
 - [Screen Capture](https://github.com/chester0516/htc-prototype-bak/tree/master/wip/project-screenshot/htc-vive)
