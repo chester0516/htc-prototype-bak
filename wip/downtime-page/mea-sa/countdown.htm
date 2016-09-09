@@ -24,7 +24,7 @@
             $('.translation-schedule').text(data.schedule);
             $('.translation-wording').text(data.wording);
         }).fail(function() {}).always(function() {
-            var finishTime = moment.utc('2017-06-26T07:00:00');
+            var finishTime = moment.utc('2017-09-26T07:00:00');
 
             $('.count-down').countdown(finishTime.toDate(), function(event) {
                 var totalHours = event.offset.totalDays * 24 + event.offset.hours;
