@@ -1,0 +1,25 @@
+{
+  "name": "pdp-2017",
+  "description": "PDP Page prototype",
+  "main": "index.js",
+  "authors": [
+    "Chester Huang"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "2.8.3",
+    "normalize-css": "^6.0.0",
+    "jquery": "2.2.2",
+    "gsap": "^1.19.1",
+    "owl.carousel": "^2.2.1"
+  }
+}

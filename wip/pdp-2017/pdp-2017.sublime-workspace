@@ -1,0 +1,1885 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"lo",
+				"load	.load()"
+			],
+			[
+				"timeo",
+				"timeout	setTimeout function"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"h",
+				"h-sense-voice-to-text-icon.svg"
+			],
+			[
+				"jump",
+				"jumping-icon-weather-forecast.png	w:70 h:70"
+			],
+			[
+				"ju",
+				"jumping-icon-fitness-buddy.png	w:70 h:70"
+			],
+			[
+				"j",
+				"jumping-icon-eta.png	w:70 h:70"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"setup",
+				"setupIconClick"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"s",
+				"sense-companion-overview.png	w:1680 h:1351"
+			],
+			[
+				"comm",
+				"commonSetting"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"hide",
+				"hideModal"
+			],
+			[
+				"modal",
+				"modalVideo"
+			],
+			[
+				"movid",
+				"modalVideo"
+			],
+			[
+				"com",
+				"comm-section	Comment - Full section comment"
+			],
+			[
+				"video",
+				"videoObj"
+			],
+			[
+				"each",
+				"each	$.each()"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"setim",
+				"setTimeout"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"un",
+				"unbind	.unbind()"
+			],
+			[
+				"ply",
+				"playOnetimeVideo"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"time",
+				"timeout	setTimeout function"
+			],
+			[
+				"show",
+				"showBlock"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"to",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"te",
+				"transparent"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"displ",
+				"displayPrices"
+			],
+			[
+				"acce",
+				"accessoryPage"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"accessor",
+				"accessoryList"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"updat",
+				"updateCartStatus"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"cart",
+				"cartProvider"
+			],
+			[
+				"magent",
+				"magento.multicountry.js"
+			],
+			[
+				"init",
+				"initCartApi"
+			],
+			[
+				"ec",
+				"ecMagentalMultiCountries"
+			],
+			[
+				"ini",
+				"initObj"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"hasc",
+				"hasCookie"
+			],
+			[
+				"cookie",
+				"cookieName"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"typ",
+				"typeof"
+			],
+			[
+				"buy",
+				"buyDigitalFirst"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"tran",
+				"transition	CSS - transition: ;"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"main",
+				"mainFilter〔argument〕"
+			],
+			[
+				"pare",
+				"parents〔function〕"
+			],
+			[
+				"clo",
+				"closest〔function〕"
+			],
+			[
+				"bin",
+				"bindFooterListItemClick"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"bind",
+				"bindBannerDotClick"
+			],
+			[
+				"index",
+				"indexv2"
+			],
+			[
+				"on",
+				"on〔function〕"
+			],
+			[
+				"bi",
+				"bingColorSeletecClick〔function〕"
+			],
+			[
+				"by",
+				"buyMagento"
+			],
+			[
+				"remo",
+				"removeClass〔function〕"
+			],
+			[
+				"fi",
+				"fix	CSS - position: fixed;"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"sho",
+				"showLoader"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"parse",
+				"parseFloat〔function〕"
+			],
+			[
+				"outer",
+				"outerLink"
+			],
+			[
+				"loca",
+				"location〔variable〕"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"grou",
+				"group_id"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"para",
+				"parallaxImg"
+			],
+			[
+				"co",
+				"contact-support-issue.htm"
+			],
+			[
+				"search",
+				"searchTerm"
+			],
+			[
+				"sear",
+				"searchData"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/layout/less/lib/mixins-pdp-2017.less",
+			"settings":
+			{
+				"buffer_size": 7611,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/layout/less/pdp-2017-banner.less",
+			"settings":
+			{
+				"buffer_size": 14505,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/layout/less/pdp-2017-main.less",
+			"settings":
+			{
+				"buffer_size": 32088,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "default.htm",
+			"settings":
+			{
+				"buffer_size": 57801,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/layout/js-src/pdp-2017.js",
+			"settings":
+			{
+				"buffer_size": 25146,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packaage",
+				"Package Control: List Packages"
+			],
+			[
+				"package li",
+				"Package Control: List Packages"
+			],
+			[
+				"syncing",
+				"Package Syncing: Pull Settings"
+			],
+			[
+				"syncin",
+				"Package Syncing: Define Sync Folder"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/livestream.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/less/livestream.less",
+		"/Users/chester_huang/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/js-src/livestream.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/css/livestream.rtl.css",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/js/livestream.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/less/lib/variables-pdp-2017.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/gulpfile.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/default.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/less/pdp-2017-banner.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/less/pdp-2017-main.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/js-src/pdp-2017.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/less/lib/fake-header-footer.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/less/lib/fonts-pdp-2017.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/js-src/default.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/package.json",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/less/default.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/gulp-sync-assets.command",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/gulp-watch.command",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/less/lib/variables.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/less/lib/mixins.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/less/lib/mixins-pdp-2017.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js/launch.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js-src/formUtils.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/json/us.json",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js-src/default.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/less/launch.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/css/launch.rtl.css",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/json/mea-sa.json",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/gulpfile.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js-src/launch.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/json/cn.json",
+		"/Users/chester_huang/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/css/launch.css",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js-src/plugins/social/social-share.min.css",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js/plugins/jssocials/jssocials.css",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js-src/plugins/jssocials/jssocials-theme-flat.css",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js-src/plugins/jssocials/jssocials.css",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/less/lib/mixins.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/watch.command",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/gulp.command",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js/plugins/social/social-share.min.css",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js-src/china-sociel.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js/subscription.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/Gruntfile.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/us/go/launch/default.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/js/plugins/rrssb/css/rrssb.css",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/package.json",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/lib/chrome.mixins.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/buy.magento.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/lib/chrome.main.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/lib/mixins.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/indexv2.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/accessorypdp.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/cart-providers/magento.multicountry.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/accessorylisting.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/lib/chrome.variables.less",
+		"/Users/chester_huang/Library/Application Support/Sublime Text 2/Packages/CSScomb/CSScomb.sublime-settings",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/indexv2.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/htc.chrome.init.js",
+		"/Users/chester_huang/Library/Application Support/Sublime Text 2/Packages/User/CSScomb.sublime-settings",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ChromeLayout2015.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/buy.magento.multicountry.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/ecommerce/buy.magento.multicountry.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/cart-providers/magento.js",
+		"/Users/chester_huang/.launchpad/L119255VAPS2017/cache/default/main/htc-shared/WORKAREA/main/managed-assets/shared/desktop/js/us-custom.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/AccessoryDetailPseudoModalTemplate.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/cart-providers/digitalriver.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/ecommerce/buy.digitalfirst.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ProductDetailFreeScrollTemplate2015.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/vendor/modernizr-custom.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/standardpdp/freescrollpdp.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/lib/variables.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/category/categorylisting.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/java/com/htc/sparrow/components/ChromeLayout2015.java",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/main.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/Gruntfile.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/accessorylisting.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/buy.digitalfirst.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/RootOneColumnWithTitleNavTemplate.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/cart-providers/expansys.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/htc.chrome.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/htc.chrome.ltr.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/htc.chrome.rtl.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ProductKSPBuyMultiCountryMagento.tml",
+		"/Users/chester_huang/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/ocean.launch.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/ocean.launch.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/ocean.default.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/productDetailFreeScrollTemplate2016.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/productDetailFreeScrollTemplate2016.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/buypage.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/package.json",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/ocean/default.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/ecommerce/buy.cookie.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/index.html",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/support.video.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/kspbuy/kspbuyexpansyscustom.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/tagging/product.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/tagging/common.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/tagging/others.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/tagging/support.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/tagging/accessory.js",
+		"/Users/chester_huang/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/buy.magento.js",
+		"/Users/chester_huang/Desktop/cn.txt",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/buypage.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/main.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/pom.xml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ProductKSPBuyB4DigitalRiver.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ProductKSPBuyMagento.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ProductDetailFreeScrollTemplate2016.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/kspbuy3stepstorelinks.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/kspbuyexpansyscustom.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ProductKSPBuyExpansysCustom.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/java/com/htc/sparrow/components/ProductKSPBuyExpansysCustom.java",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/kspbuy2stepdigitalriver.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/cart-providers/megento.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/estore-event/week29-2.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/estore-event/week30-1.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/estore-event/week33-2.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/product-landing.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/product-content.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/backup-transfer.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/applications-landing.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/applications-content.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/Gruntfile.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/search-result.htm"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/pdp-2017/assets/layout/less",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/ocean-flagship/assets/layout/less",
+			"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js",
+			"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components",
+			"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js",
+			"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/standardpdp",
+			"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components",
+			"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less",
+			"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components",
+			"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js",
+			"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/java",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"720px",
+			"720px) 100vw",
+			"videoBlock",
+			"setupBackToDefaultPage",
+			"log",
+			"!important",
+			"scroll-btn-group",
+			"video-sw",
+			"box-shadow",
+			"custom-id-taking-photos",
+			"left:",
+			"css",
+			"<svg",
+			"noise can",
+			"log",
+			"m-top-image",
+			"setupScrollAndPlay",
+			"carousel",
+			"resetHeight",
+			"video-switch",
+			"currentItemHeight",
+			"$currentItem",
+			"selectedVideoPoster",
+			"setupFirstPoster",
+			"shadow-image",
+			"log",
+			"h-sense-water.jpg",
+			"placeholdit",
+			"place",
+			"(max-width: 720px) 80vw",
+			"custom-id-edge-sense",
+			"key-feature-title",
+			"play-modal-video-btn",
+			"icon-click-container",
+			"hsense_camera_final",
+			"cta-button",
+			"default-caption-block-style",
+			"@m-left-right-margin",
+			"custom-id-sense-companion-image",
+			"custom-id-camera-360-video",
+			"custom-id-camera-dslr-autofocus",
+			"custom-id-design-3d",
+			"custom-id-design-tri-axis",
+			"microphones",
+			"exceptional",
+			"’",
+			"'",
+			"’",
+			"exceptional",
+			"’",
+			"'",
+			"carousel",
+			"setup-content-style",
+			"showModal",
+			"videoBlock",
+			"vid",
+			"videobject",
+			".default-caption-block-style;",
+			"@import",
+			"(min-width: 40em)",
+			"srcset",
+			"80vw",
+			"720",
+			"default-caption-block-style",
+			"setup-pdp-2017-desktop-font-size_max",
+			"forcePageReload",
+			"d-full-width",
+			"key-feature-title",
+			"key-title",
+			".key-title",
+			"setup-key-title",
+			"video-play-block",
+			"play-btn",
+			"modal-video",
+			"<video",
+			"scroll-btn",
+			"height",
+			".setup-content-center",
+			"setup-content-center",
+			"font-family",
+			"@font-adjust-min-width",
+			"cn-share-buttons-block",
+			"setup-bottom-wording",
+			"videoBlock",
+			"video-block",
+			"show-no-transition",
+			"../../../assets/layout/",
+			"sessionDetection",
+			"../../../assets/layout/",
+			"{%",
+			"tmpl",
+			"signup-form",
+			"launch-email",
+			"scroll-block",
+			"embed-video",
+			"@max-padding-on-each",
+			"@min-padding-on-each",
+			"jssocials-share-link",
+			"log",
+			"playOneAndRepeatVideo",
+			"playOnetimeVideo",
+			"bannerBlock",
+			"playOnetimeVideo",
+			"playFirstVideo",
+			"1.2",
+			"font-adjust-max-width",
+			"playFirstVideo",
+			"../../../assets/layout/",
+			"setup-bottom-wording",
+			"font-weight: 300",
+			"reset-font-family",
+			"@font-small",
+			"webserver",
+			"@m-side-width",
+			"log",
+			"main",
+			"../../../assets/layout/",
+			"../../../assets/layout/js/",
+			"ocean",
+			"video-path",
+			"u-video",
+			"jssocials-share-link",
+			"moment",
+			"addClick",
+			"initPlugin",
+			"htc",
+			"flag",
+			"ocean"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"720px) 50vw",
+			"top-image",
+			"(max-width: 720px) 100vw",
+			"(max-width: 720px)",
+			"play-modal-video-btn",
+			"/managed-assets/shared/desktop/js/launch/ocean-april/",
+			"@max-font-on-each",
+			"@min-font-on-each",
+			"@m-font-ratio",
+			"@d-font-ratio",
+			"/managed-assets/shared/desktop/js/launch/ocean-april/",
+			"font-weight: 200",
+			"/managed-assets/shared/desktop/js/launch/ocean-april/",
+			"@col-top-bg-black",
+			"@col-bottom-text-grey",
+			"180",
+			"@col-bottom-bg-black",
+			"setup-bottom-wording",
+			"'",
+			"hideSocial",
+			"socialButtons",
+			"signupBox",
+			"datetime-block",
+			"src=\"../../../assets/layout/js/",
+			"",
+			"accessoryPage.filterBar(",
+			"accessoryPage.processModal(",
+			"accessoryPage.processSearch(",
+			"_baseHistoryURL",
+			"_siteID",
+			"_triggerInteraction",
+			"accessoryPage.hashbangCheck(",
+			"accessoryPage.insertHashbang(",
+			"accessoryPage.landingSlideHeroVideo(",
+			"accessoryPage.landingSlideHeroImage(",
+			"accessoryPage.resetModals(",
+			"accessoryPage.setupLanding(",
+			"accessoryPage.autofocusSearch(",
+			"accessoryCommon.getQueryVariable(",
+			"accessoryCommon.getQueryVariable()",
+			"accessoryCommon.isIEDevice()",
+			"accessoryCommon.mobile()",
+			"checkBuyPageStatus",
+			"no-touch",
+			"",
+			"@col-default-text",
+			"@col-hover-grey",
+			"989888",
+			"<script async",
+			"@col-default-text",
+			"@col-default-light-text",
+			"z-index: 9",
+			"jQuery",
+			"cartProviderApi",
+			"buyMultiCountryMagento",
+			"htcSite",
+			"z-index: 9",
+			"<%= defaultJsPath %>",
+			"buyDigitalFirst",
+			"digitalfirst",
+			".reset-image-folder-with-plugin",
+			"text-align: left;",
+			"text-align: right;",
+			"float: right;",
+			"float: left;",
+			"skuId",
+			"max-width: @mobile-max-width",
+			"group[index].",
+			"/week34-1/",
+			"/week33-2/",
+			"\n                ",
+			"basicSetup",
+			"10"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/layout/less/lib/mixins-pdp-2017.less",
+					"settings":
+					{
+						"buffer_size": 7611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1862.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/layout/less/pdp-2017-banner.less",
+					"settings":
+					{
+						"buffer_size": 14505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14505,
+								14505
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1229.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/layout/less/pdp-2017-main.less",
+					"settings":
+					{
+						"buffer_size": 32088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32088,
+								32088
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "default.htm",
+					"settings":
+					{
+						"buffer_size": 57801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6487,
+								6487
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9690.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/layout/js-src/pdp-2017.js",
+					"settings":
+					{
+						"buffer_size": 25146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25146,
+								25146
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 160.0
+	},
+	"replace":
+	{
+		"height": 89.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/chester_huang/Documents/HTC/htc-prototype/wip/react/react.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true
+}

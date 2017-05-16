@@ -1,0 +1,161 @@
+@import 'lib/variables-pdp-2017.less';
+@import 'lib/mixins-pdp-2017.less';
+@import (less) '../../../bower_components/normalize-css/main.css';
+
+body{
+    background-color: #141414;
+
+    .main{
+        .close-btn{
+            position: absolute;
+            top: 15px;
+            right: 15px;
+
+            width: 30px;
+            height: 30px;
+            &:hover{
+                .image-block{
+                    transition: all .3s;
+
+                    border-color: @col-text-purple;
+                    &:before,&:after{
+                        transition: all .3s;
+
+                        background-color: @col-text-purple;
+                    }
+                }
+            }
+            .image-block{
+                position: relative;
+
+                box-sizing: border-box;
+                width: 100%;
+                height: 100%;
+
+                border: solid 2px #fff;
+                border-radius: 50%;
+                &:before{
+                    position: absolute;
+                    top: 50%;
+                    -ltr-left: 50%;
+                    -rtl-right: 50%;
+                    width: 50%;
+                    height: 2px;
+
+                    content: '';
+                    transform: translate(-50%, -50%) rotate(45deg);
+
+                    background-color: #fff;
+                }
+                &:after{
+                    position: absolute;
+                    top: 50%;
+                    -ltr-left: 50%;
+                    -rtl-right: 50%;
+
+                    width: 50%;
+                    height: 2px;
+
+                    content: '';
+                    transform: translate(-50%, -50%) rotate(-45deg);
+
+                    background-color: #fff;
+                }
+            }
+        }
+        .section-wrapper{
+            display: flex;
+            flex-direction: column;
+
+            width: 70%;
+            margin: 0 auto;
+
+            justify-content: center;
+            @media (max-width: @mobile-max){
+                width: 100%;
+            }
+            section{
+
+                &.logo-banner{
+                    display: flex;
+                    flex-direction: column;
+
+                    height: 10vmin;
+
+                    align-items: center;
+                    justify-content: center;
+                    @media only screen and (max-width: @mobile-max-width){
+                        height: 60px;
+                    }
+                    .logo-block{
+                        margin: 0;
+                        padding: 0;
+                        height: inherit;
+                        .image-block{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: inherit;
+                            overflow: hidden;
+                            outline: 0;
+                            svg{
+                                display: block;
+                                height: inherit;
+                                transform: scale(1.5);
+                            }
+                        }
+                    }
+                }
+                &.live-stream{
+                    position: relative;
+
+                    display: table;
+                    overflow: hidden;
+
+                    width: 100%;
+                    padding-bottom: @d-section-height;
+
+                    background-color: rgba(0,0,0,.2);
+
+                    @d-section-height: 56.25%;
+                    @m-section-height: 56.25%;
+                    @media (max-width: @mobile-max){
+                        padding-bottom: @m-section-height;
+                    }
+                    .player-container{
+                        position: absolute;
+                        z-index: -1;
+
+                        width: 100%;
+                        height: 0;
+                        padding-bottom: 0;
+                        padding-bottom: @d-section-height;
+
+                        transition: opacity .5s;
+
+                        opacity: 0;
+                        background-color: rgba(0,0,0,.2);
+                        &.show{
+                            z-index: 1;
+
+                            transition: opacity .5s;
+
+                            opacity: 1;
+                        }
+                        @media (max-width: @mobile-max){
+                            padding-bottom: @m-section-height;
+                        }
+                        iframe,embed{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
