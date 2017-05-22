@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html class="us prototype-only" data-site="us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTC</title>
+        <link rel="stylesheet" href="ek-assets/digital-first/css/default.css">
+        <script src="ek-assets/digital-first/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="ek-assets/digital-first/js/vendor/jquery-2.2.2.min.js"></script>
+        <script src="ek-assets/digital-first/js/vendor/jquery.history.js"></script>
+        <script src="ek-assets/digital-first/js/vendor/purl.js" type="text/javascript"></script>
+        <script src="ek-assets/digital-first/js/plugins/template/tmpl.min.js" type="text/javascript"></script>
+        <script type="text/x-tmpl" id="search-result-tmp">
+        <li class="search-result-data">
+            <a href="{%=o.url%}">
+                <div class="search-data-img search-data-type {%=o.icon%}"></div>
+                <div class="search-data-info">
+                    <div class="search-data-title">{%=o.title%}</div>
+                    <div class="search-data-desc">{%=o.desc%}</div>
+                </div>
+            </a>
+        </li>
+        </script>
+        <script src="ek-assets/digital-first/js/plugins/gsap/TweenMax.min.js"></script>
+        <script src="ek-assets/digital-first/js/plugins/gsap/plugins/ScrollToPlugin.min.js"></script>
+        <script src="ek-assets/digital-first/js/plugins/picturefill/picturefill.min.js"></script>
+        <script src="ek-assets/digital-first/js/lib/common.js"></script>
+        <script src="ek-assets/digital-first/js/lib/smart-search.js"></script>
+    </head>
+    <body class="us default-page" data-site="us">
+        <div id="htc-site" class="htc-chrome">
+            <div id="htc-header" class="htc-header">
+                <header>
+                    <div class="content">
+                        Fake Header
+                    </div>
+                </header>
+            </div>
+            <section class="htc-main">
+                <div class="main digital-first-main">
+                    <!-- Hidden input for GSA. Value can be empty. Display is for user to read.-->
+                    <input type="hidden" class="hidden-search-content-type" value="">
+                    <input type="hidden" class="hidden-search-content-type-display" value="">
+                    <input type="hidden" class="hidden-search-product-name-id" value="">
+                    <input type="hidden" class="hidden-search-product-name-id-display" value="">
+                    <input type="hidden" class="hidden-select-product-model" value="Select your product.">
+                    <input type="hidden" class="hidden-seleted-family" value="">
+                    <input type="hidden" class="hidden-seleted-product" value="">
+                    <!--googleon: index-->
+                    <div class="hidden-container hidden-rc-container" style="display:none;">
+                        <span class="rc-popup-title">
+                        Remember your default product</span> <span class="rc-popup-desc">
+                    Would you like "{0}" to be your default HTC product?</span> <span class="rc-popup-yes-btn-txt">
+                YES</span> <span class="rc-popup-no-btn-txt">
+            NO</span>
+        </div>
+        <div class="section-wrapper">
+            <section class="parallax-wrap">
+                <div class="parallax-img"></div>
+            </section>
+            <section class="search-banner">
+                <div class="content">
+                    <div class="vertical-center">
+                        <div class="title title-has-searchBar">
+                            <h2>Hello. <br/>What can we help with?</h2>
+                        </div>
+                        <div class="search-area">
+                            <div class="search-box show-suggestion-list">
+                                <div>
+                                    <div class="support-search-container" onsubmit="return false;">
+                                        <input autocomplete="off" type="text" name="q" placeholder="Type what you're looking for" class='input-query'>
+                                        <div class="icon-search button-submit"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="smart-search-result-container">
+                                <div class="btn-close close-resulte-container-btn"></div>
+                                <div class="border-area">
+                                <ul class="search-result"></ul>
+                                <div class="show-all-result">
+                                    <div class="button-submit">Show All Result</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular-search">
+                        Popular:  <a href="search.aspx?q=Screen capture">Screen capture</a>, <a href="search.aspx?q=Phone setup">Phone setup</a>, <a href="search.aspx?q=Battery">Battery</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="listing-detailed-container product-listing">
+            <div class="content m-full-width">
+                <div class="box-layout padding-zero">
+                    <div class="title has-bottom-line">
+                        <h2>Which product do you need help with?</h2>
+                    </div>
+                    <div class="product-list-container">
+                        <div class="flex-box-area">
+                            
+                            <div class="product-item" data-url="">
+                                <div class="product-image">
+                                    <div class="image-block product-type big-icon color-icon one"></div>
+                                </div>
+                                <div class="product-name">One</div>
+                                
+                                <div class="related-products">
+                                    <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl00_divPopuplist" class="popup-list align-left">
+                                        
+                                        <a href="/us/support/htc-bolt/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl00_RepProductList_ctl00_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_bolt@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Bolt</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="#" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl00_RepProductList_ctl01_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_10@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC 10</div>
+                                            <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl00_RepProductList_ctl01_dvCarrier" class="hidden-carrier-block">
+                                                <ul class="popup-list">
+                                                    
+                                                    <li data-url="/us/support/htc-10-sprint/">Sprint</li>
+                                                    
+                                                    <li data-url="/us/support/htc-10-verizon/">Verizon</li>
+                                                    
+                                                    <li data-url="/us/support/htc-10-t-mobile/">T-Mobile</li>
+                                                    
+                                                    <li data-url="/us/support/htc-10/">Unlocked Devices</li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div style="display:none;"><a href="/us/support/htc-10-sprint/"></a><a href="/us/support/htc-10-verizon/"></a><a href="/us/support/htc-10-t-mobile/"></a><a href="/us/support/htc-10/"></a></div>
+                                        </a>
+                                        
+                                        <a href="#" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl00_RepProductList_ctl02_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_One_A9@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC One A9</div>
+                                            <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl00_RepProductList_ctl02_dvCarrier" class="hidden-carrier-block">
+                                                <ul class="popup-list">
+                                                    
+                                                    <li data-url="/us/support/htc-one-a9-att/">HTC One® A9 AT&T</li>
+                                                    
+                                                    <li data-url="/us/support/htc-one-a9-sprint/">HTC One® A9 Sprint</li>
+                                                    
+                                                    <li data-url="/us/support/htc-one-a9/">Unlocked Devices</li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div style="display:none;"><a href="/us/support/htc-one-a9-att/"></a><a href="/us/support/htc-one-a9-sprint/"></a><a href="/us/support/htc-one-a9/"></a></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-one-e8-sprint/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl00_RepProductList_ctl03_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_One_E8@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC One (E8) Sprint</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="#" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl00_RepProductList_ctl05_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_HTC_One_M8@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC One (M8)</div>
+                                            <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl00_RepProductList_ctl05_dvCarrier" class="hidden-carrier-block">
+                                                <ul class="popup-list">
+                                                    
+                                                    <li data-url="/us/support/htc-one-m8-harman-kardon-edition-sprint/">Harman Kardon Edition Sprint</li>
+                                                    
+                                                    <li data-url="/us/support/htc-one-m8-sprint/">Sprint</li>
+                                                    
+                                                    <li data-url="/us/support/htc-one-m8-t-mobile/">T-Mobile</li>
+                                                    
+                                                    <li data-url="/us/support/htc-one-m8-att/">AT&T</li>
+                                                    
+                                                    <li data-url="/us/support/htc-one-m8-verizon/">Verizon</li>
+                                                    
+                                                    <li data-url="/us/support/htc-one-m8/">Unlocked Devices</li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div style="display:none;"><a href="/us/support/htc-one-m8-harman-kardon-edition-sprint/"></a><a href="/us/support/htc-one-m8-sprint/"></a><a href="/us/support/htc-one-m8-t-mobile/"></a><a href="/us/support/htc-one-m8-att/"></a><a href="/us/support/htc-one-m8-verizon/"></a><a href="/us/support/htc-one-m8/"></a></div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="product-item" data-url="">
+                                <div class="product-image">
+                                    <div class="image-block product-type big-icon color-icon desire"></div>
+                                </div>
+                                <div class="product-name">Desire</div>
+                                
+                                <div class="related-products">
+                                    <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_divPopuplist" class="popup-list align-left">
+                                        
+                                        <a href="#" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl00_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Desire_530@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Desire 530</div>
+                                            <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl00_dvCarrier" class="hidden-carrier-block">
+                                                <ul class="popup-list">
+                                                    
+                                                    <li data-url="/us/support/htc-desire-530-open-mobile/">Open Mobile</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-530-verizon/">Verizon</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-530-metro-pcs/">Metro PCS</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-530-t-mobile/">T-Mobile</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-530/">Unlocked Devices</li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div style="display:none;"><a href="/us/support/htc-desire-530-open-mobile/"></a><a href="/us/support/htc-desire-530-verizon/"></a><a href="/us/support/htc-desire-530-metro-pcs/"></a><a href="/us/support/htc-desire-530-t-mobile/"></a><a href="/us/support/htc-desire-530/"></a></div>
+                                        </a>
+                                        
+                                        <a href="#" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl01_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Desire_626@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Desire 626s</div>
+                                            <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl01_dvCarrier" class="hidden-carrier-block">
+                                                <ul class="popup-list">
+                                                    
+                                                    <li data-url="/us/support/htc-desire-626s-acg/">ACG</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-626s-cricket/">Cricket</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-626s-metro-pcs/">Metro PCS</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-626s-t-mobile/">T-Mobile</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-626s-virgin-mobile/">Virgin Mobile</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-626s-sprint/">Sprint</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-626s-boost/">Boost</li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div style="display:none;"><a href="/us/support/htc-desire-626s-acg/"></a><a href="/us/support/htc-desire-626s-cricket/"></a><a href="/us/support/htc-desire-626s-metro-pcs/"></a><a href="/us/support/htc-desire-626s-t-mobile/"></a><a href="/us/support/htc-desire-626s-virgin-mobile/"></a><a href="/us/support/htc-desire-626s-sprint/"></a><a href="/us/support/htc-desire-626s-boost/"></a></div>
+                                        </a>
+                                        
+                                        <a href="#" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl02_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Desire_526Gplus_dual_sim@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Desire 526</div>
+                                            <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl02_dvCarrier" class="hidden-carrier-block">
+                                                <ul class="popup-list">
+                                                    
+                                                    <li data-url="/us/support/htc-desire-526-verizon-postpaid/">Verizon Postpaid</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-526-verizon-prepaid/">Verizon Prepaid</li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div style="display:none;"><a href="/us/support/htc-desire-526-verizon-postpaid/"></a><a href="/us/support/htc-desire-526-verizon-prepaid/"></a></div>
+                                        </a>
+                                        
+                                        <a href="#" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl03_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Desire_626@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Desire 626</div>
+                                            <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl03_dvCarrier" class="hidden-carrier-block">
+                                                <ul class="popup-list">
+                                                    
+                                                    <li data-url="/us/support/htc-desire-626-verizon-prepaid/">Verizon Prepaid</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-626-verizon/">Verizon</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-626-att/">AT&T</li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div style="display:none;"><a href="/us/support/htc-desire-626-verizon-prepaid/"></a><a href="/us/support/htc-desire-626-verizon/"></a><a href="/us/support/htc-desire-626-att/"></a></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-desire-eye-att/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl04_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Desire_EYE@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Desire EYE (AT&T)</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="#" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl05_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Desire_612@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Desire 612</div>
+                                            <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl05_dvCarrier" class="hidden-carrier-block">
+                                                <ul class="popup-list">
+                                                    
+                                                    <li data-url="/us/support/htc-desire-612-verizon-prepaid/">Verizon Prepaid</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-612-lra/">LRA</li>
+                                                    
+                                                    <li data-url="/us/support/htc-desire-612-verizon/">Verizon</li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div style="display:none;"><a href="/us/support/htc-desire-612-verizon-prepaid/"></a><a href="/us/support/htc-desire-612-lra/"></a><a href="/us/support/htc-desire-612-verizon/"></a></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-desire-816-virgin-mobile/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl06_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Desire_816@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Desire 816 (Virgin Mobile)</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-desire-610-brightstar/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl07_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Desire_610@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Desire 610 (BrightStar)</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-desire-610-att/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl01_RepProductList_ctl08_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Desire_610@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Desire 610 (AT&T)</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="product-item" data-url="">
+                                <div class="product-image">
+                                    <div class="image-block product-type big-icon color-icon lifestyle"></div>
+                                </div>
+                                <div class="product-name">Lifestyle</div>
+                                
+                                <div class="related-products">
+                                    <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl02_divPopuplist" class="popup-list">
+                                        
+                                        <a href="/us/support/ua-healthbox/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl02_RepProductList_ctl00_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/ua-healthbox@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">UA HealthBox</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/ua-heart-rate/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl02_RepProductList_ctl01_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/ua-heartrate@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">UA Heart Rate</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/ua-scale/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl02_RepProductList_ctl02_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/ua-scale@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">UA Scale</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/ua-band/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl02_RepProductList_ctl03_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/ua-band@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">UA Band</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/re/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl02_RepProductList_ctl04_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/RE@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">RE</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="product-item" data-url="">
+                                <div class="product-image">
+                                    <div class="image-block product-type big-icon color-icon accessories"></div>
+                                </div>
+                                <div class="product-name">Accessories</div>
+                                
+                                <div class="related-products">
+                                    <div id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl03_divPopuplist" class="popup-list align-left">
+                                        
+                                        <a href="/us/support/htc-ice-view/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl03_RepProductList_ctl00_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Ice_View@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Ice View</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-dot-view/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl03_RepProductList_ctl01_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Dot_View@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Dot View</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-fetch/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl03_RepProductList_ctl02_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Fetch@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Fetch</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-bluetooth-stereo-headphones/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl03_RepProductList_ctl03_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Bluetooth_Stereo_Headphones@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Bluetooth Stereo Headphones</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-stereo-headphones/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl03_RepProductList_ctl04_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Stereo_Headphones@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Stereo Headphones</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-battery-bar/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl03_RepProductList_ctl05_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Battery_Bar@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Battery Bar</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-car-kit/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl03_RepProductList_ctl06_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Car_Kit@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Car Kit</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                        <a href="/us/support/htc-bluetooth-stereoclip/" id="ctl00_ContentPlaceHolder1_RepSeriesList_ctl03_RepProductList_ctl07_parentlink" class="related-product-item">
+                                            <div class="image-block">
+                                                <div class="align-center">
+                                                    <img src='/uploadedImages/Common/Shared_Image/HTC_Bluetooth_StereoClip@2x.png' alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-name">HTC Bluetooth StereoClip</div>
+                                            
+                                            <div style="display:none;"></div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="topic-selection">
+            <div class="content m-full-width">
+                <div class="box-layout">
+                    <div class="title has-bottom-line">
+                        <h2>What topic do you need help with?</h2>
+                    </div>
+                    <div class="topic-list-container">
+                        <div class="flex-box-area">
+                            <a href="https://store.digitalriver.com/DRHM/store?Action=DisplayHelpPage&SiteID=htcus&Locale=en_US&ThemeID=38736100&Env=BASE" id="ctl00_ContentPlaceHolder1_linkOnlineShopping" class="topic-item" target="_blank">
+                                <div class="topic-image">
+                                    <div class="image-block online-shopping-help"></div>
+                                </div>
+                                <div class="topic-name">Online Shopping Help
+                                </div>
+                            </a>
+                            <a class="topic-item" href="/us/support/backup-and-transfer/">
+                                <div class="topic-image">
+                                    <div class="image-block back-up-transfer"></div>
+                                </div>
+                                <div class="topic-name">Backup and Transfer
+                                </div>
+                            </a>
+                            <a class="topic-item" href="/us/support/apps/">
+                                <div class="topic-image">
+                                    <div class="image-block applications"></div>
+                                </div>
+                                <div class="topic-name">Applications</div>
+                            </a>
+                            <a href="/us/support/apps/htc-sync-manager/" id="ctl00_ContentPlaceHolder1_linkSyncMgr" class="topic-item">
+                                <div class="topic-image">
+                                    <div class="image-block htc-sync-manager"></div>
+                                </div>
+                                <div class="topic-name">HTC Sync Manager</div>
+                            </a>
+                            <a href="updates.aspx" id="ctl00_ContentPlaceHolder1_linkUpdate" class="topic-item update">
+                                <div class="topic-image">
+                                    <div class="image-block update"></div>
+                                </div>
+                                <div class="topic-name">Updates</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ctl00_ContentPlaceHolder1_sectionRepair" class="repair-area">
+            <div class="content m-full-width">
+                <div class="box-layout">
+                    <div class="title">
+                        <h2>Find out about your repair options, or the progress of a repair </h2>
+                    </div>
+                    <div class="flex-box-area">
+                        
+                        <div id="ctl00_ContentPlaceHolder1_divRepairStatus" class="repair-item">
+                            <a href="https://e2e-tracking-us.htc.com/" id="ctl00_ContentPlaceHolder1_linkRepairStatus" class="repair-wrap" target="_blank">
+                                <div class="repair-title">Repair Status</div>
+                                <div class="repair-content">Check the status of the repair request you submitted.</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- if subpromo don't have community banner -> add class 'subpromo-no-community' -->
+        <section class="subpromo subpromo-no-community">
+            <div class="content m-full-width">
+                <div class="flex-box-area">
+                    <div class="promo-item">
+                        <div class="bg-block">
+                            <!-- <picture>
+                                
+                                <source srcset="/ek-assets/digital-first/img/landing/community_background_picture.png" media="(min-width: 768px)">
+                                
+                                <img srcset="/ek-assets/digital-first/img/landing/community_background_picture.png" alt="">
+                            </picture> -->
+                        </div>
+                        <div class="caption-block">
+                            <div class="title text-white">
+                                <h3>
+                                Find and share the solutions from users around the world the world the world.
+                                </h3>
+                            </div>
+                            <div class="icon-block">
+                                <!-- <img src="/ek-assets/digital-first/img/icon/community/community-icon.png" alt=""> -->
+                            </div>
+                            <div class="wording-block text-white">
+                                Community
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo-item">
+                        <div class="bg-block">
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="/ek-assets/digital-first/img/landing/get_help_background_picture.png" media="(min-width: 768px)">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img srcset="/ek-assets/digital-first/img/landing/get_help_background_picture.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="caption-block">
+                            <div class="title text-white">
+                                <h3>
+                                Find and share the solutions from users around the world.
+                                </h3>
+                            </div>
+                            <div class="icon-block">
+                                <img src="/ek-assets/digital-first/img/icon/get_help/get-help-icon.png" alt="">
+                            </div>
+                            <div class="wording-block text-white">
+                                Get Help
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content m-full-width content-no-community">
+                <div class="flex-box-area">
+                    <div class="promo-item">
+                        <div class="bg-block">
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="/ek-assets/digital-first/img/landing/get_help-compressor.jpg" media="(min-width: 768px)">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img srcset="/ek-assets/digital-first/img/landing/get_help-compressor.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="caption-block">
+                            <a href="/us/contact/support/">
+                                <div class="title text-white">
+                                    <h3>Can’t find what you’re looking for?</h3>
+                                </div>
+                                <div class="icon-block">
+                                    <img src="/ek-assets/digital-first/img/icon/get_help/drawable-xhdpi/get_help_icon.png" height="100" width="100" alt="">
+                                </div>
+                                <div class="wording-block text-white">
+                                    Get Help
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- popup window -->
+        <section class="popup-area carrier-popup">
+            <div class="popup-window">
+                <div class="btn-close"></div>
+                <div class="popup-title">Choose your device version</div>
+                <ul class="popup-list">
+                    
+                </ul>
+            </div>
+        </section>
+    </div>
+</div>
+</section>
+<div class="htc-footer">
+<footer>
+    <div class="content">
+        Fake Footer
+    </div>
+</footer>
+</div>
+</div>
+<script src="ek-assets/digital-first/js/default.js"></script>
+</body>
+</html>

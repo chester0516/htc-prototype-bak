@@ -1,0 +1,429 @@
+.main.digital-first-main{
+    .section-wrapper{
+        section{
+            &.mixed-section{
+                .box-layout{
+                    // header
+                    .board-large-header{
+                        position: relative;
+
+                        display: inline-block;
+
+                        width: 100%;
+                        padding: 22px 60px 20px;
+                        @media only screen and (max-width: @mobile-max-width){
+                            padding: 20px @m-gutter;
+                        }
+                        h2{
+                            &.h2-smaller{
+                                display: inline-block;
+
+                                margin: 0 0 28px;
+                                margin-bottom: 0;
+
+                                .font28;
+                                .set-font-family('black');
+                                @media only screen and (max-width: @mobile-max-width){
+                                    .m-font20;
+                                }
+                            }
+                        }
+                        //---board large area---
+                        .board-header-btns{
+                            display: inline;
+                            &:empty{
+                                display: none;
+                            }
+                            @media only screen and (max-width: @mobile-max-width){
+                                display: flex;
+                                flex-direction: row-reverse;
+
+                                width: 100%;
+                                margin-top: 10px;
+
+                                justify-content: flex-end;
+                            }
+                            .fake-dropdown-selection{
+                                float: right;
+
+                                .setup-fake-dropdown-selection;
+                                @media only screen and (max-width: @mobile-max-width){
+                                    float: none;
+                                }
+                                &:nth-of-type(2){
+                                    margin-right: 1.5%;
+                                }
+                            }
+                        }
+                    }
+                    // info
+                    .board-large-info{
+                        position: relative;
+
+                        display: flex;
+                        flex-direction: row;
+
+                        padding: 50px 75px 60px;
+                        &.bg-grey{
+                            background-color: @col-bg-gray;
+                        }
+                        @media only screen and (max-width: @mobile-max-width){
+                            padding: @m-gutter;
+                        }
+                        
+                        .board-info-left{
+                            width: 32%;
+                            padding-right: 43px;
+                            @media only screen and (max-width: @mobile-max-width){
+                                display: none;
+
+                                width: 100%;
+                                padding-right: 0;
+
+                            }
+                            .content-without-navi &{
+                                display: none;
+                            }
+                            .setup-ul-expand{
+                                &.open{
+                                    height: auto;
+                                    max-height: 8000px;
+                                }
+                            }
+                            .nav{
+                                margin: 0;
+                                padding: 0;
+
+                                list-style: none;
+                                .setup-ul-expand;
+
+                                > li{
+                                    overflow: hidden;
+                                    padding-top: 26px;
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        padding-top: 22px;
+                                        padding-bottom: 22px;
+                                        border-top: solid 1px @col-pinkishGrey;
+                                    }
+                                    > a{
+                                        line-height: 1.5;
+                                        .set-font-family;
+                                        .font20;
+                                        color: @col-default-text;
+                                        cursor: pointer;
+                                        text-decoration: none;
+                                        @media only screen and (max-width: @mobile-max-width){
+                                            .m-font18;
+                                        }
+                                        &:hover{
+                                            text-decoration: underline;
+                                        }
+                                        &.bold, &.nolink.open{
+                                            .set-font-family('black');
+                                        }
+                                    }
+                                    &:nth-of-type(1){
+                                        padding-top: 0;
+                                        @media only screen and (max-width: @mobile-max-width){
+                                            border-top: 0;
+                                        }
+                                    }
+                                    &.selected{
+                                        > a{
+                                            .set-font-family('black');
+                                        }
+                                    }
+                                    .go-to-top-article{
+                                        display: inline;
+                                        &:hover{
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+
+                                .nav-sub{
+                                    
+
+                                    height: 0;
+                                    padding-left: 25px;
+
+                                    list-style: none;
+                                    .setup-ul-expand;
+            
+                                    border-left: solid 3px @col-line-gray;
+                                    transition: all .5s;
+                                    position: relative;
+                                    z-index: 1;
+                                    &.no-border{
+                                        /*less than .5*/
+                                        transition: all .3s;
+                                        border-left-color: @col-white2;
+                                    }
+                                    &:after{
+                                        width: 3px;
+                                        height: 20px;
+                                        content: '';
+                                        background-color: @col-white2;
+                                        display: block;
+                                        position: absolute;
+                                        left: -3px;
+                                        z-index: 5;
+                                        top: 0;
+                                        @media only screen and (max-width: @mobile-max-width){
+                                            height: 13px;
+                                        }
+                                    }
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        padding-left: 20px;
+                                    }
+                                    
+
+                                    
+                                    > li{
+
+                                        padding-top: 20px;
+                                        @media only screen and (max-width: @mobile-max-width){
+                                            padding-top: 13px;
+                                            padding-bottom: 13px;
+                                        }
+                                        &:first-of-type{
+
+                                            @media only screen and (max-width: @mobile-max-width){
+                                                padding-top: 26px;
+                                            }
+                                        }
+                                        &:last-of-type{
+                                            @media only screen and (max-width: @mobile-max-width){
+                                                padding-bottom: 4px;
+                                            }
+                                        }
+                                        > a{
+                                            line-height: 1.5;
+                                            .font18;
+                                            color: @col-default-text;
+                                            cursor: pointer;
+                                            text-decoration: none;
+                                            @media only screen and (max-width: @mobile-max-width){
+                                                .m-font16;
+                                            }
+                                            &:hover{
+                                                text-decoration: underline;
+                                            }
+                                            &.bold{
+                                                //second level no need
+                                                //.set-font-family('black');
+                                            }
+                                        }
+                                    }
+                                    .nav-sub-sub{
+                                        position: relative;
+
+                                        overflow: hidden;
+
+                                        max-height: 0;
+                                        padding-left: 0;
+
+                                        list-style: none;
+
+                                        transition: max-height @animate-speed @animate-easing;
+                                        .setup-ul-expand;
+                                        .font16;
+                                        > li{
+                                            padding-top: 0;
+                                            padding-bottom: 20px;
+                                            padding-left: 22px;
+
+                                            border-left: solid 3px @col-line-gray;
+                                            @media only screen and (max-width: @mobile-max-width){
+                                                padding-left: 24px;
+                                                padding-bottom: 26px;
+                                            }
+                                            a{
+                                                line-height: 1.5;
+                                                .reset-a-link;
+                                                .set-font-family('book');
+                                                .font16;
+                                                &:hover{
+                                                    text-decoration: underline;
+                                                }
+                                                &.bold{
+                                                    .set-font-family('black');
+                                                }
+                                            }
+                                            &:last-child{
+                                                padding-bottom: 0;
+                                            }
+                                            &.nolink{
+                                                position: relative;
+
+                                                padding: 20px 0;
+
+                                                color: @col-greyish;
+                                                border-left: 0;
+
+                                                .set-font-family('book');
+                                                &.empty-content{
+                                                    padding-top: 0;
+                                                    padding-bottom: 0;
+                                                }
+                                                @media only screen and (max-width: @mobile-max-width){
+                                                    padding-top: 26px;
+                                                    padding-bottom: 26px;
+                                                }
+                                            }
+                                        }
+                                        > li:nth-of-type(1){
+                                            position: relative;
+                                            &:before{
+                                                position: absolute;
+                                                top: 0;
+                                                left: -9%;
+
+                                                display: block;
+
+                                                width: 4px;
+                                                height: 20px;
+
+                                                content: '';
+
+                                                background-color: @col-bg-gray;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .board-info-right{
+                            width: 68%;
+                            padding-left: 46.5px;
+
+                            border-left: solid 4px @col-default-text;
+                            @media only screen and (max-width: @mobile-max-width){
+                                display: none;
+
+                                width: 100%;
+                                padding-left: 0;
+
+                                border-left: none;
+                            }
+                            .content-without-navi &{
+                                width: 100%;
+                                padding-left: 0;
+
+                                border-width: 0;
+                            }
+                            .title{
+                                padding-top: 0;
+                                .content-without-navi &{
+                                    display: none;
+                                }
+                                h3{
+                                    display: none;
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        display: block;
+
+                                        margin-top: 0;
+                                    }
+                                    a{
+                                        margin-top: 0;
+
+                                        .reset-a-link;
+                                        .set-font-family('book');
+                                    }
+                                    .back-to-menu{
+                                        display: inline;
+
+                                        cursor: pointer;
+                                    }
+                                }
+                                h2{
+                                    .set-font-family('book');
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        .m-font24;
+                                    }
+                                    .product-landing-page &{
+                                        @media only screen and (max-width: @mobile-max-width){
+                                            .m-font26;
+                                            padding-bottom: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.m-show-menu{
+                            .board-info-left{
+                                @media only screen and (max-width: @mobile-max-width){
+                                    display: block;
+                                }
+                            }
+                            .board-info-right{
+                                @media only screen and (max-width: @mobile-max-width){
+                                    display: none;
+                                }
+                            }
+                        }
+                        &.m-show-content{
+                            .board-info-left{
+                                @media only screen and (max-width: @mobile-max-width){
+                                    display: none;
+                                }
+                            }
+                            .board-info-right{
+                                @media only screen and (max-width: @mobile-max-width){
+                                    display: block;
+                                }
+                            }
+                        }
+                        
+                    }
+                    .support-search{
+                        .setup-search-on-the-bottom;
+                    }
+                    // get help area
+                    .get-help{
+                        .setup-get-help-block;
+                    }
+                    .btn-more{
+                        .setup-dropdown-button-with-arrow;
+                    }
+                    &.padding-zero{
+                        padding: 0;
+                        @media only screen and (max-width: @mobile-max-width){
+                            padding: 0;
+                        }
+                    }
+                }
+                &.userguide-in-section{
+                    min-height: ~"calc(100vh - 180px)";
+                    
+                    .box-layout{
+                        .board-large-info{
+                            &.userguide-in-content{
+                                    /*This is for old product which only have user guide download*/
+                                    margin-bottom: @d-margin-bottom-fixed;
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        margin-bottom: @m-margin-bottom-fixed;
+                                    }
+                                    a{
+                                        display: block;
+                                        color: @col-default-text;
+                                        text-decoration: underline;
+                                        line-height: 2;
+                                        &:hover{
+                                            color: @col-topaz;
+                                        }
+                                    }
+                            }
+                        }
+                    }
+                }
+            }
+            &.popup-area{
+                .setup-popup-triggered-by-fake-dropdown;
+            }
+            &.breadcrumb-wrap{
+                z-index: 1;
+            }
+        }
+    }
+}

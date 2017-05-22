@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>240A80EA-BF96-4E2C-8CEF-266A028FAFD1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="accessories_icon-copy-3" stroke="#000000" stroke-width="2">
+            <g id="Group-2" transform="translate(16.000000, 54.000000) scale(-1, 1) translate(-16.000000, -54.000000) translate(1.000000, 45.000000)">
+                <ellipse id="Oval-5-Copy-2" cx="15" cy="7" rx="12" ry="4"></ellipse>
+                <path d="M22.9374732,10 C20.8220736,10.6223634 18.0433394,11 15,11 C11.9566606,11 9.17792642,10.6223634 7.06252681,10 C9.17792642,9.37763659 11.9566606,9 15,9 C18.0433394,9 20.8220736,9.37763659 22.9374732,10 L22.9374732,10 Z" id="Combined-Shape" stroke-linejoin="round"></path>
+                <path d="M4,12 C6,13 9,14 14,14" id="Path-7" stroke-linecap="round"></path>
+                <g id="Dynamic-group">
+                    <path d="M30,6 C30,2.6862915 23.2842712,0 15,0 C6.71572875,0 0,2.6862915 0,6 L0,12 C0,15.3137085 6.71572875,18 15,18 C23.2842712,18 30,15.3137085 30,12 L30,6 Z" id="0:0:0:0"></path>
+                </g>
+            </g>
+            <path d="M57.0092465,13 C50.3727831,13 45,18.3708911 45,24.996221 L45,67.0069304 C45,68.0976918 45.8927712,69 46.9940603,69 L59.0059397,69 C60.1054862,69 61,68.1032894 61,66.9971408 L61,32.00034 C61,31.4478675 61.4383446,31 61.9911322,31 L64.5,31 C66.9852814,31 69,26.9705627 69,22 C69,17.0294373 66.9852814,13 64.5,13 L57.0092465,13 Z" id="Combined-Shape" stroke-linejoin="round"></path>
+            <ellipse id="Oval" cx="64.5" cy="22" rx="4.5" ry="9"></ellipse>
+            <ellipse id="Oval" cx="64.5" cy="22" rx="1.5" ry="5"></ellipse>
+            <path d="M45,64 L61,64" id="Line" stroke-linecap="square"></path>
+            <path d="M15.7055443,62.998867 C21.1872015,66.7835484 27.8347608,69 35,69 C38.5019248,69 41.8801941,68.4705676 45.0591328,67.4873778 C45.0205048,67.3332135 45,67.1722361 45,67.0069304 L45,24.996221 C45,18.3708911 50.3727831,13 57.0092465,13 L60.9238704,13 C54.6873238,5.65836234 45.3876713,1 35,1 C16.2223185,1 1,16.2223185 1,35 C1,39.4933375 1.87163556,43.7830935 3.45504707,47.7094086 C6.13587247,46.0774727 10.7533647,45 16,45 C24.2842712,45 31,47.6862915 31,51 L31,57 C31,60.3137085 24.2842712,63 16,63 C15.901624,63 15.8034692,62.9996212 15.7055443,62.998867 Z M61,56.9100669 C65.9916653,50.9926815 69,43.3476578 69,35 C69,32.3594506 68.6989869,29.7892067 68.1294031,27.3217106 C67.3103989,29.5521844 65.9897383,31 64.5,31 L61.9911322,31 C61.4383446,31 61,31.4478675 61,32.00034 L61,56.9100669 Z" id="Combined-Shape" stroke-linecap="round"></path>
+            <path d="M10,12 L60,12" id="Line" stroke-linecap="round"></path>
+            <path d="M1,34 L31,34" id="Line-Copy" stroke-linecap="round"></path>
+            <path d="M35,39 L35,69" id="Line-Copy-3" stroke-linecap="round"></path>
+            <path d="M35,12 L35,30" id="Line-Copy-4" stroke-linecap="round"></path>
+            <path d="M39,34 L44.0990195,34" id="Line-Copy-2" stroke-linecap="round"></path>
+            <circle id="Oval-2" cx="35" cy="34" r="4"></circle>
+        </g>
+    </g>
+</svg>

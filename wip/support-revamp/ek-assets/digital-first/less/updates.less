@@ -1,0 +1,207 @@
+@import 'lib/main.less';
+@import 'lib/banner-board-layout.less';
+
+.main.digital-first-main{
+    .section-wrapper{
+        .setup-two-bg-color(75%);
+        section{
+            &.parallax-wrap{
+                .setup-parallax-bg_short;
+                .setup-parallax-bg-image_grey;
+            }
+            &.updates-list{
+                padding-bottom: @d-section-bottom-fixed;
+                @media only screen and (max-width: @mobile-max-width){
+                    padding-bottom: @m-section-bottom-fixed;
+                }
+                .setup-margin-on-each(){
+                    width: 90%;
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+                .btn-popup-area{
+                    .setup-margin-on-each;
+                    .updates-popup-title{
+                        margin-bottom: 10px;
+
+                        .font16;
+                        .set-font-family('black');
+                        @media only screen and (max-width: @mobile-max-width){
+                            .m-font14;
+                        }
+                    }
+                    .fake-dropdown-selection{
+                        .setup-fake-dropdown-selection;
+                        width: 50%;
+                        @media only screen and (max-width: @mobile-max-width){
+                            width: 100%;
+                        }
+                        .btn-wording{
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: pre;
+                        }
+                    }
+                }
+                .highline-wording{
+                    .setup-margin-on-each;
+                    .margin-block{
+                        margin-bottom: @d-margin-bottom-fixed;
+                        @media only screen and (max-width: @mobile-max-width){
+                            margin-bottom: @m-margin-bottom-fixed;
+                        }
+                        p,span,a{
+                            .set-font-family;
+                            .font16;
+                            line-height: 1.4;
+                            @media only screen and (max-width: @mobile-max-width){
+                                .m-font14;
+                            }
+                        }
+                        a{
+                            color: @col-default-text;
+                            &:hover{
+                                color: @col-topaz;
+                            }
+                        }
+                    }
+                }
+                .download-list-area{
+                    margin-top: @d-margin-top-fixed;
+
+                    .setup-margin-on-each;
+                    @media only screen and (max-width: @mobile-max-width){
+                        margin-top: @m-margin-top-fixed;
+                    }
+                    .updates-table{
+                        display: table;
+
+                        width: 100%;
+
+                        .table-header{
+                            display: table-row;
+                            .updates-td{
+                                position: relative;
+                                .font16;
+                                padding-bottom: 50px;
+                                display: table-cell;
+                                @media only screen and (max-width: @mobile-max-width){
+                                    padding-bottom: 35px;
+                                    .m-font14;
+                                }
+                                .set-font-family('black');
+                                &:after{
+                                    position: absolute;
+                                    bottom: 37px;
+                                    left: 0;
+
+                                    display: block;
+
+                                    width: 100%;
+                                    height: 4px;
+
+                                    content: '';
+
+                                    background-color: @col-pinkishGrey;
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        bottom: 20px;
+                                    }
+                                }
+                                &:nth-of-type(1){
+                                    text-decoration: none;
+                                    width: 40%;
+
+                                }
+                                &:nth-of-type(2){
+                                    width: 30%;
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        display: none;
+                                    }
+                                }
+                                &:nth-of-type(3){
+                                    width: 30%;
+                                    text-align: right;
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        width: auto;
+                                    }
+                                }
+                            }
+                        }
+                        .table-row{
+                            display: none;
+                            &.show{
+                                display: table-row;                                
+                                &.last-one-remove-padding{
+                                    .updates-td{
+                                        padding-bottom: 0
+                                    }
+                                }
+                                
+                            }
+                            .updates-td{
+                                display: table-cell;
+                                .font18;
+                                padding-bottom: 50px;
+
+                                @media only screen and (max-width: @mobile-max-width){
+                                    padding-bottom: 25px;
+                                    .m-font14;
+                                }
+                                &:nth-of-type(1){
+                                    text-decoration: underline;
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        padding-right: 15px;
+                                    }
+                                }
+                                &:nth-of-type(2){
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        display: none;
+                                    }
+                                }
+                                &:nth-of-type(3){
+                                    text-align: right;
+                                }
+                                .go-to-product-page-link{
+                                    color: @col-default-text;
+                                    transition: color @animate-speed_short;
+                                    &:hover{
+                                        color: @col-topaz;
+                                    }
+                                }
+                                .update-notice{
+                                    line-height: 1.5;
+
+                                    color: @col-greyishBrown;
+
+                                    .font14;
+                                    .set-font-family('book');
+                                }
+                                .download-link{
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    .a-link{
+                                        width: 20px;
+                                        height: 20px;
+                                        background-size: 100%;
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        display: block;
+                                        margin-left: 10px;
+                                        @icon-folder-path: 'icon/';
+                                        .build-image-with-svg(download-icon, @icon-folder-path, 'software-update.png', 'software-update.svg');
+                                        &:hover{
+                                            .build-image-with-svg(download-icon, @icon-folder-path, 'software-update-copy.png', 'software-update-copy.svg');
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.popup-area{
+                .setup-popup-triggered-by-fake-dropdown;
+            }
+        }
+    }
+}

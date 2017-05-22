@@ -1,0 +1,72 @@
+@import 'lib/main.less';
+
+.main.digital-first-main{
+    .section-wrapper{
+        background-color: @col-default-bg-gainsboro;
+        section{
+            &.parallax-wrap{
+                .setup-parallax-bg_short;
+                .setup-parallax-bg-image_brown;
+            }
+            &.livechat-support{
+                .setup-section-padding-bottom;
+                .box-layout{
+                    .livechat-info-area{
+                        width: 60%;
+                        margin-top: @d-margin-top-bottom;
+                        margin-right: auto;
+                        margin-bottom: 0;
+                        margin-left: auto;
+
+                        @media only screen and (max-width: @mobile-max-width){
+                            width: 100%;
+                            margin-top: @m-margin-top-bottom*2;
+                            .set-font-family('book');
+                        }
+                        .wording{
+                            line-height: 1.5;
+
+                            padding-bottom: 2.69%;
+                            p, span, a{
+                                .font16('!important');
+                                @media only screen and (max-width: @mobile-max-width){
+                                    .m-font16('!important');
+                                }
+                            }
+                            a{
+                                color: @col-topaz;
+                            }
+                        }
+                        // btn
+                        .btn-area{
+                            margin-top: @d-margin-top-bottom*2;
+
+                            text-align: center;
+                            @media only screen and (max-width: @mobile-max-width){
+                                margin-top: @m-margin-top-fixed;
+                            }
+                            .btn-start{
+                                font-weight: 900;
+
+                                display: inline-block;
+
+                                padding: 1.2% 5% .7%;
+
+                                cursor: pointer;
+                                text-decoration: none;
+
+                                border: 3px solid @col-default-text;
+                                &:visited,&:active{
+                                    color: @col-default-text;
+                                }
+                                &:hover{
+                                    background-color: @col-hover;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

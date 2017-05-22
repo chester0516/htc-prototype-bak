@@ -1,0 +1,721 @@
+.main.digital-first-main {
+    .section-wrapper {
+        section {
+            @spacing: 10%;
+            @product-list-total-width: 85%;
+            .flexboxGridMixin(@columnNumber, @spacingPercent) {
+                box-sizing: border-box;
+                width: @product-list-total-width/@columnNumber;
+                // margin-right: @sideMargin;
+                // margin-left: @sideMargin;
+
+                @contentPercent: 83% - @spacingPercent;
+                @sideMargin: @spacingPercent/(@columnNumber*2);
+            }
+            &.listing-detailed-container {
+                margin-top: @d-margin-top-bottom;
+                margin-bottom: @d-margin-top-bottom;
+                //.contactissue-page class name is used in production
+                .contact-support-page &,
+                .contactissue-page & {
+                    margin-top: 0;
+                }
+                &.m-fixed {
+                    @media only screen and (max-width: @mobile-max-width) {
+                        z-index: 10;//need to higer than the z-index of banner search box
+                    }
+                }
+                @media only screen and (max-width: @mobile-max-width) {
+                    margin-top: 9%;
+                    margin-bottom: @m-section-bottom-fixed;
+                }
+                .box-layout {
+                    position: relative;
+                    .title {
+                        h4 {
+                            margin-top: 60px;
+
+                            .font20;
+                            .set-font-family();
+                            @media only screen and (max-width: @mobile-max-width) {
+                                margin-top: @m-margin-top-fixed;
+                            }
+                            &.margin-top-zero {
+                                margin-top: 0;
+                            }
+                            span.bold {
+                                .set-font-family('black');
+                            }
+                        }
+                    }
+                    .product-list-container {
+                        margin-top: @d-margin-top-fixed;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            margin-top: @m-margin-bottom-fixed;
+                            padding-bottom: @m-margin-bottom-fixed;
+                        }
+                        .btn-close-product-popup {
+                            display: none;
+                        }
+                        .flex-box-area {
+                            display: flex;
+                            flex-direction: row;
+
+                            padding: 0;
+
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            &.add-padding {
+                                // padding-bottom: 30px;
+                                // @media only screen and (max-width: @mobile-max-width){
+                                //     padding-bottom: 25px;
+                                // }
+                            }
+                            > div{
+                                &:nth-of-type(1), &:nth-of-type(2){
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        padding-top: 0;
+                                    }
+                                }
+                            }
+                            .product-item {
+                                position: relative;
+
+                                margin-top: 0;
+                                padding-bottom: @d-margin-bottom-fixed;
+                                cursor: pointer;
+
+                                text-align: center;
+                                @media only screen and (max-width: @mobile-max-width) {
+                                    padding-top: @m-margin-top-fixed;
+                                    padding-bottom: 0;
+
+                                    .flexboxGridMixin(2, 0);
+                                }
+                                @media only screen and (min-width: @desktop-content-min) {
+                                    .flexboxGridMixin(6, @spacing);
+                                }
+                                &:before {
+                                    position: absolute;
+                                    z-index: 5;
+                                    bottom: 20px;
+                                    left: 50%;
+
+                                    width: 0;
+                                    height: 0;
+                                    margin-left: -20px;
+
+                                    content: '';
+                                
+                                    opacity: 0;
+                                    border-width: 0 20px 20px 20px;
+                                    border-style: solid;
+                                    border-color: transparent transparent #f0f0f0 transparent;
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        display: none;
+                                    }
+                                }
+                                &.selected {
+                                    color: @col-topaz;
+    
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        
+                                    }
+                                    &:hover {
+                                        .product-name:after {
+                                            display: none;
+                                        }
+                                    }
+                                    &:before {
+                                        opacity: 1;
+                                        transition: opacity 1.2s;
+                                    }
+                                    .product-image {
+                                        .image-block {
+                                            &.problem-type {
+                                                @icon-folder-path: 'icon/problem_list/';
+                                                .build-image-with-svg(power-charging, @icon-folder-path, 'power-power-charging-copy.png', 'power-power-charging-copy.svg');
+                                                .build-image-with-svg(audio-display, @icon-folder-path, 'display-copy.png', 'display-copy.svg');
+                                                .build-image-with-svg(system-performance, @icon-folder-path, 'system-performance-copy.png', 'system-performance-copy.svg');
+                                                .build-image-with-svg(applications, @icon-folder-path, 'applications-icon-copy-3.png', 'applications-icon-copy-3.svg');
+                                                .build-image-with-svg(camera, @icon-folder-path, 'cmaera-copy.png', 'cmaera-copy.svg');
+                                                .build-image-with-svg(storage, @icon-folder-path, 'update-icon-copy-3.png', 'update-icon-copy-3.svg');
+                                                .build-image-with-svg(backup-transfer, @icon-folder-path, 'backup-transfer-n-reset-copy.png', 'backup-transfer-n-reset-copy.svg');
+                                                .build-image-with-svg(security, @icon-folder-path, 'security-selected.png', 'security-selected.svg');
+                                                .build-image-with-svg(calls-sim, @icon-folder-path, 'call-n-s-i-m-selected.png', 'call-n-s-i-m-selected.svg');
+                                                .build-image-with-svg(wireless-networks, @icon-folder-path, 'wireless-n-networks-selected.png', 'wireless-n-networks-selected.svg');
+                                                @media only screen and (max-width: @mobile-max-width) {
+                                                    @icon-folder-path: 'icon/problem_list/mobile/drawable-xhdpi/';
+                                                    .build-image-with-svg(power-charging, @icon-folder-path, 'power_charging_selected.png', 'power_charging_selected.svg');
+                                                    .build-image-with-svg(audio-display, @icon-folder-path, 'product_selected.png', 'product_selected.svg');
+                                                    .build-image-with-svg(system-performance, @icon-folder-path, 'system_performance_selected.png', 'system_performance_selected.svg');
+                                                    .build-image-with-svg(applications, @icon-folder-path, 'application_selected.png', 'application_selected.svg');
+                                                    .build-image-with-svg(camera, @icon-folder-path, 'camera_selected.png', 'camera_selected.svg');
+                                                    .build-image-with-svg(storage, @icon-folder-path, 'update_selected.png', 'update_selected.svg');
+                                                    .build-image-with-svg(backup-transfer, @icon-folder-path, 'backup_transfer_n_reset_selected.png', 'backup_transfer_n_reset_selected.svg');
+                                                    .build-image-with-svg(security, @icon-folder-path, 'security_selected.png', 'security_selected.svg');
+                                                    .build-image-with-svg(calls-sim, @icon-folder-path, 'call_n_s_i_m_selected.png', 'call_n_s_i_m_selected.svg');
+                                                    .build-image-with-svg(wireless-networks, @icon-folder-path, 'wireless_n_networks_selected.png', 'wireless_n_networks_selected.svg');
+                                                }
+                                            }
+                                            &.product-type {
+                                                &.grey-icon {
+                                                    @icon-folder-path: 'icon/select_product/blue/';
+                                                    .build-image-with-svg(u, @icon-folder-path, 'u-icon.png', 'u-icon.svg');
+                                                    .build-image-with-svg(one, @icon-folder-path, 'one-icon.png', 'one-icon.svg');
+                                                    .build-image-with-svg(desire, @icon-folder-path, 'desire-icon.png', 'desire-icon.svg');
+                                                    .build-image-with-svg(butterfly, @icon-folder-path, 'butterfly-icon.png', 'butterfly-icon.svg');
+                                                    .build-image-with-svg(lifestyle, @icon-folder-path, 'lifestyle-icon.png', 'lifestyle-icon.svg');
+                                                    .build-image-with-svg(accessories, @icon-folder-path, 'accessories-icon.png', 'accessories-icon.svg');
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .product-name {
+                                        .set-font-family('black');
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            .set-font-family;
+                                            color: @col-default-text;
+                                        }
+                                    }
+                                }
+                                &:hover {
+                                    .product-name {
+                                        .show-bottom-line;
+                                    }
+                                }
+                                .product-image {
+                                    .image-block {
+                                        width: 70px;
+                                        height: 71px;/*fix some svg height*/
+                                        margin-right: auto;
+                                        margin-left: auto;
+
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            background-size: contain;
+                                        }
+                                        &.big-icon {
+                                            width: 100px;
+                                            height: 100px;
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                width: 80px;
+                                                height: 80px;
+                                            }
+                                        }
+                                        &.problem-type {
+                                            @icon-folder-path: 'icon/problem_list/';
+                                            .build-image-with-svg(power-charging, @icon-folder-path, 'power-power-charging.png', 'power-power-charging.svg');
+                                            .build-image-with-svg(audio-display, @icon-folder-path, 'display.png', 'display.svg');
+                                            .build-image-with-svg(system-performance, @icon-folder-path, 'system-performance.png', 'system-performance.svg');
+                                            .build-image-with-svg(applications, @icon-folder-path, 'applications-icon-copy-2.png', 'applications-icon-copy-2.svg');
+                                            .build-image-with-svg(camera, @icon-folder-path, 'cmaera.png', 'cmaera.svg');
+                                            .build-image-with-svg(storage, @icon-folder-path, 'update-icon-copy-2.png', 'update-icon-copy-2.svg');
+                                            .build-image-with-svg(backup-transfer, @icon-folder-path, 'backup-transfer-n-reset.png', 'backup-transfer-n-reset.svg');
+                                            .build-image-with-svg(security, @icon-folder-path, 'security.png', 'security.svg');
+                                            .build-image-with-svg(calls-sim, @icon-folder-path, 'call-n-s-i-m.png', 'call-n-s-i-m.svg');
+                                            .build-image-with-svg(wireless-networks, @icon-folder-path, 'wireless-n-networks.png', 'wireless-n-networks.svg');
+                                            
+                                            .preload-hover-image-with-svg(power-charging, @icon-folder-path, 'power-power-charging-copy.png', 'power-power-charging-copy.svg');
+                                            .preload-hover-image-with-svg(audio-display, @icon-folder-path, 'display-copy.png', 'display-copy.svg');
+                                            .preload-hover-image-with-svg(system-performance, @icon-folder-path, 'system-performance-copy.png', 'system-performance-copy.svg');
+                                            .preload-hover-image-with-svg(applications, @icon-folder-path, 'applications-icon-copy-3.png', 'applications-icon-copy-3.svg');
+                                            .preload-hover-image-with-svg(camera, @icon-folder-path, 'cmaera-copy.png', 'cmaera-copy.svg');
+                                            .preload-hover-image-with-svg(storage, @icon-folder-path, 'update-icon-copy-3.png', 'update-icon-copy-3.svg');
+                                            .preload-hover-image-with-svg(backup-transfer, @icon-folder-path, 'backup-transfer-n-reset-copy.png', 'backup-transfer-n-reset-copy.svg');
+                                            .preload-hover-image-with-svg(security, @icon-folder-path, 'security-selected.png', 'security-selected.svg');
+                                            .preload-hover-image-with-svg(calls-sim, @icon-folder-path, 'call-n-s-i-m-selected.png', 'call-n-s-i-m-selected.svg');
+                                            .preload-hover-image-with-svg(wireless-networks, @icon-folder-path, 'wireless-n-networks-selected.png', 'wireless-n-networks-selected.svg');
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                @icon-folder-path: 'icon/problem_list/mobile/drawable-xhdpi/';
+                                                .build-image-with-svg(power-charging, @icon-folder-path, 'power_charging.png', 'power_charging.svg');
+                                                .build-image-with-svg(audio-display, @icon-folder-path, 'product.png', 'product.svg');
+                                                .build-image-with-svg(system-performance, @icon-folder-path, 'system_performance.png', 'system_performance.svg');
+                                                .build-image-with-svg(applications, @icon-folder-path, 'application.png', 'application.svg');
+                                                .build-image-with-svg(camera, @icon-folder-path, 'camera.png', 'camera.svg');
+                                                .build-image-with-svg(storage, @icon-folder-path, 'update.png', 'update.svg');
+                                                .build-image-with-svg(backup-transfer, @icon-folder-path, 'backup_transfer_n_reset.png', 'backup_transfer_n_reset.svg');
+                                                .build-image-with-svg(security, @icon-folder-path, 'security.png', 'security.svg');
+                                                .build-image-with-svg(calls-sim, @icon-folder-path, 'call_n_s_i_m.png', 'call_n_s_i_m.svg');
+                                                .build-image-with-svg(wireless-networks, @icon-folder-path, 'wireless_n_networks.png', 'wireless_n_networks.svg');
+                                            
+                                                .preload-hover-image-with-svg(power-charging, @icon-folder-path, 'power_charging_selected.png', 'power_charging_selected.svg');
+                                                .preload-hover-image-with-svg(audio-display, @icon-folder-path, 'product_selected.png', 'product_selected.svg');
+                                                .preload-hover-image-with-svg(system-performance, @icon-folder-path, 'system_performance_selected.png', 'system_performance_selected.svg');
+                                                .preload-hover-image-with-svg(applications, @icon-folder-path, 'application_selected.png', 'application_selected.svg');
+                                                .preload-hover-image-with-svg(camera, @icon-folder-path, 'camera_selected.png', 'camera_selected.svg');
+                                                .preload-hover-image-with-svg(storage, @icon-folder-path, 'update_selected.png', 'update_selected.svg');
+                                                .preload-hover-image-with-svg(backup-transfer, @icon-folder-path, 'backup_transfer_n_reset_selected.png', 'backup_transfer_n_reset_selected.svg');
+                                                .preload-hover-image-with-svg(security, @icon-folder-path, 'security_selected.png', 'security_selected.svg');
+                                                .preload-hover-image-with-svg(calls-sim, @icon-folder-path, 'call_n_s_i_m_selected.png', 'call_n_s_i_m_selected.svg');
+                                                .preload-hover-image-with-svg(wireless-networks, @icon-folder-path, 'wireless_n_networks_selected.png', 'wireless_n_networks_selected.svg');
+                                            }
+                                        }
+                                        &.product-type {
+                                            &.grey-icon {
+                                                @icon-folder-path: 'icon/select_product/grey/';
+                                                .build-image-with-svg(u, @icon-folder-path, 'u-icon.png', 'u-icon.svg');
+                                                .build-image-with-svg(one, @icon-folder-path, 'one-icon.png', 'one-icon.svg');
+                                                .build-image-with-svg(desire, @icon-folder-path, 'desire-icon.png', 'desire-icon.svg');
+                                                .build-image-with-svg(butterfly, @icon-folder-path, 'butterfly-icon.png', 'butterfly-icon.svg');
+                                                .build-image-with-svg(lifestyle, @icon-folder-path, 'lifestyle-icon.png', 'lifestyle-icon.svg');
+                                                .build-image-with-svg(accessories, @icon-folder-path, 'accessories-icon.png', 'accessories-icon.svg');
+                                            }
+                                            &.color-icon {
+                                                @icon-folder-path: 'icon/select_product/color/';
+                                                .build-image-with-svg(u, @icon-folder-path, 'u-icon.png', 'u-icon.svg');
+                                                .build-image-with-svg(one, @icon-folder-path, 'one-icon.png', 'one-icon.svg');
+                                                .build-image-with-svg(desire, @icon-folder-path, 'desire-icon.png', 'desire-icon.svg');
+                                                .build-image-with-svg(butterfly, @icon-folder-path, 'butterfly-icon.png', 'butterfly-icon.svg');
+                                                .build-image-with-svg(lifestyle, @icon-folder-path, 'lifestyle-icon.png', 'lifestyle-icon.svg');
+                                                .build-image-with-svg(accessories, @icon-folder-path, 'accessories-icon.png', 'accessories-icon.svg');
+                                            }
+                                        }
+                                    }
+                                }
+                                .product-name {
+                                    margin: 20px 5% 5px;
+                                    padding-bottom: 7px; /*for bottom line when hover*/
+
+                                    .font16;
+                                    .set-font-family('book');
+                                    .setup-show-bottom-line-on-hover;
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        margin-top: 14px;
+                                        margin-bottom: 0;
+                                        padding-bottom: 0;
+
+                                        .m-font16;
+                                    }
+                                }
+                                .related-products {
+                                    display: none;
+                                }
+                            }
+                            .detail-item {
+                                position: relative;
+                                z-index: 2;
+
+                                overflow: hidden;
+
+                                width: 100%;
+
+                                margin-bottom: 0;
+                                margin-top: -20px;
+                                margin-left: 0;
+                                margin-right: 0;
+                                padding: 0;
+
+                                .setup-close-button;
+                                @media only screen and (max-width: @mobile-max-width) {
+                                    height: 0;
+                                    margin-top: 0;
+                                }
+                                &.active {
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        position: fixed;
+                                        z-index: 999999999;
+                                        top: 0;
+                                        left: 0;
+
+                                        overflow-y: scroll;
+
+                                        width: 100%;
+                                        height: 100vh;
+                                    }
+                                    .related-product-group {
+                                        opacity: 1;
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            position: relative;
+                                            z-index: 2;
+                                        }
+                                        &:after {
+                                            //this is an overlap
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                position: absolute;
+                                                z-index: -1;
+                                                top: 0;
+                                                left: 0;
+
+                                                display: block;
+
+                                                width: 100%;
+                                                height: 100%;
+
+                                                content: '';
+
+                                                background-color: #fff;
+                                            }
+                                        }
+                                    }
+                                    &:after {
+                                        //this is an overlap
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            position: absolute;
+                                            z-index: 1;
+                                            top: 0;
+                                            left: 0;
+
+                                            display: block;
+
+                                            width: 100%;
+                                            height: 100vh;
+
+                                            content: '';
+
+                                            background-color: #fff;
+                                        }
+                                    }
+                                }
+                                .related-product-group {
+                                    position: relative;
+                                    z-index: 2;
+
+                                    display: flex;
+
+                                    width: @product-list-total-width;
+                                    margin: @d-margin-bottom-fixed auto 0;
+
+                                    transition: opacity @animate-speed @animate-easing;
+                                    transition-delay: 0;
+
+                                    opacity: 0;
+
+                                    justify-content: flex-start;
+                                    flex-wrap: wrap;
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        top: 0;
+
+                                        display: block;
+
+                                        width: 100%;
+                                        margin-top: 0;
+                                        margin-bottom: 0;
+                                        padding-top: @m-gutter*2;
+                                        padding-right: @m-gutter;
+                                        padding-bottom: @m-gutter;
+                                        padding-left: @m-gutter;
+
+                                        background-color: #fff;
+                                        // height: 100vh;
+                                    }
+                                    .popup-list {
+                                        display: flex;
+
+                                        width: 100%;
+
+                                        flex-wrap: wrap;
+                                        justify-content: center;
+                                        &.align-left {
+                                            justify-content: flex-start;
+                                        }
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            display: block;
+                                            // max-height: 360px;
+                                            // overflow-y: scroll;
+
+                                            width: 100%;
+                                            margin: 0;
+                                            padding: 0;
+                                        }
+                                        .related-product-item {
+                                            width: 100%/6;
+                                            margin-bottom: @d-margin-bottom-fixed;
+
+                                            text-align: center;
+                                            text-decoration: none;
+
+                                            color: @col-default-text;
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                width: 100%;
+                                                margin-bottom: 20px;
+                                            }
+                                            // .image-block{
+                                            //     height: 100px;
+                                            //     width: 100px;
+                                            //     display: flex;
+                                            //     justify-content: center;
+                                            //     margin: 0 auto;
+                                            //     align-items: flex-end;
+
+                                            //     @media only screen and (max-width: @mobile-max-width) {
+                                            //         display: none;
+                                            //     }
+                                            //     .align-center{
+                                            //         img {
+                                            //             max-height: 100px;
+                                            //             max-width: 100px;
+                                            //             height: auto;
+                                            //             width: auto;
+                                            //             display: block;
+                                            //             margin: 0 auto;
+                                            //         }
+                                            //     }
+                                            // }
+                                            .image-block{
+                                                .align-center{
+                                                    img{
+                                                        height: 100px;
+                                                        @media only screen and (max-width: @mobile-max-width) {
+                                                            display: none;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .product-name {
+                                                margin: 26px 2% 5px;
+                                                padding-bottom: 7px;
+
+                                                .font16;
+                                                .set-font-family('book');
+                                                .setup-show-bottom-line-on-hover;
+                                                @media only screen and (max-width: @mobile-max-width) {
+                                                    font-weight: 100;
+
+                                                    margin: 0;
+                                                    padding: 24px;
+
+                                                    border-top: solid 1px @col-pinkishGrey;
+
+                                                    .set-font-family('book');
+                                                    .m-font16;
+                                                }
+                                            }
+                                            &.selected {
+                                                .product-name {
+                                                    color: @col-topaz;
+                                                    .set-font-family('black');
+                                                }
+                                                &:hover {
+                                                    .product-name:after {
+                                                        display: none;
+                                                    }
+                                                }
+                                            }
+                                            &:hover {
+                                                .product-name {
+                                                    .show-bottom-line;
+                                                }
+                                            }
+                                            &:first-child {
+                                                .product-name {
+                                                    @media only screen and (max-width: @mobile-max-width) {
+                                                        border-top: 0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .popup-title {
+                                        display: none;
+
+                                        .setup-popup-title;
+                                        &.m-popup-title {
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                display: block;
+
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                    &.related-problem-group {
+                                        width: 100%;
+                                        margin-top: 20px;
+                                        margin-bottom: 20px;
+                                        padding-right: 60px;
+                                        padding-left: 60px;
+
+                                        justify-content: flex-start;
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            margin-top: 0;
+                                            margin-bottom: 0;
+                                            padding-right: @m-gutter;
+                                            padding-left: @m-gutter;
+                                        }
+                                        .related-help-content-item {
+                                            display: flex;
+
+                                            width: 50%;
+                                            min-height: 100px;
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                width: auto;
+                                                min-height: initial;
+                                            }
+                                            &:hover,
+                                            &.selected {
+                                                .flex-margin {
+                                                    color: @col-topaz;
+                                                    border-color: @col-topaz;
+                                                    @media only screen and (max-width: @mobile-max-width) {
+                                                        border-color: @col-pinkishGrey;
+                                                    }
+                                                }
+                                            }
+                                            &:first-child {
+                                                .flex-margin {
+                                                    @media only screen and (max-width: @mobile-max-width) {
+                                                        border-top: none;
+                                                    }
+                                                }
+                                            }
+                                            .flex-margin {
+                                                display: flex;
+
+                                                width: 100%;
+                                                margin: 10px;
+                                                padding: 25px;
+
+                                                cursor: pointer;
+                                                text-align: center;
+
+                                                border: solid 3px @col-greyishBrown2;
+
+                                                align-items: center;
+                                                justify-content: center;
+                                                .font18;
+                                                @media only screen and (max-width: @mobile-max-width) {
+                                                    font-weight: 100;
+                                                    line-height: 1.5;
+
+                                                    margin: 0;
+                                                    padding: 24px 0;
+
+                                                    text-align: left;
+
+                                                    border-top: solid 1px @col-pinkishGrey;
+                                                    border-right: none;
+                                                    border-bottom: none;
+                                                    border-left: none;
+
+                                                    .set-font-family('book');
+                                                    .m-font16;
+                                                    justify-content: flex-start;
+                                                }
+                                            }
+                                        }
+                                        .btn-close {
+                                            display: none;
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                display: block;
+                                            }
+                                        }
+                                    }
+                                }
+                                &:after {
+                                    position: absolute;
+                                    z-index: 1;
+                                    top: 0;
+                                    left: -50%;
+
+                                    display: inline-block;
+
+                                    width: 200%;
+                                    height: 100%;
+
+                                    content: '';
+
+                                    background-color: #f0f0f0;
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        display: none;
+                                    }
+                                }
+                                .hidden-carrier-block {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.problem-listing {
+                .box-layout {
+                    .product-list-container {
+                        .flex-box-area {
+                            @m-problem-category-item-padding: 19.5px;
+                            > div{
+                                &:nth-of-type(1){
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        padding-top: 0;
+                                    }
+                                } 
+                                &:nth-of-type(2){
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        padding-top: @m-problem-category-item-padding;
+                                    }
+                                    &.detail-item{
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            padding-top: 0;
+                                            padding-bottom: 0;
+                                            margin-bottom: 0;
+                                            margin-top: 0;
+                                        }
+                                    }
+                                }
+                                &:nth-last-of-type(1){
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        margin-bottom: 0;
+                                    }
+                                } 
+                            }
+                            .product-item {
+                                @media only screen and (min-width: @desktop-content-min) {
+                                    .flexboxGridMixin(7, @spacing);
+                                }
+                                @media only screen and (max-width: @mobile-max-width) {
+                                    display: flex;
+
+                                    width: 100%;
+                                    margin-top: 0;
+                                    margin-right: @m-gutter;
+                                    margin-bottom: @m-problem-category-item-padding;
+                                    margin-left: @m-gutter;
+                                    padding-top: @m-problem-category-item-padding;
+                                    padding-bottom: 0;
+
+                                    border-top: solid 1px @col-pinkishGrey;
+
+                                    align-items: center;
+                                }
+                                &.selected{
+                                    .product-name{
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            color: @col-topaz;
+                                        }
+                                    }
+                                }
+                                &:first-child {
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        border-top: 0;
+                                    }
+                                }
+                                .product-image {
+                                    .image-block {
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            width: 35px;
+                                            height: 35px;
+                                        }
+                                    }
+                                }
+                                .product-name {
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        margin-top: 0;
+                                        margin-bottom: 0;
+                                        padding-bottom: 0;
+
+                                        .m-font16;
+                                    }
+                                }
+                            }
+                            .detail-item {
+                                @media only screen and (max-width: @mobile-max-width) {
+                                    margin-bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

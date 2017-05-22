@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="us prototype-only" data-site="us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HTC</title>
+        <link rel="stylesheet" href="ek-assets/digital-first/css/backup-transfer.css">
+        <script src="ek-assets/digital-first/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="ek-assets/digital-first/js/vendor/jquery-2.2.2.min.js"></script>
+        <script src="ek-assets/digital-first/js/vendor/jquery.history.js"></script>
+        <script src="ek-assets/digital-first/js/vendor/jquery.easing.1.3.min.js"></script>
+        <script src="ek-assets/digital-first/js/plugins/picturefill/picturefill.min.js"></script>
+        <script src="ek-assets/digital-first/js/plugins/template/tmpl.min.js" type="text/javascript"></script>
+        <script type="text/x-tmpl" id="search-result-tmp">
+        <li class="search-result-data">
+            <a href="{%=o.url%}">
+                <div class="search-data-img search-data-type {%=o.icon%}"></div>
+                <div class="search-data-info">
+                    <div class="search-data-title">{%=o.title%}</div>
+                    <div class="search-data-desc">{%=o.desc%}</div>
+                </div>
+            </a>
+        </li>
+        </script>
+        <script src="ek-assets/digital-first/js/plugins/gsap/TweenMax.min.js"></script>
+        <script src="ek-assets/digital-first/js/plugins/gsap/plugins/ScrollToPlugin.min.js"></script>
+        <script src="ek-assets/digital-first/js/lib/common.js"></script>
+        <script src="ek-assets/digital-first/js/vendor/purl.js" type="text/javascript"></script>
+        <script src="ek-assets/digital-first/js/lib/smart-search.js"></script>
+        
+    </head>
+    <body class="us backup-transfer-page backuptransfer-page" data-site="us">
+        <div id="htc-site" class="htc-chrome">
+            <div id="htc-header" class="htc-header">
+                <header>
+                    <div class="content">
+                        Fake Header
+                    </div>
+                </header>
+            </div>
+            <div class="main digital-first-main">
+                <!-- Hidden input for GSA. Value can be empty. Display is for user to read.-->
+                <input type="hidden" class="hidden-search-content-type" value="backup">
+                <input type="hidden" class="hidden-search-content-type-display" value="Backup & Transfer">
+                <input type="hidden" class="hidden-search-product-name-id" value="">
+                <input type="hidden" class="hidden-search-product-name-id-display" value="">
+                <input type="hidden" class="hidden-seleted-topic" value="">
+                <div class="main">
+                    <div class="section-wrapper">
+                        <section class="parallax-wrap">
+                            <div class="parallax-img"></div>
+                        </section>
+                        <section class="hero-banner title-only">
+                            <div class="content">
+                                <div class="title">
+                                    <h2 class="text-white">Backup & Transfer</h2>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="backup-transfer-list">
+                            <div class="content mid-width m-full-width">
+                                <div class="box-layout padding-zero">
+                                    <div class="title has-subtitle-bottom-line">
+                                        <h2>Choose a topic.</h2>
+                                        <h5>What would you like to know about?</h5>
+                                    </div>
+                                    <div class="backup-transfer-list-container">
+                                        <div class="flex-box-area">
+                                            
+                                            <div class="product-item selected">
+                                                <div class="image-block">
+                                                    <img src="/uploadedimages/GUID-F60CD832-5408-4357-A820-A0AE92DBD5B9-web.png" alt="">
+                                                </div>
+                                                <div class="product-name">Backup</div>
+                                                <div class="product-desc">Back up your phone to your cloud storage or computer.</div>
+                                                
+                                                
+                                                <div class="related-products">
+                                                    <div class="popup-list">
+                                                        
+                                                        <a class="related-backup-transfer-item" href="htc-backup-for-android-5-and-earlier.html">
+                                                            <img src="/uploadedimages/GUID-73E048DB-0EAB-42B1-9743-86DD750C535E-web.png">
+                                                            <div class="backup-transfer-info">
+                                                                Back up your phone that has Android 5
+                                                                or earlier installed to the cloud
+                                                            using HTC Backup. 
+                                                            </div>
+                                                        </a>
+                                                        
+                                                        <a class="related-backup-transfer-item" href="android-backup-service-for-android-6-and-later.html" >
+                                                            <img src="/uploadedimages/GUID-E8635235-5D23-4931-A660-88ADCCA4B517-web.png">
+                                                            <div class="backup-transfer-info">
+                                                            Back up your phone that has Android 6 or later installed to the cloud using Android Backup Service. </div>
+                                                        </a>
+                                                        
+                                                        <a class="related-backup-transfer-item" href="http://www.htc.com/us/support/htc-sync-manager/backing-up-phone-to-computer.html" >
+                                                            <img src="/uploadedimages/GUID-76BBF78E-8806-4A86-A989-672BD6FB5652-web.png">
+                                                            <div class="backup-transfer-info">
+                                                                Back up your phone
+                                                                to your computer using
+                                                            HTC Sync Manager. </div>
+                                                        </a>
+                                                        
+                                                        
+                                                        
+                                                        <div class="backup-transfer-notice">Tip: To check the Android version on your phone, go to Settings, and then tap About &gt; Software information.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <div class="product-item">
+                                                <div class="image-block">
+                                                    <img src="/uploadedimages/GUID-C488EAAF-E3AF-44F5-B934-5B0E1A2F1316-web.png" alt="">
+                                                </div>
+                                                <div class="product-name">Restore</div>
+                                                <div class="product-desc">Restore your data and settings from the same backup service that you used to back up your HTC phone. </div>
+                                                
+                                                
+                                                <div class="related-products">
+                                                    <div class="popup-list">
+                                                        
+                                                        <a class="related-backup-transfer-item" href="restoring-from-htc-backup.html" >
+                                                            <img src="/uploadedimages/GUID-E9F5CB23-C9F1-4064-BDDB-C89FBB92579D-web.png">
+                                                            <div class="backup-transfer-info">
+                                                            Restore from HTC Backup. </div>
+                                                        </a>
+                                                        
+                                                        <a class="related-backup-transfer-item" href="restoring-from-android-backup-service.html" >
+                                                            <img src="/uploadedimages/GUID-8911617C-9DE5-4390-A32A-F95F6A5EBB27-web.png">
+                                                            <div class="backup-transfer-info">
+                                                            Restore from Android Backup Service. </div>
+                                                        </a>
+                                                        
+                                                        <a class="related-backup-transfer-item" href="http://www.htc.com/us/support/htc-sync-manager/restoring-a-backup-from-computer-to-phone.html" >
+                                                            <img src="/uploadedimages/GUID-D7118476-88DD-4282-8B98-13923CDE86A9-web.png">
+                                                            <div class="backup-transfer-info">
+                                                                Restore a saved backup from your computer to your phone using
+                                                            HTC Sync Manager. </div>
+                                                        </a>
+                                                        
+                                                        
+                                                        
+                                                        <div class="backup-transfer-notice"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <div class="product-item">
+                                                <div class="image-block">
+                                                    <img src="/uploadedimages/GUID-E8ADE594-7077-4D04-8026-872894CADF9A-web.png" alt="">
+                                                </div>
+                                                <div class="product-name">Transfer</div>
+                                                <div class="product-desc">Easily transfer content from an HTC or other Android phone to your new HTC phone. </div>
+                                                
+                                                
+                                                <div class="related-products">
+                                                    <div class="popup-list">
+                                                        
+                                                        <a class="related-backup-transfer-item" href="transferring-content-from-an-android-phone.html" >
+                                                            <img src="/uploadedimages/GUID-83E6978A-C89E-46F6-ACF2-F7CA36113CBB-web.png">
+                                                            <div class="backup-transfer-info">
+                                                            Transfer content from an HTC or other Android phone. </div>
+                                                        </a>
+                                                        
+                                                        <a class="related-backup-transfer-item" href="transferring-iphone-content-thru-icloud.html" >
+                                                            <img src="/uploadedimages/GUID-71337A04-2EC7-416D-A3C4-E84598EABE3C-web.png">
+                                                            <div class="backup-transfer-info">
+                                                            Transfer content from an iPhone through iCloud. </div>
+                                                        </a>
+                                                        
+                                                        
+                                                        
+                                                        <div class="backup-transfer-notice"></div>
+                                                    </div>
+                                                </div>
+                                                </div><div class="detail-item active" style="height: auto;"><div class="related-product-group popup-window"><div class="btn-close"></div><div class="popup-title m-popup-title">Backup</div>
+                                                <div class="popup-list">
+                                                    
+                                                    <a class="related-backup-transfer-item" href="htc-backup-for-android-5-and-earlier.html" >
+                                                        <img src="/uploadedimages/GUID-73E048DB-0EAB-42B1-9743-86DD750C535E-web.png">
+                                                        <div class="backup-transfer-info">
+                                                            Back up your phone that has Android 5
+                                                            or earlier installed to the cloud
+                                                        using HTC Backup. </div>
+                                                    </a>
+                                                    
+                                                    <a class="related-backup-transfer-item" href="android-backup-service-for-android-6-and-later.html" >
+                                                        <img src="/uploadedimages/GUID-E8635235-5D23-4931-A660-88ADCCA4B517-web.png">
+                                                        <div class="backup-transfer-info">
+                                                        Back up your phone that has Android 6 or later installed to the cloud using Android Backup Service. </div>
+                                                    </a>
+                                                    
+                                                    <a class="related-backup-transfer-item" href="http://www.htc.com/us/support/htc-sync-manager/backing-up-phone-to-computer.html" >
+                                                        <img src="/uploadedimages/GUID-76BBF78E-8806-4A86-A989-672BD6FB5652-web.png">
+                                                        <div class="backup-transfer-info">
+                                                            Back up your phone
+                                                            to your computer using
+                                                        HTC Sync Manager. </div>
+                                                    </a>
+                                                    
+                                                    
+                                                    
+                                                    <div class="backup-transfer-notice">Tip: To check the Android version on your phone, go to Settings, and then tap About &gt; Software information.</div>
+                                                </div>
+                                            </div></div>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- find support search -->
+                                    <div class="support-search">
+                                        <h2>Find additional support for the Backup & Transfer</h2>
+                                        <!-- search box -->
+                                        <div class="search-area with-grey-border">
+                                            <div class="search-box">
+                                                <div>
+                                                    <form class="support-search-container" onsubmit="return false;">
+                                                        <input autocomplete="off" type="text" name="q" placeholder="Backup & Transfer" class='input-query'>
+                                                        <button type="submit" class="icon-search button-submit"></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="smart-search-result-container">
+                                                <div class="btn-close close-resulte-container-btn"></div>
+                                            <ul class="search-result"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="breadcrumb-wrap">
+                        <div class="content mid-width">
+                            <div class="flex-box-container">
+                                <div class="flex-item htc-logo">
+                                    <a href="#1"></a>
+                                </div>
+                                <div class="flex-item">
+                                    <a href="#2">Support</a>
+                                </div>
+                                <div class="flex-item">
+                                    <span>Back & Transfer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <div class="htc-footer">
+            <footer>
+                <div class="content">
+                    Fake Footer
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="ek-assets/digital-first/js/backup-transfer.js"></script>
+</body>
+</html>

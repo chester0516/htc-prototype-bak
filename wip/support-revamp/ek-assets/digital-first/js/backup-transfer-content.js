@@ -1,0 +1,1 @@
+$(window).scroll(function(a){var b=$(this).scrollTop();$(".parallax-img").css("top",-parseInt(b/2.5)+"px")});

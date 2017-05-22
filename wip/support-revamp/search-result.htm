@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="us prototype-only" data-site="us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTC</title>
+    <link rel="stylesheet" href="ek-assets/digital-first/css/search-result.css">
+    <script src="ek-assets/digital-first/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="ek-assets/digital-first/js/vendor/jquery-2.2.2.min.js"></script>
+    <script src="ek-assets/digital-first/js/plugins/picturefill/picturefill.min.js"></script>
+    <!--SEARCH REQUIRED-->
+    <script src="ek-assets/digital-first/js/plugins/template/tmpl.min.js" type="text/javascript"></script>
+    <script src="ek-assets/digital-first/js/vendor/pagination.min.js" type="text/javascript"></script>
+    <script src="ek-assets/digital-first/js/vendor/jquery.history.js"></script>
+    <script src="ek-assets/digital-first/js/vendor/purl.js" type="text/javascript"></script>
+    <script type="text/x-tmpl" id="search-result-tmp">
+        <li class="search-result-data">
+            <a href="{%=o.url%}">
+                <div class="search-data-img search-data-type {%=o.icon%}"></div>
+                <div class="search-data-info">
+                    <div class="search-data-title">{%=o.title%}</div>
+                    <div class="search-data-desc">{%=o.desc%}</div>
+                </div>
+            </a>
+        </li>
+    </script>
+    <script type="text/x-tmpl" id="filter-chosen-list">
+        <li class="{%=o.category%} {%=o.index%}">{%=o.value%}
+            <div class="del" src="ek-assets/digital-first/img/close-btn/cancel@2x.png"></div>
+        </li>
+    </script>
+    <script src="ek-assets/digital-first/js/lib/common.js"></script>
+    <script src="ek-assets/digital-first/js/lib/smart-search.js" type="text/javascript"></script>
+</head>
+
+<body class="us search-result-page" data-site="us">
+    <div id="htc-site" class="htc-chrome">
+        <div id="htc-header" class="htc-header">
+            <header>
+                <div class="content">
+                    Fake Header
+                </div>
+            </header>
+        </div>
+        <section class="htc-main">
+            <!-- Hidden input for GSA. Value can be empty. Display is for user to read.-->
+            <input type="hidden" class="hidden-search-content-type" value="">
+            <input type="hidden" class="hidden-search-content-type-display" value="">
+            <input type="hidden" class="hidden-search-product-name-id" value="">
+            <input type="hidden" class="hidden-search-product-name-id-display" value="">
+            <input type="hidden" class="hidden-param-q" value="">
+            <input type="hidden" class="hidden-param-pagination" value="1">
+            <div class="main digital-first-main">
+                <div class="section-wrapper">
+                    <section class="parallax-wrap">
+                        <div class="parallax-img"></div>
+                    </section>
+                    <section class="search-result-list">
+                        <div class="content m-full-width">
+                            <div class="box-layout margin-top-half m-margin-top-zero">
+                                <div class="title">
+                                    <h2>Support search</h2>
+                                </div>
+                                <!-- find support search -->
+                                <div class="support-search">
+                                    <!-- search box -->
+                                    <div class="search-area with-grey-border align-left">
+                                        <div class="search-box">
+                                            <div>
+                                                <form class="support-search-container" onsubmit="return false;">
+                                                    <input autocomplete="off" type="text" name="q" placeholder="Backup & Transfer" class='input-query'>
+                                                    <button type="submit" class="icon-search button-submit"></button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="smart-search-result-container">
+                                            <div class="btn-close close-resulte-container-btn"></div>
+                                            <ul class="search-result"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- filter -->
+                                <div class="filter-amount-area has-result hidden">
+                                    <div class="filter">
+                                        <!-- btn -->
+                                        <div class="btn-filter">
+                                            <div>
+                                                Filter
+                                                <div class="btn-arrow"></div>
+                                            </div>
+                                        </div>
+                                        <!-- chosen list -->
+                                        <div class="filter-list">
+                                            <ul></ul>
+                                        </div>
+                                    </div>
+                                    <!-- amount -->
+                                    <div class="result-amount">About<span class="amount"></span>results</div>
+                                    <!-- select list -->
+                                    <div class="filter-select">
+                                        <div class="table">
+                                            <div class="tr">
+                                                <div class="td">Products</div>
+                                                <div class="td">
+                                                    <ul class="filter-products">
+                                                        <li>One series</li>
+                                                        <li>Desire series</li>
+                                                        <li>Butterfly</li>
+                                                        <li>Re camera</li>
+                                                        <li>UA fitness</li>
+                                                        <li>Accessories</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td">Type</div>
+                                                <div class="td">
+                                                    <ul class="filter-type">
+                                                        <li>Support articles</li>
+                                                        <li>Communities</li>
+                                                        <li>Downloads</li>
+                                                        <li>Videos</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- result list data -->
+                                <ul class="search-result-info has-result hidden"></ul>
+                                <!-- page select -->
+                                <div class="pagination-container has-result hidden">
+                                </div>
+                                <div class="no-result hidden">
+                                    <h3>No results found.</h3>
+                                </div>
+                                <div class="loader-container">
+                                    <div class="loader"></div>
+                                </div>
+                                <!-- get help -->
+                                <div class="get-help without-top-line no-result hidden">
+                                    <h2 class="h2-smaller">Can’t find what you’re looking for ?</h2>
+                                    <div class="get-help-btn"><a href="">Get Help</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <div class="htc-footer">
+            <footer>
+                <div class="content">
+                    Fake Footer
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="ek-assets/digital-first/js/search-result.js" type="text/javascript"></script>
+</body>
+
+</html>

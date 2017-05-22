@@ -1,0 +1,29 @@
+@import 'lib/main.less';
+@import 'lib/banner-board-layout.less';
+.main.digital-first-main {
+    .section-wrapper {
+        .setup-two-bg-color;
+        section {
+            &.parallax-wrap {
+                .setup-parallax-bg_short;
+                .setup-parallax-bg-image_grey;
+            }
+            &.mixed-section {
+                .setup-section-padding-bottom;
+                .box-layout {
+                    .board-large-info {
+                        .board-info-right {
+                            @media only screen and (max-width: @mobile-max-width) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+            //Content in single-article comes from GCM team
+            .single-article {
+                .setup-single-content-style;
+            }
+        }
+    }
+}

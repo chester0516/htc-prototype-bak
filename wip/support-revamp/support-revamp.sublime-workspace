@@ -1,0 +1,1377 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sear",
+				"searchData"
+			],
+			[
+				"hide",
+				"hideSuggestionList"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"_",
+				"_problemListFirstMainContainer"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"pu",
+				"pushParams"
+			],
+			[
+				"cate",
+				"categoryClick"
+			],
+			[
+				"produ",
+				"productName"
+			],
+			[
+				"_hid",
+				"_hiddenFamily"
+			],
+			[
+				"_hidd",
+				"_hiddenFamily"
+			],
+			[
+				"product",
+				"productList"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"menu",
+				"menus"
+			],
+			[
+				"back",
+				"backupTransfer〔variable〕"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"search",
+				"searchResult〔variable〕"
+			],
+			[
+				"content",
+				"contentTypeDisplay〔variable〕"
+			],
+			[
+				"hi",
+				"clsNameHiddenSearchProductNameId〔variable〕"
+			],
+			[
+				"setting",
+				"settings"
+			],
+			[
+				"cls",
+				"clsNameHiddenSearchProductNameId"
+			],
+			[
+				"scro",
+				"scrollTop〔function〕"
+			],
+			[
+				"htc",
+				"HTC_10@2x.png	w:177 h:170"
+			],
+			[
+				"produc",
+				"product/"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"top",
+				"topicIssueBlock〔variable〕"
+			],
+			[
+				"_hi",
+				"_hiddenProduct"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"border-ri",
+				"border-right"
+			],
+			[
+				"_hiddenP",
+				"_hiddenProduct"
+			],
+			[
+				"setup",
+				"setupCloseProductListForMobile"
+			],
+			[
+				"conta",
+				"contactSupport"
+			],
+			[
+				"fix",
+				"fixed"
+			],
+			[
+				"bu",
+				"buildSingleContentShortLink"
+			],
+			[
+				"comm",
+				"commonSetting"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"get",
+				"getHeight"
+			],
+			[
+				"carrier",
+				"carrierPopup〔variable〕"
+			],
+			[
+				"hd",
+				"hqdefault.jpg	w:480 h:360"
+			],
+			[
+				"im",
+				"img/"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"sta",
+				"statechange"
+			],
+			[
+				"famil",
+				"familyIconClick"
+			],
+			[
+				"inter",
+				"interValObj〔variable〕"
+			],
+			[
+				"pop",
+				"popupSingleContent"
+			],
+			[
+				"_hidde",
+				"_hiddenPopup"
+			],
+			[
+				"ac",
+				"abstractContentClick"
+			],
+			[
+				"up",
+				"updateAbstractContent"
+			],
+			[
+				"show",
+				"showContentAbstractSection"
+			],
+			[
+				"updat",
+				"updateCarrierContainer"
+			],
+			[
+				"carr",
+				"carrierNameClick"
+			],
+			[
+				"pname",
+				"pnameId"
+			],
+			[
+				"upda",
+				"updateProductName"
+			],
+			[
+				"_pro",
+				"_problemListFirstMainContainer"
+			],
+			[
+				"carri",
+				"carrierList"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"sc",
+				"scrollToProblemSection"
+			],
+			[
+				"scroo",
+				"scrollToProblemSection"
+			],
+			[
+				"_product",
+				"_productListFirstMainContainer"
+			],
+			[
+				"curr",
+				"currentItem"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"pnam",
+				"pnameId"
+			],
+			[
+				"stag",
+				"statePage"
+			],
+			[
+				"stat",
+				"statePage"
+			],
+			[
+				"state",
+				"statePage〔variable〕"
+			],
+			[
+				"paren",
+				"parents〔function〕"
+			],
+			[
+				"each",
+				"each	$.each()"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"append",
+				"appendTo	.appendTo()"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"list",
+				"list.json"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"backgrou",
+				"background-repeat"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"border-top",
+				"border-top"
+			],
+			[
+				"repair",
+				"repair"
+			],
+			[
+				"onlin",
+				"online-shopping-issue.svg"
+			],
+			[
+				"pro",
+				"product-issue.svg"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"but",
+				"buttonSubmitSetup"
+			],
+			[
+				"butt",
+				"buttonNoSetup"
+			],
+			[
+				"ratin",
+				"ratingArticle〔variable〕"
+			],
+			[
+				"_blo",
+				"_blockThankyou〔variable〕"
+			],
+			[
+				"_bu",
+				"_buttonSubmit"
+			],
+			[
+				"_but",
+				"_buttonNo"
+			],
+			[
+				"_blco",
+				"_blockThankyou〔variable〕"
+			],
+			[
+				"_butt",
+				"_buttonSubmit"
+			],
+			[
+				"result",
+				"resultList"
+			],
+			[
+				"resul",
+				"resultList"
+			],
+			[
+				"app",
+				"applications-content.js"
+			],
+			[
+				"pl",
+				"placeholder"
+			],
+			[
+				"arti",
+				"articleList〔variable〕"
+			],
+			[
+				"page",
+				"page-status.js"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"email",
+				"emailSupport〔variable〕"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"reset",
+				"resetMaxVideos"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"toggle",
+				"toggleClass〔function〕"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"to",
+				"toggleClass〔function〕"
+			],
+			[
+				"ea",
+				"each	$.each()"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"pare",
+				"parents	.parents()"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"border-right",
+				"border-right-width"
+			],
+			[
+				"font",
+				"font-weight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 4674,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "default.htm",
+			"settings":
+			{
+				"buffer_size": 78081,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packaage",
+				"Package Control: List Packages"
+			],
+			[
+				"package li",
+				"Package Control: List Packages"
+			],
+			[
+				"syncing",
+				"Package Syncing: Pull Settings"
+			],
+			[
+				"syncin",
+				"Package Syncing: Define Sync Folder"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chester_huang/Documents/VM/VM Share/gulpfile.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js-src/lib/common.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/default.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/default.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/lib/mixins.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/lib/variables.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/lib/fonts.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js-src/contact-support.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js-src/default.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js-src/backup-transfer.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/package.json",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/Gruntfile.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/backup-transfer.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/email.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/watch.command",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/lib/common.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/lib/smart-search.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/applications-landing.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/applications-landing.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/backup-transfer-content.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/search-result.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/contact-support.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/lib/banner-board-layout.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/product-landing.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/product-landing.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/default.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/contact-support.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/lib/product-list-layout.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/contact-support.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/product-landing.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/lib/main.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/livechat-support.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/search-result.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/backup-transfer.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/search-result.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/sync-manager.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/sync-manager.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/backup-transfer.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/lib/nav.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/lib/page-status.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/product-content.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/email-support.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/applications-landing.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/contact-support-issue.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/contact-support-topic.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/applications-content.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/email.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/livechat.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/updates.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/applications-content.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/updates.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/backup-transfer-content.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/contact-support-issue.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/applications-content.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/sync-manager.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/updates.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/json/content.json",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/lib/pagination.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/json/list.json",
+		"/Users/chester_huang/Downloads/ama_daemon/run.bat",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/css/backup-transfer.css",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/product-content.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/product-content.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/livechat.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/nav.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/common.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/fake-header-footer.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/email-support.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/livechat-support.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/email-support.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/lib/form.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/untitled.css.erb",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js/smart-search.js",
+		"/Users/chester_huang/Library/Application Support/Sublime Text 2/Packages/CSScomb/CSScomb.sublime-settings",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/lib/nav.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less/lib/search.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/less/lib/fonts.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/less/lib/mixins.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/less/lib/variables.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/less/lib/main.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/smart-search.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/default.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/less/default.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/less/lib/search.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/less/lib/banner-board-layout.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/common.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/search-result.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/support-revamp.sublime-project",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/product-landing.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/product-content.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/backup-transfer.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/applications-landing.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/applications-content.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/nav.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/less/lib/nav.less"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js-src",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/js",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/ek-assets/digital-first/less",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/less",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"isDesktopView",
+			"forcePageReload",
+			"set-font-family",
+			"compressLess",
+			"productionRTL",
+			"copy",
+			"defaultLessPath",
+			"defaultJsPath",
+			"log",
+			"goToResultPage",
+			"log",
+			"search-box",
+			"button-submit",
+			"clsNameButtonSubmit",
+			"delayKeyup",
+			"detectInputKey",
+			"clsNameForm",
+			"search-box",
+			"searchPosition",
+			"validateQuery",
+			"setupSubmit",
+			"detectInputKey",
+			"support-search-container",
+			"setupDownAndUpKeyEvent",
+			"enter",
+			"totalItems",
+			"clsNameSuggestionList",
+			"scrollTo",
+			"clsNameButtonSubmit",
+			"scrollTo",
+			"product-name",
+			"setup-search-result-format",
+			"900px",
+			"setup-default-box-shadow",
+			"search-result",
+			"filter-amount-area",
+			"ilter-amount-area",
+			"search-data-title",
+			"setup-search-result-format",
+			"help",
+			"setup-get-help-block",
+			"log",
+			"setupNeedMoreHelpClick",
+			"btn-need-more-help",
+			"abstractContentClick",
+			"showContentAbstractSection",
+			"hideContentAbstractSection",
+			"setupNeedMoreHelpClick",
+			"btn-need-more-help",
+			"_productListFirstMainContainer",
+			"productItems",
+			"hidden-carrier-block",
+			"removeDetailItemForMobile",
+			"htc-desire-10",
+			"product-list-container",
+			"add-padding",
+			"setupCloseResultContainerButton",
+			"clsNameCloseBtn",
+			"close-resulte-container-btn",
+			"search-data-img",
+			"metaFilter",
+			"setup-close-button",
+			"btn-close",
+			"categoryIconClick",
+			"updateProductName",
+			"updateItemSelectedStatus",
+			"product-item",
+			"updateItemSelectedStatus",
+			"removeMobilePopupFix",
+			"triggerFirstCategoryClick",
+			"singleContentClick",
+			"setupCloseProductListForMobile",
+			"expandContentList",
+			"removeDetailItemForMobile",
+			"detail-item",
+			"setupCloseProductListForMobile",
+			"familyIconClick",
+			"popup-title",
+			"pushParams",
+			"log",
+			"showed",
+			"contantPage",
+			"btn-show-more-video",
+			"show more",
+			"show",
+			".setup-search-on-the-bottom",
+			"mid-width",
+			"pushParams",
+			"setup-search-on-the-bottom",
+			"smart-search-result-container",
+			"setup-section-padding-bottom",
+			"search",
+			"_hiddenPagination",
+			"setupPagination",
+			"loadResults",
+			"restorePageStatus",
+			"_hiddenProduct",
+			"_hiddenFamily",
+			"selectedProduct",
+			"selectedFamily",
+			"hidden",
+			"category",
+			"restoreTopicCategorySelection",
+			"topicCategoryClick",
+			"category",
+			"selectedTopicCategory",
+			"category",
+			"paramTopicCategory",
+			"_hiddenTopicCategory",
+			"category",
+			"restoreCategorySelection",
+			"category",
+			"categoryClick",
+			"selectedCategory",
+			"category",
+			"paramCategory",
+			"_hiddenCategory",
+			"hidden-seleted-",
+			"restoreCategorySelection",
+			"screenScroll",
+			"restoreCategorySelection",
+			"screenScroll",
+			"_hiddenCategory",
+			"log",
+			"_hiddenCategory",
+			"updateHiddenInput",
+			"_hiddenCategory",
+			"hidden-seleted-category"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"singleContentPage",
+			"_hiddenPagination",
+			"_hiddenQ",
+			"selectedPagination",
+			"selectedQ",
+			"restoreTopicSelection",
+			"topicClick",
+			"selectedTopic",
+			"paramTopic",
+			"_hiddenTopic",
+			"restoreTopicCategorySelection",
+			"topicCategoryClick",
+			"selectedTopicCategory",
+			"paramTopicCategory",
+			"_hiddenTopicCategory",
+			"restoreCategorySelection",
+			"backupTransfer",
+			"categoryClick",
+			"selectedCategory",
+			"paramCategory",
+			"_hiddenCategory",
+			"ek-assets/digital-first/",
+			"<div class=\"video-list-mask\"></div>",
+			"setup-section-margin-bottom",
+			"storage",
+			"backup-transfer",
+			"hideMoreHelpSection",
+			"'",
+			"data-family",
+			"contactSupport",
+			"backupTransfer",
+			"@",
+			"more-help-result",
+			"related-help-content-item",
+			"setupSecondLevelProductClick",
+			"expandSecondLevelList",
+			"firstLevelClick",
+			"\\\"",
+			"'",
+			"parentElement",
+			"contactSupport",
+			"ek-assets/digital-first/",
+			"/",
+			"ek-assets/digital-first/",
+			"_ajaxCall",
+			"ajaxCall",
+			"_ajaxCall",
+			".btn-filter",
+			"ek-assets/digital-first/",
+			"table-row",
+			"ek-assets/digital-first/",
+			"red",
+			"@col-default-bg-gainsboro-light",
+			"@col-gray-line",
+			"ek-assets/digital-first/",
+			".m-font14",
+			"/img/htc-10-copy-11@2x.png",
+			"\n                ",
+			"basicSetup",
+			"10"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"settings":
+					{
+						"buffer_size": 4674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4184,
+								4184
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3583.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "default.htm",
+					"settings":
+					{
+						"buffer_size": 78081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1410,
+								1410
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 323.0,
+						"translation.y": 415.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 89.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/chester_huang/Documents/HTC/htc-prototype/wip/buy-improvement/buy-improvement-mac.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true
+}

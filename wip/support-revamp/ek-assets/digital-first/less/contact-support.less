@@ -1,0 +1,559 @@
+@import 'lib/main.less';
+@import 'lib/product-list-layout.less';
+
+.main.digital-first-main {
+    .section-wrapper {
+        overflow: hidden;
+
+        background-color: @col-default-bg-gainsboro;
+        section {
+            &.parallax-wrap {
+                .setup-parallax-bg_short;
+                .setup-parallax-bg-image_brown;
+            }
+            /*This section used in topic page (4 icons) */
+            &.product-topic {
+                .setup-section-padding-bottom;
+                .box-layout {
+                    .title {
+                        width: 49%;
+                        margin-right: auto;
+                        margin-left: auto;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            width: 100%;
+                        }
+                    }
+                    .topic-list-container {
+                        .flex-box-area {
+                            display: flex;
+
+                            margin-top: 50px;
+
+                            justify-content: center;
+                            @media only screen and (max-width: @mobile-max-width) {
+                                flex-direction: column;
+                            }
+                            a {
+                                .reset-a-link;
+                                &.topic-item {
+                                    width: 15%;
+
+                                    text-align: center;
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        display: flex;
+                                        flex-direction: row;
+
+                                        width: 100%;
+                                        margin: 0;
+                                        padding-top: 3.8%;
+                                        padding-bottom: 3.8%;
+
+                                        border-top: solid 1px #c4c4c4;
+
+                                        align-items: center;
+                                    }
+                                    &:first-child {
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            padding-top: 0;
+
+                                            border-top: 0;
+                                        }
+                                    }
+                                    .topic-image {
+                                        .image-block {
+                                            width: 70px;
+                                            height: 70px;
+                                            margin-right: auto;
+                                            margin-left: auto;
+
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+
+                                            @icon-folder-path: 'icon/contact_support/';
+                                            .build-image-with-svg(product-issue, @icon-folder-path, 'product-issue.png', 'product-issue.svg');
+                                            .build-image-with-svg(online-shopping-issue, @icon-folder-path, 'online-shopping-online-shopping-help-copy-2.png', 'online-shopping-online-shopping-help-copy-2.svg');
+                                            .build-image-with-svg(repair-issue, @icon-folder-path, 'online-shopping-issue.png', 'online-shopping-issue.svg');
+                                            .build-image-with-svg(store-locator, @icon-folder-path, 'bring-in-for-repair.png', 'bring-in-for-repair.svg');
+                                            .build-image-with-svg(vipcard, @icon-folder-path, 'vipcard.png', 'vipcard.svg');
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                float: left;
+
+                                                width: 50px;
+                                                height: 50px;
+
+                                                background-size: auto;
+
+                                                @icon-folder-path: 'icon/contact_support/mobile/drawable-xhdpi/';
+                                                .build-image-with-svg(product-issue, @icon-folder-path, 'product.png', 'product.svg');
+                                                .build-image-with-svg(online-shopping-issue, @icon-folder-path, 'online_shopping_issue_copy.png', 'online_shopping_issue_copy.svg');
+                                                .build-image-with-svg(repair-issue, @icon-folder-path, 'repair.png', 'repair.svg');
+                                                .build-image-with-svg(store-locator, @icon-folder-path, 'bring_in_for_repair.png', 'bring_in_for_repair.svg');
+                                                .build-image-with-svg(vipcard, @icon-folder-path, 'vipcard.png', 'vipcard.svg');
+                                            }
+                                        }
+                                    }
+                                    .topic-name {
+                                        margin-top: 20px;
+                                        padding-bottom: 7px;
+
+                                        .font16;
+                                        .set-font-family('book');
+                                        .setup-show-bottom-line-on-hover_fix;
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            margin: 0;
+                                            padding-top: 0;
+                                            padding-right: 0;
+                                            padding-bottom: 0;
+                                            padding-left: 20px;
+
+                                            .m-font16;
+                                        }
+                                    }
+                                }
+                                &:hover {
+                                    .topic-name {
+                                        .show-bottom-line;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .setupShowHide() {
+                max-height: 0;
+                margin-bottom: 0;
+
+                transition: opacity .5s @animate-easing;
+                transition-delay: 0.3s;
+
+                opacity: 0;
+                &.showed {
+                    max-height: inherit;
+
+                    opacity: 1;
+                    transition: opacity .75s @animate-easing;
+                    .setup-section-margin-bottom;
+                    @media only screen and (max-width: @mobile-max-width) {
+                        max-height: 10000px;
+                    }
+                }
+            }
+            
+            &.product-listing {
+                .box-layout {
+                    .title {
+                        width: 60%;
+                        margin-right: auto;
+                        margin-left: auto;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            width: 100%;
+                            padding-right: @m-gutter;
+                            padding-left: @m-gutter;
+                        }
+                    }
+                    .product-list-container {
+                        .flex-box-area {
+                            .product-item {
+                                &.selected {
+                                    .product-name {
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            .set-font-family('black');
+                                            color: @col-topaz;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-close {
+                        display: none;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            &.problem-listing {
+                .setupShowHide;
+                .box-layout {
+                    .title {
+                        @media only screen and (max-width: @mobile-max-width) {
+                            padding-right: @m-gutter;
+                            padding-left: @m-gutter;
+                        }
+                    }
+                    .product-help-notList {
+                        text-align: center;
+
+                        .set-font-family('black');
+                        .font20;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            background-color: @col-white2;
+                        }
+                        > div {
+                            display: inline-block;
+
+                            margin-top: @d-margin-top-fixed;
+                            margin-right: auto;
+                            margin-bottom: @d-margin-bottom-fixed;
+                            margin-left: auto;
+                            padding-bottom: 10px;
+
+                            cursor: pointer;
+
+                            border-bottom: @bottom-line-height solid @col-default-text;
+                            @media only screen and (max-width: @mobile-max-width) {
+                                margin-top: @m-margin-top-fixed;
+                                margin-bottom: @m-margin-top-fixed;
+                                padding-bottom: @m-bottom-line-padding-without-pseudo;
+                            }
+                        }
+                    }
+                }
+            }
+            &.carrier-listing {
+                .setupShowHide;
+                .title.has-subtitle-bottom-line {
+                    margin-bottom: 20px;
+                    h4 {
+                        margin-bottom: 0;
+                        padding-top: 0;
+                    }
+                    @media only screen and (max-width: @mobile-max-width) {
+                        padding-right: @m-gutter;
+                        padding-left: @m-gutter;
+                    }
+                }
+                .carrier-list-container {
+                    display: inline-block;
+
+                    width: 100%;
+                    ul {
+                        display: flex;
+
+                        width: 60%;
+                        margin-top: 0;
+                        margin-right: auto;
+                        margin-bottom: @d-margin-bottom-fixed;
+                        margin-left: auto;
+                        padding: 0;
+
+                        list-style: none;
+
+                        flex-wrap: wrap;
+                        justify-content: flex-start;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            margin-bottom: @m-margin-bottom-fixed;
+                            width: 100%;
+                            padding-left: @m-gutter;
+                            padding-right: @m-gutter;
+                        }
+                        &.less-than-3-items {
+                            li {
+                                width: 100%;
+                            }
+                        }
+                        li {
+                            width: 50%;
+                            margin-top: 30px;
+                            padding-right: 20px;
+                            padding-left: 20px;
+
+                            cursor: pointer;
+                            text-align: center;
+
+                            .font16;
+                            @media only screen and (max-width: @mobile-max-width) {
+                                margin-top: 20px;
+                                padding-right: 10px;
+                                padding-left: 10px;
+                            }
+                            &.selected,
+                            &:hover {
+                                color: @col-topaz;
+                                .set-font-family('black');
+                            }
+                        }
+                    }
+                }
+            }
+            &.help-and-content-container {
+                .setupShowHide;
+                // max-height: 2000px;
+                // opacity: 1;
+                // margin-bottom: 4%;
+                .box-layout {
+                    @media only screen and (max-width: @mobile-max-width) {
+                        padding-bottom: @m-margin-bottom-fixed - @m-margin-top-fixed;
+                    }
+                    .title {
+                        width: 50%;
+                        margin-right: auto;
+                        margin-left: auto;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            width: 100%;
+                            padding: 0;
+                        }
+                    }
+                    .help-contact-list {
+                        line-height: 1.5;
+
+                        display: flex;
+                        flex-direction: row;
+
+                        margin-top: @d-margin-bottom-fixed;
+                        margin-bottom: 0;
+
+                        list-style: none;
+
+                        text-align: center;
+
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            width: 100%;
+                            margin-top: @m-margin-top-fixed/2;
+                            margin-bottom: @m-margin-top-fixed/2;
+                            padding: 0;
+                        }
+                        li {
+                            box-sizing: border-box;
+                            width: 25%;
+                            padding: 0 4.25%;
+                            @media only screen and (max-width: @mobile-max-width) {
+                                width: 50%;
+                                margin-top: @m-margin-top-fixed/2;
+                                margin-bottom: @m-margin-top-fixed/2;
+                            }
+                            &.livechat {
+                                @media only screen and (max-width: @mobile-max-width) {
+                                    display: none;
+                                }
+                                &.m-show{
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        display: block;
+                                    }
+                                }
+                            }
+                            a {
+                                display: block;
+
+                                text-decoration: none;
+
+                                color: @col-default-text;
+                                &:visited,
+                                &:active {
+                                    color: @col-default-text;
+                                }
+                                &:hover {
+                                    .help-contact-title {
+                                        .show-bottom-line;
+                                        &:after {
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                                .help-contact-img {
+                                    display: flex;
+
+                                    width: 70px;
+                                    height: 70px;
+                                    margin-right: auto;
+                                    margin-bottom: 20px;
+                                    margin-left: auto;
+
+                                    align-items: center;
+                                    justify-content: center;
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        margin-bottom: 14px;
+                                    }
+                                    .image-block {
+                                        width: 100%;
+                                        height: 100%;
+
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+
+                                        @icon-folder-path: 'icon/select_topic/';
+                                        .build-image-with-svg(email, @icon-folder-path, 'email.png', 'email.svg');
+                                        .build-image-with-svg(livechat, @icon-folder-path, 'live-chat.png', 'live-chat.svg');
+                                        .build-image-with-svg(call, @icon-folder-path, 'call-us.png', 'call-us.svg');
+                                        .build-image-with-svg(reservation, @icon-folder-path, 'schedule-a-call.png', 'schedule-a-call.svg');
+                                        .build-image-with-svg(store-locator, @icon-folder-path, 'bring-in-for-repair.png', 'bring-in-for-repair.svg');
+                                        
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            @icon-folder-path: 'icon/select_topic/mobile/drawable-mdpi/';
+                                            .build-image-with-svg(email, @icon-folder-path, 'email.png', 'email.svg');
+                                            .build-image-with-svg(livechat, @icon-folder-path, 'live_chat.png', 'live_chat.svg');
+                                            .build-image-with-svg(call, @icon-folder-path, 'call_us.png', 'call_us.svg');
+                                            .build-image-with-svg(reservation, @icon-folder-path, 'schedule_a_call.png', 'schedule_a_call.svg');
+                                            .build-image-with-svg(store-locator, @icon-folder-path, 'bring_in_for_repair.png', 'bring_in_for_repair.svg');
+                                        }
+                                    }
+                                }
+                                .help-contact-title {
+                                    line-height: 1;
+
+                                    padding-bottom: 7px;
+
+                                    .font18;
+                                    .setup-show-bottom-line-on-hover_fix;
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        .m-font16;
+                                        .set-font-family('book');
+                                    }
+                                }
+                                .help-contact-desc {
+                                    margin-top: 5px;
+
+                                    .font16;
+                                    .set-font-family('book');
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.abstract-content {
+                    .abstract-single-content-block {
+                        width: 65%;
+                        margin-top: @d-margin-bottom-fixed;
+                        margin-right: auto;
+                        margin-bottom: @d-margin-top-fixed*2;
+                        margin-left: auto;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            width: 100%;
+                            margin-top: @m-margin-top-fixed;
+                            margin-bottom: @m-margin-bottom-fixed;
+                        }
+                        &:hover {
+                            cursor: pointer;
+                            .title-block {
+                                text-decoration: underline;
+
+                                color: @col-topaz;
+                            }
+                        }
+                        .flexbox-block {
+                            display: flex;
+                            flex-direction: row;
+                            .flex-item {
+                                &.icon-flex-item {
+                                    .icon-block {
+                                        width: 24px;
+                                        height: 24px;
+                                        margin-right: 24px;
+
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-size: 100%;
+
+                                        @icon-folder-path: 'icon/search/result/';
+                                        .build-image-with-svg(howto, @icon-folder-path, 'guide.png', 'guide.svg');
+                                    }
+                                }
+                                &.content-flex-item {
+                                    .title-block {
+                                        line-height: 1.5;
+
+                                        .font20;
+                                    }
+                                    .abstract-content-block {
+                                        line-height: 1.5;
+
+                                        margin-top: 6px;
+
+                                        color: @col-greyishBrown;
+
+                                        .font16;
+                                        .set-font-family('book');
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.popup-area {
+                .setup-popup-triggered-by-fake-dropdown;
+                .popup-window{
+                    padding-bottom: 0px;
+                    .single-article {
+                        .setup-single-content-style;
+                    }
+                    .get-share-link {
+                        margin-top: 100px;
+                        margin-bottom: @d-margin-bottom-fixed;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            margin-bottom: @m-margin-bottom-fixed;
+                        }
+                        .flexbox-block {
+                            display: flex;
+
+                            justify-content: flex-end;
+                            align-items: center;
+                            @media only screen and (max-width: @mobile-max-width) {
+                                justify-content: space-between;
+                            }
+                            .flex-items {
+                                position: relative;
+                                &:first-child {
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        width: 65%;
+                                    }
+                                }
+                                .wording {
+                                    margin-right: 34px;
+
+                                    .font16;
+                                    .set-font-family('book');
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        margin-right: 15px;
+                                    }
+                                }
+                                .go-to-page {
+                                    padding: 9px 20px;
+
+                                    border: solid 3px @col-default-text;
+                                    background-color: #fff;
+
+                                    .reset-a-link;
+                                    .font16;
+                                    &:hover {
+                                        background-color: @col-default-bg-gainsboro-light;
+                                    }
+                                }
+                                .copy-msg {
+                                    position: absolute;
+
+                                    width: 100%;
+                                    bottom: -25px;
+                                    left: 0;
+
+                                    transition: opacity 0.3s;
+                                    text-align: center;
+
+                                    opacity: 0;
+                                    color: @col-topaz;
+
+                                    .font14;
+                                    
+                                    &.show {
+                                        transition: opacity 0.3s;
+
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

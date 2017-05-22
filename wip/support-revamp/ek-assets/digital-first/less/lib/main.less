@@ -1,0 +1,220 @@
+@import 'variables.less';
+@import 'mixins.less';
+@import 'fonts.less';
+@import 'form.less';
+
+html{
+    height: 100%;
+    body.us{
+        header, footer{
+            line-height: 1.4;
+        }
+    }
+}
+
+body{
+    overflow-x: auto;
+    overflow-y: scroll;
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    color: @col-default-text;
+    -ltr-direction: ltr;
+    -rtl-direction: rtl;
+
+    
+    // perspective: 1px;
+    transform-style: preserve-3d;
+    &.support-popup-fixed{
+        overflow: hidden;
+
+        perspective: initial;
+        transform-style: initial;
+        .htc-chrome{
+            .htc-header, .htc-footer{
+                z-index: 1;
+            }
+        }
+    }
+    &.m-support-popup-fixed{
+        @media only screen and (max-width: @mobile-max-width){
+            overflow: hidden;
+
+            perspective: initial;
+            transform-style: initial;
+        }
+        .htc-header, .htc-footer{
+            @media only screen and (max-width: @mobile-max-width){
+                display: none;
+            }
+        }
+    }
+    .htc-chrome{
+        display: flex;
+
+        width: 100%;
+        min-width: @desktop-small;
+        min-height: 100%;
+
+        flex-flow: column nowrap;
+        
+        @media screen and (max-width: @mobile-max-width){
+            min-width: 100%;
+        }
+        .htc-main{
+            flex: 1 1 auto;
+            background-color: @col-default-bg-gainsboro;
+            .m-support-popup-fixed{
+                @media only screen and (max-width: @mobile-max-width){
+                    z-index: 999123;
+                }
+            }
+        }
+        header,footer{
+            .prototype-only &{
+                padding-top: 2%;
+                padding-bottom: 1%;
+
+                background-color: @col-hover-grey;
+                .content{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.main.digital-first-main{
+    @import (less) 'normalize.css';
+    *{
+        box-sizing: border-box;
+    }
+    .setup-default-typography;
+    .content{
+        .setup-content;
+    }
+    // parallax
+    .section-wrapper{
+        position: relative;
+
+        section{
+            position: relative;
+            z-index: 2;
+            &.m-support-popup-fixed{
+                @media only screen and (max-width: @mobile-max-width){
+                    z-index: 10;
+                }
+            }
+            &.parallax-wrap{
+                .setup-parallax-bg;
+            }
+            &.hero-banner{
+                &.title-only{
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    .title{
+                        text-align: center;
+                        h2{
+                            padding-top: @d-margin-bottom-fixed;
+                            padding-bottom: @d-margin-bottom-fixed;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                            @media only screen and (max-width: @mobile-max-width){
+                                padding-top: @m-margin-top-fixed;
+                                padding-bottom: @m-margin-top-fixed;
+                            }
+                            @media print {
+                                color: @col-default-text;
+                            }
+                        }
+                    }
+                }
+            }
+            &.breadcrumb-wrap{
+                @breadcrumb-height: 24px;
+                .setup-section-padding-bottom;
+                @media only screen and (max-width: @mobile-max-width){
+                    background-color: #fff;
+                    padding-top: 18px;
+                    padding-bottom: 18px;
+                }
+                @media print {
+                    display: none;
+                }
+                .flex-box-container{
+                    display: flex;
+                    flex-direction: row;
+
+                    height: @breadcrumb-height;
+
+                    flex-wrap: nowrap;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .flex-item{
+                        position: relative;
+
+                        padding-left: @breadcrumb-height + 4px*2;
+                        margin-top: 3px;
+                        &:before{
+                            position: absolute;
+                            top: 50%;
+                            left: 0;
+
+                            width: @breadcrumb-height;
+                            height: @breadcrumb-height;
+                            margin-right: 4px;
+                            margin-left: 4px;
+
+                            content: '';
+                            -ltr-transform: translateY(-50%);
+                            -rtl-transform: translateY(-50%) rotate(180deg);
+                            .build-svg-png-image('','next-copy-2.png','next-copy-2.svg');
+                        }
+                        &.htc-logo{
+                            width: 43px;
+                            height: 15px;
+                            padding-left: 0;
+
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            margin-top: 0;
+
+                            .build-svg-png-image('', 'h-t-c-logo-3.png', 'h-t-c-logo-3.svg');
+                            &:before{
+                                display: none;
+                            }
+                            a{
+                                display: inline-block;
+
+                                width: inherit;
+                                height: inherit;
+                            }
+                        }
+                        a,span{
+                            display: block;
+
+                            text-decoration: none;
+
+                            color: @col-greyishBrown;
+
+                            .font14;
+                            .set-font-family('book');
+                            @media only screen and (max-width: @mobile-max-width) {
+                                .m-font12;
+                            }
+                        }
+                        a{
+                            cursor: pointer;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

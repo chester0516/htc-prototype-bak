@@ -1,0 +1,415 @@
+@import 'lib/main.less';
+@reservation-image-path: 'reservation/';
+
+body.vipcardservice-page {
+    .htc-chrome {
+        .htc-main {
+        }
+        .footer-space{
+            display: none;
+        }
+    }
+}
+
+.main.digital-first-main{
+    .section-wrapper {
+        @full-window-height: calc(~"100vh - " @d-header-height);
+        @m-full-window-height: calc(~"100vh - " (@m-header-height + @m-footer-height));
+        
+        section{
+            &.parallax-wrap {
+                .setup-parallax-bg_short;
+                .setup-parallax-bg-image_brown;
+                @media only screen and (max-width: @mobile-max-width) {
+                    height: 200px;
+                }
+            }
+
+            &.vipcard-icons{
+                .setup-section-padding-bottom;
+                .content{
+                    
+                    .topic-list-container{
+                        margin-top: @d-margin-bottom-fixed;
+                        @media only screen and (max-width: @mobile-max-width){
+                            margin-top: 28px;
+                        }
+                        .flex-box-area{
+                            display: flex;
+                            flex-direction: row;
+
+                            flex-wrap: no-wrap;
+                            justify-content: center;
+                            @media only screen and (max-width: @mobile-max-width){
+                                flex-direction: column;
+
+                                padding-right: 0;
+                                padding-left: 0;
+                            }
+                            .topic-item{
+                                box-sizing: border-box;
+                                width: 20%;
+                                margin: 0 .3%;
+
+                                text-align: center;
+                                text-decoration: none;
+
+                                color: @col-default-text;
+
+                                @media only screen and (max-width: @mobile-max-width){
+                                    display: flex;
+                                    flex-direction: row;
+
+                                    width: 100%;
+                                    margin: 0;
+                                    padding-top: 3.8%;
+                                    padding-bottom: 3.8%;
+
+                                    border-top: solid 1px #c4c4c4;
+
+                                    align-items: center;
+                                }
+                                &:nth-child(1){
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        border-top: none;
+                                    }
+                                }
+                                &:last-child{
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        padding-bottom: 0;
+                                    }
+                                }
+                                &:active,&:visited{
+                                    color: @col-default-text;
+                                }
+                                // hover effect
+                                &:hover{
+                                    .topic-name{
+                                        .show-bottom-line;
+                                    }
+                                }
+          
+                                &.update{
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        display: none;
+                                    }
+                                }
+                                .topic-name{
+                                    margin: @d-gutter 7% 0;
+                                    padding-bottom: 7px; //this is for hover bottom line
+
+                                    .font16;
+                                    .set-font-family('book');
+                                    .setup-show-bottom-line-on-hover_fix;
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        margin-right: 0;
+                                        margin-left: 0;
+                                        margin-top: 15px;
+                                        margin-bottom: 15px;
+                                        padding-top: 0;
+                                        padding-bottom: 0;
+                                        padding-right: 0;
+                                        padding-left: 20px;
+
+                                        .m-font16;
+                                    }
+                                    br{
+                                        @media only screen and (max-width: @mobile-max-width){
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                
+                                .topic-image{
+                                    .image-block{
+                                        width: 70px;
+                                        height: 70px;
+                                        margin-right: auto;
+                                        margin-left: auto;
+
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+
+                                        @icon-folder-path: 'icon/select_topic/';
+                                        .build-image-with-svg(in-home, @icon-folder-path, 'bring-in-for-repair.png', 'bring-in-for-repair.svg');
+                                        .build-image-with-svg(get-phone, @icon-folder-path, 'repair-in-store.png', 'repair-in-store.svg');
+                            
+                                        @media only screen and (max-width: @mobile-max-width){
+                                            float: left;
+
+                                            width: 35px;
+                                            height: 35px;
+
+                                            background-size: contain;
+
+                                            @icon-folder-path: 'icon/select_topic/mobile/drawable-xhdpi/';
+                                            .build-image-with-svg(in-home, @icon-folder-path, 'bring_in_for_repair.png', 'bring_in_for_repair.svg');
+                                            .build-image-with-svg(get-phone, @icon-folder-path, 'repair_in_store.png', 'repair_in_store.svg');
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.steps-vip-card-info {
+                .setup-section-padding-bottom;
+                display: none;
+                .content {
+                    .form-container{
+                        .setup-form;
+                        .form-input-area{
+                            .input-vip-card-number{
+                                .setup-basic-form-element;
+                            }
+                            .input-imei-or-sn{
+                                .setup-basic-form-element;
+                            }
+                            .input-captcha{
+                                .setup-basic-form-element;
+                                .setup-captcha;
+                            }
+                        }
+                    }
+
+                    .btn-area{
+                        .setup-center-a-link-button;
+                        margin-top: 20px;
+                    }
+                }
+            }
+
+            &.steps-select-store-info{
+                .setup-section-padding-bottom;
+                display: none;
+                .content {
+                    .form-container{
+                        .setup-form;
+                        padding-top: 0;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            padding-top: 0;
+                        }
+                        .form-input-area{
+                            .select-city{
+                                .setup-basic-form-element;
+                                display: flex;
+                                justify-content: center;
+                                label{
+                                    &.select{
+                                        .setup-select-style;
+                                    }
+                                }
+                            }
+                            @d-locator-height: 300px;
+                            .locator-column{
+                                border: solid 3px @col-pinkishGrey;
+                                display: flex;
+                                flex-direction: row;
+                                height: @d-locator-height;
+                                padding-bottom: 0;
+                                @media only screen and (max-width: @mobile-max-width) {
+                                    flex-direction: column;
+                                }
+                                .left-select-bar{
+                                    width: 30%;
+                                    height: 100%;
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        width: 100%;
+                                        height: auto;
+                                    }
+
+                                    ul{
+                                        height: 100%;
+                                        margin: 0;
+                                        padding: 0;
+                                        border-right: solid 3px @col-pinkishGrey;
+                                        overflow-y: auto;
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            max-height: 100px;
+                                            border-right-width: 0;
+                                            border-bottom: solid 3px @col-pinkishGrey;
+                                        }
+                                        li{
+                                            &.shoplist{
+                                                display: none;
+                                                padding: 15px;
+                                                &.show{
+                                                    display: block;
+                                                }
+                                                &.selected{
+                                                    background-color: @col-topaz;
+                                                }
+                                                label{
+                                                    cursor: pointer;
+                                                    .eng-title{
+                                                        display: none;
+                                                    }
+                                                    input[type=radio]{
+                                                        display: none;
+                                                    }
+                                                    .locator-detail{
+                                                        .location-title{
+                                                            .font16;
+                                                            margin-bottom: 5px;
+                                                        }
+                                                        .location-text{
+                                                            .font14;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .right-map{
+                                    flex: 1;
+                                }
+                            }
+                        }
+                    }
+
+                    .btn-area{
+                        .setup-center-a-link-button;
+                        margin-top: 20px;
+                    }
+                }
+            }
+
+            &.steps-enter-user-info{
+                .setup-section-padding-bottom;
+                display: none;
+                .content {
+                    .form-container{
+                        .setup-form;
+                        .form-input-area{
+                            .checkbox-need-reserved-phone{
+                                .checkbox{
+                                    display: none;
+                                }
+                                .needactivate{
+                                    display: none;
+                                }
+                            }
+                            .input-full-name{
+                                .setup-basic-form-element;
+                            }
+                            .input-required-contact-number{
+                                .setup-basic-form-element;
+                            }
+                            .input-optional-contact-number{
+                                .setup-basic-form-element;
+                            }
+                            .four-steps-address{
+                                .setup-basic-form-element;
+                                label{
+                                    &.select{
+                                        .setup-select-style;
+                                        margin-right: 20px;
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            width: 100%;
+                                            margin-right: 0;
+                                            margin-top: 20px;
+                                            &:first-of-type{
+                                                margin-top: 0;
+                                            }
+                                        }
+                                    }
+                                    &.text{
+                                        margin-top: 20px;
+                                        display: inline-block;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            .input-email{
+                                .setup-basic-form-element;
+                                .desc-text {
+                                    .setup-desc-statement-style;
+                                }
+                            }
+                            .select-language{
+                                .setup-basic-form-element;
+                                .language-selector{
+                                    .setup-select-style;
+                                    width: 100%;
+                                }
+                            }
+                            .input-desc{
+                                .setup-basic-form-element;
+                            }
+                        }
+                    }
+
+                    .btn-area{
+                        .setup-center-a-link-button;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+        .add-spin() {
+            .loading-spin {
+                display: none;
+                .no-cssanimations & {
+                    width: 32px;
+                    height: 32px;
+                    background-size: 22px;
+                    margin-top: 8px;
+                    margin-left: 3px;
+                    .reset-image-folder("ajax-loader.gif");
+                }
+                .cssanimations & {
+                    width: 15px;
+                    height: 15px;
+                    border: 3px solid #000;
+                    border-radius: 100%;
+                    margin-top: 3px;
+                    margin-left: 2px;
+
+                    @media only screen and (max-width: @mobile-max-width) {
+                        margin-top: 9px;
+                    }
+                    &:before {
+                        display: block;
+                        width: 6px;
+                        height: 6px;
+                        margin-top: -4px;
+                        margin-left: 1px;
+                        margin-right: 0;
+                        margin-bottom: 0;
+                        background-color: #000;
+                        content: "";
+                        animation: spin 1.5s linear infinite;
+                        border-radius: 100%;
+                        transform-origin: 6px 12px;
+                    }
+                }
+                .cssanimations .mea-sa & {
+                    &:before {
+                        transform-origin: 0px 12px;
+                    }
+                }
+            }
+            @-webkit-keyframes spin {
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+            @keyframes spin {
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+    }
+}
+
+/*
+ * ==================== PopUp Message ==================== 
+ */
+#confirmOverlay {
+    .setupConfirmDialogStyle;
+}

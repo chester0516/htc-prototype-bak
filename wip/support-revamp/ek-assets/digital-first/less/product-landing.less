@@ -1,0 +1,461 @@
+@import 'lib/main.less';
+@import 'lib/banner-board-layout.less';
+
+.main.digital-first-main{
+    .section-wrapper{
+        .setup-two-bg-color;
+        .setup-mobile-none-bg-color;
+        // video
+        section{
+            &.parallax-wrap{
+                .setup-parallax-bg;
+                .setup-parallax-bg-image_green;
+            }
+            &.mixed-section{
+                .setup-section-padding-bottom;
+
+                .box-layout{
+                    padding-bottom: @d-margin-bottom-fixed;
+                    @media only screen and (max-width: @mobile-max-width){
+                        padding-bottom: @d-margin-bottom-fixed;
+                    }
+                    .article-area{
+                        margin-top: @d-margin-top-bottom;
+                        margin-bottom: 80px;
+                        @media only screen and (max-width: @mobile-max-width){
+                            margin-top: 40px;
+                            margin-bottom: 60px;
+                        }
+                        article{
+                            transition: all .5s;
+
+                            &.hidden{
+                                overflow: hidden;
+
+                                max-height: 0;
+                            }
+                            &.showed{
+                                max-height: 200px !important;
+                            }
+                            a{
+                                display: block;
+
+                                margin-bottom: 26px;
+
+                                text-decoration: none;
+                                &:hover{
+                                    .article-title{
+                                        text-decoration: underline;
+                                    }
+                                }
+                                @media only screen and (max-width: @mobile-max-width){
+                                    margin-bottom: 40px;
+                                }
+                                .article-title{
+                                    line-height: 1.7;
+
+                                    color: @col-default-text;
+
+                                    .font20;
+
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        line-height: 1.5;
+                                        .m-font18;
+                                    }
+                                }
+                                .article-content{
+                                    margin-top: 6px;
+
+                                    color: @col-text-desc;
+
+                                    .font16;
+                                    .set-font-family('book');
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        .m-font14;
+                                        margin-top: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .video-area{
+                        position: relative;
+                        .appendTitle{
+                            .reset-single-content-title;
+                        }
+                        h2{
+                            .set-font-family('book');
+                            margin-bottom: @d-section-bottom-fixed;
+                            @media only screen and (max-width: @mobile-max-width){
+                               .m-font26;
+                               margin-bottom: @m-section-bottom-fixed;
+                            }
+                        }
+                        .video-iframe-area{
+                            position: relative;
+
+                            overflow: hidden;
+
+                            width: 100%;
+                            height: 0;
+                            padding-bottom: 56.25%;
+
+                            cursor: pointer;
+                            .video-mask{
+                                img{
+                                    &.video-img{
+                                        top: 50%;
+                                        position: absolute;
+                                        width: 110%;
+                                        .keep-left(50%);
+                                        transform: translate(-50%,-50%);
+                                        height: auto;
+                                    }
+                                    &.video-play{
+                                        position: absolute;
+                                        top: 29.87%;
+                                        left: 43%;
+
+                                        width: 13.88%;
+                                        height: auto;
+                                    }
+                                }
+                                .video-info{
+                                    position: absolute;
+                                    top: 64%;
+                                    left: 0;
+
+                                    width: 100%;
+
+                                    text-align: center;
+
+                                    color: #fff;
+                                    .video-info-title{
+                                        padding-bottom: 10px;
+
+                                        .font24;
+                                    }
+                                    .video-info-subtitle{
+                                        .font16;
+                                    }
+                                }
+                                &.hidden{
+                                    display: none;
+                                }
+                            }
+                            .video-iframe{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+
+                                display: none;
+
+                                width: 100%;
+                                height: 100%;
+                                iframe{
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+                        .video-list{
+                            display: flex;
+                            overflow: hidden;
+
+                            margin: 26px 0 19px;
+                            // overflow: hidden;
+                            padding: 0;
+
+                            list-style: none;
+
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            @media only screen and (max-width: @mobile-max-width){
+                                margin: 10px 0 20px;
+                            }
+                            &.show-3-video{
+                                @media only screen and (max-width: @mobile-max-width){
+                                    li{
+                                        width: 31.5%;
+                                        // margin-left: 1%;
+                                        margin-bottom: 1%;
+                                        &:nth-child(3n+1){
+                                            // margin-left: 0;
+                                        }
+                                    }
+                                }
+                            }
+                            &.show-2-video{
+                                @media only screen and (max-width: @mobile-mid-width){
+                                    flex-direction: column;
+                                    li{
+                                        width: 100%;
+                                        margin-bottom: 0;
+                                        &:nth-child(2n+1){
+                                        }
+                                        .margin-block{
+                                            margin-bottom: 10px;
+                                            background-color: #eaeaea;
+                                            .video-list-img{
+                                                width: 100px;
+                                                overflow: hidden;
+                                            }
+                                            .video-content{
+                                                padding-left: 123px;
+                                                .video-name{
+                                                    color: black;
+                                                    text-align: left;
+                                                    .m-font16;
+                                                }
+                                            }
+                                            .video-list-mask{
+                                                width: 100px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            li{
+                                position: relative;
+
+                                overflow: hidden;
+
+                                width: 19%;
+                                max-height: 300px;
+
+                                transition: max-height @animate-speed;
+                                &:nth-child(5n+1){
+                                    // margin-left: 0;
+                                }
+                                &.play{
+                                    .margin-block{
+                                        .video-list-mask{
+                                            opacity: 1;
+                                            @media only screen and (max-width: @mobile-max-width){
+                                                opacity: .4;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.hidden{
+                                    max-height: 0;
+                                    margin-bottom: 0;
+                                    
+                                }
+                                &.buffer-item{
+                                    height: 1px;
+                                    overflow: hidden;
+                                    margin-bottom: 0;
+                                    
+                                }
+                                .margin-block{
+                                    margin-bottom: 6%;
+                                    position: relative;
+                                    cursor: pointer;
+                                    .video-list-img{
+                                        picture{
+                                            display: flex;
+
+                                            width: 110%;
+                                            position: relative;
+                                            /*mea-sa setting*/
+                                            -ltr-left: 50%;
+                                            -rtl-right: 60%;
+                                            transform: translatex(-50%);
+                                            img{
+                                                width: 100%;
+                                                height: 20%;
+                                            }
+                                        }
+                                    }
+                                    .video-content{
+                                        z-index: 2;
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        bottom: 0;
+                                        left: 0;
+
+                                        display: flex;
+
+                                        padding: 0 5%;
+
+                                        align-items: center;
+                                        justify-content: center;
+                                        .video-name{
+                                            line-height: 1.3;
+
+                                            width: 100%;
+
+                                            text-align: center;
+
+                                            color: #fff;
+
+                                            .font16;
+                                            @media only screen and (max-width: @mobile-max-width){
+                                                .m-font12;
+                                            }
+                                        }
+                                    }
+                                    .video-list-mask{
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        bottom: 0;
+                                        left: 0;
+                                        opacity: .4;
+                                        display: flex;
+
+                                        padding: 0 5%;
+
+                                        text-align: center;
+
+                                        color: #fff;
+                                        background-color: rgba(0,0,0,.9);
+
+                                        align-items: center;
+                                        justify-content: center;
+                                        .font16;
+                                        @media only screen and (max-width: @mobile-max-width){
+                                            .m-font12;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.appendToContent{
+                            margin-bottom: @d-margin-top-bottom;
+                            @media only screen and (max-width: @mobile-max-width){
+                                margin-bottom: @m-margin-top-bottom;
+                            }
+                        }
+                    }
+                    //Content in single-article comes from GCM team
+                    .single-article{
+                        .setup-single-content-style;
+                    }
+                    .rating-container{
+                        .setup-rating-container;
+                    }
+                    .setup-top-border-line(){
+                        &:before{
+                            content: '';
+                            top: 0;
+                            left: 0;
+                            width: 120px;
+                            height: 4px;
+                            background-color: @col-default-text;
+                            position: absolute;
+                            @media only screen and (max-width: @mobile-max-width){
+                                width: 80px;
+                            }
+                        }
+                    }
+                    .related-wrapper{
+                        display: none;
+                        margin-top: @d-margin-top-fixed;
+                        padding-top: @d-margin-top-fixed;
+                        position: relative;
+                        .setup-top-border-line;
+                        @media only screen and (max-width: @mobile-max-width){
+                            margin-top: @m-margin-top-fixed;
+                            padding-top: 52px;
+                        }
+                        &.show{
+                            display: block;
+                        }
+                        strong{
+                            .font28;
+                            .set-font-family('book');
+                            margin-bottom: 10px;
+                            display: block;
+                            @media only screen and (max-width: @mobile-max-width){
+                                .m-font24;
+                                margin-bottom: 0;
+                            }
+                        }
+                        > div{
+                            @media only screen and (max-width: @mobile-max-width){
+                                border-top: solid 1px @col-pinkishGrey;
+                            }
+                            &:nth-of-type(1){
+                                @media only screen and (max-width: @mobile-max-width){
+                                    border-top: 0;
+                                }
+                            }
+                            &:nth-last-of-type(1){
+                                a{
+                                    @media only screen and (max-width: @mobile-max-width){
+                                        margin-bottom: 0;
+                                    }
+                                }
+                            }
+                            a{
+                                .reset-a-link;
+                                .font18;
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                display: inline-block;
+                                @media only screen and (max-width: @mobile-max-width){
+                                    .m-font18;
+                                    padding-top: 0;
+                                    padding-bottom: 0;
+                                    margin-top: 25px;
+                                    margin-bottom: 25px;
+                                }
+                            }
+                        }
+                    }
+                    .community-link-block{
+                        margin-top: @d-margin-top-fixed;
+                        padding-top: @d-margin-top-fixed;
+                        position: relative;
+                        .setup-top-border-line;
+                        @media only screen and (max-width: @mobile-max-width){
+                            margin-top: @m-margin-top-fixed;
+                            padding-top: 52px;
+                        }
+                        .flex-box-block{
+                            display: flex;
+                            align-items: center;
+                            @media only screen and (max-width: @mobile-max-width){
+                                flex-direction: column;
+                            }
+                            .wording{
+                                .font28;
+                                padding-right: 30px;
+                                @media only screen and (max-width: @mobile-max-width){
+                                    padding-right: 0;
+                                    .m-font20;
+                                    text-align: center;
+                                }
+                            }
+                            .btn-link{
+                                .reset-a-link;
+                                .font18;
+                                padding:14px 28px 16px;
+                                display: inline-block;
+                                border: solid 3px @col-default-text;
+                                background-color: transparent;
+                                @media only screen and (max-width: @mobile-max-width){
+                                    .m-font16;
+                                    margin-top: 25px;
+                                    margin-bottom: 20px;
+                                    padding:9px 45px 7px;
+                                }
+                            }
+                        }
+                    }
+                    &.padding-zero{
+                        .get-help{
+                            padding-bottom: @d-margin-bottom-fixed;
+                            @media only screen and (max-width: @mobile-max-width){
+                               padding-bottom: @m-margin-bottom-fixed; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

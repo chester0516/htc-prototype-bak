@@ -1,0 +1,105 @@
+@import 'lib/main.less';
+
+.main.digital-first-main{
+    .section-wrapper{
+        .setup-two-bg-color(75%);
+        section{
+            &.parallax-wrap{
+                .setup-parallax-bg_short;
+                .setup-parallax-bg-image_grey;
+            }
+            &.applications-list{
+                .setup-section-padding-bottom;
+                .applications-list-container{
+                    padding-top: @d-margin-top-fixed;
+                    @media only screen and (max-width: @mobile-max-width){
+                        padding-top: @m-margin-top-fixed;
+                        padding-bottom: 30px;
+                    }
+                    
+                    .flex-box-area{
+                        display: flex;
+                        flex-direction: row;
+
+                        width: 80%;
+                        margin: 0 auto;
+                        padding: 0;
+
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        @media only screen and (max-width: @mobile-max-width){
+                            width: 90%;
+                        }
+                        .product-item{
+                            position: relative;
+
+                            display: block;
+
+                            box-sizing: border-box;
+                            width: 155px;
+                            margin: 25px 0;
+
+                            
+                            text-align: center;
+                            text-decoration: none;
+
+                            color: @col-default-text;
+                            &.buffer-item{
+                                line-height: 1px;
+                                height: 1px;
+                                margin: 0;
+                                padding: 0;
+                            }
+                            &:visited,&:active{
+                                color: @col-default-text;
+                            }
+                            
+                            &.selected{
+                                .product-name{
+                                    color: @col-topaz;
+                                }
+                            }
+                            &:not(.selected):hover{
+                                .product-name{
+                                    .show-bottom-line;
+                                }
+                            }
+                            .product-name{
+                                line-height: 1.5;
+
+                                margin: 20px 5% 0; 
+                                padding-bottom: 7px;
+                                .font16;
+                                .set-font-family('book');
+                                .setup-show-bottom-line-on-hover_fix;
+                                @media only screen and (max-width: @mobile-max-width){
+                                    margin-left: 7%;
+                                    margin-right: 7%;
+                                }
+                                .product-desc{
+                                    line-height: 1.5;
+                                    .font16;
+                                }
+                            }
+                            .related-products{
+                                display: none;
+                            }
+                            img{
+                                width: 70px;
+                            }
+                        }
+                    }
+                }
+                .support-search{
+                    .setup-search-on-the-bottom;
+                    @media only screen and (max-width: @mobile-max-width){
+                        display: none;
+                    }
+                }
+            }
+            &.breadcrumb-wrap{
+                z-index: 1;
+            }
+        }
+    }
+}

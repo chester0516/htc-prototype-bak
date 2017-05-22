@@ -1,0 +1,352 @@
+@import 'lib/main.less';
+
+/*PRINT STYLE*/
+body {
+    .htc-chrome {
+        .htc-header {
+            @media print {
+                display: none;
+            }
+        }
+        .htc-footer {
+            @media print {
+                display: none;
+            }
+        }
+    }
+}
+.main.digital-first-main {
+    .section-wrapper {
+        background-color: @col-default-bg-gainsboro;
+        section {
+            
+            &.parallax-wrap {
+                .setup-parallax-bg_short;
+                .setup-parallax-bg-image_brown;
+            }
+            &.email-support {
+                .setup-section-padding-bottom;
+                &.email-preview-open {
+                    .email-support-form-area {
+                        display: none;
+                    }
+                    .email-support-preview-area {
+                        display: block;
+                    }
+                }
+                .email-topic-issue {
+                    display: none;
+
+                    margin-top: @d-margin-bottom-fixed;
+                    @media only screen and (max-width: @mobile-max-width) {
+                        margin-top: @m-margin-bottom-fixed;
+                    }
+                    &.show {
+                        display: block;
+                    }
+                    .flex-box {
+                        display: none;
+
+                        width: @d-form-width;
+                        margin-right: auto;
+                        margin-bottom: 20px;
+                        margin-left: auto;
+
+                        align-items: center;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            flex-direction: column;
+
+                            width: 100%;
+                        }
+                        &.show {
+                            display: flex;
+                        }
+                        .flex-item {
+                            .font16;
+                            @media only screen and (max-width: @mobile-max-width) {
+                                .m-font16;
+                            }
+                            &.title,
+                            &.wording {
+                                @media only screen and (max-width: @mobile-max-width) {
+                                    width: 100%;
+
+                                    text-align: left;
+                                }
+                            }
+                            &.wording {
+                                .set-font-family('black');
+                                @media only screen and (max-width: @mobile-max-width) {
+                                    margin-top: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .email-support-form-area {
+                    display: block;
+                    
+                    .email-form {
+                        .setup-form;
+                        .form-input-area {
+                            .email-address-block {
+                                .setup-basic-form-element;
+                            }
+                            .email-name-block {
+                                .setup-basic-form-element;
+                            }
+                            .email-question-block {
+                                .setup-basic-form-element;
+                            }
+                            .email-phone-block {
+                                .setup-basic-form-element;
+                                .phone-area {
+                                    display: flex;
+                                    flex-direction: row;
+                                    padding-bottom: 0;
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        flex-direction: column;
+                                    }
+                                    .country-code-selection-block {
+                                        display: flex;
+
+                                        height: @d-form-element-height;
+
+                                        border: 3px solid @col-pinkishGrey;
+                                        border-right-width: 0;
+
+                                        align-items: center;
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            flex-direction: column;
+
+                                            align-items: flex-start;
+                                            border: none;
+                                        }
+                                        .country-selection-block {
+                                            .setup-select-style;
+
+                                            border-top: none;
+                                            border-bottom: none;
+                                            border-left: none;
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                width: 100%;
+                                                border-top: 3px solid @col-pinkishGrey;;
+                                                border-bottom: 3px solid @col-pinkishGrey;;
+                                                border-left: 3px solid @col-pinkishGrey;;
+                                            }
+                                        }
+                                        .cuntry-code-block {
+                                            line-height: 34px;
+
+                                            float: right;
+
+                                            padding-right: 8px;
+                                            padding-left: 8px;
+
+                                            opacity: 0.7;
+                                            color: @col-pinkishGrey;
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                margin-top: 15px;
+                                            }
+                                        }
+                                    }
+                                    .email-input {
+                                        flex: 1;
+                                        @media only screen and (max-width: @mobile-max-width) {
+                                            margin-top: 10px;
+                                        }
+                                        input {
+                                            border-left-width: 0;
+                                            @media only screen and (max-width: @mobile-max-width) {
+                                                padding-left: 52px;
+
+                                                border: 3px solid @col-pinkishGrey;
+                                            }
+                                        }
+                                    }
+                                }
+                                // notice
+                                .email-input-notice {
+                                    .setup-desc-statement-style;
+                                    padding-bottom: 0;
+                                }
+                            }
+                            .email-captcha-block {
+                                .setup-basic-form-element;
+                                .setup-captcha;
+                            }
+                            .email-language-block {
+                                .setup-basic-form-element;
+                                .language-selection-block {
+                                    .setup-select-style;
+                                    width: 100%;
+                                    padding-bottom: 0;
+                                }
+                            }
+                            .email-attachment-block {
+                                .setup-basic-form-element;
+
+                                padding-bottom: 0;
+                                width: auto;
+                                label.file {
+                                    .set-font-family('book');
+
+                                    position: relative;
+
+                                    display: flex;
+
+                                    height: 40px;
+
+                                    cursor: pointer;
+
+                                    align-items: center;
+                                    @media only screen and (max-width: @mobile-max-width) {
+                                        .m-font14;
+                                    }
+                                    .file-name {
+                                        padding-left: 65px;
+                                    }
+                                    &:after {
+                                        .build-svg-png-image('icon/mail/','attachment.png','attachment.svg');
+
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+
+                                        display: block;
+
+                                        width: 30px;
+                                        height: 34px;
+                                        padding-right: 10px;
+                                        padding-left: 10px;
+
+                                        content: '';
+
+                                        border: solid 3px @col-pinkishGrey;
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-size: 80%;
+                                    }
+                                }
+                                input {
+                                    position: absolute;
+                                    z-index: -1;
+
+                                    overflow: hidden;
+
+                                    width: 0.1px;
+                                    height: 0.1px;
+
+                                    opacity: 0;
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        .setup-center-a-link-button;
+
+                        margin-top: 40px;
+                    }
+                }
+                .email-support-preview-area {
+                    display: none;
+                    .email-preview-area {
+                        .setup-form;
+
+                        padding-top: 0;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            padding-top: 0;
+                        }
+                        .email-preview-item {
+                            margin-bottom: 20px;
+                            &.email-phone {
+                                @media only screen and (max-width: @mobile-max-width) {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                        .email-detail {
+                            line-height: 1.5;
+
+                            position: relative;
+
+                            display: flex;
+
+                            margin-bottom: @d-margin-bottom-fixed;
+                            padding-bottom: @d-margin-bottom-fixed;
+                            @media only screen and (max-width: @mobile-max-width) {
+                                flex-direction: column;
+
+                                margin-bottom: @m-margin-bottom-fixed;
+                                padding-bottom: @m-margin-bottom-fixed;
+
+                                justify-content: flex-start;
+                            }
+                            &:after {
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+
+                                display: block;
+
+                                width: 100%;
+                                height: 4px;
+
+                                content: '';
+
+                                background-color: @col-default-bg-gainsboro;
+                            }
+                            .title {
+                                white-space: nowrap;
+                                @media only screen and (max-width: @mobile-max-width) {
+                                    width: 100%;
+
+                                    text-align: left;
+                                }
+                            }
+                            .wording {
+                                .font18;
+                                @media only screen and (max-width: @mobile-max-width) {
+                                    .m-font16;
+
+                                    margin-top: 10px;
+                                }
+                            }
+                        }
+                        .btn-area {
+                            margin-top: 13.92%;
+
+                            cursor: pointer;
+                            text-align: right;
+                            @media only screen and (max-width: @mobile-max-width) {
+                                display: none;
+                            }
+                            .btn-print {
+                                display: inline-block;
+
+                                white-space: nowrap;
+                                @media print {
+                                    display: none;
+                                }
+                                img {
+                                    width: 24px;
+                                    height: 24px;
+                                    margin: -2px 1.3% 0 0;
+
+                                    vertical-align: middle;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*
+ * ==================== PopUp Message ==================== 
+ */
+#confirmOverlay {
+    .setupConfirmDialogStyle;
+}

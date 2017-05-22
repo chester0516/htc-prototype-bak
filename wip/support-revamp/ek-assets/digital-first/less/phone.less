@@ -1,0 +1,69 @@
+@import 'lib/main.less';
+
+/*PRINT STYLE*/
+body{
+    .htc-chrome{
+        .htc-header{
+            @media print {
+                display: none;
+            }
+        }
+        .htc-footer{
+            @media print {
+                display: none;
+            }
+        }
+    }
+}
+.main.digital-first-main {
+    .section-wrapper {
+        background-color: @col-default-bg-gainsboro;
+        section {
+            @d-form-width: 70%;
+
+            &.parallax-wrap {
+                .setup-parallax-bg_short;
+                .setup-parallax-bg-image_brown;
+            }
+            &.phone-support{
+                .setup-section-padding-bottom;
+                .call-lists{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    @media only screen and (max-width: @mobile-max-width) {
+                        flex-direction: column;
+                    }
+                    > div{
+                        width: 45%;
+                        margin-top: 10%;
+                        @media only screen and (max-width: @mobile-max-width) {
+                            width: 100%;
+                            margin-top: @m-margin-top-fixed;
+                        }
+                        &:nth-of-type(1){
+                            margin-top: 0;
+                        }
+                        &:nth-of-type(2){
+                            margin-top: 0;
+                            @media only screen and (max-width: @mobile-max-width) {
+                                margin-top: @m-margin-top-fixed;
+                            }
+                        }
+                        .country{
+                            .set-font-family('black');
+                            .font24;
+                            @media only screen and (max-width: @mobile-max-width) {
+                                .m-font18;
+                            }
+                        }
+                        .language, .phone, .hours{
+                            line-height: 1.5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
