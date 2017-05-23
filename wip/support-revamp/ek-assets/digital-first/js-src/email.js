@@ -108,7 +108,7 @@ var emailSupport = (function() {
                 var url = window.location.href.split("/");
                 //$('#aspnetForm').get(0).setAttribute('action', "/" + url[3].toLowerCase() + "/support/ContactMail.aspx");
                 $('#ctl00_ContentPlaceHolder1_sCountry').append($('.country_option').html());
-                ajaxGetVCode();
+                // ajaxGetVCode();
                 var SetupValidate = setupValidate();
                 $("#ctl00_ContentPlaceHolder1_txt_sDesx").maxlength({
                     maxCharacters: 1000,
