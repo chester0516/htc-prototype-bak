@@ -6,9 +6,16 @@
 - [Default](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/default.htm)
 - [Contact landing](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/contact-support-topic.htm)
 - [Contact](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/contact-support.htm)
+- [Product landing](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/product-landing.htm)
+- [Product How-to, FAQ content](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/product-content.htm)
+- [Search](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/search-result.htm)
 - [Chat](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/livechat-support.htm)
 - [Email](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/email-support.htm)
-
+- [Application landing](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/applications-landing.htm)
+- [Application content](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/applications-content.htm)
+- [Backup & Transfer landing](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/backup-transfer.htm)
+- [Backup & Transfer content](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/backup-transfer-content.htm)
+- [Updates](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/updates.htm)
 
 ## 2016 ##
 ### HTC.com
