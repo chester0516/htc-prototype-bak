@@ -20,7 +20,7 @@ var commonSetting = (function() {
         isPrototypeHost: function() {
             var returnResult = false,
                 hostName = location.host;
-            if (hostName.indexOf('p1.htc.com') > -1 || hostName.indexOf('prototype-www.htc.com') > -1) {
+            if (hostName.indexOf('p1.htc.com') > -1 || hostName.indexOf('prototype-www.htc.com') > -1 || hostName.indexOf('rawgit.com') > -1) {
                 returnResult = true;
             }
             return returnResult;

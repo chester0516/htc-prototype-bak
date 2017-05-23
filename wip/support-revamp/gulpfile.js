@@ -135,7 +135,7 @@ gulp.task('webserver', function() {
         directoryListing: true,
         open: true,
         path: '/',
-        fallback: 'us/go/launch/launch.htm'
+        fallback: 'default.htm'
     }));
 });
 gulp.task('watch', function() {
