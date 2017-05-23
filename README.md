@@ -2,6 +2,13 @@
 ### HTC.com
 - [U11](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/pdp-2017/default.htm)
 
+### HTC.com support section revamp
+- [Default](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/default.htm)
+- [Contact landing](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/contact-support-topic.htm)
+- [Contact](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/contact-support.htm)
+- [Chat](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/livechat-support.htm)
+- [Email](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/email-support.htm)
+
 
 ## 2016 ##
 ### HTC.com
