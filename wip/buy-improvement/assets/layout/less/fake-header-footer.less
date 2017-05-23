@@ -1,0 +1,94 @@
+@import 'lib/variables.less';
+@import 'lib/mixins.less';
+body
+{
+    font-size: 12px;
+
+    margin: 0;
+    padding: 0;
+
+    direction: ltr;
+    .htc-chrome
+    {
+        font-family: 'Noto Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        min-width: 1001px;
+        min-height: 100vh;
+        margin: 0 auto;
+
+        background-color: #fff;
+        @media only screen and (max-width: @mobile-max-width)
+        {
+            overflow: hidden;
+
+            min-width: 100%;
+        }
+        .htc-header
+        {
+            header
+            {
+                width: 100%;
+                height: 100px;
+
+                text-align: center;
+
+                background-color: #c1ccd0;
+                @media only screen and (max-width: @mobile-max-width){
+                    height: 40px;
+                }
+                &.sticky
+                {
+                    position: relative;
+
+                    visibility: hidden;
+
+                    pointer-events: none;
+                }
+            }
+        }
+        .htc-footer
+        {
+            font-size: 13px;
+
+            position: absolute;
+            z-index: 99910190;
+            right: 0;
+            bottom: 0;
+            left: 0;
+
+            width: auto;
+            max-width: @desktop-super-large;
+            margin: 0 auto;
+
+            letter-spacing: .025em;
+
+            color: #666;
+
+            direction: ltr;
+            @media only screen and (max-width: @mobile-max-width){
+                position: relative;
+                right: auto;
+                bottom: 0;
+                left: auto;
+
+                width: 100%;
+                margin: 0;
+            }
+            footer
+            {
+                width: 100%;
+                height: 25px;
+
+                text-align: center;
+
+                background-color: #c1ccd0;
+            }
+        }
+    }
+}

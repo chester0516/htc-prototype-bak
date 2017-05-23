@@ -1,0 +1,1017 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"select",
+				"selectedObject〔variable〕"
+			],
+			[
+				"selected",
+				"selectedColor〔variable〕"
+			],
+			[
+				"up",
+				"updateProductImage"
+			],
+			[
+				"fin",
+				"finalPath〔variable〕"
+			],
+			[
+				"showC",
+				"showColorSection"
+			],
+			[
+				"_breadcrumbC",
+				"_breadcrumbColor"
+			],
+			[
+				"show",
+				"showModalSection〔function〕"
+			],
+			[
+				"_b",
+				"_breadcrumbModel"
+			],
+			[
+				"set",
+				"setupBreadcrumb〔function〕"
+			],
+			[
+				"click",
+				"clickable"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"remov",
+				"removeClass	.removeClass()"
+			],
+			[
+				"_",
+				"_breadcrumbModel"
+			],
+			[
+				"reset",
+				"resetAllSections〔function〕"
+			],
+			[
+				"has",
+				"hasClass〔function〕"
+			],
+			[
+				"i",
+				"index〔function〕"
+			],
+			[
+				"remove",
+				"removeClass〔function〕"
+			],
+			[
+				"hi",
+				"hide〔function〕"
+			],
+			[
+				"_hidd",
+				"_hiddenCarrier"
+			],
+			[
+				"type",
+				"typeof〔keyword〕"
+			],
+			[
+				"shoe",
+				"showAddToCartSection"
+			],
+			[
+				"res",
+				"resetAllSections"
+			],
+			[
+				"_selec",
+				"_selectColor"
+			],
+			[
+				"get",
+				"getState"
+			],
+			[
+				"sel",
+				"setupCarrierClick"
+			],
+			[
+				"_hi",
+				"_hiddenColor"
+			],
+			[
+				"tri",
+				"trigger	.trigger()"
+			],
+			[
+				"ini",
+				"initObj"
+			],
+			[
+				"selec",
+				"selectedModal"
+			],
+			[
+				"param",
+				"paramColor〔variable〕"
+			],
+			[
+				"next",
+				"nextButton"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"tran",
+				"transition	CSS - transition: ;"
+			],
+			[
+				"scr",
+				"scrollToTop"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"fade",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"order",
+				"orderNowButton〔variable〕"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"h",
+				"htc-10.png	w:660 h:657"
+			],
+			[
+				"asse",
+				"assets/layout/img/htc"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bck",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"tm",
+				"tMobile@3x.png	w:267 h:51"
+			],
+			[
+				"pa",
+				"page1@3x.png	w:48 h:63"
+			],
+			[
+				"carr",
+				"carrier/"
+			],
+			[
+				"ass",
+				"assets/layout/img/htc"
+			],
+			[
+				"sli",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"flex",
+				"flexItem"
+			],
+			[
+				"to",
+				"toggleClass〔function〕"
+			],
+			[
+				"pare",
+				"parents	.parents()"
+			],
+			[
+				"fea",
+				"featureSpecAccessorySection〔variable〕"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"promo",
+				"promotion/"
+			],
+			[
+				"img",
+				"img/"
+			],
+			[
+				"pro",
+				"promotionSticker@2x.png	w:71 h:69"
+			],
+			[
+				"ht",
+				"htc-10.png	w:660 h:657"
+			],
+			[
+				"la",
+				"layout/"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"desk",
+				"desktop_02_C.png	w:245 h:245"
+			],
+			[
+				"de",
+				"desire/"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fs",
+				"fsbs-mobile-logo-tuesday.png	w:460 h:1238"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"bo",
+				"border-box"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"larger",
+				"span.larger"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"im",
+				"img/"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"main",
+				"mainFilter〔argument〕"
+			],
+			[
+				"clo",
+				"closest〔function〕"
+			],
+			[
+				"bin",
+				"bindFooterListItemClick"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"bind",
+				"bindBannerDotClick"
+			],
+			[
+				"index",
+				"indexv2"
+			],
+			[
+				"on",
+				"on〔function〕"
+			],
+			[
+				"bi",
+				"bingColorSeletecClick〔function〕"
+			],
+			[
+				"by",
+				"buyMagento"
+			],
+			[
+				"remo",
+				"removeClass〔function〕"
+			],
+			[
+				"fi",
+				"fix	CSS - position: fixed;"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"sho",
+				"showLoader"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"parse",
+				"parseFloat〔function〕"
+			],
+			[
+				"outer",
+				"outerLink"
+			],
+			[
+				"loca",
+				"location〔variable〕"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"grou",
+				"group_id"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"para",
+				"parallaxImg"
+			],
+			[
+				"co",
+				"contact-support-issue.htm"
+			],
+			[
+				"search",
+				"searchTerm"
+			],
+			[
+				"sear",
+				"searchData"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 6096,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packaage",
+				"Package Control: List Packages"
+			],
+			[
+				"package li",
+				"Package Control: List Packages"
+			],
+			[
+				"syncing",
+				"Package Syncing: Pull Settings"
+			],
+			[
+				"syncin",
+				"Package Syncing: Define Sync Folder"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/buy-improvement/assets/layout/js/buy-improvement.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/buy-improvement/assets/layout/less/buy-improvement.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/buy-improvement/default.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/buy-improvement/assets/layout/less/lib/variables.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/buy-improvement/assets/layout/less/lib/mixins.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/buy-improvement/assets/layout/less/fake-header-footer.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/estore-annual-sale-2016/watch-prod.command",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/estore-annual-sale-2016/package.json",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/estore-annual-sale-2016/Gruntfile.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/estore-annual-sale-2016/default.htm",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/kspbuy/kspbuyexpansyscustom.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/package.json",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/tagging/product.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/tagging/common.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/tagging/others.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/tagging/support.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/tagging/accessory.js",
+		"/Users/chester_huang/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/buy.magento.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/cart-providers/magento.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/buy.magento.js",
+		"/Users/chester_huang/Desktop/cn.txt",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/buypage.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/buypage.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/main.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/accessorypdp.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/pom.xml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/htc.chrome.init.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ProductKSPBuyB4DigitalRiver.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ProductKSPBuyMagento.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/cart-providers/digitalriver.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ChromeLayout2015.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/Gruntfile.js",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ProductDetailFreeScrollTemplate2016.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/kspbuy3stepstorelinks.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/kspbuyexpansyscustom.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/resources/com/htc/sparrow/components/ProductKSPBuyExpansysCustom.tml",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/java/com/htc/sparrow/components/ProductKSPBuyExpansysCustom.java",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/less/kspbuy2stepdigitalriver.less",
+		"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js/cart-providers/megento.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/estore-event/week29-2.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/estore-event/week30-1.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/estore-event/week33-2.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/product-landing.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/product-content.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/backup-transfer.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/applications-landing.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/applications-content.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/Gruntfile.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/search-result.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/applications-content.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/contact-support-issue.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/product-content.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/product-landing.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/default.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/sync-manager.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/contact-support.htm",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js/nav.js",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/less/default.less",
+		"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/less/lib/nav.less"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/webapp/layout/js",
+			"/Users/chester_huang/Documents/HTC/htc-tapestry/src/main/java",
+			"/Users/chester_huang/Documents/HTC/htc-prototype/wip/support-revamp/assets/layout/js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"imageminJpegRecompress",
+			"carrier-list",
+			"purchase-flexbox-container",
+			"call-to-action-button",
+			"updateProductImageInAddToCart",
+			"_productImagesInColorSection",
+			"updateProductImageInAddToCart",
+			"resetAllSectionsZeroHeight",
+			"updateHiddenInput",
+			"pushParams",
+			"setupBreadcrumb",
+			"_bread",
+			"setupOrderNowClick",
+			"_addToCart",
+			"resetAllSections(",
+			"resetAllSections",
+			"zero-height",
+			"product-image-list",
+			"product-image",
+			"wrapper",
+			"showAddToCArtSection",
+			"showCarrierSection",
+			"pushParams",
+			"log",
+			"setupOrderNowClick",
+			"setupCarrierClick",
+			"updateHiddenInput",
+			"orderNowButton",
+			"scrollToTop",
+			"_hasHistory",
+			"scrollToTop",
+			"setupOrderNowClick",
+			"pushParams",
+			"updateHiddenInput",
+			"on('click'",
+			"setupCarrierClick",
+			"pushParams",
+			"History",
+			"pushParams",
+			"$('.hidden-seleted-color')",
+			"$('.hidden-seleted-carrier')",
+			"$('.hidden-seleted-modal')",
+			"$('.buy-journey')",
+			".buy-journey",
+			"carrierBitton",
+			"carrierButton",
+			"carrierBitton",
+			"<header",
+			"product-image",
+			"75%",
+			"d",
+			"select-carrier",
+			"%;\n",
+			"src=\"/managed-",
+			"span",
+			"<span class=\"long\">",
+			"245",
+			"245,245,245",
+			"wording",
+			"product-coming",
+			"\n                                ",
+			"                                    ",
+			"m-hide",
+			"d-text-white",
+			"vw",
+			"backpack-block",
+			"col-red",
+			"setup-mobile-font-size",
+			"setup-desktop-font-size",
+			"top-navi-block",
+			".text-align(left);",
+			".text-align(right);",
+			".padding",
+			".margin",
+			".right",
+			".left",
+			"left",
+			".float(right);",
+			".float(left);",
+			"top-navi-block",
+			"direction",
+			"-web",
+			"-we",
+			"                            margin: 0 10px 10px 0;\n.sales-price",
+			"                            margin: 0 10px 10px 0;\nsales-price",
+			"margin",
+			"left",
+			"%;\n",
+			"bxSlider",
+			"cookie",
+			"bindAddToCartClick",
+			"checkProductStatusAndDisplay",
+			"getProduct",
+			"selectedCarrier",
+			"productIDs",
+			"active",
+			"bindClicks",
+			"preventDefault",
+			"skuid",
+			"SKUID",
+			"apiText",
+			"stock-status",
+			"removeMaskToBuyButton",
+			"addMaskToBuyButton",
+			"bow",
+			"over",
+			"createCookie",
+			".price",
+			".total",
+			"checkProductStatusAndDisplay",
+			"log",
+			"PHONE_BUY_BUTTON",
+			"cartNotification",
+			"PHONE_BUY_BUTTON",
+			"cartNotification",
+			"addAccessoriesNotification",
+			"notification",
+			"console",
+			"testVal",
+			"mask",
+			"processBuySelection",
+			".button-area",
+			"selectedCarrier",
+			"processBuySelection",
+			"callback",
+			"productIDs",
+			"bindClicks",
+			"len"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_selectAddToCart",
+			"resetAllSectionsActive(",
+			"resetAllSectionsActive",
+			"_hiddenColor",
+			"_hiddenCarrier",
+			"_hiddenModal",
+			"_pageTemplate",
+			"carrierButton",
+			"src=\"http://www.htc.com/managed-",
+			"text-align: left;",
+			"text-align: right;",
+			"float: right;",
+			"float: left;",
+			"skuId",
+			"max-width: @mobile-max-width",
+			"group[index].",
+			"/week34-1/",
+			"/week33-2/",
+			"\n                ",
+			"basicSetup",
+			"10"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 6096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4871,
+								4790
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"curly": true,
+								"devel": true,
+								"eqeqeq": true,
+								"evil": true,
+								"forin": true,
+								"jquery": true,
+								"noarg": true,
+								"noempty": true,
+								"predef":
+								[
+									"_",
+									"Modernizr",
+									"url",
+									"Modal",
+									"Validator",
+									"Tooltip",
+									"Tabs"
+								],
+								"strict": true,
+								"undef": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "save-only",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:/Program Files/nodejs/node.exe",
+								"javascript": "C:/Program Files/nodejs/node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 390.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 89.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/chester_huang/Documents/HTC/htc-tapestry/htc-tapestry-mac.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true
+}

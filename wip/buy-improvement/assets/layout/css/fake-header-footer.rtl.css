@@ -1,0 +1,160 @@
+/*
+ * Setting: Font;
+ */
+/*
+ * Setting: Image;
+ */
+/*
+ * Setting: Colors;
+ */
+/*
+ * Setting: Reserlution;
+ */
+/*
+ * Setting: Other;
+ */
+.reset-a-link {
+  text-decoration: none;
+}
+/*
+ * Reset folder dor mea-sa site
+ */
+.cta-button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  display: inline-block;
+  margin: 3% 0 0 0;
+  font-size: 16px;
+  padding: 7px 38px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #a5cf4c;
+}
+@media (min-width: 1000px) and (max-width: 1380px) {
+  .cta-button {
+    font-size: calc(16pxpx + (22px - 16px) * ( (100vw - 1000px) / ( 1380 -  1000)));
+  }
+}
+@media (min-width: 1380px) {
+  .cta-button {
+    font-size: 22px;
+  }
+}
+@media (max-width: 720px) {
+  .cta-button {
+    margin: 4%;
+    color: #666 !important;
+    border-color: #666 !important;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 20px 55px;
+  }
+  .cta-button:hover {
+    color: #fff !important;
+    background-color: #666 !important;
+  }
+}
+.cta-button:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #444;
+  background-color: #fff;
+}
+.cta-button.green {
+  color: #fff;
+  border-color: #a5cf4c;
+  background-color: #a5cf4c;
+}
+.cta-button.green:hover {
+  border-color: #8cb731;
+  background-color: #8cb731;
+}
+@media (max-width: 720px) {
+  .cta-button.green {
+    color: #fff !important;
+    border-color: #a5cf4c !important;
+  }
+  .cta-button.green:hover {
+    border-color: #8cb731 !important;
+    background-color: #8cb731 !important;
+  }
+}
+body {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  direction: ltr;
+}
+body .htc-chrome {
+  font-family: 'Noto Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  min-width: 1001px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #fff;
+}
+@media only screen and (max-width: 720px) {
+  body .htc-chrome {
+    overflow: hidden;
+    min-width: 100%;
+  }
+}
+body .htc-chrome .htc-header header {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: #c1ccd0;
+}
+@media only screen and (max-width: 720px) {
+  body .htc-chrome .htc-header header {
+    height: 40px;
+  }
+}
+body .htc-chrome .htc-header header.sticky {
+  position: relative;
+  visibility: hidden;
+  pointer-events: none;
+}
+body .htc-chrome .htc-footer {
+  font-size: 13px;
+  position: absolute;
+  z-index: 99910190;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  max-width: 1920px;
+  margin: 0 auto;
+  letter-spacing: .025em;
+  color: #666;
+  direction: ltr;
+}
+@media only screen and (max-width: 720px) {
+  body .htc-chrome .htc-footer {
+    position: relative;
+    left: auto;
+    bottom: 0;
+    right: auto;
+    width: 100%;
+    margin: 0;
+  }
+}
+body .htc-chrome .htc-footer footer {
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  background-color: #c1ccd0;
+}
