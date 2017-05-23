@@ -1,6 +1,7 @@
 ## 2017 ##
 ### HTC.com
 - [U11](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/pdp-2017/default.htm)
+- [Buy page](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/buy-improvement/default.htm)
 
 ### HTC.com support section revamp
 - [Default](https://rawgit.com/chester0516/htc-prototype-bak/master/wip/support-revamp/default.htm)
